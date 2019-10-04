@@ -1,0 +1,9 @@
+C:\Users\Kacpii\RiderProjects\Launcher\kacpiitoziomal.MinecraftAPI.Base\bin\Debug\netstandard2.0\kacpiitoziomal.MinecraftAPI.Base.deps.json
+C:\Users\Kacpii\RiderProjects\Launcher\kacpiitoziomal.MinecraftAPI.Base\bin\Debug\netstandard2.0\kacpiitoziomal.MinecraftAPI.Base.dll
+C:\Users\Kacpii\RiderProjects\Launcher\kacpiitoziomal.MinecraftAPI.Base\bin\Debug\netstandard2.0\kacpiitoziomal.MinecraftAPI.Base.pdb
+C:\Users\Kacpii\RiderProjects\Launcher\kacpiitoziomal.MinecraftAPI.Base\obj\Debug\netstandard2.0\kacpiitoziomal.MinecraftAPI.Base.csprojAssemblyReference.cache
+C:\Users\Kacpii\RiderProjects\Launcher\kacpiitoziomal.MinecraftAPI.Base\obj\Debug\netstandard2.0\kacpiitoziomal.MinecraftAPI.Base.csproj.CoreCompileInputs.cache
+C:\Users\Kacpii\RiderProjects\Launcher\kacpiitoziomal.MinecraftAPI.Base\obj\Debug\netstandard2.0\kacpiitoziomal.MinecraftAPI.Base.AssemblyInfoInputs.cache
+C:\Users\Kacpii\RiderProjects\Launcher\kacpiitoziomal.MinecraftAPI.Base\obj\Debug\netstandard2.0\kacpiitoziomal.MinecraftAPI.Base.AssemblyInfo.cs
+C:\Users\Kacpii\RiderProjects\Launcher\kacpiitoziomal.MinecraftAPI.Base\obj\Debug\netstandard2.0\kacpiitoziomal.MinecraftAPI.Base.dll
+C:\Users\Kacpii\RiderProjects\Launcher\kacpiitoziomal.MinecraftAPI.Base\obj\Debug\netstandard2.0\kacpiitoziomal.MinecraftAPI.Base.pdb

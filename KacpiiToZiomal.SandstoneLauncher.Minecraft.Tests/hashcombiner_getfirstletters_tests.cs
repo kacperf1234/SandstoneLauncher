@@ -1,0 +1,31 @@
+﻿#region
+
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
+using NUnit.Framework;
+
+#endregion
+
+namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
+{
+    public class hashcombiner_getfirstletters_tests
+    {
+        private string execute(string hash)
+        {
+            IHashCombiner c = new HashCombiner();
+            return c.GetFirstLetters(hash);
+        }
+
+        [Test]
+        public void dont_throws_exceptions()
+        {
+            Assert.DoesNotThrow(() => execute("9a9fd8a9sf7"));
+        }
+
+        [Test]
+        public void returns_excepted_results()
+        {
+            Assert.AreEqual("9d", execute("9d14814ninsaf98142"));
+        }
+    }
+}

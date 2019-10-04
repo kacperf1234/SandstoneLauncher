@@ -1,0 +1,57 @@
+{
+  "accessToken": "8ac89dfa8a8f4186942203f169f09bca",
+  "clientToken": "6efe303b38484bfc99740630f7bf0012",
+  "selectedProfile": {
+    "agent": "minecraft",
+    "id": "35fb61442e964ca0a756cdbd80f56bd5",
+    "name": "KacpiiToZiomal",
+    "userId": "14b56c4a1c80b762d421e38b55b9d2ff",
+    "createdAt": 1509743254000,
+    "legacyProfile": false,
+    "suspended": false,
+    "tokenId": "20809031",
+    "paid": true,
+    "migrated": false
+  },
+  "availableProfiles": [
+    {
+      "agent": "minecraft",
+      "id": "35fb61442e964ca0a756cdbd80f56bd5",
+      "name": "KacpiiToZiomal",
+      "userId": "14b56c4a1c80b762d421e38b55b9d2ff",
+      "createdAt": 1509743254000,
+      "legacyProfile": false,
+      "suspended": false,
+      "tokenId": "20809031",
+      "paid": true,
+      "migrated": false
+    }
+  ],
+  "user": {
+    "id": "14b56c4a1c80b762d421e38b55b9d2ff",
+    "email": "kacperf1234@gmail.com",
+    "username": "kacperf1234@gmail.com",
+    "registerIp": "95.160.243.*",
+    "registeredAt": 1455357510000,
+    "passwordChangedAt": 1565606095000,
+    "dateOfBirth": 807840000000,
+    "suspended": false,
+    "blocked": false,
+    "secured": false,
+    "migrated": false,
+    "emailVerified": true,
+    "legacyUser": false,
+    "properties": [
+      {
+        "userId": "14b56c4a1c80b762d421e38b55b9d2ff",
+        "profileId": "",
+        "name": "preferredLanguage",
+        "value": "en",
+        "languageCode": "en"
+      }
+    ],
+    "verifiedByParent": false,
+    "hashed": false,
+    "fromMigratedUser": false
+  }
+}

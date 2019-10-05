@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj",
+        "projectName": "KacpiiToZiomal.SandstoneLauncher.Profiles.Tests",
+        "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj",
+        "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles\\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj": {
+                "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles\\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj"
+              },
+              "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj": {
+                "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles\\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles\\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj",
+        "projectName": "KacpiiToZiomal.SandstoneLauncher.Profiles",
+        "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles\\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj": {
+                "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj",
+        "projectName": "KacpiiToZiomal.SandstoneLauncher",
+        "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}

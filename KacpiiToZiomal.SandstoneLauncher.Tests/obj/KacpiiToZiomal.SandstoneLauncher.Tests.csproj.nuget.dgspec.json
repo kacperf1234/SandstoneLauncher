@@ -27,7 +27,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj": {
+                "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -64,6 +68,17 @@
           "assetTargetFallback": true,
           "warn": true
         }
+      }
+    },
+    "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj",
+        "projectName": "KacpiiToZiomal.SandstoneLauncher",
+        "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj"
+      },
+      "frameworks": {
+        "net461": {}
       }
     }
   }

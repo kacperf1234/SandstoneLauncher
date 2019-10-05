@@ -13,6 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Profiles\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj" />
       <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.csproj" />
     </ItemGroup>
 

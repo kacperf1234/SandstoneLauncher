@@ -4,6 +4,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Interfaces
 {
     public interface IProfilesFinder
     {
-        Models.Profiles FindExistingProfiles();
+        Models.ProfileCollection FindExistingProfiles();
     }
 }

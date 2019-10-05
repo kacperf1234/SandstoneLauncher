@@ -51,11 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IProfileGetter.cs" />
+    <Compile Include="Interfaces\IProfilesDeserializer.cs" />
     <Compile Include="Interfaces\IProfilesFinder.cs" />
     <Compile Include="Interfaces\IProfilesPathGenerator.cs" />
     <Compile Include="Models\Profile.cs" />
     <Compile Include="Models\ProfileGetterSettings.cs" />
-    <Compile Include="Models\Profiles.cs" />
+    <Compile Include="Models\ProfileCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -65,6 +66,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Types\ProfileGetter.cs" />
+    <Compile Include="Types\ProfilesDeserializer.cs" />
     <Compile Include="Types\ProfilesFinder.cs" />
     <Compile Include="Types\ProfilesPathGenerator.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -81,6 +83,9 @@
       <Project>{30f5a141-11f5-4377-9b84-6f88ea3dc338}</Project>
       <Name>KacpiiToZiomal.SandstoneLauncher</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\profiles.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

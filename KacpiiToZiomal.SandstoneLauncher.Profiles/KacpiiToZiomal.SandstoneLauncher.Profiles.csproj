@@ -57,6 +57,8 @@
     <Compile Include="Models\AccountBase.cs" />
     <Compile Include="Models\JavaMemory.cs" />
     <Compile Include="Models\JavaSettings.cs" />
+    <Compile Include="Models\OfflineAccount.cs" />
+    <Compile Include="Models\OnlineAccount.cs" />
     <Compile Include="Models\Profile.cs" />
     <Compile Include="Models\ProfileGetterSettings.cs" />
     <Compile Include="Models\ProfileCollection.cs" />

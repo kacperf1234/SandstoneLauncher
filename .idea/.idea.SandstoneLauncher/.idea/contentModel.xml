@@ -322,6 +322,7 @@
         <e p="Interfaces" t="Include">
           <e p="IProfileGetter.cs" t="Include" />
           <e p="IProfilesFinder.cs" t="Include" />
+          <e p="IProfilesPathGenerator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Profiles.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
@@ -339,6 +340,7 @@
         <e p="Types" t="Include">
           <e p="ProfileGetter.cs" t="Include" />
           <e p="ProfilesFinder.cs" t="Include" />
+          <e p="ProfilesPathGenerator.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Profiles.Tests" t="IncludeRecursive">
@@ -352,8 +354,10 @@
             </e>
           </e>
         </e>
+        <e p="profilespathgenerator_generatepath_tests.cs" t="Include" />
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Tests" t="IncludeRecursive">
+        <e p="applicationdata_getbinaries_tests.cs" t="Include" />
         <e p="applicationdata_getdirectory_tests.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="KacpiiToZiomal.SandstoneLauncher.Tests.csproj" t="IncludeRecursive" />

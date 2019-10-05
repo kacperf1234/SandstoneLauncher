@@ -1,3 +1,7 @@
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csprojAssemblyReference.cache
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.AssemblyInfoInputs.cache
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.AssemblyInfo.cs
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
@@ -6,9 +10,9 @@ C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.runtimeconfig.dev.json
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.dll
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.pdb
-C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csprojAssemblyReference.cache
-C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj.CoreCompileInputs.cache
-C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.AssemblyInfoInputs.cache
-C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.AssemblyInfo.cs
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.exe
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.pdb
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.exe.config
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj.CopyComplete
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.dll
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.pdb

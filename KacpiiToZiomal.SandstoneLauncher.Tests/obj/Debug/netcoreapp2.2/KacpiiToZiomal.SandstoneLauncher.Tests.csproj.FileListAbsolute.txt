@@ -26,3 +26,7 @@ C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Tests.AssemblyInfo.cs
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Tests.dll
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Tests.pdb
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.exe
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.pdb
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.exe.config
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Tests.csproj.CopyComplete

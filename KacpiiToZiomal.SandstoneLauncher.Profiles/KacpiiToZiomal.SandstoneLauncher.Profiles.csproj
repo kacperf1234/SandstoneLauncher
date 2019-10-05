@@ -54,9 +54,13 @@
     <Compile Include="Interfaces\IProfilesDeserializer.cs" />
     <Compile Include="Interfaces\IProfilesFinder.cs" />
     <Compile Include="Interfaces\IProfilesPathGenerator.cs" />
+    <Compile Include="Models\AccountBase.cs" />
+    <Compile Include="Models\JavaMemory.cs" />
+    <Compile Include="Models\JavaSettings.cs" />
     <Compile Include="Models\Profile.cs" />
     <Compile Include="Models\ProfileGetterSettings.cs" />
     <Compile Include="Models\ProfileCollection.cs" />
+    <Compile Include="Models\Resolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -79,6 +83,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Minecraft\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj">
+      <Project>{7bea1c5d-c6b9-4353-a02a-137cad66fe87}</Project>
+      <Name>KacpiiToZiomal.SandstoneLauncher.Minecraft</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.csproj">
       <Project>{30f5a141-11f5-4377-9b84-6f88ea3dc338}</Project>
       <Name>KacpiiToZiomal.SandstoneLauncher</Name>

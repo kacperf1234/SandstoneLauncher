@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Kacpii\.nuget\packages\microsoft.net.test.sdk\16.0.0\build\netcoreapp1.0" t="Include">
@@ -328,9 +328,13 @@
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Profiles.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
+          <e p="AccountBase.cs" t="Include" />
+          <e p="JavaMemory.cs" t="Include" />
+          <e p="JavaSettings.cs" t="Include" />
           <e p="Profile.cs" t="Include" />
           <e p="ProfileCollection.cs" t="Include" />
           <e p="ProfileGetterSettings.cs" t="Include" />
+          <e p="Resolution.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />

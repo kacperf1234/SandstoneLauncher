@@ -331,6 +331,8 @@
           <e p="AccountBase.cs" t="Include" />
           <e p="JavaMemory.cs" t="Include" />
           <e p="JavaSettings.cs" t="Include" />
+          <e p="OfflineAccount.cs" t="Include" />
+          <e p="OnlineAccount.cs" t="Include" />
           <e p="Profile.cs" t="Include" />
           <e p="ProfileCollection.cs" t="Include" />
           <e p="ProfileGetterSettings.cs" t="Include" />

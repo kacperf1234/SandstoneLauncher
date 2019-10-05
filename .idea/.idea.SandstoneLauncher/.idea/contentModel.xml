@@ -29,6 +29,7 @@
           <e p="ApplicationConfiguration.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
           <e p="Resources.Designer.cs" t="Include" />
@@ -321,14 +322,15 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
           <e p="IProfileGetter.cs" t="Include" />
+          <e p="IProfilesDeserializer.cs" t="Include" />
           <e p="IProfilesFinder.cs" t="Include" />
           <e p="IProfilesPathGenerator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Profiles.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="Profile.cs" t="Include" />
+          <e p="ProfileCollection.cs" t="Include" />
           <e p="ProfileGetterSettings.cs" t="Include" />
-          <e p="Profiles.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
@@ -337,8 +339,12 @@
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
         </e>
+        <e p="Templates" t="Include">
+          <e p="profiles.json" t="Include" />
+        </e>
         <e p="Types" t="Include">
           <e p="ProfileGetter.cs" t="Include" />
+          <e p="ProfilesDeserializer.cs" t="Include" />
           <e p="ProfilesFinder.cs" t="Include" />
           <e p="ProfilesPathGenerator.cs" t="Include" />
         </e>
@@ -354,7 +360,11 @@
             </e>
           </e>
         </e>
+        <e p="profilesdeserializer_deserialize_tests.cs" t="Include" />
         <e p="profilespathgenerator_generatepath_tests.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="profiles.json" t="Include" />
+        </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Tests" t="IncludeRecursive">
         <e p="applicationdata_getbinaries_tests.cs" t="Include" />

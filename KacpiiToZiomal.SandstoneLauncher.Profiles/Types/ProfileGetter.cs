@@ -9,7 +9,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Types
         public Profile GetProfile(ProfileGetterSettings settings)
         {
             // get all data about existing profiles...
-            Models.Profiles profiles = null;
+            Models.ProfileCollection profileCollection = null;
             
             // use received data as model in window.
             

@@ -8,7 +8,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Types
     {
         public IApplicationData AppData;
         
-        public Models.Profiles FindExistingProfiles()
+        public Models.ProfileCollection FindExistingProfiles()
         {
             
             

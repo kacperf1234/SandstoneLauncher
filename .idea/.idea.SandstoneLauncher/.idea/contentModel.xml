@@ -375,6 +375,8 @@
         </e>
         <e p="profilesdeserializer_deserialize_tests.cs" t="Include" />
         <e p="profilespathgenerator_generatepath_tests.cs" t="Include" />
+        <e p="profilesreader_readprofiles_tests.cs" t="Include" />
+        <e p="profileswriter_writeprofiles_tests.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="profiles.json" t="Include" />
         </e>

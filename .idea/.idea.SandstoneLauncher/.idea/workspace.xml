@@ -3,29 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="68421450-4a97-47d1-90cd-d76724398312" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/profilesdeserializer_deserialize_tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/profilesdeserializer_deserialize_tests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/KacpiiToZiomal.SandstoneLauncher.Profiles.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/KacpiiToZiomal.SandstoneLauncher.Profiles.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/AccountBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/AccountBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/Profile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/Profile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/ProfileCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/ProfileCollection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Types/ProfilesDeserializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Types/ProfilesDeserializer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/bin/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/bin/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/bin/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/bin/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/obj/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/obj/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/obj/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/obj/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/obj/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/obj/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/obj/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/obj/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +104,7 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/OnlineAccount.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Models/LaunchArguments.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/ArgumentsBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/ProfileMetadata.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/profilesdeserializer_deserialize_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Types/ProfilesDeserializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Interfaces/IProfilesDeserializer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -126,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/minecraftdirectory_getassets_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/minecraftdirectory_getlibraries_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativesdirectory_getdirectory_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativesdownloader_download_tests.cs" />
@@ -177,6 +166,7 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/ProfileCollection.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/AccountBase.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/Resources/removethis.json" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/ProfileMetadata.cs" />
       </list>
     </option>
   </component>
@@ -239,7 +229,7 @@
       <workItem from="1570270583368" duration="1574000" />
       <workItem from="1570272197826" duration="513000" />
       <workItem from="1570282280810" duration="3235000" />
-      <workItem from="1570357049384" duration="792000" />
+      <workItem from="1570357049384" duration="1137000" />
     </task>
     <servers />
   </component>

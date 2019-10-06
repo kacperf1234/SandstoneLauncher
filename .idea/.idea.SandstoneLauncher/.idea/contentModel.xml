@@ -337,6 +337,7 @@
           <e p="Profile.cs" t="Include" />
           <e p="ProfileCollection.cs" t="Include" />
           <e p="ProfileGetterSettings.cs" t="Include" />
+          <e p="ProfileMetadata.cs" t="Include" />
           <e p="Resolution.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />

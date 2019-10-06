@@ -63,6 +63,7 @@
     <Compile Include="Models\Profile.cs" />
     <Compile Include="Models\ProfileGetterSettings.cs" />
     <Compile Include="Models\ProfileCollection.cs" />
+    <Compile Include="Models\ProfileMetadata.cs" />
     <Compile Include="Models\Resolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

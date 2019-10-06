@@ -111,3 +111,9 @@ C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj.CopyComplete
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\KacpiiToZiomal.SandstoneLauncher.Profiles.dll
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\KacpiiToZiomal.SandstoneLauncher.Profiles.pdb
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\Windows\ProfilesWindow.g.cs
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\KacpiiToZiomal.SandstoneLauncher.Profiles_MarkupCompile.cache
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\KacpiiToZiomal.SandstoneLauncher.Profiles_MarkupCompile.lref
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\Windows\ProfilesWindow.baml
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\KacpiiToZiomal.SandstoneLauncher.Profiles.g.resources
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\GeneratedInternalTypeHelper.g.cs

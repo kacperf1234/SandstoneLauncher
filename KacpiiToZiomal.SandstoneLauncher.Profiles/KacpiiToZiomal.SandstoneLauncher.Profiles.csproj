@@ -82,6 +82,9 @@
     <Compile Include="Types\ProfilesReader.cs" />
     <Compile Include="Types\ProfilesSerializer.cs" />
     <Compile Include="Types\ProfilesWriter.cs" />
+    <Compile Include="Windows\ProfilesWindow.xaml.cs">
+      <DependentUpon>ProfilesWindow.xaml</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -103,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Templates\profiles.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Windows\ProfilesWindow.xaml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

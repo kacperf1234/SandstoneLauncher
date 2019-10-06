@@ -54,7 +54,9 @@
     <Compile Include="Interfaces\IProfilesDeserializer.cs" />
     <Compile Include="Interfaces\IProfilesFinder.cs" />
     <Compile Include="Interfaces\IProfilesPathGenerator.cs" />
+    <Compile Include="Interfaces\IProfilesReader.cs" />
     <Compile Include="Interfaces\IProfilesSerializer.cs" />
+    <Compile Include="Interfaces\IProfilesWriter.cs" />
     <Compile Include="Models\AccountBase.cs" />
     <Compile Include="Models\JavaMemory.cs" />
     <Compile Include="Models\JavaSettings.cs" />
@@ -77,7 +79,9 @@
     <Compile Include="Types\ProfilesDeserializer.cs" />
     <Compile Include="Types\ProfilesFinder.cs" />
     <Compile Include="Types\ProfilesPathGenerator.cs" />
+    <Compile Include="Types\ProfilesReader.cs" />
     <Compile Include="Types\ProfilesSerializer.cs" />
+    <Compile Include="Types\ProfilesWriter.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

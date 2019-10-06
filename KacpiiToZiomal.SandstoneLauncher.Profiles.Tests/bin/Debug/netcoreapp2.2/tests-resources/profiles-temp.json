@@ -1,0 +1,12 @@
+{"id":"c0c76f8f-4b80-4361-94f0-d702ada8aa73","profiles":[{"profile_name":"profilename","profile_version":"1.0","game_directory":".minecraft\\","resolution":{"w":854,"h":480},"game_version":{"id":"1.14.4","type":"alpha","url":"http://","time":"06.10.2019 13:12:32","releaseTime":"05.10.2020 13:12:32"},"java_settings":{"java_executable":"javaw.exe","java_arguments":"--x:headumps","java_memory":{"xmx":1024,"xms":256},"main":"net.minecraft.main.Main","runas":true},"account":{"username":"kacpiitoziomal","password":"fcbarcelona001","client_token":"e8e3b4cf-6d06-452c-8ecf-9e419939e8fd","access_token":"db0b1de5-783a-44b8-9445-0ee6df5e0c86","uuid":"1b040f46-d4f3-4d34-bfbb-a79166a1e889"},"metadata":{"created_at":"2019-10-06T13:12:32.4587392+02:00","edited_at":"2019-10-10T17:12:32.4587408+02:00"}}]}ssword": "fcbarcelona001",
+        "client_token": "105fb50b-e7f3-46c3-9dfe-2fd805a11fb0",
+        "access_token": "399a0ebb-643b-4096-b0e4-dae9ecb2727e",
+        "uuid": "06b32884-6c3c-4009-958a-98366d1fe865"
+      },
+      "metadata": {
+        "created_at": "2019-10-06T13:10:48.0123739+02:00",
+        "edited_at": "2019-10-10T17:10:48.0125522+02:00"
+      }
+    }
+  ]
+}

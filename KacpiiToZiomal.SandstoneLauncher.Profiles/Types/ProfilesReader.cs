@@ -9,7 +9,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Types
         public IProfilesPathGenerator ProfilesPathGenerator;
         public IFileReader Reader;
         public IProfilesDeserializer Deserializer;
-        
+
+        public ProfilesReader(IProfilesPathGenerator profilesPathGenerator, IFileReader reader, IProfilesDeserializer deserializer)
+        {
+            ProfilesPathGenerator = profilesPathGenerator;
+            Reader = reader;
+            Deserializer = deserializer;
+        }
+
         public ProfileCollection ReadProfiles()
         {
             string path = ProfilesPathGenerator.GeneratePath();

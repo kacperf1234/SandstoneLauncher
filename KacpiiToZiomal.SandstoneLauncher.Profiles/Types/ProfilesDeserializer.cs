@@ -11,10 +11,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Types
     {
         public ProfileCollection Deserialize(string json)
         {
-            Console.WriteLine(json);
-            
-            JObject obj = JsonConvert.DeserializeObject<JObject>(json);
-            JToken profilesToken = obj.SelectToken("profiles");
+            JObject obj = JObject.Parse(json);
+            JArray profilesToken = (JArray) obj.SelectToken("profiles");
             JToken idToken = obj.SelectToken("id");
             
             ProfileCollection collection = new ProfileCollection();

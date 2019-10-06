@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Models
 {
-    public class ProfileCollection : List<Profile>
+    public class ProfileCollection
     {
         [JsonProperty("id")]
         public string Id { get; set; }
@@ -13,28 +13,36 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Models
         [JsonProperty("profiles")]
         public List<Profile> Profiles
         {
-            get { return this; }
-            set {
-                foreach (Profile profile in value)
-                {
-                    Add(profile);
-                }
-            }
+//            get { return this; }
+//            set {
+//                foreach (Profile profile in value)
+//                {
+//                    Add(profile);
+//                }
+//            }
+
+            get;
+            set;
+        }
+
+        public ProfileCollection()
+        {
+            Profiles = new List<Profile>();
         }
         
         public void AddProfile(Profile profile)
         {
-            Add(profile);
+            Profiles.Add(profile);
         }
 
         public void RemoveProfile(Profile profile)
         {
-            Remove(profile);
+            Profiles.Remove(profile);
         }
 
         public void RemoveProfile(Func<List<Profile>, Profile> expression)
         {
-            Remove(expression(this));
+            Profiles.Remove(expression(Profiles));
         }
     }
 }

@@ -325,6 +325,7 @@
           <e p="IProfilesDeserializer.cs" t="Include" />
           <e p="IProfilesFinder.cs" t="Include" />
           <e p="IProfilesPathGenerator.cs" t="Include" />
+          <e p="IProfilesSerializer.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Profiles.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
@@ -353,6 +354,7 @@
           <e p="ProfilesDeserializer.cs" t="Include" />
           <e p="ProfilesFinder.cs" t="Include" />
           <e p="ProfilesPathGenerator.cs" t="Include" />
+          <e p="ProfilesSerializer.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Profiles.Tests" t="IncludeRecursive">

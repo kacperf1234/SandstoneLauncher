@@ -22,5 +22,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Models
         
         [JsonProperty("java_settings")]
         public JavaSettings JavaSettings { get; set; }
+        
+        [JsonProperty("account")]
+        public AccountBase Account { get; set; }
     }
 }

@@ -25,5 +25,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Models
         
         [JsonProperty("account")]
         public AccountBase Account { get; set; }
+        
+        [JsonProperty("metadata")]
+        public ProfileMetadata Metadata { get; set; }
     }
 }

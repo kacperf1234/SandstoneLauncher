@@ -30,13 +30,13 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Tests
         [Test]
         public void returns_excepted_items_count()
         {
-            Assert.IsTrue(execute().Count == 2);
+            Assert.IsTrue(execute().Profiles.Count == 2);
         }
 
         [Test]
         public void returns_excepted_first_item()
         {
-            Assert.AreEqual("sample-profile1", execute()[0].ProfileName);
+            Assert.AreEqual("sample-profile1", execute().Profiles[0].ProfileName);
         }
     }
 }

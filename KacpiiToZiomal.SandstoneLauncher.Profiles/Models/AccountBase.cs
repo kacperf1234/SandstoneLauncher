@@ -2,7 +2,7 @@
 
 namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Models
 {
-    public abstract class AccountBase
+    public class AccountBase
     {
         [JsonProperty("username")]
         public string GameUsername { get; set; }
@@ -11,6 +11,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Models
         public string AccessToken { get; set; }
 
         [JsonProperty("uuid")]
-        public string UUID { get; set; }
+        public string Uuid { get; set; }
     }
 }

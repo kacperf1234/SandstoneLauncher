@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
+using KacpiiToZiomal.SandstoneLauncher.Profiles.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Profiles.Models;
 using KacpiiToZiomal.SandstoneLauncher.Profiles.Types;
 using NUnit.Framework;
@@ -11,7 +12,15 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Tests
 {
     public class profileswriter_writeprofiles_tests
     {
-        private ProfileCollection @default = new ProfileCollection()
+        class generator : IProfilesPathGenerator
+        {
+            public string GeneratePath()
+            {
+                return "tests\\profileswriter_writeprofiles_tests-profiles.json";
+            }
+        }
+        
+        private ProfileCollection _default = new ProfileCollection()
         {
             Id = Guid.NewGuid().ToString(),
             Profiles = new List<Profile>()
@@ -63,26 +72,66 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Tests
                 }
             }
         };
+
+        private string _content = "";
         
         void execute(ProfileCollection clt)
         {
-            ProfilesWriter w = new ProfilesWriter(new pathgenerator(), new FileCreator(new FileNameRemover()), new ProfilesSerializer());
+            ProfilesWriter w = new ProfilesWriter(new generator(), new FileCreator(new FileNameRemover()), new ProfilesSerializer());
             w.WriteProfiles(clt);
+        }
+
+        [SetUp]
+        public void setup()
+        {
+            execute(_default);
+            _content = File.ReadAllText(new generator().GeneratePath());
+        }
+
+        [TearDown]
+        public void teardown()
+        {
+            generator generator = new generator();
+            string path = generator.GeneratePath();
+            
+            if (File.Exists(path))
+                File.Delete(path);
         }
 
         [Test]
         public void dont_throws_exceptions()
         {
-            Assert.DoesNotThrow(() => execute(@default));
+            Assert.DoesNotThrow(() => execute(_default));
         }
 
         [Test]
-        public void file_isnt_be_null()
+        public void content_is_arent_equal_to_empty_string()
         {
-            execute(@default);
-            string text = File.ReadAllText(new pathgenerator().GeneratePath());
+            Assert.AreNotEqual("", _content);
+        }
+
+        [Test]
+        public void deserialize_content_dont_throws_any_exceptions()
+        {
+            Assert.DoesNotThrow(() => { new ProfilesDeserializer().Deserialize(_content); });
+        }
+
+        [Test]
+        public void deserialize_content_returns_valid_id()
+        {
+            ProfileCollection profileCollection = new ProfilesDeserializer().Deserialize(_content);
+            string id = profileCollection.Id;
             
-            Assert.AreNotEqual("", text);
+            Assert.AreEqual(_default.Id, id);
+        }
+
+        [Test]
+        public void deserialize_content_returns_valid_profiles_count()
+        {
+            ProfileCollection collection = new ProfilesDeserializer().Deserialize(_content);
+            int count = collection.Profiles.Count;
+            
+            Assert.IsTrue(count == 1);
         }
     }
 }

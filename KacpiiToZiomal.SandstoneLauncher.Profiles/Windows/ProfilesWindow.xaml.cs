@@ -6,11 +6,19 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Windows
 {
     public partial class ProfilesWindow : Window
     {
-        public List<Profile> Profiles { get; set; }
+        public ProfileCollection ProfileCollection { get; set; }
+    
+        public List<Profile> Profiles
+        {
+            get
+            {
+                return ProfileCollection.Profiles;
+            }
+        }
         
         public ProfilesWindow(ProfileCollection profiles)
         {
-            Profiles = profiles.Profiles;
+            ProfileCollection = profiles;
 
             DataContext = this;
             InitializeComponent();

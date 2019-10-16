@@ -61,8 +61,8 @@
     <Compile Include="Interfaces\IApplicationData.cs" />
     <Compile Include="Models\ApplicationConfiguration.cs" />
     <Compile Include="Types\ApplicationData.cs" />
-    <Compile Include="Windows\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="Windows\LauncherFrame.xaml.cs">
+      <DependentUpon>LauncherFrame.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -85,10 +85,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Windows\MainWindow.xaml">
+    <Page Include="Windows\LauncherFrame.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj">
+      <Project>{2a05b95c-71c3-45ed-b513-1b049dc51887}</Project>
+      <Name>KacpiiToZiomal.SandstoneLauncher.Resources</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

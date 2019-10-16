@@ -18,8 +18,6 @@ C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache
-C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\Windows\MainWindow.baml
-C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\Windows\MainWindow.g.cs
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\App.g.cs
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher_MarkupCompile.cache
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.g.resources
@@ -29,3 +27,7 @@ C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.csproj.CopyComplete
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.exe
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.pdb
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\Windows\LauncherFrame.baml
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\Windows\LauncherFrame.g.cs
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher_MarkupCompile.lref
+C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\App.baml

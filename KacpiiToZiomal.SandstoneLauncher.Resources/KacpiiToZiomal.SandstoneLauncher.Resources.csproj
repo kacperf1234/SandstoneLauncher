@@ -63,7 +63,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Styles\DarkStyle.xaml" />
+    <Page Include="Resources\DarkColors.xaml" />
+    <Page Include="Resources\DarkStyle.xaml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

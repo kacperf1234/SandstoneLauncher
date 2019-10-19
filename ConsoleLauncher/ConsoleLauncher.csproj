@@ -49,10 +49,6 @@
       <Project>{7bea1c5d-c6b9-4353-a02a-137cad66fe87}</Project>
       <Name>KacpiiToZiomal.SandstoneLauncher.Minecraft</Name>
     </ProjectReference>
-    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Profiles\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj">
-      <Project>{6570222c-4cb0-4137-b7a1-72877c1f112f}</Project>
-      <Name>KacpiiToZiomal.SandstoneLauncher.Profiles</Name>
-    </ProjectReference>
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.csproj">
       <Project>{30f5a141-11f5-4377-9b84-6f88ea3dc338}</Project>
       <Name>KacpiiToZiomal.SandstoneLauncher</Name>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 
-1203785841
+2-1419814937
 
 21610578852
 9-1644624511
-Styles\DarkStyle.xaml;
+Resources\DarkColors.xaml;Resources\DarkStyle.xaml;
 
 False
 

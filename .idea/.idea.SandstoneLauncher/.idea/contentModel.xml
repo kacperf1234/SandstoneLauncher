@@ -404,7 +404,8 @@
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
         </e>
-        <e p="Styles" t="Include">
+        <e p="Resources" t="Include">
+          <e p="DarkColors.xaml" t="Include" />
           <e p="DarkStyle.xaml" t="Include" />
         </e>
       </e>

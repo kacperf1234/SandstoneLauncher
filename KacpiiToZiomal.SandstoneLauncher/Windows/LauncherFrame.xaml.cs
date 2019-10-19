@@ -1,4 +1,4 @@
-﻿namespace KacpiiToZiomal.SandstoneLauncher
+﻿namespace KacpiiToZiomal.SandstoneLauncher.Windows
 {
     /// <summary>
     ///     Interaction logic for MainWindow.xaml

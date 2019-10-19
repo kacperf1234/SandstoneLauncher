@@ -65,7 +65,6 @@
     <Compile Include="Types\ApplicationData.cs" />
     <Compile Include="Windows\LauncherFrame.xaml.cs">
       <DependentUpon>LauncherFrame.xaml</DependentUpon>
-      <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -87,11 +86,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Resources\DarkColors.xaml" />
     <Page Include="Resources\DarkStyle.xaml" />
-    <Page Include="Windows\LauncherFrame.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
+    <Page Include="Windows\LauncherFrame.xaml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj">

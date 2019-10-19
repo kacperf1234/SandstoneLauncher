@@ -12,7 +12,10 @@ namespace ConsoleLauncher
         [STAThread]
         public static void Main(string[] args)
         {
-            
+            LauncherFrame f = new LauncherFrame();
+            f.SeeWindow();
+
+            Console.Read();
         }
     }
 }

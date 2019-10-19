@@ -3,11 +3,16 @@
     /// <summary>
     ///     Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow
+    public partial class LauncherFrame
     {
-        public MainWindow()
+        public LauncherFrame()
         {
             InitializeComponent();
+        }
+
+        public void SeeWindow()
+        {
+            Show();
         }
     }
 }

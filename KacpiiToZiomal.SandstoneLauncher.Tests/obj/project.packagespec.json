@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Tests\\KacpiiToZiomal.SandstoneLauncher.Tests.csproj",
+    "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Tests\\KacpiiToZiomal.SandstoneLauncher.Tests.csproj",
     "projectName": "KacpiiToZiomal.SandstoneLauncher.Tests",
-    "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Tests\\KacpiiToZiomal.SandstoneLauncher.Tests.csproj",
-    "outputPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Tests\\obj\\",
+    "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Tests\\KacpiiToZiomal.SandstoneLauncher.Tests.csproj",
+    "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Tests\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -18,8 +18,8 @@
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj": {
-            "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj"
+          "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj": {
+            "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj"
           }
         }
       }

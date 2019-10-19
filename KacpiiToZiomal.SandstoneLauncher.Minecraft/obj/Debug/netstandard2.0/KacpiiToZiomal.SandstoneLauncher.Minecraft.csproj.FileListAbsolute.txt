@@ -7,3 +7,12 @@ C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.AssemblyInfo.cs
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.dll
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\bin\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.deps.json
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\bin\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\bin\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.csprojAssemblyReference.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.CoreCompileInputs.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.AssemblyInfoInputs.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.AssemblyInfo.cs
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb

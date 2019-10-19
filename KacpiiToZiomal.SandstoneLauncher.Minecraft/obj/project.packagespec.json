@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj",
+    "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj",
     "projectName": "KacpiiToZiomal.SandstoneLauncher.Minecraft",
-    "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj",
-    "outputPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\obj\\",
+    "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj",
+    "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

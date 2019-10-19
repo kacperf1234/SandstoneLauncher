@@ -1658,6 +1658,9 @@
       },
       "KacpiiToZiomal.SandstoneLauncher/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.dll": {}
         },
@@ -1690,6 +1693,15 @@
         },
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Profiles.dll": {}
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
         }
       }
     }
@@ -5820,6 +5832,11 @@
       "type": "project",
       "path": "../KacpiiToZiomal.SandstoneLauncher.Profiles/KacpiiToZiomal.SandstoneLauncher.Profiles.csproj",
       "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Profiles/KacpiiToZiomal.SandstoneLauncher.Profiles.csproj"
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
+      "type": "project",
+      "path": "../KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj",
+      "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5841,11 +5858,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj",
       "projectName": "KacpiiToZiomal.SandstoneLauncher.Profiles.Tests",
-      "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj",
+      "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests.csproj",
       "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5862,14 +5879,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj": {
-              "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj"
+            "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj": {
+              "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj"
             },
-            "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles\\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj": {
-              "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles\\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj"
+            "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles\\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj": {
+              "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles\\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj"
             },
-            "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj": {
-              "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj"
+            "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj": {
+              "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj"
             }
           }
         }

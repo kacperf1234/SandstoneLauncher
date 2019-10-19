@@ -5817,11 +5817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj",
       "projectName": "KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests",
-      "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj",
+      "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj",
       "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5838,8 +5838,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj": {
-              "projectPath": "C:\\Users\\Kacpii\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj"
+            "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj": {
+              "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj"
             }
           }
         }

@@ -14,8 +14,8 @@
     <e p="C:\Users\Kacpii\.Rider2019.2\config\consoles\ide" t="IncludeRecursive" />
     <e p="C:\Users\Kacpii\.Rider2019.2\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\Kacpii\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Kacpii\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_SandstoneLauncher.1001068466.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Kacpii\RiderProjects\SandstoneLauncher" t="IncludeFlat">
+    <e p="C:\Users\Kacpii\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_SandstoneLauncher.422035610.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Kacpii\Desktop\SandstoneLauncher" t="IncludeFlat">
       <e p="ConsoleLauncher" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="ConsoleLauncher.csproj" t="IncludeRecursive" />

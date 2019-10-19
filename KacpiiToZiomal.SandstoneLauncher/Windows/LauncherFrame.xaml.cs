@@ -1,18 +1,12 @@
-﻿namespace KacpiiToZiomal.SandstoneLauncher.Windows
+﻿using System.Windows;
+
+namespace KacpiiToZiomal.SandstoneLauncher.Windows
 {
-    /// <summary>
-    ///     Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class LauncherFrame
+    public partial class LauncherFrame : Window
     {
         public LauncherFrame()
         {
             InitializeComponent();
-        }
-
-        public void SeeWindow()
-        {
-            Show();
         }
     }
 }

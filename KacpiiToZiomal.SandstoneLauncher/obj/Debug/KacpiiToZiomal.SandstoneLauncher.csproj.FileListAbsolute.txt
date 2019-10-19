@@ -53,3 +53,5 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\D
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.exe
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\Resources\DarkColors.baml
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\Resources\DarkStyle.baml

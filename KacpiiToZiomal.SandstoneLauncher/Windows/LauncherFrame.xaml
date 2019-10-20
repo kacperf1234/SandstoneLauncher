@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:KacpiiToZiomal.SandstoneLauncher.Windows"
         mc:Ignorable="d"
         Title="LauncherFrame" Height="450" Width="800" Style="{StaticResource WindowStyle}">
+    
     <Grid>
         
     </Grid>

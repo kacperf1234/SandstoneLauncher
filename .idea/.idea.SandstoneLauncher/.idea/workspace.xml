@@ -2,154 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68421450-4a97-47d1-90cd-d76724398312" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/ConsoleLauncher.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleLauncher/ConsoleLauncher.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleLauncher/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/ConsoleLauncher.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/ConsoleLauncher.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/ConsoleLauncher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/ConsoleLauncher.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.dll.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.Profiles.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/Microsoft.Win32.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.AppContext.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Collections.Concurrent.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Collections.NonGeneric.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Collections.Specialized.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Collections.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.ComponentModel.EventBasedAsync.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.ComponentModel.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.ComponentModel.TypeConverter.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.ComponentModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Console.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Data.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Diagnostics.Contracts.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Diagnostics.Debug.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Diagnostics.FileVersionInfo.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Diagnostics.Process.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Diagnostics.StackTrace.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Diagnostics.TextWriterTraceListener.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Diagnostics.Tools.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Diagnostics.TraceSource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Diagnostics.Tracing.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Drawing.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Dynamic.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Globalization.Calendars.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Globalization.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Globalization.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.IO.Compression.ZipFile.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.IO.Compression.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.IO.FileSystem.DriveInfo.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.IO.FileSystem.Watcher.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.IO.FileSystem.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.IO.IsolatedStorage.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.IO.MemoryMappedFiles.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.IO.Pipes.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.IO.UnmanagedMemoryStream.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.IO.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Linq.Expressions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Linq.Parallel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Linq.Queryable.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Linq.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Net.Http.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Net.NameResolution.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Net.NetworkInformation.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Net.Ping.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Net.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Net.Requests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Net.Security.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Net.Sockets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Net.WebHeaderCollection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Net.WebSockets.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Net.WebSockets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.ObjectModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Reflection.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Reflection.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Reflection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Resources.Reader.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Resources.ResourceManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Resources.Writer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Runtime.CompilerServices.VisualC.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Runtime.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Runtime.Handles.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Runtime.InteropServices.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Runtime.Numerics.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Runtime.Serialization.Formatters.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Runtime.Serialization.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Runtime.Serialization.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Runtime.Serialization.Xml.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Security.Claims.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Security.Cryptography.Algorithms.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Security.Cryptography.Csp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Security.Cryptography.Encoding.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Security.Cryptography.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Security.Cryptography.X509Certificates.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Security.Principal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Security.SecureString.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Text.Encoding.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Text.Encoding.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Text.RegularExpressions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Threading.Overlapped.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Threading.Tasks.Parallel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Threading.Tasks.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Threading.Thread.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Threading.ThreadPool.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Threading.Timer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Threading.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.ValueTuple.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Xml.ReaderWriter.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Xml.XDocument.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Xml.XPath.XDocument.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Xml.XPath.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Xml.XmlDocument.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/System.Xml.XmlSerializer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/netstandard.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/obj/Debug/ConsoleLauncher.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/obj/Debug/ConsoleLauncher.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleLauncher/obj/Debug/ConsoleLauncher.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleLauncher/obj/Debug/ConsoleLauncher.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleLauncher/obj/Debug/ConsoleLauncher.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleLauncher/obj/Debug/ConsoleLauncher.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleLauncher/obj/Debug/ConsoleLauncher.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleLauncher/obj/Debug/ConsoleLauncher.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleLauncher/obj/Debug/ConsoleLauncher.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleLauncher/obj/Debug/ConsoleLauncher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleLauncher/obj/Debug/ConsoleLauncher.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Resources/DarkColors.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Resources/DarkStyle.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.exe" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Tests.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/App.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/KacpiiToZiomal.SandstoneLauncher.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/KacpiiToZiomal.SandstoneLauncher.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkStyle.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkStyle.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkStyle.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.exe" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/KacpiiToZiomal.SandstoneLauncher.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/App.baml" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/App.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/App.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/App.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.csproj.CoreCompileInputs.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.exe" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher_MarkupCompile.lref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/Resources/DarkStyle.baml" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/Resources/DarkStyle.baml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/Windows/LauncherFrame.baml" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/Windows/LauncherFrame.baml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/Windows/LauncherFrame.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/Windows/LauncherFrame.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/Windows/LauncherFrame.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/Windows/LauncherFrame.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowTests/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowTests/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowTests/bin/Debug/KacpiiToZiomal.SandstoneLauncher.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowTests/bin/Debug/KacpiiToZiomal.SandstoneLauncher.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowTests/bin/Debug/KacpiiToZiomal.SandstoneLauncher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowTests/bin/Debug/KacpiiToZiomal.SandstoneLauncher.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowTests/bin/Debug/WindowTests.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowTests/bin/Debug/WindowTests.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowTests/bin/Debug/WindowTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowTests/bin/Debug/WindowTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowTests/obj/Debug/WindowTests.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowTests/obj/Debug/WindowTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WindowTests/obj/Debug/WindowTests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowTests/obj/Debug/WindowTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WindowTests/obj/Debug/WindowTests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowTests/obj/Debug/WindowTests.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowTests/obj/Debug/WindowTests.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowTests/obj/Debug/WindowTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowTests/obj/Debug/WindowTests.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +64,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/pathnameconverter_convert_tests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WindowTests/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/operatingsystemconverter_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativesdownloader_download_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/responsevalidator_validate_tests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -207,6 +94,7 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/directorylistcreator_getdirectories_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/filenameextractor_getname_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/minecraftdirectory_getassets_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/launcherprofilespathbuilder_build_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativespropertygetter_getvalue_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativestemporarypathfinder_gettemppath_tests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -220,12 +108,17 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/clientpathfinder_getpath_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/processbuilder_build_str_str_act_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/assetsextractor_get_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleLauncher/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AssetsUrlBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Types/ApplicationData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowTests/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Models/ApplicationConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Interfaces/IApplicationData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/applicationdata_getbinaries_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/applicationdata_getdirectory_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Models/GameVersion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkColors.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkStyle.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Models/LaunchArguments.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Types/ProfilesReader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -255,7 +148,6 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Interfaces/IProfilesReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Interfaces/IProfileGetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConsoleLauncher/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/profilespathgenerator_generatepath_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/profilesdeserializer_deserialize_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/profileswriter_writeprofiles_tests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -269,9 +161,7 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/directorycreator_create_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/jsondeserializer_deserialize_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/arraysconnector_connectarrays_tests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkStyle.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/filereader_read_tests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkColors.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/mojangauthentication_authenticate_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/downloadversionmanifestpathbuilder_getpath_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/hashcombiner_getfirstletters_tests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -324,12 +214,12 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Resources/DarkColors.xaml" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Resources/DarkStyle.xaml" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkColors.xaml" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/App.xaml" />
         <option value="$PROJECT_DIR$/ConsoleLauncher/Program.cs" />
-        <option value="$PROJECT_DIR$/WindowTests/Program.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml" />
+        <option value="$PROJECT_DIR$/WindowTests/Program.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkStyle.xaml" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/App.xaml" />
       </list>
     </option>
   </component>
@@ -344,7 +234,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/KacpiiToZiomal.SandstoneLauncher.Tests.csproj" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CodeInspectionSettingsId" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -442,6 +332,10 @@
       <workItem from="1570635109228" duration="320000" />
       <workItem from="1570635606131" duration="543000" />
       <workItem from="1571229997943" duration="1144000" />
+      <workItem from="1571578096147" duration="4000" />
+      <workItem from="1571578156790" duration="779000" />
+      <workItem from="1571578977515" duration="27000" />
+      <workItem from="1571586802798" duration="280000" />
     </task>
     <servers />
   </component>

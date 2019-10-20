@@ -49,7 +49,6 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\D
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.g.resources
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.Properties.Resources.resources
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.csproj.GenerateResource.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.csproj.CoreCompileInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.exe
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.pdb

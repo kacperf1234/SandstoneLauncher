@@ -11,7 +11,6 @@
     <e p="C:\Users\Kacpii\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.dll" t="Include" />
     <e p="C:\Users\Kacpii\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.dll" t="Include" />
     <e p="C:\Users\Kacpii\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.pdb" t="Include" />
-    <e p="C:\Users\Kacpii\.Rider2019.2\config\consoles\ide" t="IncludeRecursive" />
     <e p="C:\Users\Kacpii\.Rider2019.2\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\Kacpii\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Kacpii\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_SandstoneLauncher.422035610.00" t="ExcludeRecursive" />

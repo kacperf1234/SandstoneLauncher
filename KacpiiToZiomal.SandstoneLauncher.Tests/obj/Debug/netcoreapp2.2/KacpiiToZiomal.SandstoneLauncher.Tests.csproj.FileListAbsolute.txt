@@ -39,13 +39,9 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Tests.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Tests.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.exe
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.exe.config
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Resources.pdb
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Resources.dll.config
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Tests.csprojAssemblyReference.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Tests.AssemblyInfoInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Tests.AssemblyInfo.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Tests.csproj.CopyComplete

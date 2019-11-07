@@ -28,7 +28,6 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minec
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Minecraft.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.AssemblyInfoInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.AssemblyInfo.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\obj\Debug\netcoreapp2.2\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.CopyComplete

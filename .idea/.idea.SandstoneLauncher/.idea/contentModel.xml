@@ -183,6 +183,7 @@
           <e p="AssetsIndexPathBuilder.cs" t="Include" />
           <e p="AssetsPathBuilder.cs" t="Include" />
           <e p="AssetsUrlBuilder.cs" t="Include" />
+          <e p="AsynchronousAssetsDownloader.cs" t="Include" />
           <e p="AsynchronousGameFilesDownloader.cs" t="Include" />
           <e p="ClassifiersValidator.cs" t="Include" />
           <e p="ClientDownloader.cs" t="Include" />

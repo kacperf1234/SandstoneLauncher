@@ -48,21 +48,21 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
                     new LibraryNativesValidator(
                         new NativesValidator(new OperatingSystemConverter(), new NativesPropertyGetter()),
                         new ClassifiersValidator()), new ArtifactFinder(),
-                    new HttpDownloader(new DirectoryCreator(new FileNameRemover())),
+                    new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
                     new NativesTemporaryPathFinder(new FileNameExtractor(new PathConverter()),
                         new MinecraftDirectory()), new JarFileExtractor(),
                     new NativesDirectory(new MinecraftDirectory(), new DirectoryCreator(new FileNameRemover()))),
-                new LibrariesDownloader(new HttpDownloader(new DirectoryCreator(new FileNameRemover())),
+                new LibrariesDownloader(new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
                     new LibraryPathBuilder(new MinecraftDirectory(), new PathConverter()),
                     new LibraryValidator(new RulesValidator())),
                 new AssetsDownloader(new AssetsExtractor(), new AssetsUrlBuilder(new HashCombiner()),
-                    new HttpDownloader(new DirectoryCreator(new FileNameRemover())),
+                    new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
                     new AssetsPathBuilder(new MinecraftDirectory(), new HashCombiner()),
                     new AssetsIndexCreator(new MinecraftDirectory(), new FileCreator(new FileNameRemover()))),
                 new ClientDownloader(new ClientPathFinder(new MinecraftDirectory()),
-                    new HttpDownloader(new DirectoryCreator(new FileNameRemover()))),
+                    new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()))),
                 new FullVersionManifestDownloader(new MinecraftDirectory(),
-                    new HttpDownloader(new DirectoryCreator(new FileNameRemover()))));
+                    new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()))));
         }
     }
 }

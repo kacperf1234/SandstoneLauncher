@@ -93,6 +93,7 @@
           <e p="IGameFilesDownloader.cs" t="Include" />
           <e p="IGamePathBuilder.cs" t="Include" />
           <e p="IHashCombiner.cs" t="Include" />
+          <e p="IHttpBytesReader.cs" t="Include" />
           <e p="IHttpClient.cs" t="Include" />
           <e p="IHttpDownloader.cs" t="Include" />
           <e p="IJarFile.cs" t="Include" />
@@ -203,6 +204,7 @@
           <e p="GameFilesDownloader.cs" t="Include" />
           <e p="GamePathBuilder.cs" t="Include" />
           <e p="HashCombiner.cs" t="Include" />
+          <e p="HttpBytesReader.cs" t="Include" />
           <e p="HttpDownloader.cs" t="Include" />
           <e p="JarFile.cs" t="Include" />
           <e p="JarFileExtractor.cs" t="Include" />
@@ -274,6 +276,7 @@
         <e p="gamepathbuilder_getabsolutepath_tests.cs" t="Include" />
         <e p="hashcombiner_getfirstletters_tests.cs" t="Include" />
         <e p="httpdownloader_download_tests.cs" t="Include" />
+        <e p="httpdownloader_downloadasync_tests.cs" t="Include" />
         <e p="httpdownloader_get_default_tests.cs" t="Include" />
         <e p="javapathfinder_getjavapath_tests.cs" t="Include" />
         <e p="jsondeserializer_deserialize_tests.cs" t="Include" />
@@ -289,7 +292,6 @@
         <e p="minecraftdirectory_getlibraries_tests.cs" t="Include" />
         <e p="mojangauthentication_authenticate_tests.cs" t="Include" />
         <e p="nativesdirectory_getdirectory_tests.cs" t="Include" />
-        <e p="nativesdownloader_download_tests.cs" t="Include" />
         <e p="nativespathfinder_getnativesdirectory_tests.cs" t="Include" />
         <e p="nativespathfinder_getpath_tests.cs" t="Include" />
         <e p="nativespropertygetter_getvalue_tests.cs" t="Include" />

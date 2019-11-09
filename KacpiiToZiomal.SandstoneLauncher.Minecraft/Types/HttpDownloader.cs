@@ -1,34 +1,47 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
+using System.Net.Http;
+using System.Threading.Tasks;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Delegates;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
     public class HttpDownloader : IHttpDownloader
     {
-        public IDirectoryCreator Creator;
+        public IHttpBytesReader BytesReader;
+        public IFileCreator FileCreator;
 
-        public DownloadFile DownloadFile;
-
-        public HttpDownloader(IDirectoryCreator creator)
+        public static HttpDownloader Default
         {
-            Creator = creator;
+            get { return new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())); }
         }
-
-        public static HttpDownloader Default => new HttpDownloader(new DirectoryCreator(new FileNameRemover()));
+        
+        public HttpDownloader(IHttpBytesReader bytesReader, IFileCreator fileCreator)
+        {
+            BytesReader = bytesReader;
+            FileCreator = fileCreator;
+        }
 
         public void Download(string url, string destination)
         {
-            Creator.Create(destination);
-
-            using (WebClient wb = new WebClient())
+            using (HttpClient http = new HttpClient())
             {
-                wb.DownloadFile(url, destination);
+                byte[] bytes = BytesReader.ReadBytes(url);
+                FileCreator.Create(destination, bytes);
+            }
+        }
 
-                if (DownloadFile != null)
+        public Task DownloadAsync(string url, string destination)
+        {
+            using (HttpClient http = new HttpClient())
+            {
+                return Task.Run(() =>
                 {
-                    DownloadFile.Invoke(url, destination);
-                }
+                    byte[] bytes = BytesReader.ReadBytes(url);
+                    FileCreator.Create(destination, bytes);
+                });
             }
         }
     }

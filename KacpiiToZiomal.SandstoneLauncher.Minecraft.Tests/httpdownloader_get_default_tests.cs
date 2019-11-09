@@ -31,15 +31,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
             execute().Download(sampleFile, "tests\\samplefile.html");
         }
 
-        [Test]
-        public void throws_exceptions_by_invoking_event_downloadfile_if_setted()
-        {
-            HttpDownloader downloader = execute();
-            downloader.DownloadFile = (x, y) => throw new TestException();
-
-            Assert.That(() => downloader.Download(sampleFile, dest), Throws.TypeOf<TestException>());
-        }
-
         [TearDown]
         public void teardown()
         {

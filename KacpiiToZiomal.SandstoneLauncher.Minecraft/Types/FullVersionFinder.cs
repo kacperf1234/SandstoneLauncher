@@ -14,9 +14,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
             Parser = parser;
         }
 
-        public FullVersion Find(GameVersion version)
+        public FullVersion Find(string url)
         {
-            string json = Client.GetContent(version.Url);
+            string json = Client.GetContent(url);
             return Parser.Parse(json);
         }
     }

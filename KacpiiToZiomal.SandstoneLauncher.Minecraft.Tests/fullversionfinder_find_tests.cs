@@ -12,12 +12,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
     {
         private FullVersion execute(string url)
         {
-            GameVersion v = new GameVersion
-            {
-                Url = url
-            };
             FullVersionFinder finder = new FullVersionFinder(new NetworkClient(), new FullVersionParser());
-            return finder.Find(v);
+            return finder.Find("https://launchermeta.mojang.com/v1/packages/7f40b382dedcfe9eca74a5b14d615075ec34c108/1.9.4.json");
         }
 
         [Test]

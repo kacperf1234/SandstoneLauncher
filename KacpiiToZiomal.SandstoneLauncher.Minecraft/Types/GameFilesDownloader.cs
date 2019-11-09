@@ -30,7 +30,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 
         public void Download(GameVersion gameVersion, OS os)
         {
-            FullVersion version = FullVersionFinder.Find(gameVersion);
+            FullVersion version = FullVersionFinder.Find(gameVersion.Url);
             Assets assets = AssetsFinder.GetAssets(version.AssetsIndex.Url, version);
 
             AssetsDownloader.Download(assets, version);

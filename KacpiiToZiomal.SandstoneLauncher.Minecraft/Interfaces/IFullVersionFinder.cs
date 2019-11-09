@@ -4,6 +4,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces
 {
     public interface IFullVersionFinder
     {
-        FullVersion Find(GameVersion version);
+        FullVersion Find(string url);
     }
 }

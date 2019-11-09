@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
+using System.Text;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
@@ -22,6 +24,20 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
             w.Write(cnt);
             w.Close();
             s.Close();
+        }
+
+        public void Create(string path, byte[] bytes)
+        {
+            Directory.CreateDirectory(Remover.Remove(path));
+
+            using (FileStream stream = File.Open(path, FileMode.OpenOrCreate))
+            {
+                BinaryWriter bin = new BinaryWriter(stream);
+                bin.Write(bytes);
+            
+                bin.Close();
+                stream.Close();
+            }
         }
     }
 }

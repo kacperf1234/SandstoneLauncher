@@ -55,20 +55,20 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
                     new LibraryNativesValidator(
                         new NativesValidator(new OperatingSystemConverter(), new NativesPropertyGetter()),
                         new ClassifiersValidator()), new ArtifactFinder(),
-                    new HttpDownloader(new DirectoryCreator(new FileNameRemover())),
+                    new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
                     new NativesTemporaryPathFinder(new FileNameExtractor(new PathConverter()), minecraft),
                     new JarFileExtractor(),
                     new NativesDirectory(minecraft, new DirectoryCreator(new FileNameRemover()))),
-                new LibrariesDownloader(new HttpDownloader(new DirectoryCreator(new FileNameRemover())),
+                new LibrariesDownloader(new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
                     new LibraryPathBuilder(minecraft, new PathConverter()), new LibraryValidator(new RulesValidator())),
                 new ClientDownloader(new ClientPathFinder(minecraft),
-                    new HttpDownloader(new DirectoryCreator(new FileNameRemover()))),
+                    new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()))),
                 new AssetsDownloader(new AssetsExtractor(), new AssetsUrlBuilder(new HashCombiner()),
-                    new HttpDownloader(new DirectoryCreator(new FileNameRemover())),
+                    new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
                     new AssetsPathBuilder(minecraft, new HashCombiner()),
                     new AssetsIndexCreator(minecraft, new FileCreator(new FileNameRemover()))),
                 new FullVersionManifestDownloader(minecraft,
-                    new HttpDownloader(new DirectoryCreator(new FileNameRemover()))));
+                    new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()))));
         }
     }
 }

@@ -21,7 +21,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         {
             FileName = "tests\\" + Guid.NewGuid() + Ext;
 
-            IHttpDownloader downloader = new HttpDownloader(new DirectoryCreator(new FileNameRemover()));
+            IHttpDownloader downloader = new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()));
             downloader.Download(Url, FileName);
         }
 

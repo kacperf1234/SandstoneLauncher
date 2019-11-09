@@ -12,8 +12,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
         public IJarFileExtractor JarExtractor;
         public INativesDirectory NativesDirectory;
         public ILibraryNativesValidator NativesValidator;
-
-        // add to ctor
         public INativesTemporaryPathFinder TempFinder;
 
         public NativesDownloader(INativesPathFinder finder, ILibraryNativesValidator nativesValidator,
@@ -32,6 +30,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
         public void Download(Library[] libraries, OS system, FullVersion version)
         {
             foreach (Library library in libraries)
+            {
                 if (NativesValidator.Validate(library, system))
                 {
                     DownloadArtifact artifact = ArtifactFinder.GetDownloadArtifact(library, system);
@@ -41,6 +40,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 
                     JarExtractor.ExtractAll(tmpdest, NativesDirectory.GetDirectory(version.Id));
                 }
+            }
         }
 
         public void Download(Library library, OS system, FullVersion version)

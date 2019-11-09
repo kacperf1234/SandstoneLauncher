@@ -19,6 +19,11 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Models
         [JsonProperty("releaseTime")]
         public string ReleaseTime { get; set; }
 
+        public GameVersion()
+        {
+            
+        }
+        
         GameVersion(string id)
         {
             Id = id;

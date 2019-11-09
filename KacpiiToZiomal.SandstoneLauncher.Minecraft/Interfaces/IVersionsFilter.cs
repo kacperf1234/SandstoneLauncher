@@ -4,8 +4,8 @@ using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces
 {
-    public interface IVersionGetter
+    public interface IVersionsFilter
     {
-        IEnumerable<GameVersion> GetVersions(VersionManifest manifest, VersionType type = VersionType.ALPHA);
+        IEnumerable<GameVersion> FilterVersions(VersionManifest manifest, VersionType type = VersionType.ALPHA);
     }
 }

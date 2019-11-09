@@ -5,16 +5,16 @@ using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
-    public class VersionGetter : IVersionGetter
+    public class VersionsFilter : IVersionsFilter
     {
         public IVersionTypeGetter TypeGetter;
 
-        public VersionGetter(IVersionTypeGetter typeGetter)
+        public VersionsFilter(IVersionTypeGetter typeGetter)
         {
             TypeGetter = typeGetter;
         }
 
-        public IEnumerable<GameVersion> GetVersions(VersionManifest manifest, VersionType type = VersionType.ALPHA)
+        public IEnumerable<GameVersion> FilterVersions(VersionManifest manifest, VersionType type = VersionType.ALPHA)
         {
             foreach (GameVersion v in manifest.Versions)
                 if (TypeGetter.GetVersionType(v) == type)

@@ -25,7 +25,10 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
             {
                 wb.DownloadFile(url, destination);
 
-                if (DownloadFile != null) DownloadFile.Invoke(url, destination);
+                if (DownloadFile != null)
+                {
+                    DownloadFile.Invoke(url, destination);
+                }
             }
         }
     }

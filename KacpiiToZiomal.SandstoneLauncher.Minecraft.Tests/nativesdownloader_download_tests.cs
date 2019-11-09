@@ -15,10 +15,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         private void execute()
         {
             IFullVersionFinder finder = new FullVersionFinder(new NetworkClient(), new FullVersionParser());
-            FullVersion version = finder.Find(new GameVersion
-            {
-                Url = "https://launchermeta.mojang.com/v1/packages/7f40b382dedcfe9eca74a5b14d615075ec34c108/1.9.4.json"
-            });
+            FullVersion version = finder.Find("https://launchermeta.mojang.com/v1/packages/7f40b382dedcfe9eca74a5b14d615075ec34c108/1.9.4.json");
 
             NativesDownloader d = new NativesDownloader(
                 new NativesPathFinder(new MinecraftDirectory(), new PathConverter()),

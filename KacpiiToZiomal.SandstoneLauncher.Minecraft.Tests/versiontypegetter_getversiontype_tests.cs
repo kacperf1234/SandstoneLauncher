@@ -14,7 +14,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         private VersionType execute(string type = "release")
         {
             VersionTypeGetter g = new VersionTypeGetter();
-            return g.GetVersionType(new GameVersion {Type = type});
+            return g.GetVersionType(GameVersion.CreateVersion(type: "release"));
         }
 
         [Test]

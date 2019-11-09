@@ -38,7 +38,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Models
             return new GameVersion(id);
         }
 
-        public static GameVersion CreateVersion(string id, string type, string url, string time, string releaseTime)
+        public static GameVersion CreateVersion(string id = "", string type = "", string url = "", string time = "", string releaseTime = "")
         {
             return new GameVersion(id, type, url, time, releaseTime);
         }

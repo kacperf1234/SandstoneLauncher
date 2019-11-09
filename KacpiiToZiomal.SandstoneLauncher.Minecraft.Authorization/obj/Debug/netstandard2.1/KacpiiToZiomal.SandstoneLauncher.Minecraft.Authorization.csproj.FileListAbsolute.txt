@@ -1,0 +1,8 @@
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\bin\Debug\netstandard2.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.deps.json
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\bin\Debug\netstandard2.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\bin\Debug\netstandard2.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netstandard2.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csprojAssemblyReference.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netstandard2.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.AssemblyInfoInputs.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netstandard2.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.AssemblyInfo.cs
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netstandard2.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netstandard2.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb

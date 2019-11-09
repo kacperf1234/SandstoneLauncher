@@ -15,15 +15,6 @@
     <e p="C:\Users\Kacpii\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Kacpii\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_SandstoneLauncher.422035610.00" t="ExcludeRecursive" />
     <e p="C:\Users\Kacpii\Desktop\SandstoneLauncher" t="IncludeFlat">
-      <e p="ConsoleLauncher" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="ConsoleLauncher.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="Program.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-        </e>
-      </e>
       <e p="KacpiiToZiomal.SandstoneLauncher" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="App.xaml" t="Include" />
@@ -343,19 +334,8 @@
           </e>
         </e>
       </e>
-      <e p="Other" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="SandstoneLauncher.sln" t="IncludeFlat" />
-      <e p="Tests" t="Include" />
-      <e p="WindowTests" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="Program.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-        </e>
-        <e p="WindowTests.csproj" t="IncludeRecursive" />
-      </e>
     </e>
   </component>
 </project>

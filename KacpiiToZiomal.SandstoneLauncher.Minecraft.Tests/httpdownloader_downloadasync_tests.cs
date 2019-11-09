@@ -15,8 +15,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         public void setup()
         {
             HttpDownloader downloader = HttpDownloader.Default;
-            Task task = downloader.DownloadAsync(Url, Filename);
-            task.Wait();
+            downloader.DownloadAsync(Url, Filename);
+            
         }
 
         [TearDown]

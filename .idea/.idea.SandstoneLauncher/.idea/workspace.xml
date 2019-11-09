@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68421450-4a97-47d1-90cd-d76724398312" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpdownloader_downloadasync_tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpdownloader_downloadasync_tests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IHttpDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IHttpDownloader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AssetsDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AssetsDownloader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/HttpDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/HttpDownloader.cs" afterDir="false" />
@@ -19,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +41,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IAsynchronosGameFilesDownloader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkStyle.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Types/ProfilesReader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -170,9 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/ProfileMetadata.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/Profile.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Interfaces/IProfilesWriter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Types/ProfilesWriter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Interfaces/IProfilesReader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Types/ProfilesReader.cs" />
@@ -216,11 +210,14 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpdownloader_get_default_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativesdownloader_download_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/FileCreator.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpdownloader_downloadasync_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpbytesreader_readbytes_tests.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/HttpDownloader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IHttpDownloader.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/LauncherSample.csproj" />
+        <option value="$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/Program.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpdownloader_downloadasync_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AssetsDownloader.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/HttpDownloader.cs" />
       </list>
     </option>
   </component>
@@ -232,10 +229,10 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/KacpiiToZiomal.SandstoneLauncher.Tests.csproj" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;GitIgnore" />
+    <property name="last_opened_file_path" value="$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/LauncherSample.csproj" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="RiderDotCoverContinuousTestingPageId" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -249,7 +246,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.Other\WindowTests">
+  <component name="RunManager" selected=".NET Project.LauncherSample">
+    <configuration name="LauncherSample" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/bin/Debug/netcoreapp2.2/LauncherSample.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/bin/Debug/netcoreapp2.2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/LauncherSample.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Other\ConsoleLauncher" type="DotNetProject" factoryName=".NET Project" temporary="true">
       <option name="EXE_PATH" value="$PROJECT_DIR$/ConsoleLauncher/bin/Debug/ConsoleLauncher.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -306,6 +321,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Project.LauncherSample" />
         <item itemvalue=".NET Project.Other\WindowTests" />
         <item itemvalue=".NET Project.Other\ConsoleLauncher" />
       </list>
@@ -349,6 +365,8 @@
       <workItem from="1573303538061" duration="150000" />
       <workItem from="1573310355936" duration="103000" />
       <workItem from="1573311144742" duration="267000" />
+      <workItem from="1573311529229" duration="116000" />
+      <workItem from="1573319719362" duration="2052000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -357,15 +375,26 @@
     <option name="version" value="1" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="66" />
+    <option name="coveragePercentColumnWidth" value="65" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="481" />
+    <option name="symbolColumnWidth" value="470" />
     <coverage-tree-state>
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="1269" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="1269" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="8" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />

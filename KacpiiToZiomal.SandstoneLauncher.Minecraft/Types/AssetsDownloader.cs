@@ -32,7 +32,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
                 string url = UrlBuilder.BuildUrl(asset.Hash);
                 string dest = PathBuilder.GetAbsolutePath(asset.Hash);
 
-                Downloader.DownloadAsync(url, dest, (u, d, r) => { Console.WriteLine("ENDED " + d); });
+                Downloader.DownloadAsync(url, dest);
             }
 
             IndexCreator.Create(assets.BaseJson, version.Assets);

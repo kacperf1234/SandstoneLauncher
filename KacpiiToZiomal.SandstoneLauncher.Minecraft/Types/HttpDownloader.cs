@@ -11,10 +11,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
     public class HttpDownloader : IHttpDownloader
     {
+        public static HttpDownloader Default => new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()));
+        
         public IHttpBytesReader BytesReader;
         public IFileCreator FileCreator;
 
-        public static HttpDownloader Default => new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()));
+        private bool CanRetry = true;
 
         public HttpDownloader(IHttpBytesReader bytesReader, IFileCreator fileCreator)
         {
@@ -22,31 +24,36 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
             FileCreator = fileCreator;
         }
 
-        public void Download(string url, string destination)
+        private void DownloadFile(string url, string destination)
         {
             byte[] bytes = BytesReader.ReadBytes(url);
             FileCreator.Create(destination, bytes);
         }
 
+        public void Download(string url, string destination)
+        {
+            DownloadFile(url, destination);
+        }
+
         public void DownloadAsync(string url, string destination, Action<string, string, bool> act = null)
         {
-            new Thread(() =>
+            Thread thread = new Thread(() =>
             {
                 try
                 {
-                    byte[] bytes = BytesReader.ReadBytes(url);
-                    FileCreator.Create(destination, bytes);
+                    DownloadFile(url, destination);
                 }
 
                 catch
                 {
-                    Thread.Sleep(500);
-                    Console.WriteLine("one asset have skipped.");
+                    Thread.Sleep(300);
                     
-                    byte[] bytes = BytesReader.ReadBytes(url);
-                    FileCreator.Create(destination, bytes);
+                    DownloadFile(url, destination);
                 }
-            }).Start();
+                
+            });
+            
+            thread.Start();
         }
     }
 }

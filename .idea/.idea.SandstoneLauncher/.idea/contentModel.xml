@@ -130,8 +130,8 @@
           <e p="IRulesValidator.cs" t="Include" />
           <e p="ISimpleParallel.cs" t="Include" />
           <e p="ITimeConverter.cs" t="Include" />
-          <e p="IVersionGetter.cs" t="Include" />
           <e p="IVersionPicker.cs" t="Include" />
+          <e p="IVersionsFilter.cs" t="Include" />
           <e p="IVersionTypeGetter.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj" t="IncludeRecursive" />
@@ -242,8 +242,8 @@
           <e p="RulesValidator.cs" t="Include" />
           <e p="SimpleParallel.cs" t="Include" />
           <e p="TimeConverter.cs" t="Include" />
-          <e p="VersionGetter.cs" t="Include" />
           <e p="VersionPicker.cs" t="Include" />
+          <e p="VersionsFilter.cs" t="Include" />
           <e p="VersionTypeGetter.cs" t="Include" />
         </e>
       </e>

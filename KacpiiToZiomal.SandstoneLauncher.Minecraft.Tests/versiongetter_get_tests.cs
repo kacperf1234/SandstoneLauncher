@@ -19,8 +19,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
             VersionManifest manifest = new ManifestJsonDeserializer().Deserialize(new HttpClient()
                 .GetStringAsync("https://launchermeta.mojang.com/mc/game/version_manifest.json").Result);
 
-            VersionGetter getter = new VersionGetter(new VersionTypeGetter());
-            return getter.GetVersions(manifest, type);
+            VersionsFilter getter = new VersionsFilter(new VersionTypeGetter());
+            return getter.FilterVersions(manifest, type);
         }
 
         [Test]

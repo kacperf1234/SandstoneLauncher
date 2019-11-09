@@ -32,8 +32,20 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
         {
             new Thread(() =>
             {
-                byte[] bytes = BytesReader.ReadBytes(url);
-                FileCreator.Create(destination, bytes);
+                try
+                {
+                    byte[] bytes = BytesReader.ReadBytes(url);
+                    FileCreator.Create(destination, bytes);
+                }
+
+                catch
+                {
+                    Thread.Sleep(500);
+                    Console.WriteLine("one asset have skipped.");
+                    
+                    byte[] bytes = BytesReader.ReadBytes(url);
+                    FileCreator.Create(destination, bytes);
+                }
             }).Start();
         }
     }

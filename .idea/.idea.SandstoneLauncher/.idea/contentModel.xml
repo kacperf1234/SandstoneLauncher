@@ -70,6 +70,7 @@
           <e p="IAssetsFinder.cs" t="Include" />
           <e p="IAssetsIndexCreator.cs" t="Include" />
           <e p="IAssetsIndexPathBuilder.cs" t="Include" />
+          <e p="IAssetsMultipliedFilter.cs" t="Include" />
           <e p="IAssetsPathBuilder.cs" t="Include" />
           <e p="IAssetsUrlBuilder.cs" t="Include" />
           <e p="IAsynchronicsOperation.cs" t="Include" />
@@ -182,6 +183,7 @@
           <e p="AssetsFinder.cs" t="Include" />
           <e p="AssetsIndexCreator.cs" t="Include" />
           <e p="AssetsIndexPathBuilder.cs" t="Include" />
+          <e p="AssetsMultipliedFilter.cs" t="Include" />
           <e p="AssetsPathBuilder.cs" t="Include" />
           <e p="AssetsUrlBuilder.cs" t="Include" />
           <e p="AsynchronousAssetsDownloader.cs" t="Include" />

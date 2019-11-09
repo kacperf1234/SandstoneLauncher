@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
@@ -24,13 +26,17 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 
         public void Download(Assets assets, FullVersion version)
         {
+            Console.WriteLine(assets.Keys.Count());
+            
             foreach (string key in assets.AssetList.Keys)
             {
                 Asset asset = Extractor.Get(assets, key);
                 string url = UrlBuilder.BuildUrl(asset.Hash);
                 string dest = PathBuilder.GetAbsolutePath(asset.Hash);
 
-                Downloader.Download(url, dest);
+                Console.WriteLine($"hash: {asset.Hash}\ntrace: {url} --> {dest}\n\n");
+
+                Downloader.DownloadAsync(url, dest);
             }
 
             IndexCreator.Create(assets.BaseJson, version.Assets);

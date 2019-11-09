@@ -275,6 +275,7 @@
         <e p="fullversionparser_parse_tests.cs" t="Include" />
         <e p="gamepathbuilder_getabsolutepath_tests.cs" t="Include" />
         <e p="hashcombiner_getfirstletters_tests.cs" t="Include" />
+        <e p="httpbytesreader_readbytes_tests.cs" t="Include" />
         <e p="httpdownloader_download_tests.cs" t="Include" />
         <e p="httpdownloader_downloadasync_tests.cs" t="Include" />
         <e p="httpdownloader_get_default_tests.cs" t="Include" />

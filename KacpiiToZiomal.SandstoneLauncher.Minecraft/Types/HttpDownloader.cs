@@ -33,16 +33,23 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
             }
         }
 
-        public Task DownloadAsync(string url, string destination)
+        public Task DownloadAsync(string url, string destination, Action<string, string, bool> act = null)
         {
-            using (HttpClient http = new HttpClient())
+            return Task.Run(() =>
             {
-                return Task.Run(() =>
+                try
                 {
                     byte[] bytes = BytesReader.ReadBytes(url);
                     FileCreator.Create(destination, bytes);
-                });
-            }
+                    
+                    act?.Invoke(url, destination, true);
+                }
+
+                catch (Exception e)
+                {
+                    act?.Invoke(url, destination, false);
+                }
+            });
         }
     }
 }

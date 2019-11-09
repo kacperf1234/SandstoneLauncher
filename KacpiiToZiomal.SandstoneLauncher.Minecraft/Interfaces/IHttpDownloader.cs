@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces
 {
@@ -6,6 +7,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces
     {
         void Download(string url, string destination);
 
-        Task DownloadAsync(string url, string destination);
+        Task DownloadAsync(string url, string destination, Action<string, string, bool> act = null);
     }
 }

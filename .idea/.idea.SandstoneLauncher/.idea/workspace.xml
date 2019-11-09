@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68421450-4a97-47d1-90cd-d76724398312" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.pdb" afterDir="false" />
@@ -12,14 +11,14 @@
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IHttpDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IHttpDownloader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AssetsDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AssetsDownloader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/HttpDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/HttpDownloader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +44,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IAsynchronosGameFilesDownloader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkStyle.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Types/ProfilesReader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -208,18 +208,18 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IBytesReader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IHttpBytesReader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IFileCreator.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IHttpDownloader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Enums/DownloadState.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/HttpBytesReader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/GameFilesDownloader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AsynchronousGameFilesDownloader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpdownloader_download_tests.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/HttpDownloader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpdownloader_get_default_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativesdownloader_download_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/FileCreator.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpdownloader_downloadasync_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpbytesreader_readbytes_tests.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/HttpDownloader.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IHttpDownloader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AssetsDownloader.cs" />
       </list>
     </option>
@@ -347,6 +347,8 @@
       <workItem from="1573302563231" duration="33000" />
       <workItem from="1573302819392" duration="243000" />
       <workItem from="1573303538061" duration="150000" />
+      <workItem from="1573310355936" duration="103000" />
+      <workItem from="1573311144742" duration="267000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />

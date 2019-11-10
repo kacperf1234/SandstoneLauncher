@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
@@ -9,30 +10,33 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
     public class AssetsDownloader : IAssetsDownloader
     {
         public IHttpDownloader Downloader;
-        public IAssetsExtractor Extractor;
+        public IAssetsExtractor Extractor; // TODO to remove
+        public IAssetsListFilter AssetsFilter;
         public IAssetsIndexCreator IndexCreator;
         public IAssetsPathBuilder PathBuilder;
         public IAssetsUrlBuilder UrlBuilder;
 
         public AssetsDownloader(IAssetsExtractor extractor, IAssetsUrlBuilder urlBuilder, IHttpDownloader downloader,
-            IAssetsPathBuilder pathBuilder, IAssetsIndexCreator creator)
+            IAssetsPathBuilder pathBuilder, IAssetsIndexCreator creator, IAssetsListFilter assetsFilter)
         {
             Extractor = extractor;
             UrlBuilder = urlBuilder;
             Downloader = downloader;
             PathBuilder = pathBuilder;
             IndexCreator = creator;
+            AssetsFilter = assetsFilter;
         }
 
         public void Download(Assets assets, FullVersion version)
         {
-            foreach (string key in assets.AssetList.Keys)
+            IEnumerable<Asset> listAssets = AssetsFilter.Filter(assets);
+            
+            foreach (Asset asset in listAssets)
             {
-                Asset asset = Extractor.Get(assets, key);
+                string path = PathBuilder.GetAbsolutePath(asset.Hash);
                 string url = UrlBuilder.BuildUrl(asset.Hash);
-                string dest = PathBuilder.GetAbsolutePath(asset.Hash);
-
-                Downloader.DownloadAsync(url, dest);
+                
+                Downloader.DownloadAsync(url, path);
             }
 
             IndexCreator.Create(assets.BaseJson, version.Assets);

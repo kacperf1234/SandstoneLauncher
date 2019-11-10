@@ -58,7 +58,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
                 new AssetsDownloader(new AssetsExtractor(), new AssetsUrlBuilder(new HashCombiner()),
                     new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
                     new AssetsPathBuilder(new MinecraftDirectory(), new HashCombiner()),
-                    new AssetsIndexCreator(new MinecraftDirectory(), new FileCreator(new FileNameRemover()))),
+                    new AssetsIndexCreator(new MinecraftDirectory(), new FileCreator(new FileNameRemover())), new AssetsListFilter()),
                 new ClientDownloader(new ClientPathFinder(new MinecraftDirectory()),
                     new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()))),
                 new FullVersionManifestDownloader(new MinecraftDirectory(),

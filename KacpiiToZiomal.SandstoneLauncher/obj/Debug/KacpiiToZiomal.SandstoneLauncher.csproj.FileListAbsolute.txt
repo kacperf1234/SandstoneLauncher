@@ -37,7 +37,6 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\D
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\KacpiiToZiomal.SandstoneLauncher.Resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\KacpiiToZiomal.SandstoneLauncher.Resources.pdb
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\KacpiiToZiomal.SandstoneLauncher.Resources.dll.config
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\Resources\DarkColors.baml

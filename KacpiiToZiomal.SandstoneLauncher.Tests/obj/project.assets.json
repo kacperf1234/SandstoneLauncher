@@ -1390,24 +1390,11 @@
       },
       "KacpiiToZiomal.SandstoneLauncher/1.0.0": {
         "type": "project",
-        "dependencies": {
-          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.dll": {}
         },
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.dll": {}
-        }
-      },
-      "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.0",
-        "compile": {
-          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
         }
       }
     }
@@ -5022,11 +5009,6 @@
       "type": "project",
       "path": "../KacpiiToZiomal.SandstoneLauncher/KacpiiToZiomal.SandstoneLauncher.csproj",
       "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher/KacpiiToZiomal.SandstoneLauncher.csproj"
-    },
-    "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
-      "type": "project",
-      "path": "../KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj",
-      "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj"
     }
   },
   "projectFileDependencyGroups": {

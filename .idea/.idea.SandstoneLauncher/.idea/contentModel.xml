@@ -332,13 +332,17 @@
         <e p="KacpiiToZiomal.SandstoneLauncher.Resources.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
+            <e p="net472" t="Include">
+              <e p="KacpiiToZiomal.SandstoneLauncher.Resources.AssemblyInfo.cs" t="Include" />
+            </e>
             <e p="netcoreapp3.0" t="Include">
               <e p="KacpiiToZiomal.SandstoneLauncher.Resources.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="UserControl1.xaml" t="Include" />
-        <e p="UserControl1.xaml.cs" t="Include" />
+        <e p="Styles" t="Include">
+          <e p="DarkStyle.xaml" t="Include" />
+        </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Tests" t="IncludeRecursive">
         <e p="applicationdata_getbinaries_tests.cs" t="Include" />

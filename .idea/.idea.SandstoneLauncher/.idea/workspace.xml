@@ -3,21 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="68421450-4a97-47d1-90cd-d76724398312" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Properties/Resources.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Properties/Resources.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/KacpiiToZiomal.SandstoneLauncher.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/KacpiiToZiomal.SandstoneLauncher.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp2.2/KacpiiToZiomal.SandstoneLauncher.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/UserControl1.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/UserControl1.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/obj/KacpiiToZiomal.SandstoneLauncher.Resources.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/obj/KacpiiToZiomal.SandstoneLauncher.Resources.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/obj/KacpiiToZiomal.SandstoneLauncher.Resources.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/obj/KacpiiToZiomal.SandstoneLauncher.Resources.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Tests.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Tests.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/KacpiiToZiomal.SandstoneLauncher.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/KacpiiToZiomal.SandstoneLauncher.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IAsynchronosGameFilesDownloader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Styles/DarkStyles.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IFileCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IHttpDownloader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IAssetsDownloader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -139,8 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/profilesreader_readprofiles_tests.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles.Tests/profileswriter_writeprofiles_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Windows/ProfilesWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Windows/ProfilesWindow.xaml" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Dict.xaml" />
@@ -153,7 +152,6 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml" />
         <option value="$PROJECT_DIR$/WindowTests/Program.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkStyle.xaml" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/App.xaml" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/VersionTypeGetter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Models/LatestGameVersion.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/FullVersionFinder.cs" />
@@ -183,13 +181,16 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IAssetsMultipliedFilter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AssetsMultipliedFilter.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/HttpDownloader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IAssetsListFilter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AssetsListFilter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AssetsDownloader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/AsynchronousGameFilesDownloader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/GameFilesDownloader.cs" />
         <option value="$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/Program.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/HttpDownloader.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Styles/Styles.xaml" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/App.xaml" />
       </list>
     </option>
   </component>
@@ -218,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.LauncherSample">
+  <component name="RunManager" selected=".NET Project.Wpf">
     <configuration name="LauncherSample" type="DotNetProject" factoryName=".NET Project" temporary="true">
       <option name="EXE_PATH" value="$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/bin/Debug/netcoreapp2.2/LauncherSample.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />

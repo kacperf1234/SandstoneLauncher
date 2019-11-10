@@ -2,12 +2,12 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:KacpiiToZiomal.SandstoneLauncher"
-             StartupUri="Windows/LauncherFrame.xaml">
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/KacpiiToZiomal.SandstoneLauncher.Resources;component/Styles/WindowStyles.xaml"></ResourceDictionary>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
+         <ResourceDictionary>
+             <ResourceDictionary.MergedDictionaries>
+                 <ResourceDictionary Source="pack://application:,,,/KacpiiToZiomal.SandstoneLauncher.Resources;component/Styles/WindowStyles.xaml"></ResourceDictionary>
+             </ResourceDictionary.MergedDictionaries>
+         </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -327,15 +327,18 @@
         <e p="versiontypegetter_getversiontype_tests.cs" t="Include" />
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Resources" t="IncludeRecursive">
-        <e p="App.config" t="Include" />
+        <e p="AssemblyInfo.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="KacpiiToZiomal.SandstoneLauncher.Resources.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-          <e p="Resources.Designer.cs" t="Include" />
-          <e p="Resources.resx" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="KacpiiToZiomal.SandstoneLauncher.Resources.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
         </e>
+        <e p="UserControl1.xaml" t="Include" />
+        <e p="UserControl1.xaml.cs" t="Include" />
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Tests" t="IncludeRecursive">
         <e p="applicationdata_getbinaries_tests.cs" t="Include" />
@@ -344,7 +347,7 @@
         <e p="KacpiiToZiomal.SandstoneLauncher.Tests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.2" t="Include">
+            <e p="netcoreapp3.0" t="Include">
               <e p="KacpiiToZiomal.SandstoneLauncher.Tests.AssemblyInfo.cs" t="Include" />
               <e p="KacpiiToZiomal.SandstoneLauncher.Tests.Program.cs" t="Include" />
             </e>

@@ -9,10 +9,46 @@
       "restore": {
         "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj",
         "projectName": "KacpiiToZiomal.SandstoneLauncher.Resources",
-        "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj"
+        "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj",
+        "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
       },
       "frameworks": {
-        "net461": {}
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
       }
     },
     "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Tests\\KacpiiToZiomal.SandstoneLauncher.Tests.csproj": {
@@ -31,13 +67,13 @@
           "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp3.0": {
             "projectReferences": {
               "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj": {
                 "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.csproj"
@@ -52,17 +88,11 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp3.0": {
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[15.9.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
             },
             "NUnit3TestAdapter": {
               "target": "Package",

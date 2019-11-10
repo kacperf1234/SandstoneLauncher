@@ -3,8 +3,8 @@ using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces
 {
-    public interface IAssetsMultipliedFilter
+    public interface IAssetsListFilter
     {
-        Dictionary<string, Asset> Filter(Dictionary<string, Asset> assets);
+        IEnumerable<Asset> Filter(Assets assets);
     }
 }

@@ -1,7 +1,8 @@
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\bin\Debug\net472\KacpiiToZiomal.SandstoneLauncher.Resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\bin\Debug\net472\KacpiiToZiomal.SandstoneLauncher.Resources.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\net472\KacpiiToZiomal.SandstoneLauncher.Resources.csprojAssemblyReference.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\net472\Styles\DarkStyles.baml
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\net472\Colors\WindowColors.baml
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\net472\Styles\WindowStyles.baml
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\net472\KacpiiToZiomal.SandstoneLauncher.Resources_MarkupCompile.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\net472\KacpiiToZiomal.SandstoneLauncher.Resources.g.resources
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\net472\KacpiiToZiomal.SandstoneLauncher.Resources.AssemblyInfoInputs.cache

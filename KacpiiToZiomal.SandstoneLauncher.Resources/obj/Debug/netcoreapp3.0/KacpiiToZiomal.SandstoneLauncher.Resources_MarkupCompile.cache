@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_0
 
-1-1038911162
+21690235236
 
 1-1789982922
 192673164761
-Styles\DarkStyles.xaml;
+Colors\WindowColors.xaml;Styles\WindowStyles.xaml;
 
 False
 

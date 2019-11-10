@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETFRAMEWORK;NET472
 
-1-1038911162
+21690235236
 
 1-1789982922
 191762408055
-Styles\DarkStyles.xaml;
+Colors\WindowColors.xaml;Styles\WindowStyles.xaml;
 
 False
 

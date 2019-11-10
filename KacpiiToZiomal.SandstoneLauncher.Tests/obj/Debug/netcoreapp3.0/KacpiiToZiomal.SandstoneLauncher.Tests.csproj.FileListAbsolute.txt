@@ -86,10 +86,8 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.exe
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.exe.config
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Tests.csprojAssemblyReference.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Tests.AssemblyInfoInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Tests.AssemblyInfo.cs

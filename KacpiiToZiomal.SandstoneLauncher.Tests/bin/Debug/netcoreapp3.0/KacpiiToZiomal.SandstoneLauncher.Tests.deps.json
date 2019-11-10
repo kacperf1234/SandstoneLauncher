@@ -974,16 +974,8 @@
         }
       },
       "KacpiiToZiomal.SandstoneLauncher/1.0.0": {
-        "dependencies": {
-          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0"
-        },
         "runtime": {
           "KacpiiToZiomal.SandstoneLauncher.exe": {}
-        }
-      },
-      "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
-        "runtime": {
-          "KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
         }
       }
     }
@@ -1492,11 +1484,6 @@
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
     "KacpiiToZiomal.SandstoneLauncher/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

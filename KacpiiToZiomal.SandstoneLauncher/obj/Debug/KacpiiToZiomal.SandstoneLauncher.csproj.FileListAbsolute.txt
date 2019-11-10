@@ -31,10 +31,10 @@ C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\Windows\LauncherFrame.g.cs
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\KacpiiToZiomal.SandstoneLauncher_MarkupCompile.lref
 C:\Users\Kacpii\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\App.baml
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\KacpiiToZiomal.SandstoneLauncher.Resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\KacpiiToZiomal.SandstoneLauncher.exe.config
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\KacpiiToZiomal.SandstoneLauncher.exe
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\KacpiiToZiomal.SandstoneLauncher.pdb
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\KacpiiToZiomal.SandstoneLauncher.Resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\KacpiiToZiomal.SandstoneLauncher.Resources.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\Newtonsoft.Json.xml

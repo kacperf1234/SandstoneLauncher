@@ -6,8 +6,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/DarkStyle.xaml"></ResourceDictionary>
-                <ResourceDictionary Source="Resources/DarkColors.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/KacpiiToZiomal.SandstoneLauncher.Resources;component/Styles/DarkStyle.xaml"></ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

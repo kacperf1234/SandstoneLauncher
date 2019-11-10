@@ -6,12 +6,10 @@
     "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj",
     "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\obj\\",
     "projectStyle": "PackageReference",
-    "crossTargeting": true,
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "net472",
       "netcoreapp3.0"
     ],
     "sources": {
@@ -19,9 +17,6 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
-        "projectReferences": {}
-      },
-      "net472": {
         "projectReferences": {}
       }
     },
@@ -43,7 +38,6 @@
       ],
       "assetTargetFallback": true,
       "warn": true
-    },
-    "net472": {}
+    }
   }
 }

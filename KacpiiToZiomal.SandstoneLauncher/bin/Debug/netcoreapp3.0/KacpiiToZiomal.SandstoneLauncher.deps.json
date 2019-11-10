@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "KacpiiToZiomal.SandstoneLauncher/1.0.0": {
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.dll": {}
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KacpiiToZiomal.SandstoneLauncher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

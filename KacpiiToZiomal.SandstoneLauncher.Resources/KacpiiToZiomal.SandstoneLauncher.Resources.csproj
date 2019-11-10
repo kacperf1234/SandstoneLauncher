@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <UseWPF>true</UseWPF>
-    <TargetFrameworks>net472;netcoreapp3.0</TargetFrameworks>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
 </Project>

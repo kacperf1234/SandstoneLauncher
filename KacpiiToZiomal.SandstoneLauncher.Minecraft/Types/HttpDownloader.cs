@@ -16,8 +16,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
         public IHttpBytesReader BytesReader;
         public IFileCreator FileCreator;
 
-        private bool CanRetry = true;
-
         public HttpDownloader(IHttpBytesReader bytesReader, IFileCreator fileCreator)
         {
             BytesReader = bytesReader;

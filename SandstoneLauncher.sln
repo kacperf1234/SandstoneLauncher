@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLau
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LauncherSample", "..\..\RiderProjects\LauncherSample\LauncherSample\LauncherSample.csproj", "{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Resources", "KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj", "{7A465260-9C0E-453C-B325-2F21D6F26173}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Resources", "KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj", "{AC100A48-9188-420D-9AF0-727015B54939}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,10 +38,10 @@ Global
 		{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A465260-9C0E-453C-B325-2F21D6F26173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A465260-9C0E-453C-B325-2F21D6F26173}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A465260-9C0E-453C-B325-2F21D6F26173}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A465260-9C0E-453C-B325-2F21D6F26173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC100A48-9188-420D-9AF0-727015B54939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC100A48-9188-420D-9AF0-727015B54939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC100A48-9188-420D-9AF0-727015B54939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC100A48-9188-420D-9AF0-727015B54939}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

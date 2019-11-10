@@ -37,22 +37,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 
         public void DownloadAsync(string url, string destination, Action<string, string, bool> act = null)
         {
-            Thread thread = new Thread(() =>
-            {
-                try
-                {
-                    DownloadFile(url, destination);
-                }
-
-                catch
-                {
-                    Thread.Sleep(300);
-                    
-                    DownloadFile(url, destination);
-                }
-                
-            });
-            
+            Thread thread = new Thread((x) => DownloadFile(url, destination));
             thread.Start();
         }
     }

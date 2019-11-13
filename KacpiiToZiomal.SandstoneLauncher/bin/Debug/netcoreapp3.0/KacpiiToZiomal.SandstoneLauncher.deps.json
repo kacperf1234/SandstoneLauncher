@@ -14,7 +14,73 @@
           "KacpiiToZiomal.SandstoneLauncher.dll": {}
         }
       },
+      "ControlzEx/4.1.1": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.0.30"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ControlzEx.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.1.1.11"
+          }
+        }
+      },
+      "Expression.Blend.Sdk/1.0.0": {
+        "runtime": {
+          "lib/net40-client/System.Windows.Interactivity.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "2.0.20525.0"
+          }
+        }
+      },
+      "MahApps.Metro/2.0.0-alpha0589": {
+        "dependencies": {
+          "ControlzEx": "4.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MahApps.Metro.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.589"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.0.30": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.30.56083"
+          }
+        }
+      },
+      "Selen.Wpf/1.0.0": {
+        "dependencies": {
+          "Expression.Blend.Sdk": "1.0.0",
+          "MahApps.Metro": "2.0.0-alpha0589"
+        },
+        "runtime": {
+          "lib/net45/Selen.Wpf.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net45/Selen.Wpf.GenericAppTree.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net45/Selen.Wpf.GenericAppTree.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net45/Selen.Wpf.SystemStyles.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
+        "dependencies": {
+          "MahApps.Metro": "2.0.0-alpha0589",
+          "Selen.Wpf": "1.0.0"
+        },
         "runtime": {
           "KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
         }
@@ -26,6 +92,41 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "ControlzEx/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xzx0ESf30hiQ/bG5ZtdzWjyHJ8SvAqTP1y8hWdrkcLj10MM2Ody53pbmz2A2W3wE1HP2I1baFf4hgo9S47J+fw==",
+      "path": "controlzex/4.1.1",
+      "hashPath": "controlzex.4.1.1.nupkg.sha512"
+    },
+    "Expression.Blend.Sdk/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E5/z1ApCG9TWZy947Rc9vPOTtSvm0nQzIbqqaKpcSVfzcGS5javozMLcl1dMsyBtRXIQh54TUN4cPawXffKOBg==",
+      "path": "expression.blend.sdk/1.0.0",
+      "hashPath": "expression.blend.sdk.1.0.0.nupkg.sha512"
+    },
+    "MahApps.Metro/2.0.0-alpha0589": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DhyNJFW9SrUmYGEYQqbmN4x/o1hgtRxTMnQ9eZlsMw/CPQtb72rZ4oFCGO/wC5jZij8ta8w9TvqMT/nq0V+ckA==",
+      "path": "mahapps.metro/2.0.0-alpha0589",
+      "hashPath": "mahapps.metro.2.0.0-alpha0589.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D3xG0/rKRTv5SKiABGs68HfYjASwyGFO19P41FI8fHyPKA8mq7U8rU7q0RwMCooDQ1JCgUPOCTFHGyGXyG8gvw==",
+      "path": "microsoft.xaml.behaviors.wpf/1.0.30",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.0.30.nupkg.sha512"
+    },
+    "Selen.Wpf/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-evZgr7WdsWijbaIjPlIvUBfM5CtNN5K7qAFJqU02MO0F57k/Kys00HVXWdrlRu0M7iccUZnQuztH9gyDsHODjA==",
+      "path": "selen.wpf/1.0.0",
+      "hashPath": "selen.wpf.1.0.0.nupkg.sha512"
     },
     "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
       "type": "project",

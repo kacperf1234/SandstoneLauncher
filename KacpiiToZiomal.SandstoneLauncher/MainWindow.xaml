@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KacpiiToZiomal.SandstoneLauncher"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Style="{StaticResource WindowStyle}">
+        Height="450" Width="800" Style="{StaticResource WindowStyle}">
     <Grid>
-        <Button Style="{StaticResource ButtonStyle}" Content="Save As" Width="75" Height="28"></Button>
+       
     </Grid>
 </Window>

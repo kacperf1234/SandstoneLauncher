@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
     public class AssetsDownloader : IAssetsDownloader
     {
+        public IAssetsListFilter AssetsFilter;
         public IHttpDownloader Downloader;
         public IAssetsExtractor Extractor; // TODO to remove
-        public IAssetsListFilter AssetsFilter;
         public IAssetsIndexCreator IndexCreator;
         public IAssetsPathBuilder PathBuilder;
         public IAssetsUrlBuilder UrlBuilder;
@@ -30,12 +28,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
         public void Download(Assets assets, FullVersion version)
         {
             IEnumerable<Asset> listAssets = AssetsFilter.Filter(assets);
-            
+
             foreach (Asset asset in listAssets)
             {
                 string path = PathBuilder.GetAbsolutePath(asset.Hash);
                 string url = UrlBuilder.BuildUrl(asset.Hash);
-                
+
                 Downloader.DownloadAsync(url, path);
             }
 

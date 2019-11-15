@@ -1,5 +1,5 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
+﻿using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 using Newtonsoft.Json;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types

@@ -1,6 +1,6 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
+﻿using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
@@ -52,13 +52,15 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
                     new NativesTemporaryPathFinder(new FileNameExtractor(new PathConverter()),
                         new MinecraftDirectory()), new JarFileExtractor(),
                     new NativesDirectory(new MinecraftDirectory(), new DirectoryCreator(new FileNameRemover()))),
-                new LibrariesDownloader(new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
+                new LibrariesDownloader(
+                    new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
                     new LibraryPathBuilder(new MinecraftDirectory(), new PathConverter()),
                     new LibraryValidator(new RulesValidator())),
                 new AssetsDownloader(new AssetsExtractor(), new AssetsUrlBuilder(new HashCombiner()),
                     new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
                     new AssetsPathBuilder(new MinecraftDirectory(), new HashCombiner()),
-                    new AssetsIndexCreator(new MinecraftDirectory(), new FileCreator(new FileNameRemover())), new AssetsListFilter()),
+                    new AssetsIndexCreator(new MinecraftDirectory(), new FileCreator(new FileNameRemover())),
+                    new AssetsListFilter()),
                 new ClientDownloader(new ClientPathFinder(new MinecraftDirectory()),
                     new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()))),
                 new FullVersionManifestDownloader(new MinecraftDirectory(),

@@ -1,7 +1,6 @@
 ﻿#region
 
 using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using Newtonsoft.Json;
 using NUnit.Framework;
 
@@ -37,7 +36,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
 
         private class sampleclass
         {
-            [JsonProperty("boruto")] public string Name;
+            [JsonProperty("boruto")] 
+            public string Name;
+            
             public int X;
             public int Y;
         }

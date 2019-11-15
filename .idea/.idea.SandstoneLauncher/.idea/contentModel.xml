@@ -263,6 +263,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="credentialsjsonbuilder_build.cs" t="Include" />
         <e p="KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.csproj" t="IncludeRecursive" />
+        <e p="launcherprofilespathbuilder_build_tests.cs" t="Include" />
         <e p="mojangauthentication_authenticate_tests.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -340,7 +341,6 @@
         <e p="javapathfinder_getjavapath_tests.cs" t="Include" />
         <e p="jsondeserializer_deserialize_tests.cs" t="Include" />
         <e p="KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj" t="IncludeRecursive" />
-        <e p="launcherprofilespathbuilder_build_tests.cs" t="Include" />
         <e p="librariesconverter_convert_array_tests.cs" t="Include" />
         <e p="librariesconverter_tostringarray_tests.cs" t="Include" />
         <e p="librariespathconverter_convert_tests.cs" t="Include" />

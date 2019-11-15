@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.CommonControls\\KacpiiToZiomal.SandstoneLauncher.CommonControls.csproj",
-    "projectName": "KacpiiToZiomal.SandstoneLauncher.CommonControls",
-    "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.CommonControls\\KacpiiToZiomal.SandstoneLauncher.CommonControls.csproj",
-    "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.CommonControls\\obj\\",
+    "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Accounts\\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj",
+    "projectName": "KacpiiToZiomal.SandstoneLauncher.Accounts",
+    "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Accounts\\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj",
+    "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Accounts\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

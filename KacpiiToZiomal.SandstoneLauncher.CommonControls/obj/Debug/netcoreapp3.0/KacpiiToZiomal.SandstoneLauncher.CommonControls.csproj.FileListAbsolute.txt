@@ -1,8 +1,0 @@
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.CommonControls\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.CommonControls.deps.json
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.CommonControls\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.CommonControls.dll
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.CommonControls\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.CommonControls.pdb
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.CommonControls\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.CommonControls.csprojAssemblyReference.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.CommonControls\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.CommonControls.AssemblyInfoInputs.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.CommonControls\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.CommonControls.AssemblyInfo.cs
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.CommonControls\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.CommonControls.dll
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.CommonControls\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.CommonControls.pdb

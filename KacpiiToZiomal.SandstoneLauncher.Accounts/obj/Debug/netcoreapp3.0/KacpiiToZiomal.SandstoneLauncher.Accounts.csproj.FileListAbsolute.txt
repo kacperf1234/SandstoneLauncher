@@ -6,3 +6,13 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accou
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.AssemblyInfo.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Commons.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Commons.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\obj\Debug\netcoreapp3.0\Windows\AddAccount.g.cs
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts_MarkupCompile.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts_MarkupCompile.lref
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\obj\Debug\netcoreapp3.0\Windows\AddAccount.baml
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.g.resources
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj.CopyComplete

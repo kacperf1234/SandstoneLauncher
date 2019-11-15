@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 

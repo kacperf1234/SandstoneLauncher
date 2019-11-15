@@ -53,6 +53,15 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Selen.Wpf/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -70,6 +79,34 @@
           "lib/net45/Selen.Wpf.GenericAppTree.Contracts.dll": {},
           "lib/net45/Selen.Wpf.GenericAppTree.dll": {},
           "lib/net45/Selen.Wpf.SystemStyles.dll": {}
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Accounts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Accounts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Accounts.dll": {}
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
         }
       },
       "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
@@ -166,6 +203,36 @@
         "microsoft.xaml.behaviors.wpf.nuspec"
       ]
     },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
     "Selen.Wpf/1.0.0": {
       "sha512": "evZgr7WdsWijbaIjPlIvUBfM5CtNN5K7qAFJqU02MO0F57k/Kys00HVXWdrlRu0M7iccUZnQuztH9gyDsHODjA==",
       "type": "package",
@@ -181,6 +248,16 @@
         "selen.wpf.nuspec"
       ]
     },
+    "KacpiiToZiomal.SandstoneLauncher.Accounts/1.0.0": {
+      "type": "project",
+      "path": "../KacpiiToZiomal.SandstoneLauncher.Accounts/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj",
+      "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Accounts/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj"
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+      "type": "project",
+      "path": "../KacpiiToZiomal.SandstoneLauncher.Commons/KacpiiToZiomal.SandstoneLauncher.Commons.csproj",
+      "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Commons/KacpiiToZiomal.SandstoneLauncher.Commons.csproj"
+    },
     "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
       "type": "project",
       "path": "../KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj",
@@ -189,6 +266,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "KacpiiToZiomal.SandstoneLauncher.Accounts >= 1.0.0",
       "KacpiiToZiomal.SandstoneLauncher.Resources >= 1.0.0"
     ]
   },
@@ -220,6 +298,9 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
+            "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Accounts\\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj": {
+              "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Accounts\\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj"
+            },
             "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj": {
               "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj"
             }

@@ -1,7 +1,7 @@
 ﻿using System.IO;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
+namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
 {
     public class FileReader : IFileReader
     {

@@ -27,3 +27,8 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\D
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\Selen.Wpf.GenericAppTree.Contracts.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\Selen.Wpf.GenericAppTree.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\Selen.Wpf.SystemStyles.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Commons.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Commons.pdb

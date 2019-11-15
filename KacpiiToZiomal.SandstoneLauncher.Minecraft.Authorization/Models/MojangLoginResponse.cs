@@ -1,5 +1,4 @@
 ﻿using KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Enums;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 using Newtonsoft.Json;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Models

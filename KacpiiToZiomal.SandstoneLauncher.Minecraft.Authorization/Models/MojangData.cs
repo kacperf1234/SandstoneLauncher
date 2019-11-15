@@ -1,6 +1,4 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Models;
-
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Models
+﻿namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Models
 {
     /// <summary>
     ///     full view with used credentials, server response and (if 200) user data. like email

@@ -1,12 +1,12 @@
 ﻿#region
 
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Models;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Types;
 using NUnit.Framework;
 
 #endregion
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
+namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests
 {
     public class credentialsjsonbuilder_build
     {

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Text;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
@@ -24,6 +24,18 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
             LibraryValidator = validator;
         }
 
+        public string Convert(string[] libs)
+        {
+            StringBuilder b = new StringBuilder();
+
+            foreach (string lib in libs)
+                if (LibraryChecker.CheckFile(lib))
+                    b.Append(lib + ";");
+
+            string result = b.ToString();
+            return result;
+        }
+
         public string[] ToStringArray(Library[] libs, OS sys)
         {
             List<string> list = new List<string>();
@@ -38,18 +50,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
             }
 
             return list.ToArray();
-        }
-
-        public string Convert(string[] libs)
-        {
-            StringBuilder b = new StringBuilder();
-
-            foreach (string lib in libs)
-                if (LibraryChecker.CheckFile(lib))
-                    b.Append(lib + ";");
-
-            string result = b.ToString();
-            return result;
         }
     }
 }

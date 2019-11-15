@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
@@ -59,7 +59,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
                     new NativesTemporaryPathFinder(new FileNameExtractor(new PathConverter()), minecraft),
                     new JarFileExtractor(),
                     new NativesDirectory(minecraft, new DirectoryCreator(new FileNameRemover()))),
-                new LibrariesDownloader(new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
+                new LibrariesDownloader(
+                    new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover())),
                     new LibraryPathBuilder(minecraft, new PathConverter()), new LibraryValidator(new RulesValidator())),
                 new ClientDownloader(new ClientPathFinder(minecraft),
                     new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()))),

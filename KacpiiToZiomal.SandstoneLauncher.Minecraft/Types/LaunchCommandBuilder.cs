@@ -1,6 +1,6 @@
 ﻿using System.Text;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
@@ -14,6 +14,11 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
         {
             Converter = converter;
             MemoryBuilder = memoryBuilder;
+        }
+
+        public string GetCommand()
+        {
+            return BuildResult;
         }
 
         public void Build(LaunchArguments arguments)
@@ -47,11 +52,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
             b.Append($"--uuid {arguments.GetUUID()} ");
 
             BuildResult = b.ToString();
-        }
-
-        public string GetCommand()
-        {
-            return BuildResult;
         }
 
         public string GetCommand(LaunchArguments arguments)

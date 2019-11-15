@@ -1,4 +1,5 @@
 ﻿using System.Net.Http;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Exceptions;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
 

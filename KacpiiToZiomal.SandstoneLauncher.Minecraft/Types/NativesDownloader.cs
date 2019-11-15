@@ -1,6 +1,7 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
+﻿using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
@@ -30,7 +31,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
         public void Download(Library[] libraries, OS system, FullVersion version)
         {
             foreach (Library library in libraries)
-            {
                 if (NativesValidator.Validate(library, system))
                 {
                     DownloadArtifact artifact = ArtifactFinder.GetDownloadArtifact(library, system);
@@ -40,7 +40,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 
                     JarExtractor.ExtractAll(tmpdest, NativesDirectory.GetDirectory(version.Id));
                 }
-            }
         }
 
         public void Download(Library library, OS system, FullVersion version)

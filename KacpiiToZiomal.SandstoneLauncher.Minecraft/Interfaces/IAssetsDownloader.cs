@@ -1,4 +1,4 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
+﻿using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces
 {

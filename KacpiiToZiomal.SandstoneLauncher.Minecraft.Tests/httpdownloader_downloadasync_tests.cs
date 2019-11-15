@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Threading.Tasks;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 
@@ -8,15 +7,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
 {
     public class httpdownloader_downloadasync_tests
     {
-        private string Filename = "tests\\"+Guid.NewGuid().ToString() + ".html";
+        private string Filename = "tests\\" + Guid.NewGuid() + ".html";
         private string Url = "https://file-examples.com/wp-content/uploads/2017/02/index.html";
-        
+
         [SetUp]
         public void setup()
         {
             HttpDownloader downloader = HttpDownloader.Default;
             downloader.DownloadAsync(Url, Filename);
-            
         }
 
         [TearDown]

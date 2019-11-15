@@ -9,6 +9,8 @@
       "KacpiiToZiomal.SandstoneLauncher.Minecraft/1.0.0": {
         "dependencies": {
           "DotNetZip": "1.13.3",
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons": "1.0.0",
           "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
@@ -86,6 +88,22 @@
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll": {}
         }
       }
     }
@@ -179,6 +197,16 @@
       "sha512": "sha512-YVMK0Bt/A43RmwizJoZ22ei2nmrhobgeiYwFzC4YAN+nue8RF6djXDMog0UCn+brerQoYVyaS+ghy9P/MUVcmw==",
       "path": "system.text.encoding.extensions/4.3.0",
       "hashPath": "system.text.encoding.extensions.4.3.0.nupkg.sha512"
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -1,7 +1,6 @@
 ﻿#region
 
 using System.IO;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.Exceptions;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 

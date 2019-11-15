@@ -1,7 +1,6 @@
 ﻿#region
 
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 
@@ -14,7 +13,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         private FullVersion execute(string url)
         {
             FullVersionFinder finder = new FullVersionFinder(new NetworkClient(), new FullVersionParser());
-            return finder.Find("https://launchermeta.mojang.com/v1/packages/7f40b382dedcfe9eca74a5b14d615075ec34c108/1.9.4.json");
+            return finder.Find(
+                "https://launchermeta.mojang.com/v1/packages/7f40b382dedcfe9eca74a5b14d615075ec34c108/1.9.4.json");
         }
 
         [Test]

@@ -1,0 +1,8 @@
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\bin\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.deps.json
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\bin\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\bin\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csprojAssemblyReference.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.AssemblyInfoInputs.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.AssemblyInfo.cs
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb

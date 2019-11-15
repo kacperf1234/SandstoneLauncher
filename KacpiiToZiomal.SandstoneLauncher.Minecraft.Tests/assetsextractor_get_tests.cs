@@ -1,7 +1,6 @@
 ﻿#region
 
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 using NUnit.Framework;
 
 #endregion

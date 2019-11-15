@@ -3,7 +3,6 @@
 using System;
 using System.IO;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 
@@ -22,7 +21,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         {
             FileName = "tests\\" + Guid.NewGuid() + Ext;
 
-            IHttpDownloader downloader = new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()));
+            IHttpDownloader downloader =
+                new HttpDownloader(new HttpBytesReader(), new FileCreator(new FileNameRemover()));
             downloader.Download(Url, FileName);
         }
 

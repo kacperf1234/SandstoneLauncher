@@ -97,3 +97,7 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minec
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Commons.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Commons.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb

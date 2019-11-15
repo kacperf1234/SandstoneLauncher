@@ -1020,13 +1020,31 @@
           }
         }
       },
+      "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
+        }
+      },
       "KacpiiToZiomal.SandstoneLauncher.Minecraft/1.0.0": {
         "dependencies": {
           "DotNetZip": "1.13.3",
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons": "1.0.0",
           "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "KacpiiToZiomal.SandstoneLauncher.Minecraft.dll": {}
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll": {}
         }
       }
     }
@@ -1576,7 +1594,17 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
+    "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "KacpiiToZiomal.SandstoneLauncher.Minecraft/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

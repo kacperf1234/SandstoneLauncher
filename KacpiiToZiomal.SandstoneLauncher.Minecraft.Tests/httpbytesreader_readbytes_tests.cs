@@ -5,7 +5,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
 {
     public class httpbytesreader_readbytes_tests
     {
-        byte[] execute(string url)
+        private byte[] execute(string url)
         {
             HttpBytesReader r = new HttpBytesReader();
             byte[] readBytes = r.ReadBytes(url);
@@ -16,7 +16,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         [Test]
         public void dont_throws_exceptions()
         {
-            Assert.DoesNotThrow(() => { execute("http://www.google.com");});
+            Assert.DoesNotThrow(() => { execute("http://www.google.com"); });
         }
 
         [Test]

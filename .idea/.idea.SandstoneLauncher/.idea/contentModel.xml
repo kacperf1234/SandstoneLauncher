@@ -27,14 +27,14 @@
           </e>
         </e>
       </e>
-      <e p="KacpiiToZiomal.SandstoneLauncher.CommonControls" t="IncludeRecursive">
+      <e p="KacpiiToZiomal.SandstoneLauncher.Accounts" t="IncludeRecursive">
         <e p="AssemblyInfo.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="KacpiiToZiomal.SandstoneLauncher.CommonControls.csproj" t="IncludeRecursive" />
+        <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
-              <e p="KacpiiToZiomal.SandstoneLauncher.CommonControls.AssemblyInfo.cs" t="Include" />
+              <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -331,7 +331,7 @@
           </e>
         </e>
         <e p="Styles" t="Include">
-          <e p="STyles.xaml" t="Include" />
+          <e p="Styles.xaml" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />

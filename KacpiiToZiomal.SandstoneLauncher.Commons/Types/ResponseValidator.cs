@@ -2,7 +2,7 @@
 using System.Net.Http;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
+namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
 {
     public class ResponseValidator : IResponseValidator
     {

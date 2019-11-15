@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Text;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
+namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
 {
     public class NetworkClient : IHttpClient
     {

@@ -1,16 +1,14 @@
 ﻿#region
 
 using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Types;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 
 #endregion
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
+namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests
 {
     public class mojangauthentication_authenticate_tests
     {

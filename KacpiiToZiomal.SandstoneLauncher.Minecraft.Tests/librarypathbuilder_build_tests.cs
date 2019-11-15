@@ -1,6 +1,7 @@
 ﻿#region
 
 using System;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;

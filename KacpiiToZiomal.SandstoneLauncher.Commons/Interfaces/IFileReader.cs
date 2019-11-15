@@ -1,4 +1,4 @@
-﻿namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces
+﻿namespace KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces
 {
     public interface IFileReader
     {

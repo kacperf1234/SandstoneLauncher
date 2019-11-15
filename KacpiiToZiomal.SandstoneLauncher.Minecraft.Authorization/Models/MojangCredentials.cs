@@ -1,4 +1,4 @@
-﻿namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Models
+﻿namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Models
 {
     public class MojangCredentials
     {

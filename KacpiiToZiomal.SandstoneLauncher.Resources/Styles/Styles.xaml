@@ -13,10 +13,20 @@
     <Style x:Key="WindowStyle" TargetType="Window" BasedOn="{StaticResource StandardWindow}"/>
     <Style x:Key="ButtonStyle" TargetType="Button" BasedOn="{StaticResource StandardButton}"/> 
     <Style x:Key="MenuStyle" TargetType="Menu" BasedOn="{StaticResource StandardMenu}"/>
-    <Style x:Key="TextBoxStyle" TargetType="TextBox" BasedOn="{StaticResource StandardTextBox}"/> 
+    <Style x:Key="TextBoxStyle" TargetType="TextBox" BasedOn="{StaticResource StandardTextBox}">
+        <Style.Setters>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="TextAlignment" Value="Justify"></Setter>
+        </Style.Setters>    
+    </Style>
     <Style x:Key="ComboBoxStyle" TargetType="ComboBox" BasedOn="{StaticResource StandardComboBox}"/>
     <Style x:Key="GroupBoxStyle" TargetType="GroupBox" BasedOn="{StaticResource StandardGroupBox}"/> 
     <Style x:Key="ListBoxStyle" TargetType="ListBox" BasedOn="{StaticResource StandardListBox}"/>
     <Style x:Key="ScrollBarStyle" TargetType="ScrollBar" BasedOn="{StaticResource StandardScrollBar}"/>
     <Style x:Key="TabControllStyle" TargetType="TabControl" BasedOn="{StaticResource StandardTabControl}"/>
+    <Style x:Key="LabelStyle" TargetType="Label">
+        <Style.Setters>
+            <Setter Property="Foreground" Value="White"></Setter>
+        </Style.Setters>
+    </Style>
 </ResourceDictionary>

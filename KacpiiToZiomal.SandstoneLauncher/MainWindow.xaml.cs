@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using KacpiiToZiomal.SandstoneLauncher.Accounts.Windows;
 
 namespace KacpiiToZiomal.SandstoneLauncher
 {
@@ -23,6 +24,8 @@ namespace KacpiiToZiomal.SandstoneLauncher
         public MainWindow()
         {
             InitializeComponent();
+
+            new AddAccount().ShowDialog();
         }
     }
 }

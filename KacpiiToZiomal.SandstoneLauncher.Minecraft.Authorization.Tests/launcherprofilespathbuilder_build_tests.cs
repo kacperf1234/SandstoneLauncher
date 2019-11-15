@@ -1,13 +1,13 @@
 ﻿#region
 
 using System;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Types;
 using NUnit.Framework;
 
 #endregion
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
+namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests
 {
     public class launcherprofilespathbuilder_build_tests
     {

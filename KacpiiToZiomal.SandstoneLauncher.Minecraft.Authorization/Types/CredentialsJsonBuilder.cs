@@ -1,8 +1,7 @@
 ﻿using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Models;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
+namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Types
 {
     public class CredentialsJsonBuilder : IJsonBuilder<MojangCredentials>
     {

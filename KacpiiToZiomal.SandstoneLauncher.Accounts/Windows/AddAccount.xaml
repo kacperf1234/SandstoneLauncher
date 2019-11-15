@@ -1,0 +1,46 @@
+﻿<Window x:Class="KacpiiToZiomal.SandstoneLauncher.Accounts.Windows.AddAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:KacpiiToZiomal.SandstoneLauncher.Accounts.Windows"
+        mc:Ignorable="d"
+        Title="AddAccount"
+        Height="230"
+        Width="500"
+        ResizeMode="NoResize"
+        Style="{StaticResource WindowStyle}">
+    
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/KacpiiToZiomal.SandstoneLauncher.Resources;component/Styles/Styles.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    <Grid Margin="5 0 0 5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0" Orientation="Vertical"  Margin="10 0">
+            <Label Style="{StaticResource LabelStyle}" Content="Enter the username or email"></Label>
+            <TextBox Style="{StaticResource TextBoxStyle}" Text="{Binding Email, FallbackValue=kacperf1234@gmail.com, Mode=TwoWay}"></TextBox>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="1" Orientation="Vertical"  Margin="10 0">
+            <Label Style="{StaticResource LabelStyle}" Content="Enter your password"></Label>
+            <TextBox Style="{StaticResource TextBoxStyle}" Text="{Binding Password, FallbackValue=kacperfaber1234, Mode=TwoWay}"></TextBox>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <Button Style="{StaticResource ButtonStyle}" Content="Cancel" Width="70" Height="24" Margin="3 0"></Button>
+            <Button Style="{StaticResource ButtonStyle}" Content="Login" Width="70" Height="24" Margin="3 0"></Button>
+        </StackPanel>
+    </Grid>
+        
+</Window>

@@ -1,4 +1,4 @@
-﻿namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces
+﻿namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Interfaces
 {
     public interface IBuilder<T>
     {

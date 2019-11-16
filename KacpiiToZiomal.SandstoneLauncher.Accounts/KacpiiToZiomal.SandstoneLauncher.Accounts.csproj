@@ -14,4 +14,8 @@
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces" />
+  </ItemGroup>
+
 </Project>

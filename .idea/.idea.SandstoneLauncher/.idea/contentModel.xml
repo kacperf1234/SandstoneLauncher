@@ -25,6 +25,9 @@
         <e p="KacpiiToZiomal.SandstoneLauncher.csproj" t="IncludeRecursive" />
         <e p="MainWindow.xaml" t="Include" />
         <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="MainWindowModel.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
@@ -37,9 +40,9 @@
         <e p="AssemblyInfo.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Enums" t="Include">
-          <e p="AccountStoreType.cs" t="Include" />
           <e p="AccountType.cs" t="Include" />
         </e>
+        <e p="Interfaces" t="Include" />
         <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="Account.cs" t="Include" />
@@ -412,7 +415,16 @@
       <e p="SandstoneLauncher.sln" t="IncludeFlat" />
     </e>
     <e p="C:\Users\Kacpii\RiderProjects\LauncherSample\LauncherSample" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
       <e p="LauncherSample.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.0" t="Include">
+            <e p="LauncherSample.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Program.cs" t="Include" />
     </e>
   </component>
 </project>

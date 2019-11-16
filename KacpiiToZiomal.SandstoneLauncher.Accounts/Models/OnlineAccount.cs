@@ -11,8 +11,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Accounts.Models
         [JsonProperty("password")]
         public string Password { get; set; }
         
-        [JsonProperty("password_store_type")]
-        public AccountStoreType PasswordStoreType { get; set; }
+        [JsonProperty("save_password")]
+        public bool SavePassword { get; set; }
         
         public OnlineAccount() : base(AccountType.ONLINE)
         {

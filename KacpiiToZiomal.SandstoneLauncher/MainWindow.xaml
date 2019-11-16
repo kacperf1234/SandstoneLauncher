@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KacpiiToZiomal.SandstoneLauncher"
         mc:Ignorable="d"
-        Height="450" Width="800" Style="{StaticResource WindowStyle}">
-    <Grid>
-       
-    </Grid>
+        Height="600" Width="1067" 
+        Style="{StaticResource WindowStyle}"
+        ResizeMode="CanMinimize">
+    <DockPanel>
+        
+    </DockPanel>
 </Window>

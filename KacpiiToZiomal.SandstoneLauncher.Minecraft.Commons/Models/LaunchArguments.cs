@@ -71,6 +71,8 @@
             LauncherBrand = launcherBrand;
             Libraries = libraries;
         }
+        
+        public static LaunchArguments Empty() => new LaunchArguments();
 
         public string GetAccessToken()
         {

@@ -1,17 +1,24 @@
-﻿using Newtonsoft.Json;
+﻿using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
+using Newtonsoft.Json;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Models
 {
     public class Profile
     {
-        [JsonProperty("manifest")]
-        public string ManifestPath { get; set; }
+        [JsonProperty("version")]
+        public FullVersion Version { get; set; }
 
         [JsonProperty("xmx")]
         public int Xmx { get; set; }
 
         [JsonProperty("xms")]
         public int Xms { get; set; }
+        
+        [JsonProperty("width")]
+        public int Width { get; set; }
+        
+        [JsonProperty("height")]
+        public int Height { get; set; }
 
         [JsonProperty("java_executable")]
         public string JavaExecutable { get; set; }

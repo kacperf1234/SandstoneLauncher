@@ -1,11 +1,14 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
+﻿using KacpiiToZiomal.SandstoneLauncher.Accounts.Models;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Profiles.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
-    public class LaunchArgumentsBuilder
+    public class LaunchArgumentsBuilder // TODO remove this and rewrite...
     {
         public IGamePathBuilder GamePathBuilder;
         public ILibrariesConverter LibrariesConverter;
@@ -31,7 +34,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 
         public LaunchArguments Create(Dimensions windowDimensions, FullVersion f, string username)
         {
-            LaunchArguments a = new LaunchArguments();
+            LaunchArguments a = LaunchArguments.Empty();
             a.AccessToken = AccessToken;
             a.AssetIndex = f.Assets;
             a.AssetsDirectory = Minecraft.GetAssets();
@@ -53,6 +56,30 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
             a.Libraries = LibrariesConverter.ToStringArray(f.Libraries, OperatingSystem);
 
             return a;
+        }
+
+        public LaunchArguments Create(Account account, Profile profile)
+        {
+            LaunchArguments args = LaunchArguments.Empty();
+            args.Height = profile.Height;
+            args.Width = profile.Width;
+            args.Username = account.Username;
+            args.UUID = account.Uuid;
+            args.AccessToken = account.AccessToken;
+            args.Xmx = profile.Xmx;
+            args.Xms = profile.Xms;
+            args.AssetIndex = profile.Version.Assets;
+            args.AssetsDirectory = Minecraft.GetAssets();
+            args.GameDirectory = Minecraft.GetMinecraft();
+            args.Version = profile.Version.Id;
+            args.VersionType = "Vanilla";
+            args.UserType = "mojang";
+            args.GameExecutable = GamePathBuilder.GetAbsolutePath(profile.Version.Id);
+            args.MainClass = profile.Version.MainClass;
+            args.NativesPath = NativesPathFinder.GetNativesDirectory(profile.Version.Id);
+            args.Libraries = LibrariesConverter.ToStringArray(profile.Version.Libraries, OperatingSystem);
+
+            return args;
         }
     }
 }

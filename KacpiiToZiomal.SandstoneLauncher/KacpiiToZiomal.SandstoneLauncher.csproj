@@ -6,9 +6,4 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Accounts\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj" />
-    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj" />
-  </ItemGroup>
-
 </Project>

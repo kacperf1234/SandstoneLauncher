@@ -429,6 +429,7 @@
           </e>
         </e>
         <e p="Styles" t="Include">
+          <e p="mainwindowstyles.xaml" t="Include" />
           <e p="Styles.xaml" t="Include" />
         </e>
       </e>

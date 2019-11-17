@@ -4,7 +4,7 @@ using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Types
 {
-    public class LauncherProfilesBuilder : IBuilder<LauncherProfiles, MojangLoginResponse>
+    public class LauncherProfilesBuilder : IBuilder<LauncherProfiles, MojangLoginResponse> // todo wtf, where it is used
     {
         public string LauncherName = "Minecraft Launcher";
         public int LauncherVersion = 25;

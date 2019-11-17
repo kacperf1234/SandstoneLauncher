@@ -2,6 +2,45 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "ControlzEx/4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.0.30"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/ControlzEx.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ControlzEx.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Expression.Blend.Sdk/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40-client/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net40-client/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "MahApps.Metro/2.0.0-alpha0589": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "[4.1.1, 5.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/MahApps.Metro.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MahApps.Metro.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Microsoft.CodeCoverage/16.2.0": {
         "type": "package",
         "compile": {
@@ -352,6 +391,18 @@
           }
         }
       },
+      "Microsoft.Xaml.Behaviors.Wpf/1.0.30": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -419,6 +470,25 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Selen.Wpf/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Expression.Blend.Sdk": "(, )",
+          "MahApps.Metro": "(, )"
+        },
+        "compile": {
+          "lib/net45/Selen.Wpf.Core.dll": {},
+          "lib/net45/Selen.Wpf.GenericAppTree.Contracts.dll": {},
+          "lib/net45/Selen.Wpf.GenericAppTree.dll": {},
+          "lib/net45/Selen.Wpf.SystemStyles.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Selen.Wpf.Core.dll": {},
+          "lib/net45/Selen.Wpf.GenericAppTree.Contracts.dll": {},
+          "lib/net45/Selen.Wpf.GenericAppTree.dll": {},
+          "lib/net45/Selen.Wpf.SystemStyles.dll": {}
         }
       },
       "System.AppContext/4.1.0": {
@@ -1284,6 +1354,21 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "KacpiiToZiomal.SandstoneLauncher.Accounts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Accounts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Accounts.dll": {}
+        }
+      },
       "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1301,6 +1386,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Accounts": "1.0.0",
           "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
           "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons": "1.0.0",
           "Newtonsoft.Json": "12.0.2"
@@ -1324,10 +1410,84 @@
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll": {}
         }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "MahApps.Metro": "2.0.0-alpha0589",
+          "Selen.Wpf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "ControlzEx/4.1.1": {
+      "sha512": "xzx0ESf30hiQ/bG5ZtdzWjyHJ8SvAqTP1y8hWdrkcLj10MM2Ody53pbmz2A2W3wE1HP2I1baFf4hgo9S47J+fw==",
+      "type": "package",
+      "path": "controlzex/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "controlzex.4.1.1.nupkg.sha512",
+        "controlzex.nuspec",
+        "lib/net45/ControlzEx.dll",
+        "lib/net45/ControlzEx.pdb",
+        "lib/net45/ControlzEx.xml",
+        "lib/net462/ControlzEx.dll",
+        "lib/net462/ControlzEx.pdb",
+        "lib/net462/ControlzEx.xml",
+        "lib/netcoreapp3.0/ControlzEx.dll",
+        "lib/netcoreapp3.0/ControlzEx.pdb",
+        "lib/netcoreapp3.0/ControlzEx.xml",
+        "logo-mini.png"
+      ]
+    },
+    "Expression.Blend.Sdk/1.0.0": {
+      "sha512": "E5/z1ApCG9TWZy947Rc9vPOTtSvm0nQzIbqqaKpcSVfzcGS5javozMLcl1dMsyBtRXIQh54TUN4cPawXffKOBg==",
+      "type": "package",
+      "path": "expression.blend.sdk/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "expression.blend.sdk.1.0.0.nupkg.sha512",
+        "expression.blend.sdk.nuspec",
+        "lib/net40-client/System.Windows.Interactivity.dll",
+        "lib/sl4-wp71/System.Windows.Interactivity.dll",
+        "lib/sl40/System.Windows.Interactivity.dll",
+        "lib/sl50/System.Windows.Interactivity.dll",
+        "lib/wp8/System.Windows.Interactivity.dll"
+      ]
+    },
+    "MahApps.Metro/2.0.0-alpha0589": {
+      "sha512": "DhyNJFW9SrUmYGEYQqbmN4x/o1hgtRxTMnQ9eZlsMw/CPQtb72rZ4oFCGO/wC5jZij8ta8w9TvqMT/nq0V+ckA==",
+      "type": "package",
+      "path": "mahapps.metro/2.0.0-alpha0589",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MahApps.Metro.dll",
+        "lib/net45/MahApps.Metro.pdb",
+        "lib/net45/MahApps.Metro.xml",
+        "lib/net46/MahApps.Metro.dll",
+        "lib/net46/MahApps.Metro.pdb",
+        "lib/net46/MahApps.Metro.xml",
+        "lib/net47/MahApps.Metro.dll",
+        "lib/net47/MahApps.Metro.pdb",
+        "lib/net47/MahApps.Metro.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.xml",
+        "mahapps.metro.2.0.0-alpha0589.nupkg.sha512",
+        "mahapps.metro.nuspec"
+      ]
+    },
     "Microsoft.CodeCoverage/16.2.0": {
       "sha512": "fKiUOhhMP3IN1qM2tDHPWzW4JRbriFkIPiIzKUwMWT+Q+80bycxkLLCvxmVFoeA7gvWegNbTUjaX7mL3MM9XKg==",
       "type": "package",
@@ -1712,6 +1872,23 @@
         "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll"
       ]
     },
+    "Microsoft.Xaml.Behaviors.Wpf/1.0.30": {
+      "sha512": "D3xG0/rKRTv5SKiABGs68HfYjASwyGFO19P41FI8fHyPKA8mq7U8rU7q0RwMCooDQ1JCgUPOCTFHGyGXyG8gvw==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.0.30",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net45/Microsoft.Xaml.Behaviors.xml",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.0.30.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec"
+      ]
+    },
     "NETStandard.Library/2.0.0": {
       "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "type": "package",
@@ -1934,6 +2111,21 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "Selen.Wpf/1.0.0": {
+      "sha512": "evZgr7WdsWijbaIjPlIvUBfM5CtNN5K7qAFJqU02MO0F57k/Kys00HVXWdrlRu0M7iccUZnQuztH9gyDsHODjA==",
+      "type": "package",
+      "path": "selen.wpf/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Selen.Wpf.Core.dll",
+        "lib/net45/Selen.Wpf.GenericAppTree.Contracts.dll",
+        "lib/net45/Selen.Wpf.GenericAppTree.dll",
+        "lib/net45/Selen.Wpf.SystemStyles.dll",
+        "selen.wpf.1.0.0.nupkg.sha512",
+        "selen.wpf.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -4682,6 +4874,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "KacpiiToZiomal.SandstoneLauncher.Accounts/1.0.0": {
+      "type": "project",
+      "path": "../KacpiiToZiomal.SandstoneLauncher.Accounts/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj",
+      "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Accounts/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj"
+    },
     "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
       "type": "project",
       "path": "../KacpiiToZiomal.SandstoneLauncher.Commons/KacpiiToZiomal.SandstoneLauncher.Commons.csproj",
@@ -4696,6 +4893,11 @@
       "type": "project",
       "path": "../KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj",
       "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj"
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
+      "type": "project",
+      "path": "../KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj",
+      "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4774,5 +4976,37 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Selen.Wpf 1.0.0 does not provide an inclusive lower bound for dependency Expression.Blend.Sdk. An approximate best match of Expression.Blend.Sdk 1.0.0 was resolved.",
+      "libraryId": "Expression.Blend.Sdk",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Expression.Blend.Sdk 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Expression.Blend.Sdk",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Selen.Wpf 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Selen.Wpf",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
 }

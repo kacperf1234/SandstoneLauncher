@@ -18,6 +18,9 @@
     "frameworks": {
       "netcoreapp3.0": {
         "projectReferences": {
+          "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Accounts\\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj": {
+            "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Accounts\\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj"
+          },
           "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj": {
             "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj"
           },

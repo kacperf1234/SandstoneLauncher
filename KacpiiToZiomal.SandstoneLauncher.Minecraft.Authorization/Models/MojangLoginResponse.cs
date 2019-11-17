@@ -16,12 +16,16 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Models
 
         public AuthenticationState State { get; set; } = AuthenticationState.NONE;
 
-        [JsonProperty("accessToken")] public string AccessToken { get; set; }
+        [JsonProperty("accessToken")]
+        public string AccessToken { get; set; }
 
-        [JsonProperty("clientToken")] public string ClientToken { get; set; }
+        [JsonProperty("clientToken")]
+        public string ClientToken { get; set; }
 
-        [JsonProperty("user")] public MojangUser User { get; set; }
+        [JsonProperty("user")]
+        public MojangUser User { get; set; }
 
-        [JsonProperty("selectedProfile")] public MojangProfile SelectedProfile { get; set; }
+        [JsonProperty("selectedProfile")]
+        public MojangProfile SelectedProfile { get; set; }
     }
 }

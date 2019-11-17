@@ -10,8 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Commons\KacpiiToZiomal.SandstoneLauncher.Commons.csproj" />
-    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj" />
+    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj" />
   </ItemGroup>
 
 </Project>

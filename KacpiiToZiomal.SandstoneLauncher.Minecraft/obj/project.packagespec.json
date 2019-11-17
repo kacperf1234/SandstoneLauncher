@@ -18,11 +18,17 @@
     "frameworks": {
       "netcoreapp3.0": {
         "projectReferences": {
+          "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Accounts\\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj": {
+            "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Accounts\\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj"
+          },
           "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj": {
             "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj"
           },
           "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj": {
             "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj"
+          },
+          "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles\\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj": {
+            "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Profiles\\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj"
           }
         }
       }

@@ -187,6 +187,7 @@
       },
       "KacpiiToZiomal.SandstoneLauncher.Profiles/1.0.0": {
         "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
           "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons": "1.0.0",
           "Newtonsoft.Json": "12.0.2"
         },

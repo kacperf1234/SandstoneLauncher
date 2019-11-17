@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft", "KacpiiToZiomal.SandstoneLauncher.Minecraft\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj", "{7BEA1C5D-C6B9-4353-A02A-137CAD66FE87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests", "KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj", "{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LauncherSample", "..\..\RiderProjects\LauncherSample\LauncherSample\LauncherSample.csproj", "{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Resources", "KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj", "{AC100A48-9188-420D-9AF0-727015B54939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher", "KacpiiToZiomal.SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.csproj", "{F0B2D2E8-FE7A-4F90-BCF5-DB1D6AE267F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Accounts", "KacpiiToZiomal.SandstoneLauncher.Accounts\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj", "{99FA68D8-AB27-465C-AD60-8EF39DF3A37E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization", "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj", "{F1716E52-DB92-4C29-BA4D-57A8EB7387F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Commons", "KacpiiToZiomal.SandstoneLauncher.Commons\KacpiiToZiomal.SandstoneLauncher.Commons.csproj", "{34700F05-3BB4-4633-B1BD-146867A44A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests", "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.csproj", "{97108C2A-3F06-4FE4-9714-27C1E1D06E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons", "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj", "{E18B1811-4CB2-404D-9398-FF2A21898D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Profiles", "KacpiiToZiomal.SandstoneLauncher.Profiles\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj", "{158C5917-687B-4078-A11C-3DAE3EF5EA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Accounts.Tests", "KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj", "{A767A7FA-246F-4036-9980-54E31BE3F73E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BEA1C5D-C6B9-4353-A02A-137CAD66FE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEA1C5D-C6B9-4353-A02A-137CAD66FE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEA1C5D-C6B9-4353-A02A-137CAD66FE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEA1C5D-C6B9-4353-A02A-137CAD66FE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC100A48-9188-420D-9AF0-727015B54939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC100A48-9188-420D-9AF0-727015B54939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC100A48-9188-420D-9AF0-727015B54939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC100A48-9188-420D-9AF0-727015B54939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B2D2E8-FE7A-4F90-BCF5-DB1D6AE267F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B2D2E8-FE7A-4F90-BCF5-DB1D6AE267F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B2D2E8-FE7A-4F90-BCF5-DB1D6AE267F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B2D2E8-FE7A-4F90-BCF5-DB1D6AE267F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FA68D8-AB27-465C-AD60-8EF39DF3A37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FA68D8-AB27-465C-AD60-8EF39DF3A37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FA68D8-AB27-465C-AD60-8EF39DF3A37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FA68D8-AB27-465C-AD60-8EF39DF3A37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1716E52-DB92-4C29-BA4D-57A8EB7387F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1716E52-DB92-4C29-BA4D-57A8EB7387F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1716E52-DB92-4C29-BA4D-57A8EB7387F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1716E52-DB92-4C29-BA4D-57A8EB7387F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34700F05-3BB4-4633-B1BD-146867A44A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34700F05-3BB4-4633-B1BD-146867A44A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34700F05-3BB4-4633-B1BD-146867A44A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34700F05-3BB4-4633-B1BD-146867A44A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97108C2A-3F06-4FE4-9714-27C1E1D06E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97108C2A-3F06-4FE4-9714-27C1E1D06E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97108C2A-3F06-4FE4-9714-27C1E1D06E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97108C2A-3F06-4FE4-9714-27C1E1D06E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18B1811-4CB2-404D-9398-FF2A21898D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18B1811-4CB2-404D-9398-FF2A21898D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18B1811-4CB2-404D-9398-FF2A21898D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18B1811-4CB2-404D-9398-FF2A21898D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158C5917-687B-4078-A11C-3DAE3EF5EA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158C5917-687B-4078-A11C-3DAE3EF5EA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158C5917-687B-4078-A11C-3DAE3EF5EA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158C5917-687B-4078-A11C-3DAE3EF5EA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A767A7FA-246F-4036-9980-54E31BE3F73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A767A7FA-246F-4036-9980-54E31BE3F73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A767A7FA-246F-4036-9980-54E31BE3F73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A767A7FA-246F-4036-9980-54E31BE3F73E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

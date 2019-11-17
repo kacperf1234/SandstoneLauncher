@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.0": {
       "KacpiiToZiomal.SandstoneLauncher.Profiles/1.0.0": {
         "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
           "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons": "1.0.0",
           "Newtonsoft.Json": "12.0.2"
         },
@@ -21,6 +22,14 @@
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.2.23222"
           }
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
         }
       },
       "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
@@ -45,6 +54,11 @@
       "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "path": "newtonsoft.json/12.0.2",
       "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
       "type": "project",

@@ -8,7 +8,20 @@
         Height="600" Width="1067" 
         Style="{StaticResource WindowStyle}"
         ResizeMode="CanMinimize">
-    <DockPanel>
-        
-    </DockPanel>
+    <Grid>
+        <TabControl Style="{StaticResource TabControllStyle}">
+            <TabControl.Items>
+                <TabItem Header="Minecraft">
+                    <Grid>
+                            
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Profiles">
+                    <Grid>
+                            
+                    </Grid>
+                </TabItem>
+            </TabControl.Items>
+        </TabControl>
+    </Grid>
 </Window>

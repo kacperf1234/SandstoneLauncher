@@ -2,10 +2,10 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resou
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.csprojAssemblyReference.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\netcoreapp3.0\Styles\Styles.baml
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources_MarkupCompile.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.g.resources
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.AssemblyInfoInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.AssemblyInfo.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.pdb
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Resources\obj\Debug\netcoreapp3.0\Styles\Styles.baml

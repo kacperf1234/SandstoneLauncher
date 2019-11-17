@@ -11,6 +11,19 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
+        }
+      },
       "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -57,6 +70,11 @@
         "newtonsoft.json.nuspec"
       ]
     },
+    "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+      "type": "project",
+      "path": "../KacpiiToZiomal.SandstoneLauncher.Commons/KacpiiToZiomal.SandstoneLauncher.Commons.csproj",
+      "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Commons/KacpiiToZiomal.SandstoneLauncher.Commons.csproj"
+    },
     "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
       "type": "project",
       "path": "../KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj",
@@ -65,6 +83,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "KacpiiToZiomal.SandstoneLauncher.Commons >= 1.0.0",
       "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons >= 1.0.0",
       "Newtonsoft.Json >= 12.0.2"
     ]
@@ -97,6 +116,9 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
+            "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj": {
+              "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj"
+            },
             "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj": {
               "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj"
             }

@@ -1,16 +1,16 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Accounts.Enums;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Accounts.Models
 {
     public class Account
     {
-        [JsonProperty("account_type")] 
-        public AccountType Type { get; set; }
-
-        public Account(AccountType type)
-        {
-            Type = type;
-        }
+        [JsonProperty("username")]
+        public string Username { get; set; }
+        
+        [JsonProperty("uuid")]
+        public string Uuid { get; set; }
+        
+        [JsonProperty("access_token")]
+        public string AccessToken { get; set; }
     }
 }

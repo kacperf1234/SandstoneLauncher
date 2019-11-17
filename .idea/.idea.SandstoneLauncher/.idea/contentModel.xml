@@ -39,18 +39,9 @@
       <e p="KacpiiToZiomal.SandstoneLauncher.Accounts" t="IncludeRecursive">
         <e p="AssemblyInfo.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Enums" t="Include">
-          <e p="AccountType.cs" t="Include" />
-        </e>
-        <e p="Interfaces" t="Include">
-          <e p="IAccountCreator.cs" t="Include" />
-        </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="Account.cs" t="Include" />
-          <e p="AccountsCollection.cs" t="Include" />
-          <e p="OfflineAccount.cs" t="Include" />
-          <e p="OnlineAccount.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -58,13 +49,6 @@
               <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
-        </e>
-        <e p="Types" t="Include">
-          <e p="AccountCreator.cs" t="Include" />
-        </e>
-        <e p="Windows" t="Include">
-          <e p="AddAccount.xaml" t="Include" />
-          <e p="AddAccount.xaml.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Commons" t="IncludeRecursive">
@@ -317,6 +301,7 @@
           <e p="LauncherProfiles.cs" t="Include" />
           <e p="LauncherVersion.cs" t="Include" />
           <e p="Library.cs" t="Include" />
+          <e p="Memory.cs" t="Include" />
           <e p="Natives.cs" t="Include" />
           <e p="Rule.cs" t="Include" />
           <e p="RuleOperatingSystem.cs" t="Include" />

@@ -13,7 +13,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using KacpiiToZiomal.SandstoneLauncher.Accounts.Windows;
 using KacpiiToZiomal.SandstoneLauncher.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher

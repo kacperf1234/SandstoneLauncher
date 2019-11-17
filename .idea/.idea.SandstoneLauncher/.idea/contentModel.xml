@@ -39,6 +39,9 @@
       <e p="KacpiiToZiomal.SandstoneLauncher.Accounts" t="IncludeRecursive">
         <e p="AssemblyInfo.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="IAccountCreator.cs" t="Include" />
+        </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="Account.cs" t="Include" />
@@ -47,6 +50,22 @@
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
               <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Types" t="Include">
+          <e p="AccountCreator.cs" t="Include" />
+        </e>
+      </e>
+      <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.Tests" t="IncludeRecursive">
+        <e p="accountcreator_create_mojangloginresponse_tests.cs" t="Include" />
+        <e p="accountcreator_create_string_tests.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>

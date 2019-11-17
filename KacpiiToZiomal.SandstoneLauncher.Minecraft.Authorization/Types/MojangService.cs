@@ -17,7 +17,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Types
         {
             MojangLoginResponse loginresponse = new MojangLoginResponse();
             bool result = Authentication.Authenticate(credentials, out loginresponse);
-            loginresponse.State = result ? AuthenticationState.OK : AuthenticationState.INVALID_CREDENTIALS;
+            loginresponse.State = result ? AuthenticationState.OK : AuthenticationState.INVALID_CREDENTIALS; // todo extract dependency
 
             return loginresponse;
         }

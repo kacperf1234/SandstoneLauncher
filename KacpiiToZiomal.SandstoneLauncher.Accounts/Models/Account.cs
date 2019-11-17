@@ -12,5 +12,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Accounts.Models
         
         [JsonProperty("access_token")]
         public string AccessToken { get; set; }
+        
+        [JsonProperty("client_token")]
+        public string ClientToken { get; set; }
     }
 }

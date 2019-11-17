@@ -1560,6 +1560,7 @@
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
           "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization": "1.0.0",
           "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0",
           "Newtonsoft.Json": "12.0.2"
         },
@@ -1599,6 +1600,21 @@
         },
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll": {}
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons": "1.0.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll": {}
         }
       },
       "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
@@ -5563,6 +5579,11 @@
       "type": "project",
       "path": "../KacpiiToZiomal.SandstoneLauncher.Minecraft/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj",
       "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Minecraft/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj"
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/1.0.0": {
+      "type": "project",
+      "path": "../KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj",
+      "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj"
     },
     "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
       "type": "project",

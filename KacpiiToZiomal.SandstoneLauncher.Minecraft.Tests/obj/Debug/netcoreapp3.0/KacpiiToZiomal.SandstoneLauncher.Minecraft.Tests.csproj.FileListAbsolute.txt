@@ -30,6 +30,7 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minec
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp3.0\Selen.Wpf.GenericAppTree.Contracts.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp3.0\Selen.Wpf.GenericAppTree.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp3.0\Selen.Wpf.SystemStyles.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp3.0\Microsoft.Expression.Interactions.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\bin\Debug\netcoreapp3.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll

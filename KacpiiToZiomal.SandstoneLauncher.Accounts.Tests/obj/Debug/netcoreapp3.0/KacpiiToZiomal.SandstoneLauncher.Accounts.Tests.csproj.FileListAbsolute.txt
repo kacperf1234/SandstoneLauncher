@@ -26,6 +26,7 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accou
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Selen.Wpf.GenericAppTree.Contracts.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Selen.Wpf.GenericAppTree.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Selen.Wpf.SystemStyles.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Microsoft.Expression.Interactions.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
@@ -102,6 +103,7 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accou
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Resources.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csprojAssemblyReference.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.AssemblyInfoInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.AssemblyInfo.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.CopyComplete

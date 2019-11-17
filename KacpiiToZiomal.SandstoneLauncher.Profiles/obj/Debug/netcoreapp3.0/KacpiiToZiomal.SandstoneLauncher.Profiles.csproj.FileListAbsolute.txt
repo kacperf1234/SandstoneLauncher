@@ -5,7 +5,6 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profi
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Commons.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Profiles.csprojAssemblyReference.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Profiles.AssemblyInfoInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Profiles.AssemblyInfo.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj.CopyComplete

@@ -2,24 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319e4218-9271-4034-a339-d789b97fd1d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/LaunchArguments.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/LaunchArguments.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/LaunchArgumentsBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/LaunchArgumentsBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.g.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/Windows/AddAccount.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/Windows/AddAccount.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Models/MojangLoginResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Models/MojangLoginResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Types/LauncherProfilesBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Types/LauncherProfilesBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/LauncherProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/LauncherProfiles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/Profile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/Profile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -227,12 +247,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/VersionPicker.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/VersionsFilter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/VersionTypeGetter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Interfaces/IArgumentsBuilder.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Types/ArgumentsBuilder.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Types/LauncherProfilesBuilder.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Types/MojangAuthentication.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/JsonDeserializer.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/assetsextractor_get_tests.cs" />
@@ -277,6 +294,9 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/LaunchArguments.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/Profile.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/LaunchArgumentsBuilder.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/LauncherProfiles.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Types/LauncherProfilesBuilder.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Models/MojangLoginResponse.cs" />
         <option value="$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/Program.cs" />
       </list>
     </option>
@@ -292,7 +312,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;GitIgnore" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/KacpiiToZiomal.SandstoneLauncher.Profiles.csproj" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -306,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.KacpiiToZiomal.SandstoneLauncher">
+  <component name="RunManager" selected=".NET Project.LauncherSample">
     <configuration name="KacpiiToZiomal.SandstoneLauncher" type="DotNetProject" factoryName=".NET Project" temporary="true">
       <option name="EXE_PATH" value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -349,8 +369,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue=".NET Project.KacpiiToZiomal.SandstoneLauncher" />
         <item itemvalue=".NET Project.LauncherSample" />
+        <item itemvalue=".NET Project.KacpiiToZiomal.SandstoneLauncher" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +419,7 @@
       <workItem from="1573667729999" duration="714000" />
       <workItem from="1573750646981" duration="921000" />
       <workItem from="1573829903492" duration="10197000" />
-      <workItem from="1573984927422" duration="2962000" />
+      <workItem from="1573984927422" duration="4849000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />

@@ -11,17 +11,22 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models
             AuthenticationDatabase = new Dictionary<string, AuthenticationDatabase>();
         }
 
-        [JsonProperty("profiles")] public Dictionary<string, LauncherProfile> Profiles { get; set; }
+        [JsonProperty("profiles")]
+        public Dictionary<string, LauncherProfile> Profiles { get; set; }
 
-        [JsonProperty("selectedProfile")] public string SelectedProfile { get; set; }
+        [JsonProperty("selectedProfile")]
+        public string SelectedProfile { get; set; }
 
-        [JsonProperty("clientToken")] public string ClientToken { get; set; }
+        [JsonProperty("clientToken")]
+        public string ClientToken { get; set; }
 
         [JsonProperty("authenticationDatabase")]
         public Dictionary<string, AuthenticationDatabase> AuthenticationDatabase { get; set; }
 
-        [JsonProperty("selectedUser")] public string SelectedUser { get; set; }
+        [JsonProperty("selectedUser")]
+        public string SelectedUser { get; set; }
 
-        [JsonProperty("launcherVersion")] public LauncherVersion LauncherVersion { get; set; }
+        [JsonProperty("launcherVersion")]
+        public LauncherVersion LauncherVersion { get; set; }
     }
 }

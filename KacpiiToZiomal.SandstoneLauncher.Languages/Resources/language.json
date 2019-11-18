@@ -1,0 +1,13 @@
+{
+	"strings": 
+	[
+		"new_profile": ""
+	],
+	"data": 
+	{
+		"short_name": "pl",
+		"long_name": "polish",
+		"country_name": "poland"
+	},
+	"version": "1.0"
+}

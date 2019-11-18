@@ -10,3 +10,4 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profi
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Profiles.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Profiles.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Profiles\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Profiles.csprojAssemblyReference.cache

@@ -5,3 +5,4 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Commo
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Commons\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Commons.AssemblyInfo.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Commons\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Commons.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Commons\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Commons.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Commons\obj\Debug\netstandard2.0\KacpiiToZiomal.SandstoneLauncher.Commons.csprojAssemblyReference.cache

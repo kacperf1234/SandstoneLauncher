@@ -7,24 +7,24 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
 {
     public class LanguagesProvider : ILanguagesProvider
     {
-        public ILanguageDirectoryPathGenerator LanguageDirectoryPathGenerator;
+        public IApplicationData AppData;
         public IFileListGenerator FileListGenerator;
         public ILanguageFilesFilter LanguageFilesFilter;
         public IJsonDeserializer<Language> LanguageDeserializer;
         public IFileReader FileReader;
 
-        public LanguagesProvider(ILanguageDirectoryPathGenerator languageDirectoryPathGenerator, IFileListGenerator fileListGenerator, ILanguageFilesFilter languageFilesFilter, IJsonDeserializer<Language> languageDeserializer, IFileReader fileReader)
+        public LanguagesProvider(IFileListGenerator fileListGenerator, ILanguageFilesFilter languageFilesFilter, IJsonDeserializer<Language> languageDeserializer, IFileReader fileReader, IApplicationData appData)
         {
-            LanguageDirectoryPathGenerator = languageDirectoryPathGenerator;
             FileListGenerator = fileListGenerator;
             LanguageFilesFilter = languageFilesFilter;
             LanguageDeserializer = languageDeserializer;
             FileReader = fileReader;
+            AppData = appData;
         }
 
         public Models.Languages ProvideLanguages()
         {
-            string directorypath = LanguageDirectoryPathGenerator.GetPath();
+            string directorypath = AppData.GetLanguages();
             string[] files = FileListGenerator.GetFiles(directorypath);
             string[] filteredFiles = LanguageFilesFilter.Filter(files).ToArray();
             Models.Languages languages = Models.Languages.Empty();

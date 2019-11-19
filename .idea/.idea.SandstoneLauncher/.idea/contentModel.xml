@@ -95,6 +95,7 @@
           </e>
         </e>
         <e p="Types" t="Include">
+          <e p="ApplicationData.cs" t="Include" />
           <e p="DirectoryCreator.cs" t="Include" />
           <e p="FileCreator.cs" t="Include" />
           <e p="FileListGenerator.cs" t="Include" />
@@ -126,16 +127,22 @@
         <e p="AssemblyInfo.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
+          <e p="IActuallyPathGenerator.cs" t="Include" />
           <e p="ILanguageDirectoryPathGenerator.cs" t="Include" />
+          <e p="ILanguageExtractor.cs" t="Include" />
           <e p="ILanguageFileNameValidator.cs" t="Include" />
           <e p="ILanguageFilesFilter.cs" t="Include" />
+          <e p="ILanguageLoader.cs" t="Include" />
           <e p="ILanguagesProvider.cs" t="Include" />
+          <e p="IResourceDictionaryGenerator.cs" t="Include" />
+          <e p="IResourceDictionaryMerger.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Languages.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="Language.cs" t="Include" />
           <e p="LanguageData.cs" t="Include" />
           <e p="Languages.cs" t="Include" />
+          <e p="LanguageSettings.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -145,17 +152,24 @@
           </e>
         </e>
         <e p="Resources" t="Include">
+          <e p="actually.json" t="Include" />
           <e p="language.json" t="Include" />
         </e>
         <e p="Types" t="Include">
+          <e p="ActuallyPathGenerator.cs" t="Include" />
+          <e p="LanguageExtractor.cs" t="Include" />
           <e p="LanguageFileNameValidator.cs" t="Include" />
           <e p="LanguageFilesFilter.cs" t="Include" />
+          <e p="LanguageLoader.cs" t="Include" />
           <e p="LanguagesProvider.cs" t="Include" />
+          <e p="ResourceDictionaryGenerator.cs" t="Include" />
+          <e p="ResourceDictionaryMerger.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Languages.Tests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="KacpiiToZiomal.SandstoneLauncher.Languages.Tests.csproj" t="IncludeRecursive" />
+        <e p="languageextractor_getlanguage_tests.cs" t="Include" />
         <e p="languagefilenamevalidator_validate_tests.cs" t="Include" />
         <e p="languagefilesfilter_filter_tests.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">

@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
+using KacpiiToZiomal.SandstoneLauncher.Languages.Models;
+using KacpiiToZiomal.SandstoneLauncher.Languages.Types;
 
 namespace KacpiiToZiomal.SandstoneLauncher
 {
@@ -20,8 +23,19 @@ namespace KacpiiToZiomal.SandstoneLauncher
     /// </summary>
     public partial class MainWindow : Window
     {
+        public LanguageLoader Loader = new LanguageLoader(new LanguagesProvider(new FileListGenerator(), new LanguageFilesFilter(new LanguageFileNameValidator()), new JsonDeserializer<Language>(), new FileReader(), new ApplicationData()), new LanguageExtractor(), new ResourceDictionaryGenerator(), new ResourceDictionaryMerger());
+        
         public MainWindow()
         {
+            LanguageSettings settings = new LanguageSettings();
+            settings.LongName = "polish";
+            settings.ShortName = "pl";
+
+            ResourceDictionary res = Resources;
+            
+            Loader.Load(settings,  ref res);
+            Resources = res;
+            
             InitializeComponent();
         }
     }

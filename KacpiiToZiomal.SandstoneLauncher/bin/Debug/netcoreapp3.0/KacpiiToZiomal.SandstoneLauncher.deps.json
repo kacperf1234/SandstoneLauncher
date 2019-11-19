@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.0": {
       "KacpiiToZiomal.SandstoneLauncher/1.0.0": {
         "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Languages": "1.0.0",
           "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0"
         },
         "runtime": {
@@ -52,6 +53,14 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
       "Selen.Wpf/1.0.0": {
         "dependencies": {
           "Expression.Blend.Sdk": "1.0.0",
@@ -82,6 +91,23 @@
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "2.0.20525.0"
           }
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Languages/1.0.0": {
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.Languages.dll": {}
         }
       },
       "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
@@ -130,6 +156,13 @@
       "path": "microsoft.xaml.behaviors.wpf/1.0.30",
       "hashPath": "microsoft.xaml.behaviors.wpf.1.0.30.nupkg.sha512"
     },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
     "Selen.Wpf/1.0.0": {
       "type": "package",
       "serviceable": true,
@@ -143,6 +176,16 @@
       "sha512": "sha512-0r+Le4E7hCm4zToUvBzjSUyTcuU3rFeoPa7JyTdWIzR/F7wH6+O/pWkjHIG40hIA0z1wvRdZayvoizA4wcK1dg==",
       "path": "system.windows.interactivity.wpf/2.0.20525",
       "hashPath": "system.windows.interactivity.wpf.2.0.20525.nupkg.sha512"
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Languages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
       "type": "project",

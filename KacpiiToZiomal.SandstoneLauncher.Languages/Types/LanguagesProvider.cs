@@ -31,7 +31,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
 
             foreach (string file in filteredFiles)
             {
-                string filecontent = FileReader?.Read(file);
+                string filecontent = FileReader.Read(file);
                 Language language = LanguageDeserializer.Deserialize(filecontent);
                 
                 languages.Add(language);

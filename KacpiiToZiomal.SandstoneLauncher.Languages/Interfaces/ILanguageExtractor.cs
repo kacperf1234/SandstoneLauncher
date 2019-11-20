@@ -4,6 +4,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Interfaces
 {
     public interface ILanguageExtractor
     {
-        Language GetLanguage(Models.Languages languages, LanguageSettings settings);
+        Language GetLanguage(Models.Languages languages, string shortname);
     }
 }

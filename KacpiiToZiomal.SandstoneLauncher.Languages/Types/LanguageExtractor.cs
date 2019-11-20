@@ -6,10 +6,10 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
 {
     public class LanguageExtractor : ILanguageExtractor
     {
-        public Language GetLanguage(Models.Languages languages, LanguageSettings settings)
+        public Language GetLanguage(Models.Languages languages, string shortname)
         {
             return languages
-                .Where(x => x.Data.ShortName == settings.ShortName)
+                .Where(x => x.Data.ShortName == shortname)
                 .First();
         }
     }

@@ -23,18 +23,11 @@ namespace KacpiiToZiomal.SandstoneLauncher
     /// </summary>
     public partial class MainWindow : Window
     {
-        public LanguageLoader Loader = new LanguageLoader(new LanguagesProvider(new FileListGenerator(), new LanguageFilesFilter(new LanguageFileNameValidator()), new JsonDeserializer<Language>(), new FileReader(), new ApplicationData()), new LanguageExtractor(), new ResourceDictionaryGenerator(), new ResourceDictionaryMerger());
+        
         
         public MainWindow()
         {
-            LanguageSettings settings = new LanguageSettings();
-            settings.LongName = "polish";
-            settings.ShortName = "pl";
-
-            ResourceDictionary res = Resources;
-            
-            Loader.Load(settings,  ref res);
-            Resources = res;
+            LanguageLoader.Load("pl", Resources);
             
             InitializeComponent();
         }

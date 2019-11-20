@@ -136,6 +136,7 @@
           <e p="ILanguagesProvider.cs" t="Include" />
           <e p="IResourceDictionaryGenerator.cs" t="Include" />
           <e p="IResourceDictionaryMerger.cs" t="Include" />
+          <e p="IResourceKeyNameGenerator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Languages.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
@@ -164,6 +165,7 @@
           <e p="LanguagesProvider.cs" t="Include" />
           <e p="ResourceDictionaryGenerator.cs" t="Include" />
           <e p="ResourceDictionaryMerger.cs" t="Include" />
+          <e p="ResourceKeyNameGenerator.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Languages.Tests" t="IncludeRecursive">
@@ -179,6 +181,7 @@
             </e>
           </e>
         </e>
+        <e p="resourcekeynamegenerator_generatename_tests.cs" t="Include" />
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Minecraft" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />

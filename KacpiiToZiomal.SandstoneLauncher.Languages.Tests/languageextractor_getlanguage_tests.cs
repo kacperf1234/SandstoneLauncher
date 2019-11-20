@@ -35,13 +35,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Tests
             }
         };
         
-        Language execute(string shortname = "pl", string longname = "polish")
+        Language execute(string shortname = "pl")
         {
-            return new LanguageExtractor().GetLanguage(Langs, new LanguageSettings()
-            {
-                LongName = longname,
-                ShortName = shortname
-            });
+            return new LanguageExtractor().GetLanguage(Langs, shortname);
         }
 
         [Test]
@@ -53,13 +49,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Tests
         [Test]
         public void returns_excepted_shortname()
         {
-            Assert.AreEqual("pl", execute("pl", "polish").Data.ShortName);
-        }
-
-        [Test]
-        public void returns_excepted_longname()
-        {
-            Assert.AreEqual("english", execute("en", "england").Data.LongName);
+            Assert.AreEqual("pl", execute("pl").Data.ShortName);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
 using KacpiiToZiomal.SandstoneLauncher.Languages.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Languages.Models;
 using m = KacpiiToZiomal.SandstoneLauncher.Languages.Models;
@@ -20,13 +21,23 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
             Merger = merger;
         }
 
-        public void Load(LanguageSettings settings, ref ResourceDictionary resources)
+        public static void Load(string shortname, ResourceDictionary baseResources)
+        {
+            LanguageLoader loader = new LanguageLoader(
+                new LanguagesProvider(new FileListGenerator(), new LanguageFilesFilter(new LanguageFileNameValidator()),
+                    new JsonDeserializer<Language>(), new FileReader(), new ApplicationData()), new LanguageExtractor(),
+                new ResourceDictionaryGenerator(new ResourceKeyNameGenerator()), new ResourceDictionaryMerger());
+            
+            loader.Load(baseResources, shortname);
+        } 
+
+        public void Load(ResourceDictionary baseResources, string shortname)
         {
             m.Languages languages = Provider.ProvideLanguages();
-            Language language = Extractor.GetLanguage(languages, settings);
+            Language language = Extractor.GetLanguage(languages, shortname);
             ResourceDictionary resourceDictionary = Generator.GenerateResourceDictionary(language);
             
-            Merger.Merge(resourceDictionary, ref resources);
+            Merger.Merge(resourceDictionary, ref baseResources);
         }
     }
 }

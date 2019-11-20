@@ -2,6 +2,6 @@
 {
     public interface IFileListGenerator
     {
-        string[] GetFiles(string dir, bool insideDirectories = false);
+        string[] GetFiles(string dir, string searchPattern = "*", bool insideDirectories = false);
     }
 }

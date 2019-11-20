@@ -27,7 +27,7 @@ namespace KacpiiToZiomal.SandstoneLauncher
         
         public MainWindow()
         {
-            LanguageLoader.Load("pl", Resources);
+            LanguageLoader.Load("en", Resources);
             
             InitializeComponent();
         }

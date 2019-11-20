@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Style="{StaticResource StandardWindow}">
     <Grid>
-        <Label Margin="50" Content="{DynamicResource sample}"/>
+        <StackPanel Orientation="Vertical" Margin="10">
+            <Label Margin="50" Content="{DynamicResource ls-sample}"/>
+            <Label Margin="50" Content="{DynamicResource ls-sample2}"/>
+        </StackPanel>
     </Grid>
 </Window>

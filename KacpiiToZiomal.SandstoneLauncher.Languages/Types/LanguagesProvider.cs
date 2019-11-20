@@ -25,7 +25,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
         public Models.Languages ProvideLanguages()
         {
             string directorypath = AppData.GetLanguages();
-            string[] files = FileListGenerator.GetFiles(directorypath);
+            string[] files = FileListGenerator.GetFiles(directorypath, searchPattern: "*.json");
             string[] filteredFiles = LanguageFilesFilter.Filter(files).ToArray();
             Models.Languages languages = Models.Languages.Empty();
 

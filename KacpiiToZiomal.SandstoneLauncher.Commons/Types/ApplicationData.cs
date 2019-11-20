@@ -7,7 +7,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
     {
         public string GetLanguages()
         {
-            return Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\SandstoneLauncher\\lang\\";
+            return Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\SandstoneLauncher\\";
         }
 
         public string GetApplicationData()

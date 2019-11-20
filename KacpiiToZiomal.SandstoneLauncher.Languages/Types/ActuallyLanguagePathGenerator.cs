@@ -3,11 +3,16 @@ using KacpiiToZiomal.SandstoneLauncher.Languages.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
 {
-    public class ActuallyPathGenerator : IActuallyPathGenerator
+    public class ActuallyLanguagePathGenerator : IActuallyLanguagePathGenerator
     {
-        public IApplicationData AppData { get; set; }
-        
-        public string GetPath()
+        public IApplicationData AppData;
+
+        public ActuallyLanguagePathGenerator(IApplicationData appData)
+        {
+            AppData = appData;
+        }
+
+        public string GeneratePath()
         {
             return AppData.GetApplicationData() + "actually_language.json";
         }

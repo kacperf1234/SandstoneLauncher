@@ -127,6 +127,8 @@
         <e p="AssemblyInfo.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
+          <e p="IActuallyLanguagePathGenerator.cs" t="Include" />
+          <e p="IActuallyLanguageProvider.cs" t="Include" />
           <e p="IActuallyPathGenerator.cs" t="Include" />
           <e p="ILanguageDirectoryPathGenerator.cs" t="Include" />
           <e p="ILanguageExtractor.cs" t="Include" />
@@ -140,6 +142,7 @@
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Languages.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
+          <e p="ActuallyLanguage.cs" t="Include" />
           <e p="Language.cs" t="Include" />
           <e p="LanguageData.cs" t="Include" />
           <e p="Languages.cs" t="Include" />
@@ -153,11 +156,12 @@
           </e>
         </e>
         <e p="Resources" t="Include">
-          <e p="actually.json" t="Include" />
+          <e p="actually-language.json" t="Include" />
           <e p="language.json" t="Include" />
         </e>
         <e p="Types" t="Include">
-          <e p="ActuallyPathGenerator.cs" t="Include" />
+          <e p="ActuallyLanguagePathGenerator.cs" t="Include" />
+          <e p="ActuallyLanguageProvider.cs" t="Include" />
           <e p="LanguageExtractor.cs" t="Include" />
           <e p="LanguageFileNameValidator.cs" t="Include" />
           <e p="LanguageFilesFilter.cs" t="Include" />
@@ -169,6 +173,7 @@
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Languages.Tests" t="IncludeRecursive">
+        <e p="actuallylanguagepathgenerator_generatepath_tests.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="KacpiiToZiomal.SandstoneLauncher.Languages.Tests.csproj" t="IncludeRecursive" />
         <e p="languageextractor_getlanguage_tests.cs" t="Include" />

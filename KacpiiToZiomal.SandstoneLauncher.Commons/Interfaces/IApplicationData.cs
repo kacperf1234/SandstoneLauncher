@@ -2,8 +2,6 @@
 {
     public interface IApplicationData
     {
-        string GetLanguages();
-        
         string GetApplicationData();
     }
 }

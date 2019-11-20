@@ -12,13 +12,15 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
         public ILanguageExtractor Extractor;
         public IResourceDictionaryGenerator Generator;
         public IResourceDictionaryMerger Merger;
+        public IActuallyLanguageProvider ActuallyLanguageProvider;
 
-        public LanguageLoader(ILanguagesProvider provider, ILanguageExtractor extractor, IResourceDictionaryGenerator generator, IResourceDictionaryMerger merger)
+        public LanguageLoader(ILanguagesProvider provider, ILanguageExtractor extractor, IResourceDictionaryGenerator generator, IResourceDictionaryMerger merger, IActuallyLanguageProvider actuallyLanguageProvider)
         {
             Provider = provider;
             Extractor = extractor;
             Generator = generator;
             Merger = merger;
+            ActuallyLanguageProvider = actuallyLanguageProvider;
         }
 
         public static void Load(string shortname, ResourceDictionary baseResources)
@@ -26,10 +28,10 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
             LanguageLoader loader = new LanguageLoader(
                 new LanguagesProvider(new FileListGenerator(), new LanguageFilesFilter(new LanguageFileNameValidator()),
                     new JsonDeserializer<Language>(), new FileReader(), new ApplicationData()), new LanguageExtractor(),
-                new ResourceDictionaryGenerator(new ResourceKeyNameGenerator()), new ResourceDictionaryMerger());
+                new ResourceDictionaryGenerator(new ResourceKeyNameGenerator()), new ResourceDictionaryMerger(), new ActuallyLanguageProvider(new JsonDeserializer<ActuallyLanguage>(), new FileReader(), new ActuallyLanguagePathGenerator(new ApplicationData())));
             
             loader.Load(baseResources, shortname);
-        } 
+        }
 
         public void Load(ResourceDictionary baseResources, string shortname)
         {
@@ -38,6 +40,15 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
             ResourceDictionary resourceDictionary = Generator.GenerateResourceDictionary(language);
             
             Merger.Merge(resourceDictionary, ref baseResources);
+        }
+
+        public void LoadActually(ResourceDictionary baseResource)
+        {
+            m.Languages languages = Provider.ProvideLanguages();
+            ActuallyLanguage actuallyLanguage = ActuallyLanguageProvider.ProvideActuallyLanguage();
+            Language language = Extractor.GetLanguage(languages, actuallyLanguage.ShortName);
+            ResourceDictionary resourceDictionary = Generator.GenerateResourceDictionary(language);
+            Merger.Merge(resourceDictionary, ref baseResource);
         }
     }
 }

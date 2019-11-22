@@ -82,6 +82,7 @@
           <e p="IHttpDownloader.cs" t="Include" />
           <e p="IJsonBuilder.cs" t="Include" />
           <e p="IJsonDeserializer.cs" t="Include" />
+          <e p="IJsonSerializer.cs" t="Include" />
           <e p="IMinecraftDirectory.cs" t="Include" />
           <e p="IPathConverter.cs" t="Include" />
           <e p="IResponseValidator.cs" t="Include" />
@@ -105,6 +106,7 @@
           <e p="HttpBytesReader.cs" t="Include" />
           <e p="HttpDownloader.cs" t="Include" />
           <e p="JsonDeserializer.cs" t="Include" />
+          <e p="JsonSerializer.cs" t="Include" />
           <e p="MinecraftDirectory.cs" t="Include" />
           <e p="NetworkClient.cs" t="Include" />
           <e p="PathConverter.cs" t="Include" />
@@ -129,12 +131,12 @@
         <e p="Interfaces" t="Include">
           <e p="IActuallyLanguagePathGenerator.cs" t="Include" />
           <e p="IActuallyLanguageProvider.cs" t="Include" />
-          <e p="IActuallyPathGenerator.cs" t="Include" />
           <e p="ILanguageDirectoryPathGenerator.cs" t="Include" />
           <e p="ILanguageExtractor.cs" t="Include" />
           <e p="ILanguageFileNameValidator.cs" t="Include" />
           <e p="ILanguageFilesFilter.cs" t="Include" />
           <e p="ILanguageLoader.cs" t="Include" />
+          <e p="ILanguageService.cs" t="Include" />
           <e p="ILanguagesProvider.cs" t="Include" />
           <e p="IResourceDictionaryGenerator.cs" t="Include" />
           <e p="IResourceDictionaryMerger.cs" t="Include" />
@@ -142,7 +144,6 @@
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Languages.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
-          <e p="ActuallyLanguage.cs" t="Include" />
           <e p="Language.cs" t="Include" />
           <e p="LanguageData.cs" t="Include" />
           <e p="Languages.cs" t="Include" />
@@ -166,6 +167,7 @@
           <e p="LanguageFileNameValidator.cs" t="Include" />
           <e p="LanguageFilesFilter.cs" t="Include" />
           <e p="LanguageLoader.cs" t="Include" />
+          <e p="LanguageService.cs" t="Include" />
           <e p="LanguagesProvider.cs" t="Include" />
           <e p="ResourceDictionaryGenerator.cs" t="Include" />
           <e p="ResourceDictionaryMerger.cs" t="Include" />

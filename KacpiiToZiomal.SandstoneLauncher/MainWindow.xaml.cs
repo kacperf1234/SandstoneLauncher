@@ -29,12 +29,8 @@ namespace KacpiiToZiomal.SandstoneLauncher
                 new JsonSerializer<Language>(), new FileReader(), new FileCreator(new FileNameRemover()),
                 new ActuallyLanguagePathGenerator(new ApplicationData()));
 
-            
-            
-            
             Language langugage = service.GetLangugage();
             LanguageLoader.Load(langugage, Resources);
-
 
             InitializeComponent();
         }

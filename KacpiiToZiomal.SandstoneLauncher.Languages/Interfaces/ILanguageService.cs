@@ -2,8 +2,10 @@
 
 namespace KacpiiToZiomal.SandstoneLauncher.Languages.Interfaces
 {
-    public interface IActuallyLanguageProvider
+    public interface ILanguageService
     {
-        Language ProvideActuallyLanguage();
+        void SetLanguage(Language language);
+
+        Language GetLangugage();
     }
 }

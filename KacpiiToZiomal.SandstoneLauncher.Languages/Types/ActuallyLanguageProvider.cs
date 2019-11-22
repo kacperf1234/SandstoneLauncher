@@ -6,22 +6,22 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
 {
     public class ActuallyLanguageProvider : IActuallyLanguageProvider
     {
-        public IJsonDeserializer<ActuallyLanguage> Deserializer;
+        public IJsonDeserializer<Language> Deserializer;
         public IFileReader FileReader;
         public IActuallyLanguagePathGenerator PathGenerator;
 
-        public ActuallyLanguageProvider(IJsonDeserializer<ActuallyLanguage> deserializer, IFileReader fileReader, IActuallyLanguagePathGenerator pathGenerator)
+        public ActuallyLanguageProvider(IJsonDeserializer<Language> deserializer, IFileReader fileReader, IActuallyLanguagePathGenerator pathGenerator)
         {
             Deserializer = deserializer;
             FileReader = fileReader;
             PathGenerator = pathGenerator;
         }
 
-        public ActuallyLanguage ProvideActuallyLanguage()
+        public Language ProvideActuallyLanguage()
         {
             string path = PathGenerator.GeneratePath();
             string content = FileReader.Read(path);
-            ActuallyLanguage actually = Deserializer.Deserialize(content);
+            Language actually = Deserializer.Deserialize(content);
 
             return actually;
         }

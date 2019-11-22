@@ -6,5 +6,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Interfaces
     public interface ILanguageLoader
     {
         void Load(ResourceDictionary baseResources, string shortname);
+
+        void Load(ResourceDictionary baseResources, Language language);
     }
 }

@@ -23,17 +23,19 @@ namespace KacpiiToZiomal.SandstoneLauncher
     /// </summary>
     public partial class MainWindow : Window
     {
-        
-        
         public MainWindow()
         {
-            LanguageLoader loader = new LanguageLoader(
-                new LanguagesProvider(new FileListGenerator(), new LanguageFilesFilter(new LanguageFileNameValidator()),
-                    new JsonDeserializer<Language>(), new FileReader(), new ApplicationData()), new LanguageExtractor(),
-                new ResourceDictionaryGenerator(new ResourceKeyNameGenerator()), new ResourceDictionaryMerger(), new ActuallyLanguageProvider(new JsonDeserializer<ActuallyLanguage>(), new FileReader(), new ActuallyLanguagePathGenerator(new ApplicationData())));
+            LanguageService service = new LanguageService(new JsonDeserializer<Language>(),
+                new JsonSerializer<Language>(), new FileReader(), new FileCreator(new FileNameRemover()),
+                new ActuallyLanguagePathGenerator(new ApplicationData()));
+
             
-            loader.LoadActually(Resources);
             
+            
+            Language langugage = service.GetLangugage();
+            LanguageLoader.Load(langugage, Resources);
+
+
             InitializeComponent();
         }
     }

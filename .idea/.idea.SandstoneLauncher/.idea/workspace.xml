@@ -4,25 +4,25 @@
     <list default="true" id="319e4218-9271-4034-a339-d789b97fd1d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IApplicationData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IApplicationData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/ApplicationData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/ApplicationData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Resources/actually.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Resources/actually-language.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/IActuallyLanguageProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/IActuallyLanguageProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/ILanguageLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/ILanguageLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Models/ActuallyLanguage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/ActuallyLanguageProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/ActuallyLanguageProvider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguageLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguageLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguagesProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguagesProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.dll" afterDir="false" />
@@ -158,8 +158,11 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/LauncherProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/LauncherProfiles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/LauncherVersion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/JsonSerializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/Library.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IJsonSerializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/Memory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguageService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/Natives.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/Rule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/Models/RuleOperatingSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -185,6 +188,7 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/launcherprofilespathbuilder_build_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/mojangauthentication_authenticate_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/INativesTemporaryPathFinder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/ILanguageService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/ILaunchCommandBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IDownloadedVersionsGetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/ILibraryFileChecker.cs" root0="FORCE_HIGHLIGHTING" />
@@ -201,6 +205,7 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/ILibrariesDownloader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/INativesPropertyGetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpbytesreader_readbytes_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/ApplicationData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/languageextractor_getlanguage_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/ResourceDictionaryGenerator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -211,8 +216,6 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/ILanguageExtractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguageLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/ILanguageLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/ActuallyPathGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/IActuallyPathGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/languagefilesfilter_filter_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/accountcreator_create_mojangloginresponse_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/accountcreator_create_string_tests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -233,7 +236,6 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/ActuallyLanguagePathGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/IActuallyLanguagePathGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/pathnameconverter_convert_tests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Models/ActuallyLanguage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/operatingsystemconverter_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/responsevalidator_validate_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/librarynativevalidator_validate_tests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -277,10 +279,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Styles/mainwindowstyles.xaml" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/tabitem.xaml" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/tab.xaml.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/tab.xaml" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/App.xaml" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Models/LanguageData.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/ILanguagesProvider.cs" />
@@ -306,7 +304,6 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/ResourceDictionaryMerger.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/ILanguageExtractor.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguageExtractor.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/ILanguageLoader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/languageextractor_getlanguage_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/IResourceKeyNameGenerator.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/ResourceKeyNameGenerator.cs" />
@@ -319,15 +316,20 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Resources/actually-language.json" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/IActuallyLanguagePathBuilder.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/IActuallyLanguagePathGenerator.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/IActuallyLanguageProvider.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/ActuallyLanguageProvider.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguageLoader.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/ApplicationData.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IApplicationData.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/ActuallyLanguagePathGenerator.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguagesProvider.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/actuallylanguagepathgenerator_generatepath_tests.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/ActuallyLanguageProvider.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/IActuallyLanguageProvider.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/ILanguageService.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IJsonSerializer.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguageService.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/JsonSerializer.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Interfaces/ILanguageLoader.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguageLoader.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -454,6 +456,7 @@
       <workItem from="1574006245439" duration="1591000" />
       <workItem from="1574179483599" duration="4619000" />
       <workItem from="1574261081787" duration="3375000" />
+      <workItem from="1574435503488" duration="3306000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />

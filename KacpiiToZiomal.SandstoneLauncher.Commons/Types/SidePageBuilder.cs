@@ -7,10 +7,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
     public class SidePageBuilder : ISidePageBuilder
     {
         public ISidePageGridProvider GridProvider;
-        
+
+        public int Order { get; set; }
+
         public SidePage BuildSidePage()
         {
-            throw new NotImplementedException();
+            return null;
         }
     }
 }

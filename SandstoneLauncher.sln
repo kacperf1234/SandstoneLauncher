@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLau
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.GamePage", "KacpiiToZiomal.SandstoneLauncher.GamePage\KacpiiToZiomal.SandstoneLauncher.GamePage.csproj", "{121CE41E-1340-4221-B424-ACE828A28339}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.SideBar", "KacpiiToZiomal.SandstoneLauncher.SideBar\KacpiiToZiomal.SandstoneLauncher.SideBar.csproj", "{89F4237F-7558-4389-8BE4-0BE4EEB07BA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,6 +104,10 @@ Global
 		{121CE41E-1340-4221-B424-ACE828A28339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{121CE41E-1340-4221-B424-ACE828A28339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{121CE41E-1340-4221-B424-ACE828A28339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F4237F-7558-4389-8BE4-0BE4EEB07BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F4237F-7558-4389-8BE4-0BE4EEB07BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F4237F-7558-4389-8BE4-0BE4EEB07BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F4237F-7558-4389-8BE4-0BE4EEB07BA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

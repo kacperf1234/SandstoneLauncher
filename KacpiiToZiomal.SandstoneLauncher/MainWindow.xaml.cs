@@ -12,9 +12,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
+using KacpiiToZiomal.SandstoneLauncher.GamePage.Types;
 using KacpiiToZiomal.SandstoneLauncher.Languages.Models;
 using KacpiiToZiomal.SandstoneLauncher.Languages.Types;
+using KacpiiToZiomal.SandstoneLauncher.SideBar.Types;
 
 namespace KacpiiToZiomal.SandstoneLauncher
 {
@@ -28,6 +31,15 @@ namespace KacpiiToZiomal.SandstoneLauncher
             InitializeComponent();
             
             LanguageLoader.Load("en", Resources);
+            
+            SidePagesBuilder builder = new SidePagesBuilder();
+            builder.RegisterBuilder(new GamePageSidePageBuilder());
+            IEnumerable<SidePage> pages = builder.BuildPages();
+
+            foreach (SidePage page in pages)
+            {
+                ListView.Items.Add(page.Item);
+            }
         }
     }
 }

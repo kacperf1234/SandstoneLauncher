@@ -140,6 +140,8 @@
         <e p="Controls" t="Include">
           <e p="GameGrid.xaml" t="Include" />
           <e p="GameGrid.xaml.cs" t="Include" />
+          <e p="GameItem.xaml" t="Include" />
+          <e p="GameItem.xaml.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.GamePage.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -148,6 +150,9 @@
               <e p="KacpiiToZiomal.SandstoneLauncher.GamePage.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Types" t="Include">
+          <e p="GamePageSidePageBuilder.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Languages" t="IncludeRecursive">
@@ -539,6 +544,23 @@
         <e p="Styles" t="Include">
           <e p="mainwindowstyles.xaml" t="Include" />
           <e p="Styles.xaml" t="Include" />
+        </e>
+      </e>
+      <e p="KacpiiToZiomal.SandstoneLauncher.SideBar" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="ISidePagesBuilder.cs" t="Include" />
+        </e>
+        <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Types" t="Include">
+          <e p="SidePagesBuilder.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />

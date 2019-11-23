@@ -147,6 +147,19 @@
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
         }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.SideBar/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.SideBar.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.SideBar.dll": {}
+        }
       }
     }
   },
@@ -307,13 +320,19 @@
       "type": "project",
       "path": "../KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj",
       "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj"
+    },
+    "KacpiiToZiomal.SandstoneLauncher.SideBar/1.0.0": {
+      "type": "project",
+      "path": "../KacpiiToZiomal.SandstoneLauncher.SideBar/KacpiiToZiomal.SandstoneLauncher.SideBar.csproj",
+      "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.SideBar/KacpiiToZiomal.SandstoneLauncher.SideBar.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "KacpiiToZiomal.SandstoneLauncher.GamePage >= 1.0.0",
       "KacpiiToZiomal.SandstoneLauncher.Languages >= 1.0.0",
-      "KacpiiToZiomal.SandstoneLauncher.Resources >= 1.0.0"
+      "KacpiiToZiomal.SandstoneLauncher.Resources >= 1.0.0",
+      "KacpiiToZiomal.SandstoneLauncher.SideBar >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -352,6 +371,9 @@
             },
             "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj": {
               "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj"
+            },
+            "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.SideBar\\KacpiiToZiomal.SandstoneLauncher.SideBar.csproj": {
+              "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.SideBar\\KacpiiToZiomal.SandstoneLauncher.SideBar.csproj"
             }
           }
         }

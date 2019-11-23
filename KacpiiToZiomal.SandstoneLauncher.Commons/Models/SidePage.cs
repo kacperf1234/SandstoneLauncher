@@ -7,5 +7,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Models
         public Grid Grid { get; set; }
 
         public ListViewItem Item { get; set; }
+
+        public static SidePage Create(Grid grid, ListViewItem item)
+        {
+            return new SidePage()
+            {
+                Grid = grid,
+                Item = item
+            };
+        }
     }
 }

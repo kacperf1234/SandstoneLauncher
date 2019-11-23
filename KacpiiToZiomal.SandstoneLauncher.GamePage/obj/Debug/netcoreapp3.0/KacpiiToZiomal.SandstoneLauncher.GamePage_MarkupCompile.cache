@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_0
 
-11012519654
+2-189538229
 
-2-1290487612
+4-898263228
 205824995574
-Controls\GameGrid.xaml;
+Controls\GameGrid.xaml;Controls\GameItem.xaml;
 
 False
 

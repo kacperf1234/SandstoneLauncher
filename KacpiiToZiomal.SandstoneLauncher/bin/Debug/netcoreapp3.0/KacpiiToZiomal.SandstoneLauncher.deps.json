@@ -10,7 +10,8 @@
         "dependencies": {
           "KacpiiToZiomal.SandstoneLauncher.GamePage": "1.0.0",
           "KacpiiToZiomal.SandstoneLauncher.Languages": "1.0.0",
-          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0"
+          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.SideBar": "1.0.0"
         },
         "runtime": {
           "KacpiiToZiomal.SandstoneLauncher.dll": {}
@@ -129,6 +130,14 @@
         "runtime": {
           "KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
         }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.SideBar/1.0.0": {
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.SideBar.dll": {}
+        }
       }
     }
   },
@@ -203,6 +212,11 @@
       "sha512": ""
     },
     "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KacpiiToZiomal.SandstoneLauncher.SideBar/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -16,5 +16,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Models
                 Item = item
             };
         }
+        
+        public static SidePage Create(object grid, object item)
+        {
+            return new SidePage()
+            {
+                Grid = (Grid) grid,
+                Item = (ListViewItem) item
+            };
+        }
     }
 }

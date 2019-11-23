@@ -89,6 +89,11 @@
           <e p="IResponseValidator.cs" t="Include" />
           <e p="ISidePageBuilder.cs" t="Include" />
           <e p="ISidePageGridProvider.cs" t="Include" />
+          <e p="IUserControlActivator.cs" t="Include" />
+          <e p="IUserControlContentDestroyer.cs" t="Include" />
+          <e p="IUserControlContentExtractor.cs" t="Include" />
+          <e p="IUserControlContentProvider.cs" t="Include" />
+          <e p="IUserControlInitializer.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Commons.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
@@ -119,6 +124,7 @@
           <e p="ResponseValidator.cs" t="Include" />
           <e p="SidePageBuilder.cs" t="Include" />
           <e p="SidePageGridProvider.cs" t="Include" />
+          <e p="UserControlContentProvider.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Commons.Tests" t="IncludeRecursive">

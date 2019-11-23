@@ -8,22 +8,20 @@ namespace KacpiiToZiomal.SandstoneLauncher.GamePage.Types
     public class GamePageSidePageBuilder : ISidePageBuilder
     {
         public int Order { get; set; } = 0;
-        
+
+        public IUserControlContentProvider ContentProvider;
+
+        public GamePageSidePageBuilder(IUserControlContentProvider contentProvider)
+        {
+            ContentProvider = contentProvider;
+        }
+
         public SidePage BuildSidePage()
         {
-            GameGrid grid = new GameGrid();
-            grid.InitializeComponent();
+            object grid = ContentProvider.ProvideContent<GameGrid>();
+            object item = ContentProvider.ProvideContent<GameItem>();
             
-            GameItem item = new GameItem();
-            item.InitializeComponent();
-
-            ListViewItem listViewItem = (ListViewItem) item.Content;
-            Grid gridContent = (Grid) grid.Content;
-
-            item.Content = null;
-            grid.Content = null;
-            
-            return SidePage.Create(gridContent, listViewItem);
+            return SidePage.Create(grid, item);
         }
     }
 }

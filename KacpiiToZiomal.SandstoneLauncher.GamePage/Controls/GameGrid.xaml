@@ -18,7 +18,10 @@
     
     <Grid>
         <StackPanel Orientation="Vertical">
-            <Label Style="{StaticResource LabelStyle}" Content="{DynamicResource ls-this-is-a-game-page}" HorizontalAlignment="Center" HorizontalContentAlignment="Center"></Label>
+            <StackPanel Orientation="Vertical" Margin="20">
+                <Label Style="{StaticResource LabelStyle}" Content="{DynamicResource ls-this-is-a-game-page}" HorizontalAlignment="Center" HorizontalContentAlignment="Center"></Label>
+                <Label Style="{StaticResource LabelStyle}" Content="{DynamicResource ls-play-and-start-game}" HorizontalAlignment="Center" HorizontalContentAlignment="Center"></Label>
+            </StackPanel>
             <Button Width="90" Height="29" Style="{StaticResource ButtonStyle}" Content="{DynamicResource ls-launch-game}" HorizontalAlignment="Center"></Button>
         </StackPanel>
     </Grid>

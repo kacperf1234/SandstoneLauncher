@@ -1,4 +1,5 @@
 ﻿using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
 using KacpiiToZiomal.SandstoneLauncher.Languages.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Languages.Models;
 
@@ -12,6 +13,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
         public IFileCreator Creator;
         public IActuallyLanguagePathGenerator PathGenerator;
 
+        private static LanguageService _service;
+
         public LanguageService(IJsonDeserializer<Language> deserializer, IJsonSerializer<Language> serializer, IFileReader reader, IFileCreator creator, IActuallyLanguagePathGenerator pathGenerator)
         {
             Deserializer = deserializer;
@@ -19,6 +22,13 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
             Reader = reader;
             Creator = creator;
             PathGenerator = pathGenerator;
+        }
+
+        public static LanguageService GetLanguageService()
+        {
+            return _service ??= new LanguageService(new JsonDeserializer<Language>(),
+                new JsonSerializer<Language>(), new FileReader(), new FileCreator(new FileNameRemover()),
+                new ActuallyLanguagePathGenerator(new ApplicationData()));
         }
 
         public void SetLanguage(Language language)

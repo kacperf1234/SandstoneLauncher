@@ -25,14 +25,9 @@ namespace KacpiiToZiomal.SandstoneLauncher
     {
         public MainWindow()
         {
-            LanguageService service = new LanguageService(new JsonDeserializer<Language>(),
-                new JsonSerializer<Language>(), new FileReader(), new FileCreator(new FileNameRemover()),
-                new ActuallyLanguagePathGenerator(new ApplicationData()));
-
-            Language langugage = service.GetLangugage();
-            LanguageLoader.Load(langugage, Resources);
-
             InitializeComponent();
+            
+            LanguageLoader.Load("en", Resources);
         }
     }
 }

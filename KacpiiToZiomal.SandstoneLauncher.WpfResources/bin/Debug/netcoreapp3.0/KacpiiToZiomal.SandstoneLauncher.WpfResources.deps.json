@@ -1,0 +1,178 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "KacpiiToZiomal.SandstoneLauncher.WpfResources/1.0.0": {
+        "dependencies": {
+          "MahApps.Metro": "2.0.0-alpha0589",
+          "MaterialDesignThemes": "2.6.0",
+          "Selen.Wpf": "1.0.0",
+          "System.Windows.Interactivity.WPF": "2.0.20525"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.WpfResources.dll": {}
+        }
+      },
+      "ControlzEx/4.1.1": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.0.30"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ControlzEx.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.1.1.11"
+          }
+        }
+      },
+      "Expression.Blend.Sdk/1.0.0": {
+        "runtime": {
+          "lib/net40-client/System.Windows.Interactivity.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "2.0.20525.0"
+          }
+        }
+      },
+      "MahApps.Metro/2.0.0-alpha0589": {
+        "dependencies": {
+          "ControlzEx": "4.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MahApps.Metro.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.589"
+          }
+        }
+      },
+      "MaterialDesignColors/1.2.0": {
+        "runtime": {
+          "lib/net45/MaterialDesignColors.dll": {
+            "assemblyVersion": "1.2.0.325",
+            "fileVersion": "1.2.0.325"
+          }
+        }
+      },
+      "MaterialDesignThemes/2.6.0": {
+        "dependencies": {
+          "MaterialDesignColors": "1.2.0"
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "2.6.0.325",
+            "fileVersion": "2.6.0.325"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.0.30": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.30.56083"
+          }
+        }
+      },
+      "Selen.Wpf/1.0.0": {
+        "dependencies": {
+          "Expression.Blend.Sdk": "1.0.0",
+          "MahApps.Metro": "2.0.0-alpha0589"
+        },
+        "runtime": {
+          "lib/net45/Selen.Wpf.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net45/Selen.Wpf.GenericAppTree.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net45/Selen.Wpf.GenericAppTree.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net45/Selen.Wpf.SystemStyles.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Windows.Interactivity.WPF/2.0.20525": {
+        "runtime": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "2.0.20525.0"
+          },
+          "lib/net40/System.Windows.Interactivity.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "2.0.20525.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KacpiiToZiomal.SandstoneLauncher.WpfResources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlzEx/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xzx0ESf30hiQ/bG5ZtdzWjyHJ8SvAqTP1y8hWdrkcLj10MM2Ody53pbmz2A2W3wE1HP2I1baFf4hgo9S47J+fw==",
+      "path": "controlzex/4.1.1",
+      "hashPath": "controlzex.4.1.1.nupkg.sha512"
+    },
+    "Expression.Blend.Sdk/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E5/z1ApCG9TWZy947Rc9vPOTtSvm0nQzIbqqaKpcSVfzcGS5javozMLcl1dMsyBtRXIQh54TUN4cPawXffKOBg==",
+      "path": "expression.blend.sdk/1.0.0",
+      "hashPath": "expression.blend.sdk.1.0.0.nupkg.sha512"
+    },
+    "MahApps.Metro/2.0.0-alpha0589": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DhyNJFW9SrUmYGEYQqbmN4x/o1hgtRxTMnQ9eZlsMw/CPQtb72rZ4oFCGO/wC5jZij8ta8w9TvqMT/nq0V+ckA==",
+      "path": "mahapps.metro/2.0.0-alpha0589",
+      "hashPath": "mahapps.metro.2.0.0-alpha0589.nupkg.sha512"
+    },
+    "MaterialDesignColors/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tWopwGZk6ScDgjEyDrJuKPtuIF3KUfXP5TRqd7M5QTL8Nq46AB/NHF9VZ5fMUBOlEGWroaJb6lwLG6rjm9+hFw==",
+      "path": "materialdesigncolors/1.2.0",
+      "hashPath": "materialdesigncolors.1.2.0.nupkg.sha512"
+    },
+    "MaterialDesignThemes/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qg0Z0UJ2pvQmnBAtDAhbv9iE0amRK5/IC4ui4nIxCSIWhEEhQHl/ae6g9/wHzJOsuXoNBJF4m55fe7IFDX7yGw==",
+      "path": "materialdesignthemes/2.6.0",
+      "hashPath": "materialdesignthemes.2.6.0.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D3xG0/rKRTv5SKiABGs68HfYjASwyGFO19P41FI8fHyPKA8mq7U8rU7q0RwMCooDQ1JCgUPOCTFHGyGXyG8gvw==",
+      "path": "microsoft.xaml.behaviors.wpf/1.0.30",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.0.30.nupkg.sha512"
+    },
+    "Selen.Wpf/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-evZgr7WdsWijbaIjPlIvUBfM5CtNN5K7qAFJqU02MO0F57k/Kys00HVXWdrlRu0M7iccUZnQuztH9gyDsHODjA==",
+      "path": "selen.wpf/1.0.0",
+      "hashPath": "selen.wpf.1.0.0.nupkg.sha512"
+    },
+    "System.Windows.Interactivity.WPF/2.0.20525": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0r+Le4E7hCm4zToUvBzjSUyTcuU3rFeoPa7JyTdWIzR/F7wH6+O/pWkjHIG40hIA0z1wvRdZayvoizA4wcK1dg==",
+      "path": "system.windows.interactivity.wpf/2.0.20525",
+      "hashPath": "system.windows.interactivity.wpf.2.0.20525.nupkg.sha512"
+    }
+  }
+}

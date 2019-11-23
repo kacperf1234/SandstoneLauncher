@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Languages\KacpiiToZiomal.SandstoneLauncher.Languages.csproj" />
+    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj" />
+  </ItemGroup>
+
+</Project>

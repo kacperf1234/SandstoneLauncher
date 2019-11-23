@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.0": {
       "KacpiiToZiomal.SandstoneLauncher/1.0.0": {
         "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.GamePage": "1.0.0",
           "KacpiiToZiomal.SandstoneLauncher.Languages": "1.0.0",
           "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0"
         },
@@ -101,6 +102,15 @@
           "KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
         }
       },
+      "KacpiiToZiomal.SandstoneLauncher.GamePage/1.0.0": {
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Languages": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.GamePage.dll": {}
+        }
+      },
       "KacpiiToZiomal.SandstoneLauncher.Languages/1.0.0": {
         "dependencies": {
           "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
@@ -178,6 +188,11 @@
       "hashPath": "system.windows.interactivity.wpf.2.0.20525.nupkg.sha512"
     },
     "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KacpiiToZiomal.SandstoneLauncher.GamePage/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

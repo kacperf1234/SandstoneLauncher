@@ -1,0 +1,233 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.GamePage\\KacpiiToZiomal.SandstoneLauncher.GamePage.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj",
+        "projectName": "KacpiiToZiomal.SandstoneLauncher.Commons",
+        "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj",
+        "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.GamePage\\KacpiiToZiomal.SandstoneLauncher.GamePage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.GamePage\\KacpiiToZiomal.SandstoneLauncher.GamePage.csproj",
+        "projectName": "KacpiiToZiomal.SandstoneLauncher.GamePage",
+        "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.GamePage\\KacpiiToZiomal.SandstoneLauncher.GamePage.csproj",
+        "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.GamePage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Languages\\KacpiiToZiomal.SandstoneLauncher.Languages.csproj": {
+                "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Languages\\KacpiiToZiomal.SandstoneLauncher.Languages.csproj"
+              },
+              "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj": {
+                "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Languages\\KacpiiToZiomal.SandstoneLauncher.Languages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Languages\\KacpiiToZiomal.SandstoneLauncher.Languages.csproj",
+        "projectName": "KacpiiToZiomal.SandstoneLauncher.Languages",
+        "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Languages\\KacpiiToZiomal.SandstoneLauncher.Languages.csproj",
+        "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Languages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj": {
+                "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj",
+        "projectName": "KacpiiToZiomal.SandstoneLauncher.Resources",
+        "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj",
+        "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.0.0-alpha0589, )"
+            },
+            "Selen.Wpf": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "System.Windows.Interactivity.WPF": {
+              "target": "Package",
+              "version": "[2.0.20525, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

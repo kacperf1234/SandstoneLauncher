@@ -18,6 +18,9 @@
     "frameworks": {
       "netcoreapp3.0": {
         "projectReferences": {
+          "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.GamePage\\KacpiiToZiomal.SandstoneLauncher.GamePage.csproj": {
+            "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.GamePage\\KacpiiToZiomal.SandstoneLauncher.GamePage.csproj"
+          },
           "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Languages\\KacpiiToZiomal.SandstoneLauncher.Languages.csproj": {
             "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Languages\\KacpiiToZiomal.SandstoneLauncher.Languages.csproj"
           },

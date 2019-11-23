@@ -1286,7 +1286,7 @@
       },
       "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2"
         },

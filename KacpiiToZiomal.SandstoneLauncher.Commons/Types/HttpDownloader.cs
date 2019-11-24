@@ -23,7 +23,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
             DownloadFile(url, destination);
         }
 
-        public void DownloadAsync(string url, string destination, Action<string, string, bool> act = null)
+        public void DownloadAsync(string url, string destination, Action<string> doAfter = null)
         {
             Thread thread = new Thread(x => DownloadFile(url, destination));
             thread.Start();

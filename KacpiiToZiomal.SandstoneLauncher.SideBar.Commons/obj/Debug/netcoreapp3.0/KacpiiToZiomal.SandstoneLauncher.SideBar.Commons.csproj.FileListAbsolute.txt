@@ -34,4 +34,3 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.SideB
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.pdb
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.csprojAssemblyReference.cache

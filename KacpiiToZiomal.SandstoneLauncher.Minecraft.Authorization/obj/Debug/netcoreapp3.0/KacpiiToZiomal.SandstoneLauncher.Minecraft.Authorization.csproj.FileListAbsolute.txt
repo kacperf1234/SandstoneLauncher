@@ -5,7 +5,6 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minec
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Commons.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csprojAssemblyReference.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.AssemblyInfoInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.AssemblyInfo.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj.CopyComplete

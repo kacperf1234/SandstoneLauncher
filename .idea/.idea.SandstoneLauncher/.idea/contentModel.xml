@@ -118,6 +118,9 @@
       <e p="KacpiiToZiomal.SandstoneLauncher.Commons.Tests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="directorycreator_create_tests.cs" t="Include" />
+        <e p="Exceptions" t="Include">
+          <e p="TestException.cs" t="Include" />
+        </e>
         <e p="filelistgenerator_getfiles_tests.cs" t="Include" />
         <e p="filenameextractor_getname_tests.cs" t="Include" />
         <e p="filenameremover_remove_tests.cs" t="Include" />

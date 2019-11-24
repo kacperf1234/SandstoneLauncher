@@ -88,7 +88,6 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Langu
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Languages.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Languages.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Languages.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Languages.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Languages.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Commons.pdb
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Languages.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Languages.Tests.csprojAssemblyReference.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Languages.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Languages.Tests.AssemblyInfoInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Languages.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Languages.Tests.AssemblyInfo.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Languages.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Languages.Tests.csproj.CopyComplete

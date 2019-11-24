@@ -10,6 +10,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces
     {
         void Download(string url, string destination);
 
-        void DownloadAsync(string url, string destination, Action<string, string, bool> act = null);
+        void DownloadAsync(string url, string destination, Action<string> doAfter = null);
     }
 }

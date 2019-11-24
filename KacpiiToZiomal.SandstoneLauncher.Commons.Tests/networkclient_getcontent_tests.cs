@@ -2,12 +2,11 @@
 
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 
 #endregion
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
+namespace KacpiiToZiomal.SandstoneLauncher.Commons.Tests
 {
     public class networkclient_getcontent_tests
     {

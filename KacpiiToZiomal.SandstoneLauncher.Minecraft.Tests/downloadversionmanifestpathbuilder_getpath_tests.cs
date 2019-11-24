@@ -3,7 +3,6 @@
 using System;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 

@@ -15,12 +15,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
         public IEnumerable<string> Filter(string[] files)
         {
             foreach (string file in files)
-            {
                 if (Validator.Validate(file))
-                {
                     yield return file;
-                }
-            }
         }
     }
 }

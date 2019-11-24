@@ -7,28 +7,21 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
 {
     public class LanguageService : ILanguageService
     {
-        public IJsonDeserializer<Language> Deserializer;
-        public IJsonSerializer<Language> Serializer;
-        public IFileReader Reader;
-        public IFileCreator Creator;
-        public IActuallyLanguagePathGenerator PathGenerator;
-
         private static LanguageService _service;
+        public IFileCreator Creator;
+        public IJsonDeserializer<Language> Deserializer;
+        public IActuallyLanguagePathGenerator PathGenerator;
+        public IFileReader Reader;
+        public IJsonSerializer<Language> Serializer;
 
-        public LanguageService(IJsonDeserializer<Language> deserializer, IJsonSerializer<Language> serializer, IFileReader reader, IFileCreator creator, IActuallyLanguagePathGenerator pathGenerator)
+        public LanguageService(IJsonDeserializer<Language> deserializer, IJsonSerializer<Language> serializer,
+            IFileReader reader, IFileCreator creator, IActuallyLanguagePathGenerator pathGenerator)
         {
             Deserializer = deserializer;
             Serializer = serializer;
             Reader = reader;
             Creator = creator;
             PathGenerator = pathGenerator;
-        }
-
-        public static LanguageService GetLanguageService()
-        {
-            return _service ??= new LanguageService(new JsonDeserializer<Language>(),
-                new JsonSerializer<Language>(), new FileReader(), new FileCreator(new FileNameRemover()),
-                new ActuallyLanguagePathGenerator(new ApplicationData()));
         }
 
         public void SetLanguage(Language language)
@@ -44,6 +37,13 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
             string content = Reader.Read(path);
 
             return Deserializer.Deserialize(content);
+        }
+
+        public static LanguageService GetLanguageService()
+        {
+            return _service ??= new LanguageService(new JsonDeserializer<Language>(),
+                new JsonSerializer<Language>(), new FileReader(), new FileCreator(new FileNameRemover()),
+                new ActuallyLanguagePathGenerator(new ApplicationData()));
         }
     }
 }

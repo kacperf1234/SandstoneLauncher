@@ -1,11 +1,11 @@
 ﻿#region
 
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
 using NUnit.Framework;
 
 #endregion
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
+namespace KacpiiToZiomal.SandstoneLauncher.Commons.Tests
 {
     public class pathnameconverter_convert_tests
     {

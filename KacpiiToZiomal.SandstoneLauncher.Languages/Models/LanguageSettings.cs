@@ -6,7 +6,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Models
     {
         [JsonProperty("shortname")]
         public string ShortName { get; set; }
-        
+
         [JsonProperty("longname")]
         public string LongName { get; set; }
     }

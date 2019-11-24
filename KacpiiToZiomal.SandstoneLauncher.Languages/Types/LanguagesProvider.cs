@@ -9,11 +9,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
     {
         public IApplicationData AppData;
         public IFileListGenerator FileListGenerator;
-        public ILanguageFilesFilter LanguageFilesFilter;
-        public IJsonDeserializer<Language> LanguageDeserializer;
         public IFileReader FileReader;
+        public IJsonDeserializer<Language> LanguageDeserializer;
+        public ILanguageFilesFilter LanguageFilesFilter;
 
-        public LanguagesProvider(IFileListGenerator fileListGenerator, ILanguageFilesFilter languageFilesFilter, IJsonDeserializer<Language> languageDeserializer, IFileReader fileReader, IApplicationData appData)
+        public LanguagesProvider(IFileListGenerator fileListGenerator, ILanguageFilesFilter languageFilesFilter,
+            IJsonDeserializer<Language> languageDeserializer, IFileReader fileReader, IApplicationData appData)
         {
             FileListGenerator = fileListGenerator;
             LanguageFilesFilter = languageFilesFilter;
@@ -25,7 +26,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
         public Models.Languages ProvideLanguages()
         {
             string directorypath = AppData.GetApplicationData();
-            string[] files = FileListGenerator.GetFiles(directorypath, searchPattern: "*.json");
+            string[] files = FileListGenerator.GetFiles(directorypath, "*.json");
             string[] filteredFiles = LanguageFilesFilter.Filter(files).ToArray();
             Models.Languages languages = Models.Languages.Empty();
 
@@ -33,7 +34,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
             {
                 string filecontent = FileReader.Read(file);
                 Language language = LanguageDeserializer.Deserialize(filecontent);
-                
+
                 languages.Add(language);
             }
 

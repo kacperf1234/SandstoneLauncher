@@ -1,5 +1,4 @@
-﻿using System;
-using KacpiiToZiomal.SandstoneLauncher.Accounts.Interfaces;
+﻿using KacpiiToZiomal.SandstoneLauncher.Accounts.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Accounts.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Models;
 
@@ -9,7 +8,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Accounts.Types
     {
         public Account Create(MojangLoginResponse loginResponse)
         {
-            return new Account()
+            return new Account
             {
                 Username = loginResponse.SelectedProfile.Name,
                 Uuid = loginResponse.SelectedProfile.Id,
@@ -20,12 +19,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.Accounts.Types
 
         public Account Create(string username)
         {
-            return new Account()
+            return new Account
             {
                 Username = username,
                 Uuid = "N/A",
-                AccessToken = String.Empty,
-                ClientToken = String.Empty
+                AccessToken = string.Empty,
+                ClientToken = string.Empty
             };
         }
     }

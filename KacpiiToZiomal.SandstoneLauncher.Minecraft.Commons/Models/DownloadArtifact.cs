@@ -4,12 +4,16 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models
 {
     public class DownloadArtifact
     {
-        [JsonProperty("path")] public string Path { get; set; }
+        [JsonProperty("path")]
+        public string Path { get; set; }
 
-        [JsonProperty("sha1")] public string Sha1 { get; set; }
+        [JsonProperty("sha1")]
+        public string Sha1 { get; set; }
 
-        [JsonProperty("size")] public uint Size { get; set; }
+        [JsonProperty("size")]
+        public uint Size { get; set; }
 
-        [JsonProperty("url")] public string Url { get; set; }
+        [JsonProperty("url")]
+        public string Url { get; set; }
     }
 }

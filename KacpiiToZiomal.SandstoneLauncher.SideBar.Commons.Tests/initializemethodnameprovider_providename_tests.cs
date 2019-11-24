@@ -5,7 +5,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests
 {
     public class initializemethodnameprovider_providename_tests
     {
-        string execute()
+        private string execute()
         {
             InitializeMethodNameProvider p = new InitializeMethodNameProvider();
             string provideName = p.ProvideName(GetType());

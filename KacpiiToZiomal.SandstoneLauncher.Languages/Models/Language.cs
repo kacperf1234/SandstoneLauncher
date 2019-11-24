@@ -7,10 +7,10 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Models
     {
         [JsonProperty("strings")]
         public Dictionary<string, string> Strings { get; set; }
-        
+
         [JsonProperty("data")]
         public LanguageData Data { get; set; }
-        
+
         [JsonProperty("version")]
         public string Version { get; set; }
     }

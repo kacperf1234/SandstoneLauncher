@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces;
 

@@ -7,11 +7,11 @@ namespace KacpiiToZiomal.SandstoneLauncher.Accounts.Tests
 {
     public class accountcreator_create_mojangloginresponse_tests
     {
-        MojangLoginResponse def()
+        private MojangLoginResponse def()
         {
-            return new MojangLoginResponse()
+            return new MojangLoginResponse
             {
-                SelectedProfile = new MojangProfile()
+                SelectedProfile = new MojangProfile
                 {
                     Id = "uuid",
                     Name = "username"
@@ -20,8 +20,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Accounts.Tests
                 ClientToken = "clienttoken"
             };
         }
-        
-        Account execute(MojangLoginResponse response)
+
+        private Account execute(MojangLoginResponse response)
         {
             return new AccountCreator().Create(response);
         }
@@ -43,13 +43,13 @@ namespace KacpiiToZiomal.SandstoneLauncher.Accounts.Tests
         {
             Assert.AreEqual("uuid", execute(def()).Uuid);
         }
-        
+
         [Test]
         public void returns_excepted_accesstoken()
         {
             Assert.AreEqual("accesstoken", execute(def()).AccessToken);
         }
-        
+
         [Test]
         public void returns_excepted_clienttoken()
         {

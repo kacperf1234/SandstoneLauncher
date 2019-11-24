@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KacpiiToZiomal.SandstoneLauncher"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Style="{StaticResource StandardWindow}">
+        Title="MainWindow"
+        Height="450"
+        Width="800"
+        Style="{StaticResource StandardWindow}">
     <Grid>
-        <ListView x:Name="ListView">
-            
-        </ListView>
+        <ListView x:Name="ListView" />
     </Grid>
 </Window>

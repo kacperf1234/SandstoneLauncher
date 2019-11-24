@@ -1,28 +1,14 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests.Exceptions;
-using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Types;
+﻿using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Types;
 using NUnit.Framework;
 
 namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests
 {
     public class usercontrolinitializer_initialize_tests
     {
-        class UserControl
+        private void execute(MyUserControl instance)
         {
-        }
-
-        class MyUserControl : UserControl
-        {
-            public bool Initialized = false;
-            
-            public void InitializeComponent()
-            {
-                Initialized = true;
-            }
-        }
-
-        void execute(MyUserControl instance)
-        {
-            new UserControlInitializer(new InitializeMethodFinder(new InitializeMethodNameProvider())).Initialize(instance);
+            new UserControlInitializer(new InitializeMethodFinder(new InitializeMethodNameProvider()))
+                .Initialize(instance);
         }
 
         [Test]
@@ -52,6 +38,20 @@ namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests
 
             Assert.IsFalse(before);
             Assert.IsTrue(after);
+        }
+
+        private class UserControl
+        {
+        }
+
+        private class MyUserControl : UserControl
+        {
+            public bool Initialized;
+
+            public void InitializeComponent()
+            {
+                Initialized = true;
+            }
         }
     }
 }

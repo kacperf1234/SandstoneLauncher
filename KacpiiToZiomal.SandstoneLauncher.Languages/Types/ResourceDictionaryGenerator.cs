@@ -17,11 +17,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
         public ResourceDictionary GenerateResourceDictionary(Language lang)
         {
             ResourceDictionary resources = new ResourceDictionary();
-            
-            foreach (KeyValuePair<string,string> pair in lang.Strings)
-            {
+
+            foreach (KeyValuePair<string, string> pair in lang.Strings)
                 resources.Add(KeyNameGenerator.GenerateName(pair.Key), pair.Value);
-            }
 
             return resources;
         }

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.IO;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
+namespace KacpiiToZiomal.SandstoneLauncher.Commons.Tests
 {
     public class httpdownloader_downloadasync_tests
     {

@@ -10,16 +10,16 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Models
 
         public static SidePage Create(Grid grid, ListViewItem item)
         {
-            return new SidePage()
+            return new SidePage
             {
                 Grid = grid,
                 Item = item
             };
         }
-        
+
         public static SidePage Create(object grid, object item)
         {
-            return new SidePage()
+            return new SidePage
             {
                 Grid = (Grid) grid,
                 Item = (ListViewItem) item

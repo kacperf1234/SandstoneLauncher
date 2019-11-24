@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using KacpiiToZiomal.SandstoneLauncher.Languages.Models;
+﻿using KacpiiToZiomal.SandstoneLauncher.Languages.Models;
 using KacpiiToZiomal.SandstoneLauncher.Languages.Types;
 using NUnit.Framework;
 
@@ -7,35 +6,35 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Tests
 {
     public class languageextractor_getlanguage_tests
     {
-        private Models.Languages Langs = new Models.Languages()
+        private Models.Languages Langs = new Models.Languages
         {
-            new Language()
+            new Language
             {
-                Data = new LanguageData()
+                Data = new LanguageData
                 {
                     LongName = "polish",
                     ShortName = "pl"
                 }
             },
-            new Language()
+            new Language
             {
-                Data = new LanguageData()
+                Data = new LanguageData
                 {
                     LongName = "russia",
                     ShortName = "ru"
                 }
             },
-            new Language()
+            new Language
             {
-                Data = new LanguageData()
+                Data = new LanguageData
                 {
                     LongName = "english",
                     ShortName = "en"
                 }
             }
         };
-        
-        Language execute(string shortname = "pl")
+
+        private Language execute(string shortname = "pl")
         {
             return new LanguageExtractor().GetLanguage(Langs, shortname);
         }
@@ -43,13 +42,13 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Tests
         [Test]
         public void dont_throws_exceptions()
         {
-            Assert.DoesNotThrow(() => { execute();});
+            Assert.DoesNotThrow(() => { execute(); });
         }
 
         [Test]
         public void returns_excepted_shortname()
         {
-            Assert.AreEqual("pl", execute("pl").Data.ShortName);
+            Assert.AreEqual("pl", execute().Data.ShortName);
         }
     }
 }

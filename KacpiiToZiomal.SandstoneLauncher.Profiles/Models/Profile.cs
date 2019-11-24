@@ -13,10 +13,10 @@ namespace KacpiiToZiomal.SandstoneLauncher.Profiles.Models
 
         [JsonProperty("xms")]
         public int Xms { get; set; }
-        
+
         [JsonProperty("width")]
         public int Width { get; set; }
-        
+
         [JsonProperty("height")]
         public int Height { get; set; }
 

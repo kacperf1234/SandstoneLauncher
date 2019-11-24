@@ -1,13 +1,12 @@
 ﻿using KacpiiToZiomal.SandstoneLauncher.Accounts.Models;
 using KacpiiToZiomal.SandstoneLauncher.Accounts.Types;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Models;
 using NUnit.Framework;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Accounts.Tests
 {
     public class accountcreator_create_string_tests
     {
-        Account execute(string username)
+        private Account execute(string username)
         {
             AccountCreator c = new AccountCreator();
             return c.Create(username);

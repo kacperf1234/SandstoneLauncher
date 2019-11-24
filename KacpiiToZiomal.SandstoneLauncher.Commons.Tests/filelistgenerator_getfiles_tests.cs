@@ -16,25 +16,22 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Tests
             Guid.NewGuid().ToString(),
             Guid.NewGuid().ToString()
         };
-        
+
         [SetUp]
         public void setup()
         {
             Directory.CreateDirectory(Dirname);
-            
-            foreach (string file in Files)
-            {
-                File.Create(Dirname + "\\" + file).Close();
-            }
+
+            foreach (string file in Files) File.Create(Dirname + "\\" + file).Close();
         }
-        
+
         [TearDown]
         public void teardown()
         {
             Directory.Delete(Dirname, true);
         }
-        
-        string[] execute()
+
+        private string[] execute()
         {
             return new FileListGenerator().GetFiles(Dirname);
         }
@@ -56,10 +53,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Tests
         {
             string[] exec = execute();
 
-            foreach (string file in Files)
-            {
-                Assert.DoesNotThrow(() => exec.Where(x => x == file));
-            }
+            foreach (string file in Files) Assert.DoesNotThrow(() => exec.Where(x => x == file));
         }
     }
 }

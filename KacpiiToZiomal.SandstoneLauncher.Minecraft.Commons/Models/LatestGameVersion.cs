@@ -4,7 +4,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models
 {
     public class LatestGameVersion
     {
-        [JsonProperty("release")] 
+        [JsonProperty("release")]
         public string Release { get; set; }
 
         [JsonProperty("snapshot")]

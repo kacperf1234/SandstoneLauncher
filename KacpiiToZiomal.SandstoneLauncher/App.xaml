@@ -4,10 +4,11 @@
              xmlns:local="clr-namespace:KacpiiToZiomal.SandstoneLauncher"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         <ResourceDictionary>
-             <ResourceDictionary.MergedDictionaries>
-                 <ResourceDictionary Source="pack://application:,,,/KacpiiToZiomal.SandstoneLauncher.Resources;component/Styles/Styles.xaml"></ResourceDictionary>
-             </ResourceDictionary.MergedDictionaries>
-         </ResourceDictionary>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary
+                    Source="pack://application:,,,/KacpiiToZiomal.SandstoneLauncher.Resources;component/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -7,11 +7,15 @@
              mc:Ignorable="d"
              d:DesignHeight="300"
              d:DesignWidth="300">
-    
+
     <ListViewItem>
         <StackPanel Orientation="Vertical">
-            <Label Style="{DynamicResource LabelStyle}" Content="Hello World!" FontWeight="Bold"></Label>
-            <Label Style="{DynamicResource LabelStyle}" Content="I am kacper!" FontWeight="Normal"></Label>
+            <Label Style="{DynamicResource LabelStyle}"
+                   Content="Hello World!"
+                   FontWeight="Bold" />
+            <Label Style="{DynamicResource LabelStyle}"
+                   Content="I am kacper!"
+                   FontWeight="Normal" />
         </StackPanel>
     </ListViewItem>
 </UserControl>

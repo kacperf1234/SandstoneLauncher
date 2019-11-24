@@ -4,7 +4,25 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models
 {
     public class GameVersion
     {
-        [JsonProperty("id")] 
+        public GameVersion()
+        {
+        }
+
+        private GameVersion(string id)
+        {
+            Id = id;
+        }
+
+        private GameVersion(string id, string type, string url, string time, string releaseTime)
+        {
+            Id = id;
+            Type = type;
+            Url = url;
+            Time = time;
+            ReleaseTime = releaseTime;
+        }
+
+        [JsonProperty("id")]
         public string Id { get; set; }
 
         [JsonProperty("type")]
@@ -19,31 +37,13 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models
         [JsonProperty("releaseTime")]
         public string ReleaseTime { get; set; }
 
-        public GameVersion()
-        {
-            
-        }
-        
-        GameVersion(string id)
-        {
-            Id = id;
-        }
-
-        GameVersion(string id, string type, string url, string time, string releaseTime)
-        {
-            Id = id;
-            Type = type;
-            Url = url;
-            Time = time;
-            ReleaseTime = releaseTime;
-        }
-
         public static GameVersion CreateVersion(string id)
         {
             return new GameVersion(id);
         }
 
-        public static GameVersion CreateVersion(string id = "", string type = "", string url = "", string time = "", string releaseTime = "")
+        public static GameVersion CreateVersion(string id = "", string type = "", string url = "", string time = "",
+            string releaseTime = "")
         {
             return new GameVersion(id, type, url, time, releaseTime);
         }

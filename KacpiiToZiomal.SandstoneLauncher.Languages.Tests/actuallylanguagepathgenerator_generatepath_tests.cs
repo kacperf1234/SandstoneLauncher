@@ -6,15 +6,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Tests
 {
     public class actuallylanguagepathgenerator_generatepath_tests
     {
-        class appdata : IApplicationData
-        {
-            public string GetApplicationData()
-            {
-                return "appdata\\";
-            }
-        }
-        
-        string execute()
+        private string execute()
         {
             ActuallyLanguagePathGenerator generator = new ActuallyLanguagePathGenerator(new appdata());
             return generator.GeneratePath();
@@ -42,6 +34,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Tests
         public void returns_excepted_string()
         {
             Assert.AreEqual("appdata\\actually_language.json", execute());
+        }
+
+        private class appdata : IApplicationData
+        {
+            public string GetApplicationData()
+            {
+                return "appdata\\";
+            }
         }
     }
 }

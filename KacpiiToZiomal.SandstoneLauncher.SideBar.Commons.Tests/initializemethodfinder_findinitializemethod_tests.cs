@@ -1,6 +1,4 @@
-﻿using System;
-using System.Diagnostics;
-using System.Reflection;
+﻿using System.Reflection;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests.Exceptions;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Types;
 using NUnit.Framework;
@@ -10,26 +8,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests
     public class initializemethodfinder_findinitializemethod_tests
     {
         private MyUserControl instance;
-        
-        class UserControl
-        {
-        }
-
-        class MyUserControl : UserControl
-        {
-            public void InitializeComponent()
-            {
-                throw new TestException();
-            }
-        }
 
         [SetUp]
         public void setup()
         {
             instance = new MyUserControl();
         }
-    
-        MethodInfo execute()
+
+        private MethodInfo execute()
         {
             InitializeMethodFinder finder = new InitializeMethodFinder(new InitializeMethodNameProvider());
             MethodInfo method = finder.FindInitializeMethod(instance);
@@ -60,7 +46,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests
         {
             ParameterInfo[] parameters = execute().GetParameters();
             int length = parameters.Length;
-            
+
             Assert.IsTrue(length == 0);
         }
 
@@ -75,6 +61,18 @@ namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests
             catch (TargetInvocationException target)
             {
                 Assert.IsTrue(target.InnerException.Message.Contains(typeof(TestException).Name));
+            }
+        }
+
+        private class UserControl
+        {
+        }
+
+        private class MyUserControl : UserControl
+        {
+            public void InitializeComponent()
+            {
+                throw new TestException();
             }
         }
     }

@@ -10,7 +10,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Types
         public IFileReader FileReader;
         public IActuallyLanguagePathGenerator PathGenerator;
 
-        public ActuallyLanguageProvider(IJsonDeserializer<Language> deserializer, IFileReader fileReader, IActuallyLanguagePathGenerator pathGenerator)
+        public ActuallyLanguageProvider(IJsonDeserializer<Language> deserializer, IFileReader fileReader,
+            IActuallyLanguagePathGenerator pathGenerator)
         {
             Deserializer = deserializer;
             FileReader = fileReader;

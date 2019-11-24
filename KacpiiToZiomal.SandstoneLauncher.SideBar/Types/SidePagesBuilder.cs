@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Interfaces;
@@ -9,12 +8,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Types
 {
     public class SidePagesBuilder : ISidePagesBuilder
     {
-        public List<ISidePageBuilder> Builders { get; set; }
-
         public SidePagesBuilder()
         {
             Builders = new List<ISidePageBuilder>();
         }
+
+        public List<ISidePageBuilder> Builders { get; set; }
 
         public void RegisterBuilder(ISidePageBuilder builder)
         {

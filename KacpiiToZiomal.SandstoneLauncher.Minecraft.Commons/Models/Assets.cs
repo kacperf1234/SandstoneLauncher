@@ -14,20 +14,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models
             {
                 Clear();
 
-                foreach (KeyValuePair<string, Asset> item in value)
-                {
-                    Add(item.Key, item.Value);
-                }
+                foreach (KeyValuePair<string, Asset> item in value) Add(item.Key, item.Value);
             }
 
             get
             {
                 Dictionary<string, Asset> local = new Dictionary<string, Asset>();
 
-                foreach (string key in Keys)
-                {
-                    local.Add(key, base[key]);
-                }
+                foreach (string key in Keys) local.Add(key, base[key]);
 
                 return local;
             }

@@ -1,8 +1,7 @@
 ﻿using System.Linq;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
+namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
 {
     public class PathNameConverter : IPathConverter
     {

@@ -6,7 +6,7 @@ using NUnit.Framework;
 
 #endregion
 
-namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
+namespace KacpiiToZiomal.SandstoneLauncher.Commons.Tests
 {
     public class jsondeserializer_deserialize_tests
     {
@@ -36,9 +36,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
 
         private class sampleclass
         {
-            [JsonProperty("boruto")] 
+            [JsonProperty("boruto")]
             public string Name;
-            
+
             public int X;
             public int Y;
         }

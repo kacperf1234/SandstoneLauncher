@@ -7,7 +7,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Tests
 {
     public class languagefilesfilter_filter_tests
     {
-        IEnumerable<string> execute(params string[] arr)
+        private IEnumerable<string> execute(params string[] arr)
         {
             LanguageFilesFilter filter = new LanguageFilesFilter(new LanguageFileNameValidator());
             return filter.Filter(arr);

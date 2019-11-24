@@ -5,7 +5,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Tests
 {
     public class resourcekeynamegenerator_generatename_tests
     {
-        string execute(string k)
+        private string execute(string k)
         {
             return new ResourceKeyNameGenerator().GenerateName(k);
         }

@@ -1,12 +1,11 @@
 ﻿using KacpiiToZiomal.SandstoneLauncher.Languages.Types;
 using NUnit.Framework;
-using NUnit.Framework.Internal;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Languages.Tests
 {
     public class languagefilenamevalidator_validate_tests
     {
-        bool execute(string fn)
+        private bool execute(string fn)
         {
             LanguageFileNameValidator validator = new LanguageFileNameValidator();
             bool validate = validator.Validate(fn);

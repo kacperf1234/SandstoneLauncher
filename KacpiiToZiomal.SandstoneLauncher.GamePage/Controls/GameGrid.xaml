@@ -7,22 +7,33 @@
              mc:Ignorable="d"
              d:DesignHeight="300"
              d:DesignWidth="300">
-    
+
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/KacpiiToZiomal.SandstoneLauncher.Resources;component/Styles/Styles.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/KacpiiToZiomal.SandstoneLauncher.Resources;component/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
-    
+
     <Grid>
         <StackPanel Orientation="Vertical">
-            <StackPanel Orientation="Vertical" Margin="20">
-                <Label Style="{StaticResource LabelStyle}" Content="{DynamicResource ls-this-is-a-game-page}" HorizontalAlignment="Center" HorizontalContentAlignment="Center"></Label>
-                <Label Style="{StaticResource LabelStyle}" Content="{DynamicResource ls-play-and-start-game}" HorizontalAlignment="Center" HorizontalContentAlignment="Center"></Label>
+            <StackPanel Orientation="Vertical"
+                        Margin="20">
+                <Label Style="{StaticResource LabelStyle}"
+                       Content="{DynamicResource ls-this-is-a-game-page}"
+                       HorizontalAlignment="Center"
+                       HorizontalContentAlignment="Center" />
+                <Label Style="{StaticResource LabelStyle}"
+                       Content="{DynamicResource ls-play-and-start-game}"
+                       HorizontalAlignment="Center"
+                       HorizontalContentAlignment="Center" />
             </StackPanel>
-            <Button Width="90" Height="29" Style="{StaticResource ButtonStyle}" Content="{DynamicResource ls-launch-game}" HorizontalAlignment="Center"></Button>
+            <Button Width="90"
+                    Height="29"
+                    Style="{StaticResource ButtonStyle}"
+                    Content="{DynamicResource ls-launch-game}"
+                    HorizontalAlignment="Center" />
         </StackPanel>
     </Grid>
 </UserControl>

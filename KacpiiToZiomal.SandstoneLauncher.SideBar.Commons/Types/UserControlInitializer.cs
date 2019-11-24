@@ -1,6 +1,4 @@
-﻿using System;
-using System.Reflection;
-using System.Windows.Controls;
+﻿using System.Reflection;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Types

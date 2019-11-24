@@ -4,6 +4,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Languages.Models
 {
     public class Languages : List<Language>
     {
-        public static Languages Empty() => new Languages(); 
+        public static Languages Empty()
+        {
+            return new Languages();
+        }
     }
 }

@@ -2,6 +2,7 @@
 using System.Linq;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Models;
+using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Types

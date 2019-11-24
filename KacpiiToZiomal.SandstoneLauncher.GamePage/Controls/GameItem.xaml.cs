@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace KacpiiToZiomal.SandstoneLauncher.GamePage.Types
+namespace KacpiiToZiomal.SandstoneLauncher.GamePage.Controls
 {
     public partial class GameItem : UserControl
     {

@@ -87,18 +87,8 @@
           <e p="IMinecraftDirectory.cs" t="Include" />
           <e p="IPathConverter.cs" t="Include" />
           <e p="IResponseValidator.cs" t="Include" />
-          <e p="ISidePageBuilder.cs" t="Include" />
-          <e p="ISidePageGridProvider.cs" t="Include" />
-          <e p="IUserControlActivator.cs" t="Include" />
-          <e p="IUserControlContentDestroyer.cs" t="Include" />
-          <e p="IUserControlContentExtractor.cs" t="Include" />
-          <e p="IUserControlContentProvider.cs" t="Include" />
-          <e p="IUserControlInitializer.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Commons.csproj" t="IncludeRecursive" />
-        <e p="Models" t="Include">
-          <e p="SidePage.cs" t="Include" />
-        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
@@ -122,9 +112,6 @@
           <e p="NetworkClient.cs" t="Include" />
           <e p="PathConverter.cs" t="Include" />
           <e p="ResponseValidator.cs" t="Include" />
-          <e p="SidePageBuilder.cs" t="Include" />
-          <e p="SidePageGridProvider.cs" t="Include" />
-          <e p="UserControlContentProvider.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Commons.Tests" t="IncludeRecursive">
@@ -567,6 +554,38 @@
         </e>
         <e p="Types" t="Include">
           <e p="SidePagesBuilder.cs" t="Include" />
+        </e>
+      </e>
+      <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="ISidePageBuilder.cs" t="Include" />
+          <e p="ISidePageGridProvider.cs" t="Include" />
+          <e p="IUserControlActivator.cs" t="Include" />
+          <e p="IUserControlContentDestroyer.cs" t="Include" />
+          <e p="IUserControlContentExtractor.cs" t="Include" />
+          <e p="IUserControlContentProvider.cs" t="Include" />
+          <e p="IUserControlInitializer.cs" t="Include" />
+        </e>
+        <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="SidePage.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Types" t="Include">
+          <e p="SidePageBuilder.cs" t="Include" />
+          <e p="SidePageGridProvider.cs" t="Include" />
+          <e p="UserControlActivator.cs" t="Include" />
+          <e p="UserControlContentDestroyer.cs" t="Include" />
+          <e p="UserControlContentExtractor.cs" t="Include" />
+          <e p="UserControlContentProvider.cs" t="Include" />
+          <e p="UserControlInitializer.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />

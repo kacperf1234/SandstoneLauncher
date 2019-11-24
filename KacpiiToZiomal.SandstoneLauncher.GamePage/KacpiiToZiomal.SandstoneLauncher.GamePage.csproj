@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Languages\KacpiiToZiomal.SandstoneLauncher.Languages.csproj" />
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj" />
+    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.csproj" />
   </ItemGroup>
 
 </Project>

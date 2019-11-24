@@ -20,3 +20,5 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.GameP
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.GamePage\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.GamePage.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.GamePage\obj\Debug\netcoreapp3.0\Controls\GameItem.g.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.GamePage\obj\Debug\netcoreapp3.0\Controls\GameItem.baml
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.GamePage\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.GamePage\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.pdb

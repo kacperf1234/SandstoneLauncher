@@ -2,6 +2,7 @@
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.GamePage.Controls;
+using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.GamePage.Types
 {

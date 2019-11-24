@@ -92,6 +92,15 @@
           "lib/net40/System.Windows.Interactivity.dll": {}
         }
       },
+      "WindowsBase/4.6.1055": {
+        "type": "package",
+        "compile": {
+          "lib/WindowsBase.dll": {}
+        },
+        "runtime": {
+          "lib/WindowsBase.dll": {}
+        }
+      },
       "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -132,6 +141,20 @@
         },
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "WindowsBase": "4.6.1055"
+        },
+        "compile": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.dll": {}
         }
       }
     }
@@ -274,6 +297,18 @@
         "system.windows.interactivity.wpf.nuspec"
       ]
     },
+    "WindowsBase/4.6.1055": {
+      "sha512": "1NKRZTcRus8Q1ZPZz9QAucHYHLHmQ3G+MMaFFZyPTDRpEfmIFLo9mtSyO8TZkEJFXaNXvnhenPod4ltd8EOHkg==",
+      "type": "package",
+      "path": "windowsbase/4.6.1055",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/WindowsBase.dll",
+        "windowsbase.4.6.1055.nupkg.sha512",
+        "windowsbase.nuspec"
+      ]
+    },
     "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
       "type": "project",
       "path": "../KacpiiToZiomal.SandstoneLauncher.Commons/KacpiiToZiomal.SandstoneLauncher.Commons.csproj",
@@ -288,12 +323,18 @@
       "type": "project",
       "path": "../KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj",
       "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Resources/KacpiiToZiomal.SandstoneLauncher.Resources.csproj"
+    },
+    "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons/1.0.0": {
+      "type": "project",
+      "path": "../KacpiiToZiomal.SandstoneLauncher.SideBar.Commons/KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.csproj",
+      "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.SideBar.Commons/KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "KacpiiToZiomal.SandstoneLauncher.Languages >= 1.0.0",
-      "KacpiiToZiomal.SandstoneLauncher.Resources >= 1.0.0"
+      "KacpiiToZiomal.SandstoneLauncher.Resources >= 1.0.0",
+      "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -329,6 +370,9 @@
             },
             "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj": {
               "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Resources\\KacpiiToZiomal.SandstoneLauncher.Resources.csproj"
+            },
+            "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons\\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.csproj": {
+              "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons\\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.csproj"
             }
           }
         }
@@ -391,6 +435,16 @@
       "warningLevel": 1,
       "message": "Package 'System.Windows.Interactivity.WPF 2.0.20525' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
       "libraryId": "System.Windows.Interactivity.WPF",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WindowsBase 4.6.1055' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WindowsBase",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.0"
       ]

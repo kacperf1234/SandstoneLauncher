@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -17,6 +18,7 @@ using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
 using KacpiiToZiomal.SandstoneLauncher.GamePage.Types;
 using KacpiiToZiomal.SandstoneLauncher.Languages.Models;
 using KacpiiToZiomal.SandstoneLauncher.Languages.Types;
+using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Types;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Types;
 
 namespace KacpiiToZiomal.SandstoneLauncher
@@ -33,7 +35,7 @@ namespace KacpiiToZiomal.SandstoneLauncher
             LanguageLoader.Load("en", Resources);
             
             SidePagesBuilder builder = new SidePagesBuilder();
-            builder.RegisterBuilder(new GamePageSidePageBuilder());
+            builder.RegisterBuilder(new GamePageSidePageBuilder(new UserControlContentProvider(new UserControlContentExtractor(), new UserControlActivator(), new UserControlInitializer(), new UserControlContentDestroyer())));
             IEnumerable<SidePage> pages = builder.BuildPages();
 
             foreach (SidePage page in pages)

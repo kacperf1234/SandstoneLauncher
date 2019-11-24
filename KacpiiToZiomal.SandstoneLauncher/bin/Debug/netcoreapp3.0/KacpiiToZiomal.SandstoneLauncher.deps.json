@@ -95,6 +95,7 @@
           }
         }
       },
+      "WindowsBase/4.6.1055": {},
       "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.2"
@@ -106,7 +107,8 @@
       "KacpiiToZiomal.SandstoneLauncher.GamePage/1.0.0": {
         "dependencies": {
           "KacpiiToZiomal.SandstoneLauncher.Languages": "1.0.0",
-          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0"
+          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons": "1.0.0"
         },
         "runtime": {
           "KacpiiToZiomal.SandstoneLauncher.GamePage.dll": {}
@@ -133,10 +135,20 @@
       },
       "KacpiiToZiomal.SandstoneLauncher.SideBar/1.0.0": {
         "dependencies": {
-          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0"
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons": "1.0.0"
         },
         "runtime": {
           "KacpiiToZiomal.SandstoneLauncher.SideBar.dll": {}
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons/1.0.0": {
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "WindowsBase": "4.6.1055"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.dll": {}
         }
       }
     }
@@ -196,6 +208,13 @@
       "path": "system.windows.interactivity.wpf/2.0.20525",
       "hashPath": "system.windows.interactivity.wpf.2.0.20525.nupkg.sha512"
     },
+    "WindowsBase/4.6.1055": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1NKRZTcRus8Q1ZPZz9QAucHYHLHmQ3G+MMaFFZyPTDRpEfmIFLo9mtSyO8TZkEJFXaNXvnhenPod4ltd8EOHkg==",
+      "path": "windowsbase/4.6.1055",
+      "hashPath": "windowsbase.4.6.1055.nupkg.sha512"
+    },
     "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -217,6 +236,11 @@
       "sha512": ""
     },
     "KacpiiToZiomal.SandstoneLauncher.SideBar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

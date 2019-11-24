@@ -9,6 +9,7 @@
       "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
+          "PresentationCore": "4.0.0.0",
           "PresentationFramework": "4.0.0.0"
         },
         "runtime": {
@@ -20,6 +21,14 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "PresentationCore/4.0.0.0": {
+        "runtime": {
+          "PresentationCore.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.800.19.46214"
           }
         }
       },
@@ -39,25 +48,9 @@
           }
         }
       },
-      "PresentationCore/4.0.0.0": {
+      "System.Windows.Input.Manipulations/4.0.0.0": {
         "runtime": {
-          "PresentationCore.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.800.19.46214"
-          }
-        }
-      },
-      "ReachFramework/4.0.0.0": {
-        "runtime": {
-          "ReachFramework.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.800.19.46214"
-          }
-        }
-      },
-      "System.Printing/4.0.0.0": {
-        "runtime": {
-          "System.Printing.dll": {
+          "System.Windows.Input.Manipulations.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.800.19.46214"
           }
@@ -79,6 +72,30 @@
           }
         }
       },
+      "System.IO.Packaging/4.0.4.0": {
+        "runtime": {
+          "System.IO.Packaging.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "ReachFramework/4.0.0.0": {
+        "runtime": {
+          "ReachFramework.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.800.19.46214"
+          }
+        }
+      },
+      "System.Printing/4.0.0.0": {
+        "runtime": {
+          "System.Printing.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.800.19.46214"
+          }
+        }
+      },
       "System.Windows.Extensions/4.0.0.0": {
         "runtime": {
           "System.Windows.Extensions.dll": {
@@ -91,22 +108,6 @@
         "runtime": {
           "System.Security.Permissions.dll": {
             "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.700.19.46214"
-          }
-        }
-      },
-      "System.Windows.Input.Manipulations/4.0.0.0": {
-        "runtime": {
-          "System.Windows.Input.Manipulations.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.800.19.46214"
-          }
-        }
-      },
-      "System.IO.Packaging/4.0.4.0": {
-        "runtime": {
-          "System.IO.Packaging.dll": {
-            "assemblyVersion": "4.0.4.0",
             "fileVersion": "4.700.19.46214"
           }
         }
@@ -142,6 +143,11 @@
       "path": "newtonsoft.json/12.0.2",
       "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
+    "PresentationCore/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PresentationFramework/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -152,17 +158,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "PresentationCore/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ReachFramework/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Printing/4.0.0.0": {
+    "System.Windows.Input.Manipulations/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -177,22 +173,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "System.IO.Packaging/4.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReachFramework/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Printing/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "System.Windows.Extensions/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "System.Security.Permissions/4.0.2.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Windows.Input.Manipulations/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.IO.Packaging/4.0.4.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

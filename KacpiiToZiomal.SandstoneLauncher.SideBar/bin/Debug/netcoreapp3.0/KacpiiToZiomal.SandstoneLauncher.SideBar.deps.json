@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.0": {
       "KacpiiToZiomal.SandstoneLauncher.SideBar/1.0.0": {
         "dependencies": {
-          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0"
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons": "1.0.0"
         },
         "runtime": {
           "KacpiiToZiomal.SandstoneLauncher.SideBar.dll": {}
@@ -22,9 +23,19 @@
           }
         }
       },
+      "WindowsBase/4.6.1055": {},
       "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
+        }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons/1.0.0": {
+        "dependencies": {
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "WindowsBase": "4.6.1055",
           "PresentationFramework": "4.0.0.0",
           "System.Xaml": "4.0.0.0",
           "PresentationCore": "4.0.0.0",
@@ -40,7 +51,7 @@
           "System.Security.Principal.Windows": "4.1.1.0"
         },
         "runtime": {
-          "KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
+          "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.dll": {}
         }
       },
       "PresentationFramework.Reference/4.0.0.0": {
@@ -162,7 +173,19 @@
       "path": "newtonsoft.json/12.0.2",
       "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
+    "WindowsBase/4.6.1055": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1NKRZTcRus8Q1ZPZz9QAucHYHLHmQ3G+MMaFFZyPTDRpEfmIFLo9mtSyO8TZkEJFXaNXvnhenPod4ltd8EOHkg==",
+      "path": "windowsbase/4.6.1055",
+      "hashPath": "windowsbase.4.6.1055.nupkg.sha512"
+    },
     "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KacpiiToZiomal.SandstoneLauncher.SideBar.Commons/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

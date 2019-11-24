@@ -559,6 +559,8 @@
       <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
+          <e p="IInitializeMethodFinder.cs" t="Include" />
+          <e p="IInitializeMethodNameProvider.cs" t="Include" />
           <e p="ISidePageBuilder.cs" t="Include" />
           <e p="ISidePageGridProvider.cs" t="Include" />
           <e p="IUserControlActivator.cs" t="Include" />
@@ -579,6 +581,8 @@
           </e>
         </e>
         <e p="Types" t="Include">
+          <e p="InitializeMethodFinder.cs" t="Include" />
+          <e p="InitializeMethodNameProvider.cs" t="Include" />
           <e p="SidePageBuilder.cs" t="Include" />
           <e p="SidePageGridProvider.cs" t="Include" />
           <e p="UserControlActivator.cs" t="Include" />
@@ -587,6 +591,23 @@
           <e p="UserControlContentProvider.cs" t="Include" />
           <e p="UserControlInitializer.cs" t="Include" />
         </e>
+      </e>
+      <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Exceptions" t="Include">
+          <e p="TestException.cs" t="Include" />
+        </e>
+        <e p="initializemethodfinder_findinitializemethod_tests.cs" t="Include" />
+        <e p="initializemethodnameprovider_providename_tests.cs" t="Include" />
+        <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="usercontrolinitializer_initialize_tests.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="SandstoneLauncher.sln" t="IncludeFlat" />

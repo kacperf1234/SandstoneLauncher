@@ -35,7 +35,7 @@ namespace KacpiiToZiomal.SandstoneLauncher
             LanguageLoader.Load("en", Resources);
             
             SidePagesBuilder builder = new SidePagesBuilder();
-            builder.RegisterBuilder(new GamePageSidePageBuilder(new UserControlContentProvider(new UserControlContentExtractor(), new UserControlActivator(), new UserControlInitializer(), new UserControlContentDestroyer())));
+            builder.RegisterBuilder(new GamePageSidePageBuilder(new UserControlContentProvider(new UserControlContentExtractor(), new UserControlActivator(), new UserControlInitializer(new InitializeMethodFinder(new InitializeMethodNameProvider())), new UserControlContentDestroyer())));
             IEnumerable<SidePage> pages = builder.BuildPages();
 
             foreach (SidePage page in pages)

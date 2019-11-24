@@ -4,6 +4,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces
 {
     public interface IUserControlInitializer
     {
-        void Initialize(UserControl uc);
+        void Initialize(object uc);
     }
 }

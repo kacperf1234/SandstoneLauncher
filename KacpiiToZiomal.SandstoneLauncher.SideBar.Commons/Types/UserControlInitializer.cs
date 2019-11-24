@@ -7,11 +7,17 @@ namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Types
 {
     public class UserControlInitializer : IUserControlInitializer
     {
-        public void Initialize(UserControl uc)
+        public IInitializeMethodFinder MethodFinder;
+
+        public UserControlInitializer(IInitializeMethodFinder methodFinder)
         {
-            Type type = typeof(UserControl);
-            MethodInfo methodInfo = type.GetMethod("InitializeComponent");
-            methodInfo?.Invoke(uc, new object[0]);
+            MethodFinder = methodFinder;
+        }
+
+        public void Initialize(object uc)
+        {
+            MethodInfo method = MethodFinder.FindInitializeMethod(uc);
+            method.Invoke(uc, new object[0]);
         }
     }
 }

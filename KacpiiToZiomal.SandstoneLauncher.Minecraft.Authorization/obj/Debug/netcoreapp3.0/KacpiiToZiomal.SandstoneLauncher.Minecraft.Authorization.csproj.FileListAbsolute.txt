@@ -10,3 +10,4 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minec
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csprojAssemblyReference.cache

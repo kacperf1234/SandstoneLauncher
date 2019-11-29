@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Commons.Models
+namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Models
 {
     public class SidePage
     {

@@ -2,8 +2,8 @@
 
 namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces
 {
-    public interface IUserControlActivator
+    public interface IObjectActivator<in TBase>
     {
-        T Activate<T>() where T : UserControl;
+        T Activate<T>() where T : TBase;
     }
 }

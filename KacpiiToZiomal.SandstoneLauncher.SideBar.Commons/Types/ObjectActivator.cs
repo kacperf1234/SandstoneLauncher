@@ -4,9 +4,9 @@ using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Types
 {
-    public class UserControlActivator : IUserControlActivator
+    public class ObjectActivator<TActivateBase> : IObjectActivator<TActivateBase>
     {
-        public T Activate<T>() where T : UserControl
+        public T Activate<T>() where T : TActivateBase
         {
             return Activator.CreateInstance<T>();
         }

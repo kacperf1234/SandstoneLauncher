@@ -5,9 +5,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Types
 {
     public class InitializeMethodNameProvider : IInitializeMethodNameProvider
     {
-        public string ProvideName(Type type)
-        {
-            return "InitializeComponent";
-        }
+        public string ProvideName(Type type) => "InitializeComponent";
     }
 }

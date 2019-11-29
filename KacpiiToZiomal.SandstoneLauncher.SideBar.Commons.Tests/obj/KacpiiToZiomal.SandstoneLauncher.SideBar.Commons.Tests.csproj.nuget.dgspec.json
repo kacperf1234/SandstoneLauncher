@@ -104,6 +104,10 @@
               "target": "Package",
               "version": "[3.13.0, )"
             },
+            "System.Windows.Forms": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "WindowsBase": {
               "target": "Package",
               "version": "[4.6.1055, )"

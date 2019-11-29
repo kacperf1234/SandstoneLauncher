@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using KacpiiToZiomal.SandstoneLauncher.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Interfaces
 {

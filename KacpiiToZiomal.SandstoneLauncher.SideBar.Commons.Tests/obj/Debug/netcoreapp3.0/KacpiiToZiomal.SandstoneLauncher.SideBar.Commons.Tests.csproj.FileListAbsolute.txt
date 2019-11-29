@@ -120,3 +120,4 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.SideB
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests\bin\Debug\netcoreapp3.0\System.Windows.Forms.dll

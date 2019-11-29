@@ -5,12 +5,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Types
 {
     public class UserControlContentProvider : IUserControlContentProvider
     {
-        public IUserControlActivator Activator;
+        public IObjectActivator<UserControl> Activator;
         public IUserControlContentDestroyer ContentDestroyer;
         public IUserControlContentExtractor Extractor;
         public IUserControlInitializer Initializer;
 
-        public UserControlContentProvider(IUserControlContentExtractor extractor, IUserControlActivator activator,
+        public UserControlContentProvider(IUserControlContentExtractor extractor, IObjectActivator<UserControl> activator,
             IUserControlInitializer initializer, IUserControlContentDestroyer contentDestroyer)
         {
             Extractor = extractor;

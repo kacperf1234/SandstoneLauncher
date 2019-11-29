@@ -1,6 +1,6 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Commons.Models;
-using KacpiiToZiomal.SandstoneLauncher.GamePage.Controls;
+﻿using KacpiiToZiomal.SandstoneLauncher.GamePage.Controls;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.GamePage.Types
 {
@@ -13,7 +13,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.GamePage.Types
             ContentProvider = contentProvider;
         }
 
-        public int Order { get; set; } = 0;
+        public int Order { get; set; } = 2;
 
         public SidePage BuildSidePage()
         {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using KacpiiToZiomal.SandstoneLauncher.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.SideBar.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Types

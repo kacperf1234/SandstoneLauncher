@@ -1,4 +1,4 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Commons.Models;
+﻿using KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Interfaces
 {

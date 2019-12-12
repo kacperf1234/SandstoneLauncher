@@ -8,3 +8,4 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Langu
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Languages\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Languages.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Languages\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Languages.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Languages\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Languages.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Languages\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Languages.csprojAssemblyReference.cache

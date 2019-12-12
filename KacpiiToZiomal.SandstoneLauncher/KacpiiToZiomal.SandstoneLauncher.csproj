@@ -1,20 +1,21 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
-    <UseWPF>true</UseWPF>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.GamePage\KacpiiToZiomal.SandstoneLauncher.GamePage.csproj" />
-    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Languages\KacpiiToZiomal.SandstoneLauncher.Languages.csproj" />
-    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj" />
-    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.SideBar\KacpiiToZiomal.SandstoneLauncher.SideBar.csproj" />
-  </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Interfaces" />
-  </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Views" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\Error.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\_Layout.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    </ItemGroup>
 
 </Project>

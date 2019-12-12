@@ -1580,7 +1580,10 @@
         },
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Accounts.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       },
       "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
         "type": "project",
@@ -1611,7 +1614,10 @@
         },
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Minecraft.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       },
       "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/1.0.0": {
         "type": "project",
@@ -1626,7 +1632,10 @@
         },
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       },
       "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
         "type": "project",
@@ -1654,7 +1663,10 @@
         },
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Profiles.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       },
       "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
         "type": "project",
@@ -1669,7 +1681,10 @@
         },
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -5656,12 +5671,14 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5712,7 +5729,16 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },

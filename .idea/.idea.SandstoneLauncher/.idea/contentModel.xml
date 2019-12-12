@@ -14,60 +14,94 @@
     <e p="C:\Users\Kacpii\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.dll" t="Include" />
     <e p="C:\Users\Kacpii\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.dll" t="Include" />
     <e p="C:\Users\Kacpii\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.pdb" t="Include" />
-    <e p="C:\Users\Kacpii\.Rider2019.2\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\Kacpii\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Kacpii\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_SandstoneLauncher.422035610.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Kacpii\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Kacpii\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Kacpii\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_SandstoneLauncher.422035610.00" t="ExcludeRecursive" />
     <e p="C:\Users\Kacpii\Desktop\SandstoneLauncher" t="IncludeFlat">
       <e p="KacpiiToZiomal.SandstoneLauncher" t="IncludeRecursive">
-        <e p="App.xaml" t="Include" />
-        <e p="App.xaml.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Interfaces" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.csproj" t="IncludeRecursive" />
-        <e p="MainWindow.xaml" t="Include" />
-        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="ErrorViewModel.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
               <e p="KacpiiToZiomal.SandstoneLauncher.AssemblyInfo.cs" t="Include" />
+              <e p="KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="SettingsPage.xaml" t="Include" />
-        <e p="SettingsPage.xaml.cs" t="Include" />
-        <e p="SettingsTab.xaml" t="Include" />
-        <e p="SettingsTab.xaml.cs" t="Include" />
-      </e>
-      <e p="KacpiiToZiomal.SandstoneLauncher.Accounts" t="IncludeRecursive">
-        <e p="AssemblyInfo.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Interfaces" t="Include">
-          <e p="IAccountCreator.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
         </e>
-        <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.csproj" t="IncludeRecursive" />
-        <e p="Models" t="Include">
-          <e p="Account.cs" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
-              <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.AssemblyInfo.cs" t="Include" />
-            </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
           </e>
-        </e>
-        <e p="Types" t="Include">
-          <e p="AccountCreator.cs" t="Include" />
-        </e>
-      </e>
-      <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.Tests" t="IncludeRecursive">
-        <e p="accountcreator_create_mojangloginresponse_tests.cs" t="Include" />
-        <e p="accountcreator_create_string_tests.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
-              <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.AssemblyInfo.cs" t="Include" />
+          <e p="favicon.ico" t="Include" />
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
             </e>
           </e>
         </e>
@@ -145,27 +179,6 @@
         </e>
         <e p="pathnameconverter_convert_tests.cs" t="Include" />
         <e p="responsevalidator_validate_tests.cs" t="Include" />
-      </e>
-      <e p="KacpiiToZiomal.SandstoneLauncher.GamePage" t="IncludeRecursive">
-        <e p="AssemblyInfo.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Controls" t="Include">
-          <e p="GameGrid.xaml" t="Include" />
-          <e p="GameGrid.xaml.cs" t="Include" />
-          <e p="GameItem.xaml" t="Include" />
-          <e p="GameItem.xaml.cs" t="Include" />
-        </e>
-        <e p="KacpiiToZiomal.SandstoneLauncher.GamePage.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
-              <e p="KacpiiToZiomal.SandstoneLauncher.GamePage.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Types" t="Include">
-          <e p="GamePageSidePageBuilder.cs" t="Include" />
-        </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Languages" t="IncludeRecursive">
         <e p="AssemblyInfo.cs" t="Include" />
@@ -528,104 +541,6 @@
             </e>
           </e>
         </e>
-      </e>
-      <e p="KacpiiToZiomal.SandstoneLauncher.Resources" t="IncludeRecursive">
-        <e p="AssemblyInfo.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="KacpiiToZiomal.SandstoneLauncher.Resources.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
-              <e p="KacpiiToZiomal.SandstoneLauncher.Resources.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Styles" t="Include">
-          <e p="mainwindowstyles.xaml" t="Include" />
-          <e p="Styles.xaml" t="Include" />
-        </e>
-      </e>
-      <e p="KacpiiToZiomal.SandstoneLauncher.SideBar" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Interfaces" t="Include">
-          <e p="ISidePagesBuilder.cs" t="Include" />
-        </e>
-        <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
-              <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Types" t="Include">
-          <e p="SidePagesBuilder.cs" t="Include" />
-        </e>
-      </e>
-      <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Interfaces" t="Include">
-          <e p="IContentPropertyFinder.cs" t="Include" />
-          <e p="IContentPropertyNameGenerator.cs" t="Include" />
-          <e p="IContentPropertyValidator.cs" t="Include" />
-          <e p="IInitializeMethodFinder.cs" t="Include" />
-          <e p="IInitializeMethodNameProvider.cs" t="Include" />
-          <e p="IObjectActivator.cs" t="Include" />
-          <e p="IPropertyValueRemover.cs" t="Include" />
-          <e p="ISidePageBuilder.cs" t="Include" />
-          <e p="ISidePageGridProvider.cs" t="Include" />
-          <e p="IUserControlContentDestroyer.cs" t="Include" />
-          <e p="IUserControlContentExtractor.cs" t="Include" />
-          <e p="IUserControlContentProvider.cs" t="Include" />
-          <e p="IUserControlInitializer.cs" t="Include" />
-        </e>
-        <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.csproj" t="IncludeRecursive" />
-        <e p="Models" t="Include">
-          <e p="SidePage.cs" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
-              <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Types" t="Include">
-          <e p="ContentPropertyFinder.cs" t="Include" />
-          <e p="ContentPropertyNameGenerator.cs" t="Include" />
-          <e p="ContentPropertyValidator.cs" t="Include" />
-          <e p="InitializeMethodFinder.cs" t="Include" />
-          <e p="InitializeMethodNameProvider.cs" t="Include" />
-          <e p="ObjectActivator.cs" t="Include" />
-          <e p="PropertyValueRemover.cs" t="Include" />
-          <e p="UserControlContentDestroyer.cs" t="Include" />
-          <e p="UserControlContentExtractor.cs" t="Include" />
-          <e p="UserControlContentProvider.cs" t="Include" />
-          <e p="UserControlInitializer.cs" t="Include" />
-        </e>
-      </e>
-      <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="contentpropertyfinder_find_tests.cs" t="Include" />
-        <e p="contentpropertynamegenerator_generatename_tests.cs" t="Include" />
-        <e p="contentpropertyvalidator_validate_tests.cs" t="Include" />
-        <e p="Exceptions" t="Include">
-          <e p="TestException.cs" t="Include" />
-        </e>
-        <e p="initializemethodfinder_findinitializemethod_tests.cs" t="Include" />
-        <e p="initializemethodnameprovider_providename_tests.cs" t="Include" />
-        <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
-              <e p="KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="objectactivator_activate_tests.cs" t="Include" />
-        <e p="propertyvalueremover_remove_tests.cs" t="Include" />
-        <e p="usercontrolcontentdestroyer_destroy_type_object_tests.cs" t="Include" />
-        <e p="usercontrolinitializer_initialize_tests.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="SandstoneLauncher.sln" t="IncludeFlat" />

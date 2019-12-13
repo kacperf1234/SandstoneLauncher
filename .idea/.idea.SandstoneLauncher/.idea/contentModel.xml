@@ -146,6 +146,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
           <e p="IApplicationData.cs" t="Include" />
+          <e p="ICredentialsDataPathGenerator.cs" t="Include" />
+          <e p="ICredentialsDataProvider.cs" t="Include" />
           <e p="ICredentialsOnlineValidator.cs" t="Include" />
           <e p="ICredentialsPathGenerator.cs" t="Include" />
           <e p="IDirectoryCreator.cs" t="Include" />
@@ -178,6 +180,8 @@
         </e>
         <e p="Types" t="Include">
           <e p="ApplicationData.cs" t="Include" />
+          <e p="CredentialsDataPathGenerator.cs" t="Include" />
+          <e p="CredentialsDataProvider.cs" t="Include" />
           <e p="CredentialsOnlineValidator.cs" t="Include" />
           <e p="CredentialsPathGenerator.cs" t="Include" />
           <e p="DirectoryCreator.cs" t="Include" />
@@ -199,6 +203,7 @@
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Commons.Tests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="credentialsonlinevalidator_isonlineaccount_tests.cs" t="Include" />
         <e p="directorycreator_create_tests.cs" t="Include" />
         <e p="Exceptions" t="Include">
           <e p="TestException.cs" t="Include" />
@@ -434,7 +439,6 @@
           <e p="AuthenticationState.cs" t="Include" />
         </e>
         <e p="Interfaces" t="Include">
-          <e p="IBuilder.cs" t="Include" />
           <e p="IDataProcessing.cs" t="Include" />
           <e p="IMojangAuthentication.cs" t="Include" />
           <e p="IMojangCredentialsBuilder.cs" t="Include" />
@@ -457,8 +461,6 @@
         </e>
         <e p="Types" t="Include">
           <e p="CredentialsJsonBuilder.cs" t="Include" />
-          <e p="LauncherProfilesBuilder.cs" t="Include" />
-          <e p="LauncherProfilesPathBuilder.cs" t="Include" />
           <e p="MojangAuthentication.cs" t="Include" />
           <e p="MojangCredentialsBuilder.cs" t="Include" />
           <e p="MojangService.cs" t="Include" />
@@ -468,8 +470,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="credentialsjsonbuilder_build.cs" t="Include" />
         <e p="KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.csproj" t="IncludeRecursive" />
-        <e p="launcherprofilespathbuilder_build_tests.cs" t="Include" />
         <e p="mojangauthentication_authenticate_tests.cs" t="Include" />
+        <e p="mojangcredentialsbuilder_build_tests.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">

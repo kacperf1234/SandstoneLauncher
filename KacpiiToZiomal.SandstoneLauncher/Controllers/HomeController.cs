@@ -19,14 +19,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            AccountGenerator generator = new AccountGenerator(new CredentialsOnlineValidator(), new MojangCredentialsBuilder(), new MojangService(new MojangAuthentication(new NetworkClient(), new JsonDeserializer<MojangLoginResponse>(), new CredentialsJsonBuilder(), new ResponseValidator(), null)), new AccountCreator());
-            Account acc = generator.GenerateAccount(new Credentials()
-            {
-                Username = "kacpisiek",
-                IsOnline = false
-            });
-
-            return Json(acc);
+            return Content("jebac disa skurwysyna");
         }
     }
 }

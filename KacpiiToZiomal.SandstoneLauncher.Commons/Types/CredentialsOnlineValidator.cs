@@ -7,7 +7,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
     {
         public bool IsOnlineCredentials(Credentials credentials)
         {
-            return credentials.IsOnline;
+            return credentials.IsOnline && credentials.Password != null;
         }
     }
 }

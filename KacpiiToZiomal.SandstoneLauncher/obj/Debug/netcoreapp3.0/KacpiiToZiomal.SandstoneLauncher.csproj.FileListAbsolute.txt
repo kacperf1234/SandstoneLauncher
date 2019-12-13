@@ -8,7 +8,6 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\D
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Views.dll
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Views.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Commons.dll
@@ -22,19 +21,9 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\D
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\staticwebassets\KacpiiToZiomal.SandstoneLauncher.StaticWebAssets.Manifest.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\staticwebassets\KacpiiToZiomal.SandstoneLauncher.StaticWebAssets.xml
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.AssemblyInfoInputs.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.AssemblyInfo.cs
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.TagHelpers.input.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.TagHelpers.output.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.RazorCoreGenerate.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\Razor\Views\Accounts\GetAccount.cshtml.g.cs
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\Razor\Views\Shared\GetOfflineAccount.cshtml.g.cs
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\Razor\Views\Shared\GetOnlineAccount.cshtml.g.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.RazorTargetAssemblyInfo.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.RazorTargetAssemblyInfo.cs
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Views.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.pdb

@@ -32,7 +32,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Types
             response = new MojangLoginResponse();
             string content = responsemsg.Content.ReadAsStringAsync().Result;
 
-            DataProcessing.SendData(new MojangData(credentials, response, (int) responsemsg.StatusCode, content));
+            DataProcessing?.SendData(new MojangData(credentials, response, (int) responsemsg.StatusCode, content));
 
             if (ResponseValidator.Validate(responsemsg))
             {

@@ -6,9 +6,6 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accou
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.runtimeconfig.dev.json
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.pdb
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\ControlzEx.dll
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\System.Windows.Interactivity.dll
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\MahApps.Metro.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CoreUtilities.dll
@@ -19,14 +16,8 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accou
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\testhost.dll
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Microsoft.Xaml.Behaviors.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\nunit.framework.dll
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Selen.Wpf.Core.dll
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Selen.Wpf.GenericAppTree.Contracts.dll
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Selen.Wpf.GenericAppTree.dll
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Selen.Wpf.SystemStyles.dll
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\Microsoft.Expression.Interactions.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\bin\Debug\netcoreapp3.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll

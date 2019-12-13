@@ -2,775 +2,170 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319e4218-9271-4034-a339-d789b97fd1d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/accountcreator_create_mojangloginresponse_tests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/accountcreator_create_string_tests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ControlzEx.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/MahApps.Metro.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.DotNet.InternalAbstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.Expression.Interactions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/NUnit3.TestAdapter.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/NUnit3.TestAdapter.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.GenericAppTree.Contracts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.GenericAppTree.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.SystemStyles.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/System.Windows.Interactivity.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/System.Xml.XPath.XmlDocument.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/nunit.engine.netstandard.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/testhost.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/Interfaces/IAccountCreator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/Models/Account.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/Types/AccountCreator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/Windows/AddAccount.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Views.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Views.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/Accessibility.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/D3DCompiler_47_cor3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/DirectWriteForwarder.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Views.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Views.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/Microsoft.Win32.Registry.AccessControl.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PenImc_cor3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework-SystemCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework-SystemData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework-SystemDrawing.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework-SystemXml.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework-SystemXmlLinq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework.Aero.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework.Aero2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework.AeroLite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework.Classic.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework.Luna.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework.Royale.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationNative_cor3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/PresentationUI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ReachFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.CodeDom.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Configuration.ConfigurationManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Diagnostics.PerformanceCounter.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.DirectoryServices.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Drawing.Design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.IO.Packaging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Printing.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Resources.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Threading.AccessControl.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Windows.Controls.Ribbon.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Windows.Forms.Design.Editors.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Windows.Forms.Design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Windows.Forms.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Windows.Input.Manipulations.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Windows.Presentation.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/System.Xaml.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/UIAutomationClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/UIAutomationClientSideProviders.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/UIAutomationProvider.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/UIAutomationTypes.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/WindowsFormsIntegration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/cs/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/de/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/es/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/fr/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/it/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ja/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ko/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pl/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/pt-BR/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/ru/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/tr/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/vcruntime140_cor3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/wpfgfx_cor3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hans/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/zh-Hant/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.RazorCoreGenerate.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.RazorTargetAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.TagHelpers.input.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.TagHelpers.output.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Views.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Views.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.RazorCoreGenerate.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.RazorTargetAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.TagHelpers.input.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.TagHelpers.output.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Views.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Views.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/Accessibility.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/D3DCompiler_47_cor3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/DirectWriteForwarder.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Views.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Views.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/Microsoft.Win32.Registry.AccessControl.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PenImc_cor3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework-SystemCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework-SystemData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework-SystemDrawing.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework-SystemXml.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework-SystemXmlLinq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework.Aero.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework.Aero2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework.AeroLite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework.Classic.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework.Luna.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework.Royale.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationNative_cor3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/PresentationUI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ReachFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.CodeDom.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Configuration.ConfigurationManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Diagnostics.PerformanceCounter.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.DirectoryServices.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Drawing.Design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.IO.Packaging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Printing.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Resources.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Threading.AccessControl.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Windows.Controls.Ribbon.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Windows.Forms.Design.Editors.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Windows.Forms.Design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Windows.Forms.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Windows.Input.Manipulations.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Windows.Presentation.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/System.Xaml.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/UIAutomationClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/UIAutomationClientSideProviders.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/UIAutomationProvider.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/UIAutomationTypes.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/WindowsFormsIntegration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/cs/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/de/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/es/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/fr/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/it/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ja/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ko/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pl/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/pt-BR/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/ru/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/tr/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/vcruntime140_cor3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/wpfgfx_cor3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hans/WindowsFormsIntegration.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/PresentationCore.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/PresentationFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/PresentationUI.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/ReachFramework.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/System.Printing.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/System.Windows.Controls.Ribbon.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/System.Windows.Forms.Design.Editors.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/System.Windows.Forms.Design.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/System.Windows.Forms.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/System.Windows.Input.Manipulations.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/System.Xaml.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/UIAutomationClient.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/UIAutomationClientSideProviders.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/UIAutomationProvider.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/UIAutomationTypes.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/WindowsBase.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/zh-Hant/WindowsFormsIntegration.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/ControlzEx.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/MahApps.Metro.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.Expression.Interactions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.GenericAppTree.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.GenericAppTree.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.SystemStyles.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/System.Windows.Interactivity.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/KacpiiToZiomal.SandstoneLauncher.Accounts.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/KacpiiToZiomal.SandstoneLauncher.Commons.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/KacpiiToZiomal.SandstoneLauncher.Commons.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/KacpiiToZiomal.SandstoneLauncher.Commons.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/KacpiiToZiomal.SandstoneLauncher.Commons.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Languages.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Types/MojangAuthentication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Types/MojangAuthentication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/Debug/netstandard2.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Resources.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/ControlzEx.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/MahApps.Metro.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/Microsoft.Expression.Interactions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.GenericAppTree.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.GenericAppTree.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/Selen.Wpf.SystemStyles.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/System.Windows.Interactivity.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Resources.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Profiles.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Profiles.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/KacpiiToZiomal.SandstoneLauncher.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/KacpiiToZiomal.SandstoneLauncher.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Models/ErrorViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/bin/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.RazorTargetAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/KacpiiToZiomal.SandstoneLauncher.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/KacpiiToZiomal.SandstoneLauncher.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/KacpiiToZiomal.SandstoneLauncher.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/KacpiiToZiomal.SandstoneLauncher.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/Razor/Views/Accounts/GetAccount.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/Razor/Views/Shared/GetOfflineAccount.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/Razor/Views/Shared/GetOnlineAccount.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.RazorTargetAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/KacpiiToZiomal.SandstoneLauncher.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/Razor/Views/Accounts/GetAccount.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/Razor/Views/Shared/GetOfflineAccount.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Debug/netcoreapp3.0/win-x64/Razor/Views/Shared/GetOnlineAccount.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Accounts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Accounts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/obj/Host/bin/KacpiiToZiomal.SandstoneLauncher.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -802,6 +197,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/Types/AccountCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/Models/Account.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Profiles/Models/Profile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguageExtractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Languages/Types/LanguageService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -964,20 +361,30 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IApplicationData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IHttpClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/processbuilder_build_str_str_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/ICredentialsOnlineValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativespathfinder_getnativesdirectory_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/CredentialsOnlineValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/librariesconverter_tostringarray_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/Interfaces/IAccountGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IHttpBytesReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/assetsindexpathbuilder_build_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/Types/AccountGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/hashcombiner_getfirstletters_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/ICredentialsPathGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IFileNameRemover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/artifactfinder_getdownloadartifact_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/CredentialsPathGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativesvalidator_validate_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Types/MojangCredentialsBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IFileNameExtractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/filereader_read_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Models/CredentialsData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IJsonBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/fullversionparser_parse_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Models/Credentials.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IResponseValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativesdirectory_getdirectory_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Interfaces/IMojangCredentialsBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IFileCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/assetsdeserializer_deserialize_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IJsonSerializer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -1009,6 +416,7 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/httpdownloader_download_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Models/MojangUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Models/MojangProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Models/MojangCredentials.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Interfaces/IMojangService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Models/MojangData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Interfaces/IMojangAuthentication.cs" root0="FORCE_HIGHLIGHTING" />
@@ -1021,18 +429,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests/usercontrolinitializer_initialize_tests.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/filenameextractor_getname_tests.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/filenameremover_remove_tests.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/pathnameconverter_convert_tests.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IHttpDownloader.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/Exceptions/TestException.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/HttpDownloader.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/httpdownloader_downloadasync_tests.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/SettingsPage.xaml.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/SettingsPage.xaml" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/SettingsTab.xaml.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/SettingsTab.xaml" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.GamePage/Types/GamePageSidePageBuilder.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.SideBar.Commons/Types/InitializeMethodNameProvider.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.SideBar.Commons/Types/UserControlActivator.cs" />
@@ -1070,8 +466,20 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Controllers/AccountsController.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Views/Shared/GetOnlineAccount.cshtml" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Models/OnlineCredentials.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Models/CredentialsData.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Models/Credentials.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Interfaces/IMojangCredentialsBuilder.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Types/MojangCredentialsBuilder.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Models/CredentialsData.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/ICredentialsPathGenerator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/CredentialsPathGenerator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/ICredentialsOnlineValidator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/Interfaces/IAccountGenerator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Accounts/Types/AccountGenerator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/CredentialsOnlineValidator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/Types/MojangAuthentication.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Controllers/HomeController.cs" />
       </list>
     </option>
   </component>
@@ -1091,7 +499,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;GitIgnore" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON&#10;TEXT&#10;GitIgnore" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests/KacpiiToZiomal.SandstoneLauncher.SideBar.Commons.Tests.csproj" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
@@ -1253,24 +661,6 @@
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="1669" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="1669" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="1478" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="1669" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="1478" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="1537" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
       </expand>
       <select />
     </coverage-tree-state>
@@ -1320,22 +710,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576241410662" />
-    <state width="1397" height="240" key="GridCell.Tab.0.bottom" timestamp="1576245857217">
+    <state width="1506" height="381" key="GridCell.Tab.0.bottom" timestamp="1576260381512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576245857217" />
-    <state width="1397" height="240" key="GridCell.Tab.0.center" timestamp="1576245857217">
+    <state width="1506" height="381" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576260381512" />
+    <state width="1506" height="381" key="GridCell.Tab.0.center" timestamp="1576260381512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="240" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576245857217" />
-    <state width="1397" height="240" key="GridCell.Tab.0.left" timestamp="1576245857217">
+    <state width="1506" height="381" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576260381512" />
+    <state width="1506" height="381" key="GridCell.Tab.0.left" timestamp="1576260381512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="240" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576245857217" />
-    <state width="1397" height="240" key="GridCell.Tab.0.right" timestamp="1576245857217">
+    <state width="1506" height="381" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576260381512" />
+    <state width="1506" height="381" key="GridCell.Tab.0.right" timestamp="1576260381512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="240" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576245857217" />
+    <state width="1506" height="381" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576260381512" />
     <state width="1397" height="306" key="GridCell.Tab.1.bottom" timestamp="1576240149385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1372,6 +762,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="489" y="255" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1576154358624" />
+    <state x="670" y="199" key="RiderGenerateDialog" timestamp="1576260034997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="199" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576260034997" />
+    <state x="610" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576260262491">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="610" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576260262491" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576245355281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

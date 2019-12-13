@@ -32,7 +32,6 @@
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
               <e p="KacpiiToZiomal.SandstoneLauncher.AssemblyInfo.cs" t="Include" />
-              <e p="KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -42,8 +41,6 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
-          <e p="Accounts" t="Include" />
-          <e p="Login.html" t="Include" />
           <e p="Shared" t="Include" />
         </e>
         <e p="wwwroot" t="Include">
@@ -114,6 +111,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
           <e p="IAccountCreator.cs" t="Include" />
+          <e p="IAccountGenerator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
@@ -128,6 +126,7 @@
         </e>
         <e p="Types" t="Include">
           <e p="AccountCreator.cs" t="Include" />
+          <e p="AccountGenerator.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Accounts.Tests" t="IncludeRecursive">
@@ -147,6 +146,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
           <e p="IApplicationData.cs" t="Include" />
+          <e p="ICredentialsOnlineValidator.cs" t="Include" />
+          <e p="ICredentialsPathGenerator.cs" t="Include" />
           <e p="IDirectoryCreator.cs" t="Include" />
           <e p="IFileCreator.cs" t="Include" />
           <e p="IFileListGenerator.cs" t="Include" />
@@ -164,6 +165,10 @@
           <e p="IResponseValidator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Commons.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Credentials.cs" t="Include" />
+          <e p="CredentialsData.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
@@ -173,6 +178,8 @@
         </e>
         <e p="Types" t="Include">
           <e p="ApplicationData.cs" t="Include" />
+          <e p="CredentialsOnlineValidator.cs" t="Include" />
+          <e p="CredentialsPathGenerator.cs" t="Include" />
           <e p="DirectoryCreator.cs" t="Include" />
           <e p="FileCreator.cs" t="Include" />
           <e p="FileListGenerator.cs" t="Include" />
@@ -430,6 +437,7 @@
           <e p="IBuilder.cs" t="Include" />
           <e p="IDataProcessing.cs" t="Include" />
           <e p="IMojangAuthentication.cs" t="Include" />
+          <e p="IMojangCredentialsBuilder.cs" t="Include" />
           <e p="IMojangService.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj" t="IncludeRecursive" />
@@ -452,6 +460,7 @@
           <e p="LauncherProfilesBuilder.cs" t="Include" />
           <e p="LauncherProfilesPathBuilder.cs" t="Include" />
           <e p="MojangAuthentication.cs" t="Include" />
+          <e p="MojangCredentialsBuilder.cs" t="Include" />
           <e p="MojangService.cs" t="Include" />
         </e>
       </e>

@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ElectronNET.API;
+using ElectronNET.API.Entities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -39,13 +41,8 @@ namespace KacpiiToZiomal.SandstoneLauncher
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
-            app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
-            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
@@ -53,6 +50,17 @@ namespace KacpiiToZiomal.SandstoneLauncher
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            BrowserWindow browserWindow = Electron.WindowManager.CreateWindowAsync(new BrowserWindowOptions()
+            {
+                Width = 1280,
+                Height = 800,
+                MinWidth = 640,
+                MinHeight = 480
+            }).Result;
+            browserWindow.RemoveMenu();
+            browserWindow.SetMinimumSize(640, 480);
+            browserWindow.OnReadyToShow += () => browserWindow.Show();
         }
     }
 }

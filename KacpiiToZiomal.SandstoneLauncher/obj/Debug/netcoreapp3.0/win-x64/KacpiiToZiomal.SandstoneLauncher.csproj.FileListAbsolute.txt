@@ -651,3 +651,14 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\D
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\KacpiiToZiomal.SandstoneLauncher.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\KacpiiToZiomal.SandstoneLauncher.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\win-x64\electron.manifest.json
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\bin\Debug\netcoreapp3.0\win-x64\KacpiiToZiomal.SandstoneLauncher.Views.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cs
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\KacpiiToZiomal.SandstoneLauncher.TagHelpers.input.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\KacpiiToZiomal.SandstoneLauncher.TagHelpers.output.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\KacpiiToZiomal.SandstoneLauncher.RazorCoreGenerate.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\Razor\Views\Accounts\Get.cshtml.g.cs
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\KacpiiToZiomal.SandstoneLauncher.RazorTargetAssemblyInfo.cs
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\KacpiiToZiomal.SandstoneLauncher.Views.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\Razor\Views\Shared\_GetOfflineAccount.cshtml.g.cs
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher\obj\Debug\netcoreapp3.0\win-x64\Razor\Views\Shared\_GetOnlineAccount.cshtml.g.cs

@@ -48,18 +48,25 @@ namespace KacpiiToZiomal.SandstoneLauncher
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Startup}/{id?}");
             });
 
-            BrowserWindow browserWindow = Electron.WindowManager.CreateWindowAsync(new BrowserWindowOptions()
+            ConfigureWindowAsync();
+        }
+
+        public async void ConfigureWindowAsync()
+        {
+            BrowserWindowOptions options = new BrowserWindowOptions
             {
+                Center = true,
                 Width = 1280,
                 Height = 800,
-                MinWidth = 640,
-                MinHeight = 480
-            }).Result;
+                MinHeight = 480,
+                MinWidth = 640
+            };
+
+            BrowserWindow browserWindow = await Electron.WindowManager.CreateWindowAsync(options);
             browserWindow.RemoveMenu();
-            browserWindow.SetMinimumSize(640, 480);
             browserWindow.OnReadyToShow += () => browserWindow.Show();
         }
     }

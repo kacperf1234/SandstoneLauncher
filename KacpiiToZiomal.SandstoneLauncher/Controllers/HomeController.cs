@@ -17,9 +17,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Controllers
     public class HomeController : Controller
     {
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Startup()
         {
-            return Content("jebac disa skurwysyna");
+            return RedirectToAction("GetAccount", "Accounts");
         }
     }
 }

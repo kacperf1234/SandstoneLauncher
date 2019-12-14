@@ -51,6 +51,16 @@ button.accept-policy {
   line-height: inherit;
 }
 
+.form
+{
+  margin: 30px;
+}
+
+.buttons
+{
+  margin-top: 10px;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {

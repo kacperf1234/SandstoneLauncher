@@ -2,7 +2,7 @@
 
 namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
 {
-    public class CredentialsDataPathGenerator : ICredentialsPathGenerator
+    public class CredentialsDataPathGenerator : ICredentialsDataPathGenerator
     {
         public IApplicationData AppData;
 

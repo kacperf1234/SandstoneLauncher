@@ -23,6 +23,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountsController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="electron.manifest.json" t="Include" />
@@ -32,6 +33,7 @@
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
               <e p="KacpiiToZiomal.SandstoneLauncher.AssemblyInfo.cs" t="Include" />
+              <e p="KacpiiToZiomal.SandstoneLauncher.RazorAssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -39,15 +41,27 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="Resources" t="Include" />
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
-          <e p="Shared" t="Include" />
+          <e p="Accounts" t="Include">
+            <e p="Get.cshtml" t="Include" />
+            <e p="Get.html" t="Include" />
+          </e>
+          <e p="Home" t="Include" />
+          <e p="Shared" t="Include">
+            <e p="_GetOfflineAccount.cshtml" t="Include" />
+            <e p="_GetOnlineAccount.cshtml" t="Include" />
+          </e>
         </e>
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
             <e p="site.css" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
+          <e p="images" t="Include">
+            <e p="dark-background.png" t="Include" />
+          </e>
           <e p="js" t="Include">
             <e p="site.js" t="Include" />
           </e>
@@ -145,6 +159,7 @@
       <e p="KacpiiToZiomal.SandstoneLauncher.Commons" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
+          <e p="IActuallyLoggedValidator.cs" t="Include" />
           <e p="IApplicationData.cs" t="Include" />
           <e p="ICredentialsDataPathGenerator.cs" t="Include" />
           <e p="ICredentialsDataProvider.cs" t="Include" />
@@ -170,6 +185,7 @@
         <e p="Models" t="Include">
           <e p="Credentials.cs" t="Include" />
           <e p="CredentialsData.cs" t="Include" />
+          <e p="OfflineCredentials.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -179,6 +195,7 @@
           </e>
         </e>
         <e p="Types" t="Include">
+          <e p="ActuallyLoggedValidator.cs" t="Include" />
           <e p="ApplicationData.cs" t="Include" />
           <e p="CredentialsDataPathGenerator.cs" t="Include" />
           <e p="CredentialsDataProvider.cs" t="Include" />

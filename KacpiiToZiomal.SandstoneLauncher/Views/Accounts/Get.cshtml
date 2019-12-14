@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="d-flex justify-content-center">
+    <div class="form">
+        <div>
+            <div>
+                <h1 class="h4">
+                    Minecraft Premium
+                </h1>
+                <p>
+                    Use this option if you are owner minecraft premium account...
+                </p>
+            </div>
+
+            @Html.Partial("_GetOnlineAccount")
+        </div>
+
+        <div style="margin-top: 100px;">
+            <div>
+                <h1 class="h4">
+                    Minecraft Non-Premium
+                </h1>
+                <p>
+                    If you was not but minecraft premium still you can play!
+                    <br/>
+                    Choose your username and start play!
+                </p>
+            </div>
+
+            @Html.Partial("_GetOfflineAccount")
+        </div>
+    </div>
+</div>
+</body>
+</html>

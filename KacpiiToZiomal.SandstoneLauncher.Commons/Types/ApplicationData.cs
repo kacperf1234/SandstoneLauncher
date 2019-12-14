@@ -7,7 +7,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
     {
         public string GetApplicationData()
         {
-            return Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\SandstoneLauncher\\";
+            return Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Sandstone Launcher\\";
         }
     }
 }

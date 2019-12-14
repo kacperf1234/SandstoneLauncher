@@ -1,0 +1,44 @@
+﻿@model KacpiiToZiomal.SandstoneLauncher.Commons.Models.Credentials
+
+<link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+@using (Html.BeginForm("PostCredentials", "Accounts", FormMethod.Post))
+{
+    <div>
+        <div>
+            <span class="text-secondary text-left"> 
+                Your username or email address...
+            </span>
+            <div class="input-group mb-3" style="width: 500px">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        @@
+                    </span>
+                </div>
+                @Html.TextBoxFor(model => model.Username, new {@class="form-control"})
+            </div>
+        
+            @Html.ValidationMessageFor(model => model.Username, "", new {@class="text-danger"})
+        </div>
+
+        <div>
+                    
+            <span class="text-secondary text-left"> 
+                Your password...
+            </span>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        #
+                    </span>
+                </div>
+                @Html.PasswordFor(model => model.Password, new {@class="form-control"})
+            </div>
+        
+            @Html.ValidationMessageFor(model => model.Password, "", new {@class="text-danger"})
+        </div>
+        <div class="buttons">
+            <input type="submit" class="btn btn-primary float-right" value="submit">
+        </div>
+    </div>
+}

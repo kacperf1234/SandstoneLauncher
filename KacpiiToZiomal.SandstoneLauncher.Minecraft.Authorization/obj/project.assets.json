@@ -37,43 +37,6 @@
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll": {}
         }
       }
-    },
-    ".NETCoreApp,Version=v3.0/win-x64": {
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.0",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "compile": {
-          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
-        }
-      },
-      "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "compile": {
-          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll": {}
-        }
-      }
     }
   },
   "libraries": {
@@ -197,11 +160,6 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win-x64": {
-        "#import": []
       }
     }
   }

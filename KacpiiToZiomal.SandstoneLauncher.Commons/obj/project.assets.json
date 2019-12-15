@@ -11,17 +11,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       }
-    },
-    ".NETCoreApp,Version=v3.0/win-x64": {
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      }
     }
   },
   "libraries": {
@@ -123,11 +112,6 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win-x64": {
-        "#import": []
       }
     }
   }

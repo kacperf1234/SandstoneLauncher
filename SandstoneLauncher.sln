@@ -22,8 +22,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLau
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Commons.Tests", "KacpiiToZiomal.SandstoneLauncher.Commons.Tests\KacpiiToZiomal.SandstoneLauncher.Commons.Tests.csproj", "{73EE017B-D39B-4035-9C43-55FCB65EB0D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher", "KacpiiToZiomal.SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.csproj", "{C284697A-001E-41C7-BD3D-DE3BB39F4ED7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Accounts", "KacpiiToZiomal.SandstoneLauncher.Accounts\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj", "{568D854F-651E-4520-B3AE-CE09318975A3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Accounts.Tests", "KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj", "{9763E4BD-1D78-4A00-937C-296BE85DF0C1}"
@@ -78,10 +76,6 @@ Global
 		{73EE017B-D39B-4035-9C43-55FCB65EB0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73EE017B-D39B-4035-9C43-55FCB65EB0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73EE017B-D39B-4035-9C43-55FCB65EB0D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C284697A-001E-41C7-BD3D-DE3BB39F4ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C284697A-001E-41C7-BD3D-DE3BB39F4ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C284697A-001E-41C7-BD3D-DE3BB39F4ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C284697A-001E-41C7-BD3D-DE3BB39F4ED7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{568D854F-651E-4520-B3AE-CE09318975A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{568D854F-651E-4520-B3AE-CE09318975A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{568D854F-651E-4520-B3AE-CE09318975A3}.Release|Any CPU.ActiveCfg = Release|Any CPU

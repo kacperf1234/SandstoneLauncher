@@ -93,6 +93,9 @@
         "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -116,6 +119,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.4, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.2, )"
@@ -163,6 +170,9 @@
         "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -243,6 +253,9 @@
         "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -300,6 +313,9 @@
         "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],

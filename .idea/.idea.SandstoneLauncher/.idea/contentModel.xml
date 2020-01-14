@@ -22,9 +22,12 @@
     <e p="C:\Users\Kacpii\Desktop\SandstoneLauncher" t="IncludeFlat">
       <e p="KacpiiToZiomal.SandstoneLauncher.Commons" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ContainerDelegate.cs" t="Include" />
         <e p="Interfaces" t="Include">
           <e p="IActuallyLoggedValidator.cs" t="Include" />
           <e p="IApplicationData.cs" t="Include" />
+          <e p="IAssemblyLoader.cs" t="Include" />
+          <e p="IContainerDelegate.cs" t="Include" />
           <e p="ICredentialsDataPathGenerator.cs" t="Include" />
           <e p="ICredentialsDataProvider.cs" t="Include" />
           <e p="ICredentialsOnlineValidator.cs" t="Include" />
@@ -43,6 +46,7 @@
           <e p="IJsonSerializer.cs" t="Include" />
           <e p="IMinecraftDirectory.cs" t="Include" />
           <e p="IPathConverter.cs" t="Include" />
+          <e p="IReferencedAssemblyNamesGetter.cs" t="Include" />
           <e p="IResponseValidator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Commons.csproj" t="IncludeRecursive" />
@@ -60,6 +64,7 @@
         <e p="Types" t="Include">
           <e p="ActuallyLoggedValidator.cs" t="Include" />
           <e p="ApplicationData.cs" t="Include" />
+          <e p="AssemblyLoader.cs" t="Include" />
           <e p="CredentialsDataPathGenerator.cs" t="Include" />
           <e p="CredentialsDataProvider.cs" t="Include" />
           <e p="CredentialsOnlineValidator.cs" t="Include" />
@@ -78,6 +83,7 @@
           <e p="NetworkClient.cs" t="Include" />
           <e p="PathConverter.cs" t="Include" />
           <e p="PathNameConverter.cs" t="Include" />
+          <e p="ReferencedAssemblyNamesGetter.cs" t="Include" />
           <e p="ResponseValidator.cs" t="Include" />
         </e>
       </e>
@@ -389,6 +395,114 @@
         <e p="timeconverter_convert_string_tests.cs" t="Include" />
         <e p="versiongetter_get_tests.cs" t="Include" />
         <e p="versiontypegetter_getversiontype_tests.cs" t="Include" />
+      </e>
+      <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="IContainerDelegateInterfaceNameProvider.cs" t="Include" />
+          <e p="IContainerDelegateTypeFinder.cs" t="Include" />
+          <e p="IContainerDelegateTypeValidator.cs" t="Include" />
+        </e>
+        <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Types" t="Include">
+          <e p="ContainerConfigurator.cs" t="Include" />
+          <e p="ContainerDelegateInterfaceNameProvider.cs" t="Include" />
+          <e p="ContainerDelegateTypeFinder.cs" t="Include" />
+          <e p="ContainerDelegateTypeValidator.cs" t="Include" />
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ContainerDelegate.cs" t="Include" />
+        <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="DatabaseContext.cs" t="Include" />
+          <e p="UserCredentials.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="SandstoneLauncher.sln" t="IncludeFlat" />

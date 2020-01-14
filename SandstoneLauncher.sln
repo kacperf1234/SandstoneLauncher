@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft", "KacpiiToZiomal.SandstoneLauncher.Minecraft\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj", "{7BEA1C5D-C6B9-4353-A02A-137CAD66FE87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests", "KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj", "{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}"
@@ -15,6 +16,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons", "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj", "{E18B1811-4CB2-404D-9398-FF2A21898D9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Commons.Tests", "KacpiiToZiomal.SandstoneLauncher.Commons.Tests\KacpiiToZiomal.SandstoneLauncher.Commons.Tests.csproj", "{73EE017B-D39B-4035-9C43-55FCB65EB0D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Web.Rest", "KacpiiToZiomal.SandstoneLauncher.Web.Rest\KacpiiToZiomal.SandstoneLauncher.Web.Rest.csproj", "{111EDF1B-B33C-4FBC-BCC0-3F50D00FD3C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons", "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj", "{084727A8-AAE7-4F4A-905B-4CFA981BC33E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +59,14 @@ Global
 		{73EE017B-D39B-4035-9C43-55FCB65EB0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73EE017B-D39B-4035-9C43-55FCB65EB0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73EE017B-D39B-4035-9C43-55FCB65EB0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111EDF1B-B33C-4FBC-BCC0-3F50D00FD3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111EDF1B-B33C-4FBC-BCC0-3F50D00FD3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111EDF1B-B33C-4FBC-BCC0-3F50D00FD3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111EDF1B-B33C-4FBC-BCC0-3F50D00FD3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084727A8-AAE7-4F4A-905B-4CFA981BC33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084727A8-AAE7-4F4A-905B-4CFA981BC33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084727A8-AAE7-4F4A-905B-4CFA981BC33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084727A8-AAE7-4F4A-905B-4CFA981BC33E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

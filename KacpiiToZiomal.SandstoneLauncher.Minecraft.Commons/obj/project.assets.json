@@ -219,7 +219,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kacpii\\.nuget\\packages\\": {}
+    "C:\\Users\\Kacpii\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -230,6 +231,9 @@
       "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Kacpii\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],

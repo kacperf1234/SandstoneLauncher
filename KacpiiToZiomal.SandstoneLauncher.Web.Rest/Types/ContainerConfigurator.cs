@@ -25,8 +25,13 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Types
 
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            Assembly executingAssembly = Assembly.GetExecutingAssembly();
-            AssemblyName[] names = ReferencedAssemblyNamesGetter.GetReferencedAssemblyNames(executingAssembly)
+            ConfigureContainerFor(builder);
+        }
+
+        public void ConfigureContainerFor(ContainerBuilder builder, Assembly targetAssembly = null)
+        {
+            targetAssembly ??= Assembly.GetExecutingAssembly();
+            AssemblyName[] names = ReferencedAssemblyNamesGetter.GetReferencedAssemblyNames(targetAssembly)
                 .Where(ass => ass.FullName.StartsWith("KacpiiToZiomal.SandstoneLauncher"))
                 .Where(ass => !ass.FullName.EndsWith("Tests"))
                 .ToArray();

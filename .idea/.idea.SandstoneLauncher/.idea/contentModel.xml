@@ -401,7 +401,9 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Controllers" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="DeveloperTokensController.cs" t="Include" />
+        </e>
         <e p="Interfaces" t="Include">
           <e p="IContainerDelegateInterfaceNameProvider.cs" t="Include" />
           <e p="IContainerDelegateTypeFinder.cs" t="Include" />
@@ -492,14 +494,35 @@
       <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="ContainerDelegate.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="IDeveloperCredentialsFinder.cs" t="Include" />
+          <e p="IDeveloperCredentialsValidator.cs" t="Include" />
+          <e p="IDeveloperFinder.cs" t="Include" />
+          <e p="IDeveloperTokenExpirationDateTimeGenerator.cs" t="Include" />
+          <e p="IDeveloperTokenGenerator.cs" t="Include" />
+          <e p="IDeveloperTokenRecorderToDatabase.cs" t="Include" />
+        </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
           <e p="20200114132032_x.cs" t="Include" />
           <e p="20200114132032_x.Designer.cs" t="Include" />
+          <e p="20200114155918_x2.cs" t="Include" />
+          <e p="20200114155918_x2.Designer.cs" t="Include" />
+          <e p="20200114165257_x3.cs" t="Include" />
+          <e p="20200114165257_x3.Designer.cs" t="Include" />
+          <e p="20200114170044_x5.cs" t="Include" />
+          <e p="20200114170044_x5.Designer.cs" t="Include" />
+          <e p="20200114170204_x6.cs" t="Include" />
+          <e p="20200114170204_x6.Designer.cs" t="Include" />
+          <e p="20200114171015_x7.cs" t="Include" />
+          <e p="20200114171015_x7.Designer.cs" t="Include" />
           <e p="DatabaseContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="DatabaseContext.cs" t="Include" />
+          <e p="Developer.cs" t="Include" />
+          <e p="DeveloperCredentials.cs" t="Include" />
+          <e p="DeveloperToken.cs" t="Include" />
           <e p="UserCredentials.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -508,6 +531,14 @@
               <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Types" t="Include">
+          <e p="DeveloperCredentialsFinder.cs" t="Include" />
+          <e p="DeveloperCredentialsValidator.cs" t="Include" />
+          <e p="DeveloperFinder.cs" t="Include" />
+          <e p="DeveloperTokenExpirationDateTimeGenerator.cs" t="Include" />
+          <e p="DeveloperTokenGenerator.cs" t="Include" />
+          <e p="DeveloperTokenRecorderToDatabase.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />

@@ -28,9 +28,4 @@
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj" />
   </ItemGroup>
 
-
-  <ItemGroup>
-    <Folder Include="Controllers" />
-  </ItemGroup>
-
 </Project>

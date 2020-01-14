@@ -15,8 +15,21 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Types
 
         public bool Validate(Type type)
         {
-            return type.IsClass
-                   && type.GetInterface(NameProvider.ProvideName(), true) != null;
+            try
+            {
+                return type.IsClass
+                       && type.GetInterface(NameProvider.ProvideName(), true) != null;
+            }
+
+            catch (NullReferenceException exception)
+            {
+                return false;
+            }
+
+            catch
+            {
+                throw;
+            }
         }
     }
 }

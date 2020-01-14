@@ -4,20 +4,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
-    [Table("user_credentials")]
-    public class UserCredentials
+    [Table("developers")]
+    public class Developer
     {
         [Key]
         [Column("id")]
         public string Id { get; set; } = Guid.NewGuid().ToString();
 
-        [Column("user_id")]
-        public string UserId { get; set; }
-
-        [Column("email")]
-        public string Email { get; set; }
-
-        [Column("password")]
-        public string Password { get; set; }
+        [Column("credentials_id")]
+        public string CredentialsId { get; set; }
     }
 }

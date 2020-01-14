@@ -124,6 +124,10 @@
               "target": "Package",
               "version": "[4.9.4, )"
             },
+            "Microsoft.AspNetCore.App.Ref": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"

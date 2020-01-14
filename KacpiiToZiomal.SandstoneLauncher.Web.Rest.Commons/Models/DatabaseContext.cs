@@ -7,6 +7,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
     {
         public DbSet<UserCredentials> UserCredentials { get; set; }
 
+        public DbSet<DeveloperCredentials> DeveloperCredentials { get; set; }
+        
+        public DbSet<Developer> Developers { get; set; }
+
+        public DbSet<DeveloperToken> DeveloperTokens { get; set; }
+
         private readonly string ConnectionString;
 
         public DatabaseContext()

@@ -25,7 +25,21 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Types
 
         public void ConfigureContainer(ContainerBuilder builder)
         {
+            ConfigureForAssembly(Assembly.GetExecutingAssembly().GetName(), builder);
             ConfigureContainerFor(builder);
+        }
+
+        public void ConfigureForAssembly(AssemblyName name, ContainerBuilder builder)
+        {
+            Assembly assembly = AssemblyLoader.Load(name);
+            Type containerDelegateType = DelegateTypeFinder.Find(assembly);
+
+            if (DelegateTypeValidator.Validate(containerDelegateType))
+            {
+                IContainerDelegate containerDelegate = (IContainerDelegate) Activator.CreateInstance(containerDelegateType);
+                containerDelegate.RegisterGenerics(builder);
+                containerDelegate.ConfigureContainer(builder);
+            }
         }
 
         public void ConfigureContainerFor(ContainerBuilder builder, Assembly targetAssembly = null)
@@ -38,15 +52,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Types
             
             foreach (AssemblyName name in names)
             {
-                Assembly assembly = AssemblyLoader.Load(name);
-                Type containerDelegateType = DelegateTypeFinder.Find(assembly);
-
-                if (DelegateTypeValidator.Validate(containerDelegateType))
-                {
-                    IContainerDelegate containerDelegate = (IContainerDelegate) Activator.CreateInstance(containerDelegateType);
-                    containerDelegate.RegisterGenerics(builder);
-                    containerDelegate.ConfigureContainer(builder);
-                }
+                ConfigureForAssembly(name, builder);
             }
         }
 

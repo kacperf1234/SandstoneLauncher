@@ -76,6 +76,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Migrations
                         .HasColumnName("generated_at")
                         .HasColumnType("TEXT");
 
+                    b.Property<DateTime?>("LastUpdatedAt")
+                        .HasColumnName("last_updated_at")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("UpdatedTimes")
+                        .HasColumnName("updated_times")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("Id");
 
                     b.ToTable("developer_tokens");

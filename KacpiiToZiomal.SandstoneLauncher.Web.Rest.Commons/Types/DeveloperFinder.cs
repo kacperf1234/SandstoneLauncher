@@ -13,11 +13,11 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Types
             DatabaseContext = database_context;
         }
 
-        public Developer Find(DeveloperCredentials credentials) =>
+        public Developer GetDeveloper(DeveloperCredentials credentials) =>
             DatabaseContext.Developers
                 .SingleOrDefault(dev => dev.CredentialsId == credentials.Id);
 
-        public Developer Find(string credentialsId) => DatabaseContext.Developers
+        public Developer GetDeveloper(string credentialsId) => DatabaseContext.Developers
             .SingleOrDefault(dev => dev.CredentialsId == credentialsId);
     }
 }

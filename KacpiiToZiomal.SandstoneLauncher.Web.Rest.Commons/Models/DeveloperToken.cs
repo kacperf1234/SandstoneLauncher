@@ -17,10 +17,16 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
         [Column("generated_at")]
         public DateTime? GeneratedAt { get; set; }
 
+        [Column("last_updated_at")]
+        public DateTime? LastUpdatedAt { get; set; }
+
         [Column("expired_at")]
         public DateTime? ExpiredAt { get; set; }
 
         [Column("archived")]
         public bool Archived { get; set; }
+
+        [Column("updated_times")]
+        public int UpdatedTimes { get; set; }
     }
 }

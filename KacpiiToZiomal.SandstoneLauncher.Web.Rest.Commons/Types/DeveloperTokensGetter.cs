@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models;
+
+namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Types
+{
+    public class DeveloperTokensGetter : IDeveloperTokensGetter
+    {
+        public DatabaseContext DatabaseContext;
+
+        public DeveloperTokensGetter(DatabaseContext databaseContext)
+        {
+            DatabaseContext = databaseContext;
+        }
+
+        public DeveloperToken GetDeveloperToken(Func<IEnumerable<DeveloperToken>, DeveloperToken> func)
+        {
+            IEnumerable<DeveloperToken> tokens = DatabaseContext.DeveloperTokens;
+            return func(tokens);
+        }
+
+        public IEnumerable<DeveloperToken> GetDeveloperTokens(Func<IEnumerable<DeveloperToken>, IEnumerable<DeveloperToken>> func)
+        {
+            IEnumerable<DeveloperToken> tokens = DatabaseContext.DeveloperTokens;
+            return func(tokens);
+        }
+    }
+}

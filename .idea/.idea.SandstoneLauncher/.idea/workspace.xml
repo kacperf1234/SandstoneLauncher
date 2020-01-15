@@ -4,18 +4,40 @@
     <list default="true" id="319e4218-9271-4034-a339-d789b97fd1d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/assetsextractor_get_tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/assetsextractor_get_tests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperFinder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperFinder.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Migrations/DatabaseContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Migrations/DatabaseContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DatabaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DatabaseContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserCredentials.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserCredentials.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DeveloperToken.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DeveloperToken.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperFinder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperFinder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/KacpiiToZiomal.SandstoneLauncher.Web.Rest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/KacpiiToZiomal.SandstoneLauncher.Web.Rest.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Types/ContainerConfigurator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Types/ContainerConfigurator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Types/ContainerDelegateTypeValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Types/ContainerDelegateTypeValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Controllers/DeveloperTokensController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Controllers/DeveloperTokensController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/bin/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.dll" afterDir="false" />
@@ -23,6 +45,7 @@
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_databases/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/test_databases/database.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +79,6 @@
         <item name="test-database" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test-database" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="developer_tokens: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -181,7 +197,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FB09D8E1-F85F-4AB5-9A53-EEFD874873CF/9F/RegistrationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IVersionTypeGetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IJsonParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="dummy://restClient/response7.txt" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/INativesPropertyGetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/Exceptions/TestException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IManifestGetter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -242,6 +257,7 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/librarypathbuilder_build_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/MinecraftDirectory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/directorylistcreator_getdirectories_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests/developertokenarchivedvalidator_validate_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/gamepathbuilder_getabsolutepath_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/timeconverter_convert_string_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/processbuilder_build_str_str_act_tests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -254,12 +270,15 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/JsonSerializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/JsonDeserializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/arraysconnector_connectarrays_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperTokenValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/classifiersvalidator_validate_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/CredentialsPathGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/PathConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests/developertokenexpirationdatetimegenerator_generateexpirationdatetime_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/FileNameExtractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/assetsextractor_get_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/versiongetter_get_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests/developertokenvalidator_validate_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/ApplicationData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/fullversionfinder_find_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/HttpBytesReader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -271,13 +290,17 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativespathfinder_getnativesdirectory_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/librariesconverter_tostringarray_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IPathConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperTokenDatabaseUpdater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IHttpBytesReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/assetsindexpathbuilder_build_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperTokenArchivedValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/hashcombiner_getfirstletters_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IJsonDeserializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IFileNameRemover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/artifactfinder_getdownloadartifact_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperTokenArchivedValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativesvalidator_validate_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDatabaseUpdater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IFileNameExtractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/filereader_read_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IJsonBuilder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -311,28 +334,14 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/HttpDownloader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperTokensGetter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperTokenValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperTokensGetter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Controllers/AccountsController.cs" />
-        <option value="$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/Program.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/LaunchArgumentsBuilder.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IContainerDelegate.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Program.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/KacpiiToZiomal.SandstoneLauncher.Commons.csproj" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IJsonDeserializer.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/ContainerDelegate.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Controllers/TestController.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Interfaces/IContainerDelegateTypeFinder.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Interfaces/IContainerDelegateTypeValidator.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Types/ContainerDelegateTypeFinder.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Interfaces/IContainerDelegateInterfaceNameProvider.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Types/ContainerDelegateInterfaceNameProvider.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IReferencedAssembliesGetter.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IReferencedAssembliesNameGetter.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IReferencedAssemblyNamesGetter.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/ReferencedAssemblyNamesGetter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IAssemblyLoader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/AssemblyLoader.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Startup.cs" />
@@ -346,7 +355,6 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Types/ContainerDelegateTypeValidator.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperCredentialsFinder.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperCredentialsValidator.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperFinder.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperFinder.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperCredentialsFinder.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperCredentialsValidator.cs" />
@@ -354,7 +362,6 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperTokenExpirationDateTimeGenerator.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperTokenExpirationDateTimeGenerator.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DatabaseContext.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DeveloperToken.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/Developer.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DeveloperCredentials.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserCredentials.cs" />
@@ -362,10 +369,30 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDatabaseTokenRecorderToDatabase.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperTokenRecorderToDatabase.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperTokenRecorderToDatabase.cs" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Controllers/RestController.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Interfaces/IDeveloperTokensGetter.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Types/DeveloperTokensGetter.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperTokensGetter.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IValidator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DeveloperToken.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperGetter.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperFinder.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IGetter.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperTokensGetter.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDatabaseUpdater.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/ContainerDelegate.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperTokenArchivedValidator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperTokenArchivedValidator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperTokenDatabaseUpdater.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Controllers/DeveloperTokensController.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests/developertokenarchivedvalidator_validate_tests.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/assetsextractor_get_tests.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperTokenValidator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/IDeveloperTokenValidator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests/developertokenvalidator_validate_tests.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests/developertokenexpirationdatetimegenerator_generateexpirationdatetime_tests.cs" />
       </list>
     </option>
   </component>
@@ -472,9 +499,9 @@
       <item itemvalue=".NET Launch Settings Profile.web.rest" />
       <item itemvalue=".NET Project.KacpiiToZiomal.SandstoneLauncher" />
       <item itemvalue=".NET Project.LauncherSample" />
+      <item itemvalue="HTTP Request.All in rest-api_1" />
       <item itemvalue="JavaScript Debug.Login.html" />
       <item itemvalue="JavaScript Debug.Get.html" />
-      <item itemvalue="HTTP Request.All in rest-api_1" />
     </list>
     <recent_temporary>
       <list>
@@ -491,12 +518,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:test-database" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -567,7 +589,8 @@
       <workItem from="1576412265782" duration="308000" />
       <workItem from="1578916083645" duration="1673000" />
       <workItem from="1579000582466" duration="7802000" />
-      <workItem from="1579016304843" duration="6766000" />
+      <workItem from="1579016304843" duration="7009000" />
+      <workItem from="1579080528273" duration="6189000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -639,98 +662,98 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="287" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579023106519" />
-    <state width="1487" height="238" key="GridCell.Tab.0.bottom" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.0.bottom" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.0.center" timestamp="1579023200179">
+    <state width="1483" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.0.center" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200179" />
-    <state width="1487" height="238" key="GridCell.Tab.0.left" timestamp="1579023200178">
+    <state width="1483" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.0.left" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200178" />
-    <state width="1487" height="238" key="GridCell.Tab.0.right" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.0.right" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.1.bottom" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.1.bottom" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.1.center" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.1.center" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.1.left" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.1.left" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.1.right" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.1.right" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.2.bottom" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.2.bottom" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.2.center" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.2.center" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.2.left" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.2.left" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.2.right" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.2.right" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.3.bottom" timestamp="1579023200181">
+    <state width="1483" height="238" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.3.bottom" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200181" />
-    <state width="1487" height="238" key="GridCell.Tab.3.center" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.3.center" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.3.left" timestamp="1579023200180">
+    <state width="1483" height="238" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.3.left" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200180" />
-    <state width="1487" height="238" key="GridCell.Tab.3.right" timestamp="1579023200181">
+    <state width="1483" height="238" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.3.right" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200181" />
-    <state width="1487" height="238" key="GridCell.Tab.4.bottom" timestamp="1579023200181">
+    <state width="1483" height="238" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.4.bottom" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200181" />
-    <state width="1487" height="238" key="GridCell.Tab.4.center" timestamp="1579023200181">
+    <state width="1483" height="238" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.4.center" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200181" />
-    <state width="1487" height="238" key="GridCell.Tab.4.left" timestamp="1579023200181">
+    <state width="1483" height="238" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.4.left" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200181" />
-    <state width="1487" height="238" key="GridCell.Tab.4.right" timestamp="1579023200181">
+    <state width="1483" height="238" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
+    <state width="1483" height="238" key="GridCell.Tab.4.right" timestamp="1579085946911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1487" height="238" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579023200181" />
+    <state width="1483" height="238" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579085946911" />
     <state x="489" y="255" key="Rider.ProjectTemplateDialog.Size" timestamp="1576154358624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="489" y="255" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1576154358624" />
-    <state x="670" y="199" key="RiderGenerateDialog" timestamp="1579020516773">
+    <state x="670" y="199" key="RiderGenerateDialog" timestamp="1579083527355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="670" y="199" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579020516772" />
-    <state x="509" y="198" width="1241" height="708" key="SettingsEditor" timestamp="1579021136476">
+    <state x="670" y="199" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579083527355" />
+    <state x="509" y="198" width="1241" height="708" key="SettingsEditor" timestamp="1579083297817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="509" y="198" width="1241" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579021136476" />
+    <state x="509" y="198" width="1241" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579083297817" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1579003825197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -743,10 +766,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576336682418" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579022028663">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579086439508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579022028663" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579086439508" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

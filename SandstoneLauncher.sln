@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# 
+#
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft", "KacpiiToZiomal.SandstoneLauncher.Minecraft\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj", "{7BEA1C5D-C6B9-4353-A02A-137CAD66FE87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests", "KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj", "{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}"
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Web.Rest", "KacpiiToZiomal.SandstoneLauncher.Web.Rest\KacpiiToZiomal.SandstoneLauncher.Web.Rest.csproj", "{111EDF1B-B33C-4FBC-BCC0-3F50D00FD3C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons", "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj", "{084727A8-AAE7-4F4A-905B-4CFA981BC33E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests", "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests.csproj", "{2AD1054B-18A5-4A98-82FB-DB15863878E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{084727A8-AAE7-4F4A-905B-4CFA981BC33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{084727A8-AAE7-4F4A-905B-4CFA981BC33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{084727A8-AAE7-4F4A-905B-4CFA981BC33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD1054B-18A5-4A98-82FB-DB15863878E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD1054B-18A5-4A98-82FB-DB15863878E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD1054B-18A5-4A98-82FB-DB15863878E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD1054B-18A5-4A98-82FB-DB15863878E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

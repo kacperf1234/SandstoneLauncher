@@ -1,5 +1,4 @@
 ﻿using Autofac;
-using Autofac.Core;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces
 {

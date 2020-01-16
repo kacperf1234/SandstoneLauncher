@@ -6,7 +6,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests
 {
     public class mojangcredentialsbuilder_build_tests
     {
-        MojangCredentials execute(string u, string pwd)
+        private MojangCredentials execute(string u, string pwd)
         {
             return new MojangCredentialsBuilder().Build(u, pwd);
         }
@@ -14,7 +14,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests
         [Test]
         public void dont_throws_exceptions()
         {
-            Assert.DoesNotThrow(() => { execute("", "");});
+            Assert.DoesNotThrow(() => { execute("", ""); });
         }
 
         [Test]

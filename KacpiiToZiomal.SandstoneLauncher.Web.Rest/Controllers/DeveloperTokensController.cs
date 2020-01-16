@@ -1,30 +1,32 @@
 ﻿using System;
 using System.Linq;
-using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models;
-using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Types;
-using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Storage;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
 {
     [Route("developer_tokens")]
     public class DeveloperTokensController : Controller
     {
-        public IDeveloperCredentialsValidator DeveloperCredentialsValidator;
         public IDeveloperCredentialsFinder DeveloperCredentialsFinder;
+        public IDeveloperCredentialsValidator DeveloperCredentialsValidator;
         public IDeveloperFinder DeveloperFinder;
+        public IDeveloperTokenArchivedValidator DeveloperTokenArchivedValidator;
+        public IDatabaseUpdater<DeveloperToken> DeveloperTokenDatabaseUpdater;
         public IDeveloperTokenGenerator DeveloperTokenGenerator;
-        public IDeveloperTokenRecorderToDatabase RecorderToDatabase;
         public IDeveloperTokensGetter DeveloperTokensGetter;
         public IDeveloperTokenValidator DeveloperTokenValidator;
-        public IDatabaseUpdater<DeveloperToken> DeveloperTokenDatabaseUpdater;
         public IDeveloperTokenExpirationDateTimeGenerator ExpirationDateTimeGenerator;
-        public IDeveloperTokenArchivedValidator DeveloperTokenArchivedValidator;
+        public IDeveloperTokenRecorderToDatabase RecorderToDatabase;
 
-        public DeveloperTokensController(IDeveloperCredentialsValidator developerCredentialsValidator, IDeveloperCredentialsFinder developerCredentialsFinder, IDeveloperFinder developerFinder, IDeveloperTokenGenerator developerTokenGenerator, IDeveloperTokenRecorderToDatabase recorderToDatabase, IDeveloperTokenValidator developerTokenValidator, IDeveloperTokensGetter developerTokensGetter, IDeveloperTokenArchivedValidator developerTokenArchivedValidator, IDeveloperTokenExpirationDateTimeGenerator expirationDateTimeGenerator, IDatabaseUpdater<DeveloperToken> developerTokenDatabaseUpdater)
+        public DeveloperTokensController(IDeveloperCredentialsValidator developerCredentialsValidator,
+            IDeveloperCredentialsFinder developerCredentialsFinder, IDeveloperFinder developerFinder,
+            IDeveloperTokenGenerator developerTokenGenerator, IDeveloperTokenRecorderToDatabase recorderToDatabase,
+            IDeveloperTokenValidator developerTokenValidator, IDeveloperTokensGetter developerTokensGetter,
+            IDeveloperTokenArchivedValidator developerTokenArchivedValidator,
+            IDeveloperTokenExpirationDateTimeGenerator expirationDateTimeGenerator,
+            IDatabaseUpdater<DeveloperToken> developerTokenDatabaseUpdater)
         {
             DeveloperCredentialsValidator = developerCredentialsValidator;
             DeveloperCredentialsFinder = developerCredentialsFinder;
@@ -40,7 +42,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
 
         [HttpGet]
         [Route("generate")]
-        public IActionResult Generate([FromQuery(Name = "client_id")] string clientId, [FromQuery(Name = "client_secret")] string clientSecret)
+        public IActionResult Generate([FromQuery(Name = "client_id")] string clientId,
+            [FromQuery(Name = "client_secret")] string clientSecret)
         {
             DeveloperCredentials credentials = DeveloperCredentialsFinder.GetByCredentials(clientId, clientSecret);
 
@@ -48,7 +51,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
             {
                 Developer developer = DeveloperFinder.GetDeveloper(credentials);
                 DeveloperToken developerToken = DeveloperTokenGenerator.GenerateToken(developer);
-                
+
                 RecorderToDatabase.Add(developerToken);
 
                 return Json(developerToken);
@@ -61,13 +64,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
         [Route("update")]
         public IActionResult Update([FromQuery(Name = "id")] string id, [FromQuery(Name = "developer_id")] string developerId)
         {
-            DeveloperToken token = DeveloperTokensGetter.GetDeveloperToken(t => t.SingleOrDefault(x => x.Id == id && x.DeveloperId == developerId));
+            DeveloperToken token =
+                DeveloperTokensGetter.GetDeveloperToken(t => t.SingleOrDefault(x => x.Id == id && x.DeveloperId == developerId));
 
             if (DeveloperTokenValidator.Validate(token))
             {
                 if (DeveloperTokenArchivedValidator.Validate(token))
                 {
-                    DeveloperTokenDatabaseUpdater.Update(token.Id, (t) =>
+                    DeveloperTokenDatabaseUpdater.Update(token.Id, t =>
                     {
                         t.LastUpdatedAt = DateTime.Now;
                         t.ExpiredAt = ExpirationDateTimeGenerator.GenerateExpirationDateTime(DateTime.Now);
@@ -77,10 +81,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
                     return Json(token);
                 }
 
-                else
-                {
-                    return BadRequest();
-                }
+                return BadRequest();
             }
 
             return BadRequest();

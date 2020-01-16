@@ -10,12 +10,13 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Types
 {
     public class ContainerConfigurator
     {
+        public IAssemblyLoader AssemblyLoader;
         public IContainerDelegateTypeFinder DelegateTypeFinder;
         public IContainerDelegateTypeValidator DelegateTypeValidator;
         public IReferencedAssemblyNamesGetter ReferencedAssemblyNamesGetter;
-        public IAssemblyLoader AssemblyLoader;
-        
-        public ContainerConfigurator(IAssemblyLoader assemblyLoader, IReferencedAssemblyNamesGetter referencedAssemblyNamesGetter, IContainerDelegateTypeValidator delegateTypeValidator, IContainerDelegateTypeFinder delegateTypeFinder)
+
+        public ContainerConfigurator(IAssemblyLoader assemblyLoader, IReferencedAssemblyNamesGetter referencedAssemblyNamesGetter,
+            IContainerDelegateTypeValidator delegateTypeValidator, IContainerDelegateTypeFinder delegateTypeFinder)
         {
             AssemblyLoader = assemblyLoader;
             ReferencedAssemblyNamesGetter = referencedAssemblyNamesGetter;
@@ -49,19 +50,17 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Types
                 .Where(ass => ass.FullName.StartsWith("KacpiiToZiomal.SandstoneLauncher"))
                 .Where(ass => !ass.FullName.EndsWith("Tests"))
                 .ToArray();
-            
-            foreach (AssemblyName name in names)
-            {
-                ConfigureForAssembly(name, builder);
-            }
+
+            foreach (AssemblyName name in names) ConfigureForAssembly(name, builder);
         }
 
         public static ContainerConfigurator Create()
         {
-            return 
+            return
                 new ContainerConfigurator(new AssemblyLoader(), new ReferencedAssemblyNamesGetter(),
-                new ContainerDelegateTypeValidator(new ContainerDelegateInterfaceNameProvider()),
-                new ContainerDelegateTypeFinder(new ContainerDelegateTypeValidator(new ContainerDelegateInterfaceNameProvider())));
+                    new ContainerDelegateTypeValidator(new ContainerDelegateInterfaceNameProvider()),
+                    new ContainerDelegateTypeFinder(
+                        new ContainerDelegateTypeValidator(new ContainerDelegateInterfaceNameProvider())));
         }
     }
 }

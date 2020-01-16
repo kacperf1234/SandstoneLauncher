@@ -6,7 +6,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Models
     {
         [JsonProperty("actually")]
         public Credentials Actually { get; set; }
-        
+
         [JsonProperty("stored")]
         public Credentials[] Stored { get; set; }
     }

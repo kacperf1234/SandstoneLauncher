@@ -5,11 +5,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
 {
     public class CredentialsDataProvider : ICredentialsDataProvider
     {
-        public ICredentialsDataPathGenerator PathGenerator;
-        public IFileReader FileReader;
         public IJsonDeserializer<CredentialsData> Deserializer;
+        public IFileReader FileReader;
+        public ICredentialsDataPathGenerator PathGenerator;
 
-        public CredentialsDataProvider(ICredentialsDataPathGenerator pathGenerator, IFileReader fileReader, IJsonDeserializer<CredentialsData> deserializer)
+        public CredentialsDataProvider(ICredentialsDataPathGenerator pathGenerator, IFileReader fileReader,
+            IJsonDeserializer<CredentialsData> deserializer)
         {
             PathGenerator = pathGenerator;
             FileReader = fileReader;
@@ -20,9 +21,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
         {
             string path = PathGenerator.GeneratePath();
             string content = FileReader.Read(path);
-            CredentialsData @data = Deserializer.Deserialize(content);
+            CredentialsData data = Deserializer.Deserialize(content);
 
-            return @data;
+            return data;
         }
     }
 }

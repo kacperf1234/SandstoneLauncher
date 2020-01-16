@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Reflection;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Interfaces;
 
@@ -17,12 +16,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Types
         public Type Find(Assembly assembly)
         {
             foreach (Type type in assembly.GetTypes())
-            {
                 if (DelegateTypeValidator.Validate(type))
-                {
                     return type;
-                }
-            }
 
             return null;
         }

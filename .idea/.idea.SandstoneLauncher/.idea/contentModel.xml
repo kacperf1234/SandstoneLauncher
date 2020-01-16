@@ -413,7 +413,7 @@
         <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -494,6 +494,17 @@
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
         <e p="ContainerDelegate.cs" t="Include" />
         <e p="Interfaces" t="Include">
           <e p="IDatabaseUpdater.cs" t="Include" />
@@ -507,23 +518,18 @@
           <e p="IDeveloperTokensGetter.cs" t="Include" />
           <e p="IDeveloperTokenValidator.cs" t="Include" />
         </e>
-        <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj" t="IncludeRecursive" />
+        <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="20200114132032_x.cs" t="Include" />
-          <e p="20200114132032_x.Designer.cs" t="Include" />
-          <e p="20200114155918_x2.cs" t="Include" />
-          <e p="20200114155918_x2.Designer.cs" t="Include" />
-          <e p="20200114165257_x3.cs" t="Include" />
-          <e p="20200114165257_x3.Designer.cs" t="Include" />
-          <e p="20200114170044_x5.cs" t="Include" />
-          <e p="20200114170044_x5.Designer.cs" t="Include" />
-          <e p="20200114170204_x6.cs" t="Include" />
-          <e p="20200114170204_x6.Designer.cs" t="Include" />
-          <e p="20200114171015_x7.cs" t="Include" />
-          <e p="20200114171015_x7.Designer.cs" t="Include" />
-          <e p="20200115100322_helloworld!.cs" t="Include" />
-          <e p="20200115100322_helloworld!.Designer.cs" t="Include" />
+          <e p="20200116101732_InitialMigration.cs" t="Include" />
+          <e p="20200116101732_InitialMigration.Designer.cs" t="Include" />
+          <e p="20200116102755_unauthorized.cs" t="Include" />
+          <e p="20200116102755_unauthorized.Designer.cs" t="Include" />
+          <e p="20200116103045_unauthorized_new.cs" t="Include" />
+          <e p="20200116103045_unauthorized_new.Designer.cs" t="Include" />
+          <e p="20200116104038_un.cs" t="Include" />
+          <e p="20200116104038_un.Designer.cs" t="Include" />
           <e p="DatabaseContextModelSnapshot.cs" t="Include" />
+          <e p="Update.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="DatabaseContext.cs" t="Include" />
@@ -534,8 +540,8 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
-              <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.AssemblyInfo.cs" t="Include" />
+            <e p="netcoreapp3.1" t="Include">
+              <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -552,16 +558,16 @@
           <e p="DeveloperTokenValidator.cs" t="Include" />
         </e>
       </e>
-      <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests" t="IncludeRecursive">
+      <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="developertokenarchivedvalidator_validate_tests.cs" t="Include" />
         <e p="developertokenexpirationdatetimegenerator_generateexpirationdatetime_tests.cs" t="Include" />
         <e p="developertokenvalidator_validate_tests.cs" t="Include" />
-        <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests.csproj" t="IncludeRecursive" />
+        <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
-              <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests.AssemblyInfo.cs" t="Include" />
+            <e p="netcoreapp3.1" t="Include">
+              <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>

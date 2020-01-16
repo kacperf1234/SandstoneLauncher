@@ -5,6 +5,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Types
 {
     public class ContainerDelegateInterfaceNameProvider : IContainerDelegateInterfaceNameProvider
     {
-        public string ProvideName() => typeof(IContainerDelegate).Name;
+        public string ProvideName()
+        {
+            return typeof(IContainerDelegate).Name;
+        }
     }
 }

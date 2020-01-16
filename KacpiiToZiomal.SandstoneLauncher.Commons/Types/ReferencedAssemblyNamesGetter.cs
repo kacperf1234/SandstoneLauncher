@@ -5,6 +5,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
 {
     public class ReferencedAssemblyNamesGetter : IReferencedAssemblyNamesGetter
     {
-        public AssemblyName[] GetReferencedAssemblyNames(Assembly assembly) => assembly.GetReferencedAssemblies();
+        public AssemblyName[] GetReferencedAssemblyNames(Assembly assembly)
+        {
+            return assembly.GetReferencedAssemblies();
+        }
     }
 }

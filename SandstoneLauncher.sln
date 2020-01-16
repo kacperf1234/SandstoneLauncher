@@ -21,7 +21,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLau
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons", "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj", "{084727A8-AAE7-4F4A-905B-4CFA981BC33E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests", "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests.csproj", "{2AD1054B-18A5-4A98-82FB-DB15863878E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests", "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests.csproj", "{2AD1054B-18A5-4A98-82FB-DB15863878E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database", "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csproj", "{6CE09CEE-B134-42C5-9818-EFCE5AFDA887}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,7 +40,6 @@ Global
 		{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EFA597A-2658-4B4B-8204-A5E45E63BFFB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F1716E52-DB92-4C29-BA4D-57A8EB7387F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -73,6 +74,10 @@ Global
 		{2AD1054B-18A5-4A98-82FB-DB15863878E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AD1054B-18A5-4A98-82FB-DB15863878E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AD1054B-18A5-4A98-82FB-DB15863878E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE09CEE-B134-42C5-9818-EFCE5AFDA887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE09CEE-B134-42C5-9818-EFCE5AFDA887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE09CEE-B134-42C5-9818-EFCE5AFDA887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE09CEE-B134-42C5-9818-EFCE5AFDA887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Linq;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
 {
@@ -12,21 +14,22 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
         public IDeveloperCredentialsFinder DeveloperCredentialsFinder;
         public IDeveloperCredentialsValidator DeveloperCredentialsValidator;
         public IDeveloperFinder DeveloperFinder;
-        public IDeveloperTokenArchivedValidator DeveloperTokenArchivedValidator;
+        public IDeveloperTokenActiveValidator DeveloperTokenActiveValidator;
         public IDatabaseUpdater<DeveloperToken> DeveloperTokenDatabaseUpdater;
         public IDeveloperTokenGenerator DeveloperTokenGenerator;
         public IDeveloperTokensGetter DeveloperTokensGetter;
         public IDeveloperTokenValidator DeveloperTokenValidator;
         public IDeveloperTokenExpirationDateTimeGenerator ExpirationDateTimeGenerator;
         public IDeveloperTokenRecorderToDatabase RecorderToDatabase;
+        public IDeveloperValidator DeveloperValidator;
 
         public DeveloperTokensController(IDeveloperCredentialsValidator developerCredentialsValidator,
             IDeveloperCredentialsFinder developerCredentialsFinder, IDeveloperFinder developerFinder,
             IDeveloperTokenGenerator developerTokenGenerator, IDeveloperTokenRecorderToDatabase recorderToDatabase,
             IDeveloperTokenValidator developerTokenValidator, IDeveloperTokensGetter developerTokensGetter,
-            IDeveloperTokenArchivedValidator developerTokenArchivedValidator,
+            IDeveloperTokenActiveValidator developerTokenActiveValidator,
             IDeveloperTokenExpirationDateTimeGenerator expirationDateTimeGenerator,
-            IDatabaseUpdater<DeveloperToken> developerTokenDatabaseUpdater)
+            IDatabaseUpdater<DeveloperToken> developerTokenDatabaseUpdater, IDeveloperValidator developerValidator)
         {
             DeveloperCredentialsValidator = developerCredentialsValidator;
             DeveloperCredentialsFinder = developerCredentialsFinder;
@@ -35,29 +38,21 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
             RecorderToDatabase = recorderToDatabase;
             DeveloperTokenValidator = developerTokenValidator;
             DeveloperTokensGetter = developerTokensGetter;
-            DeveloperTokenArchivedValidator = developerTokenArchivedValidator;
+            DeveloperTokenActiveValidator = developerTokenActiveValidator;
             ExpirationDateTimeGenerator = expirationDateTimeGenerator;
             DeveloperTokenDatabaseUpdater = developerTokenDatabaseUpdater;
+            DeveloperValidator = developerValidator;
         }
 
         [HttpGet]
         [Route("generate")]
-        public IActionResult Generate([FromQuery(Name = "client_id")] string clientId,
-            [FromQuery(Name = "client_secret")] string clientSecret)
+        public IActionResult Generate()
         {
-            DeveloperCredentials credentials = DeveloperCredentialsFinder.GetByCredentials(clientId, clientSecret);
+            DeveloperToken developerToken = DeveloperTokenGenerator.GenerateToken();
 
-            if (DeveloperCredentialsValidator.Validate(credentials))
-            {
-                Developer developer = DeveloperFinder.GetDeveloper(credentials);
-                DeveloperToken developerToken = DeveloperTokenGenerator.GenerateToken(developer);
+            RecorderToDatabase.Add(developerToken);
 
-                RecorderToDatabase.Add(developerToken);
-
-                return Json(developerToken);
-            }
-
-            return Unauthorized();
+            return Json(developerToken);
         }
 
         [HttpGet]
@@ -69,7 +64,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
 
             if (DeveloperTokenValidator.Validate(token))
             {
-                if (DeveloperTokenArchivedValidator.Validate(token))
+                if (DeveloperTokenActiveValidator.Validate(token))
                 {
                     DeveloperTokenDatabaseUpdater.Update(token.Id, t =>
                     {
@@ -80,8 +75,47 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
 
                     return Json(token);
                 }
+            }
 
-                return BadRequest();
+            return BadRequest();
+        }
+
+        [HttpPost]
+        [Route("authorize")]
+        public IActionResult Authorize([FromBody] SimpleDeveloperCredentials credentials, string id)
+        {
+            Developer developer = DeveloperFinder.GetDeveloper(credentials.ClientId, credentials.ClientSecret);
+
+            if (DeveloperValidator.Validate(developer))
+            {
+                DeveloperTokenDatabaseUpdater.Update(id, token =>
+                {
+                    token.Authorized = true;
+                    token.AuthorizedAt = DateTime.Now;
+                    token.DeveloperId = developer.Id;
+                });
+
+                return Ok();
+            }
+
+            return BadRequest();
+        }
+
+        [HttpPost]
+        [Route("unauthorize")]
+        public IActionResult Unauthorize([FromBody] SimpleDeveloperCredentials credentials, string id)
+        {
+            Developer developer = DeveloperFinder.GetDeveloper(credentials.ClientId, credentials.ClientSecret);
+
+            if (DeveloperValidator.Validate(developer))
+            {
+                DeveloperTokenDatabaseUpdater.Update(id, token =>
+                {
+                    token.Unauthorized = true;
+                    token.UnauthorizedAt = DateTime.Now;
+                });
+
+                return Ok();
             }
 
             return BadRequest();

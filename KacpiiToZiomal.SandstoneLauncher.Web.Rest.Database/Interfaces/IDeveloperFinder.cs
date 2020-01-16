@@ -1,4 +1,5 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models;
+﻿using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces
 {
@@ -7,5 +8,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces
         Developer GetDeveloper(DeveloperCredentials credentials);
 
         Developer GetDeveloper(string credentialsId);
+
+        Developer GetDeveloper(string clientId, string clientSecret);
     }
 }

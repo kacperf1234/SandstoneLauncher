@@ -256,6 +256,9 @@
             "projectReferences": {
               "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj": {
                 "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj"
+              },
+              "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj": {
+                "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj"
               }
             }
           }

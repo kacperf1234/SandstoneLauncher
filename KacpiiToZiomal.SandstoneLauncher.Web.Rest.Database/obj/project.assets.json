@@ -462,6 +462,23 @@
         "runtime": {
           "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
         }
+      },
+      "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Autofac": "4.9.4",
+          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.0",
+          "Microsoft.EntityFrameworkCore.Design": "3.1.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.0"
+        },
+        "compile": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.dll": {}
+        }
       }
     }
   },
@@ -1222,11 +1239,17 @@
       "type": "project",
       "path": "../KacpiiToZiomal.SandstoneLauncher.Commons/KacpiiToZiomal.SandstoneLauncher.Commons.csproj",
       "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Commons/KacpiiToZiomal.SandstoneLauncher.Commons.csproj"
+    },
+    "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/1.0.0": {
+      "type": "project",
+      "path": "../KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj",
+      "msbuildProject": "../KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "KacpiiToZiomal.SandstoneLauncher.Commons >= 1.0.0",
+      "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.1"
@@ -1239,11 +1262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\Kacpiitoziomal.sandstonelauncher.web.rest.database\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csproj",
+      "projectUniqueName": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csproj",
       "projectName": "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database",
-      "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\Kacpiitoziomal.sandstonelauncher.web.rest.database\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csproj",
+      "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csproj",
       "packagesPath": "C:\\Users\\Kacpii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\Kacpiitoziomal.sandstonelauncher.web.rest.database\\obj\\",
+      "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1262,6 +1285,9 @@
           "projectReferences": {
             "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj": {
               "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj"
+            },
+            "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj": {
+              "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj"
             }
           }
         }

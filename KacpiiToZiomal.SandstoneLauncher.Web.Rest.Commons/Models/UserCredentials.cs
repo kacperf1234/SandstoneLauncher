@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models
+namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("user_credentials")]
     public class UserCredentials

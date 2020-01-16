@@ -1260,6 +1260,7 @@
       "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database/1.0.0": {
         "dependencies": {
           "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
+          "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.1",
           "Microsoft.EntityFrameworkCore.Design": "3.1.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.1"

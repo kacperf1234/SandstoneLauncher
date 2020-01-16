@@ -1,4 +1,5 @@
 ﻿using KacpiiToZiomal.SandstoneLauncher.Commons.Models;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models

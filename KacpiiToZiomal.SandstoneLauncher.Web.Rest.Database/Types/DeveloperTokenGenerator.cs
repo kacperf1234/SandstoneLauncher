@@ -1,4 +1,5 @@
 ﻿using System;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models;
 
@@ -18,6 +19,15 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
             return new DeveloperToken
             {
                 DeveloperId = developer.Id,
+                GeneratedAt = DateTime.Now,
+                ExpiredAt = ExpirationDateTimeGenerator.GenerateExpirationDateTime(DateTime.Now)
+            };
+        }
+
+        public DeveloperToken GenerateToken()
+        {
+            return new DeveloperToken
+            {
                 GeneratedAt = DateTime.Now,
                 ExpiredAt = ExpirationDateTimeGenerator.GenerateExpirationDateTime(DateTime.Now)
             };

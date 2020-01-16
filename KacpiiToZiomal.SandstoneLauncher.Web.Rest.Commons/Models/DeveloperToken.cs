@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models
+namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("developer_tokens")]
     public class DeveloperToken
@@ -26,8 +26,17 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models
         [Column("archived")]
         public bool Archived { get; set; }
 
+        [Column("authorized")]
+        public bool Authorized { get; set; }
+
+        [Column("authorized_at")]
+        public DateTime? AuthorizedAt { get; set; }
+
         [Column("unauthorized")]
         public bool Unauthorized { get; set; }
+        
+        [Column("unauthorized_at")]
+        public DateTime? UnauthorizedAt { get; set; }
 
         [Column("updated_times")]
         public int UpdatedTimes { get; set; }

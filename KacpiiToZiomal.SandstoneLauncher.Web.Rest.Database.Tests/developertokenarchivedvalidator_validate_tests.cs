@@ -1,4 +1,5 @@
 ﻿using System;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types;
 using NUnit.Framework;
@@ -9,7 +10,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Tests
     {
         private bool execute(bool archived, DateTime expiration)
         {
-            DeveloperTokenArchivedValidator v = new DeveloperTokenArchivedValidator();
+            DeveloperTokenActiveValidator v = new DeveloperTokenActiveValidator();
 
             return v.Validate(new DeveloperToken
             {

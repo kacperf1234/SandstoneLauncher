@@ -11,3 +11,5 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.R
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.pdb

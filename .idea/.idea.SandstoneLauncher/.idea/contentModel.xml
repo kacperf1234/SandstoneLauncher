@@ -495,6 +495,13 @@
       <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Developer.cs" t="Include" />
+          <e p="DeveloperCredentials.cs" t="Include" />
+          <e p="DeveloperToken.cs" t="Include" />
+          <e p="SimpleDeveloperCredentials.cs" t="Include" />
+          <e p="UserCredentials.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
@@ -511,12 +518,13 @@
           <e p="IDeveloperCredentialsFinder.cs" t="Include" />
           <e p="IDeveloperCredentialsValidator.cs" t="Include" />
           <e p="IDeveloperFinder.cs" t="Include" />
-          <e p="IDeveloperTokenArchivedValidator.cs" t="Include" />
+          <e p="IDeveloperTokenActiveValidator.cs" t="Include" />
           <e p="IDeveloperTokenExpirationDateTimeGenerator.cs" t="Include" />
           <e p="IDeveloperTokenGenerator.cs" t="Include" />
           <e p="IDeveloperTokenRecorderToDatabase.cs" t="Include" />
           <e p="IDeveloperTokensGetter.cs" t="Include" />
           <e p="IDeveloperTokenValidator.cs" t="Include" />
+          <e p="IDeveloperValidator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
@@ -528,15 +536,23 @@
           <e p="20200116103045_unauthorized_new.Designer.cs" t="Include" />
           <e p="20200116104038_un.cs" t="Include" />
           <e p="20200116104038_un.Designer.cs" t="Include" />
+          <e p="20200116112146_AuthorizedMigration.cs" t="Include" />
+          <e p="20200116112146_AuthorizedMigration.Designer.cs" t="Include" />
+          <e p="20200116113453_UnauthorizedMigration.cs" t="Include" />
+          <e p="20200116113453_UnauthorizedMigration.Designer.cs" t="Include" />
+          <e p="20200116113551_UnauthorizedMigration2.cs" t="Include" />
+          <e p="20200116113551_UnauthorizedMigration2.Designer.cs" t="Include" />
+          <e p="20200116114420_UnauthorizedMigration3.cs" t="Include" />
+          <e p="20200116114420_UnauthorizedMigration3.Designer.cs" t="Include" />
+          <e p="20200116114614_UnauthorizedMigration4.cs" t="Include" />
+          <e p="20200116114614_UnauthorizedMigration4.Designer.cs" t="Include" />
+          <e p="20200116115138_UnauthorizedMigration6.cs" t="Include" />
+          <e p="20200116115138_UnauthorizedMigration6.Designer.cs" t="Include" />
           <e p="DatabaseContextModelSnapshot.cs" t="Include" />
           <e p="Update.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="DatabaseContext.cs" t="Include" />
-          <e p="Developer.cs" t="Include" />
-          <e p="DeveloperCredentials.cs" t="Include" />
-          <e p="DeveloperToken.cs" t="Include" />
-          <e p="UserCredentials.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -549,13 +565,14 @@
           <e p="DeveloperCredentialsFinder.cs" t="Include" />
           <e p="DeveloperCredentialsValidator.cs" t="Include" />
           <e p="DeveloperFinder.cs" t="Include" />
-          <e p="DeveloperTokenArchivedValidator.cs" t="Include" />
+          <e p="DeveloperTokenActiveValidator.cs" t="Include" />
           <e p="DeveloperTokenDatabaseUpdater.cs" t="Include" />
           <e p="DeveloperTokenExpirationDateTimeGenerator.cs" t="Include" />
           <e p="DeveloperTokenGenerator.cs" t="Include" />
           <e p="DeveloperTokenRecorderToDatabase.cs" t="Include" />
           <e p="DeveloperTokensGetter.cs" t="Include" />
           <e p="DeveloperTokenValidator.cs" t="Include" />
+          <e p="DeveloperValidator.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests" t="IncludeRecursive">

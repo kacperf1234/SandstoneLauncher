@@ -16,7 +16,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.1");
 
-            modelBuilder.Entity("KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models.Developer", b =>
+            modelBuilder.Entity("KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models.Developer", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnName("id")
@@ -31,7 +31,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Migrations
                     b.ToTable("developers");
                 });
 
-            modelBuilder.Entity("KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models.DeveloperCredentials", b =>
+            modelBuilder.Entity("KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models.DeveloperCredentials", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnName("id")
@@ -54,7 +54,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Migrations
                     b.ToTable("developer_credentials");
                 });
 
-            modelBuilder.Entity("KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models.DeveloperToken", b =>
+            modelBuilder.Entity("KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models.DeveloperToken", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnName("id")
@@ -63,6 +63,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Migrations
                     b.Property<bool>("Archived")
                         .HasColumnName("archived")
                         .HasColumnType("INTEGER");
+
+                    b.Property<bool>("Authorized")
+                        .HasColumnName("authorized")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime?>("AuthorizedAt")
+                        .HasColumnName("authorized_at")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("DeveloperId")
                         .HasColumnName("developer_id")
@@ -84,6 +92,10 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Migrations
                         .HasColumnName("unauthorized")
                         .HasColumnType("INTEGER");
 
+                    b.Property<DateTime?>("UnauthorizedAt")
+                        .HasColumnName("unauthorized_at")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("UpdatedTimes")
                         .HasColumnName("updated_times")
                         .HasColumnType("INTEGER");
@@ -93,7 +105,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Migrations
                     b.ToTable("developer_tokens");
                 });
 
-            modelBuilder.Entity("KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models.UserCredentials", b =>
+            modelBuilder.Entity("KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models.UserCredentials", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnName("id")

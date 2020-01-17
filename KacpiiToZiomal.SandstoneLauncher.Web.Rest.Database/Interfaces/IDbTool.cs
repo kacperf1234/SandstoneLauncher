@@ -18,5 +18,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces
 
         TModel Get<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func)
             where TModel : class;
+
+        IEnumerable<TModel> Get<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, IEnumerable<TModel>> func)
+            where TModel : class;
     }
 }

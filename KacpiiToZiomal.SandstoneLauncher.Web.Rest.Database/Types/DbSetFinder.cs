@@ -42,7 +42,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
                 }
             }
 
-            throw new ArgumentException($"{typeof(TModel).FullName} as generic parameter in {typeof(DbSet<>).FullName} property in DbContext {contextInstance.GetType().FullName} was not found.");
+            return null;
         }
     }
 }

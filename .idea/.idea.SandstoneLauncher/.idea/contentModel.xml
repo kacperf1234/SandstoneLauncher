@@ -567,6 +567,8 @@
           <e p="20200116114614_UnauthorizedMigration4.Designer.cs" t="Include" />
           <e p="20200116115138_UnauthorizedMigration6.cs" t="Include" />
           <e p="20200116115138_UnauthorizedMigration6.Designer.cs" t="Include" />
+          <e p="20200117120047_users.cs" t="Include" />
+          <e p="20200117120047_users.Designer.cs" t="Include" />
           <e p="DatabaseContextModelSnapshot.cs" t="Include" />
           <e p="Update.cs" t="Include" />
         </e>

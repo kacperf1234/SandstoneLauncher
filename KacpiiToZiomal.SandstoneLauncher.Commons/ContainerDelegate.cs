@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using Autofac;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
@@ -16,9 +17,11 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons
                 .Where(t => t.GetGenericArguments().Length == 0);
 
             foreach (Type type in types)
+            {
                 builder.RegisterType(type)
                     .AsSelf()
                     .AsImplementedInterfaces();
+            }
         }
 
         public void RegisterGenerics(ContainerBuilder builder)

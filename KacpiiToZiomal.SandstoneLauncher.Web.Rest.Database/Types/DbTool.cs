@@ -8,21 +8,17 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
 {
     public class DbTool : IDbTool
     {
-        private ITypeGetter TypeGetter;
         private IDbSetFinder DbSetFinder;
         private IDatabaseRecordAdder RecordAdder;
         private IDatabaseRecordRemover RecordRemover;
         private IDatabaseRecordUpdater RecordUpdater;
-        private IDatabaseRecordGetter RecordGetter;
 
-        public DbTool(ITypeGetter typeGetter, IDbSetFinder dbSetFinder, IDatabaseRecordAdder recordAdder, IDatabaseRecordRemover recordRemover, IDatabaseRecordUpdater recordUpdater, IDatabaseRecordGetter recordGetter)
+        public DbTool(IDbSetFinder dbSetFinder, IDatabaseRecordAdder recordAdder, IDatabaseRecordRemover recordRemover, IDatabaseRecordUpdater recordUpdater)
         {
-            TypeGetter = typeGetter;
             DbSetFinder = dbSetFinder;
             RecordAdder = recordAdder;
             RecordRemover = recordRemover;
             RecordUpdater = recordUpdater;
-            RecordGetter = recordGetter;
         }
 
         public void Add<TModel>(DbContext dbContext, TModel model) where TModel : class
@@ -44,10 +40,16 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
         {
             DbSet<TModel> dbSet = DbSetFinder.FindDbSet<TModel>(dbContext);
 
-            RecordRemover.Remove(dbSet, dbContext, model);
+            RecordUpdater.Update(dbSet, dbContext, model);
         }
 
         public TModel Get<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func) where TModel : class
+        {
+            DbSet<TModel> dbSet = DbSetFinder.FindDbSet<TModel>(dbContext);
+            return func(dbSet);
+        }
+
+        public IEnumerable<TModel> Get<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, IEnumerable<TModel>> func) where TModel : class
         {
             DbSet<TModel> dbSet = DbSetFinder.FindDbSet<TModel>(dbContext);
             return func(dbSet);

@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types;
@@ -28,12 +29,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
         }
 
         [HttpGet]
-        [Route("get/{id}")]
-        public IActionResult Get(string id)
+        [Route("get")]
+        public IActionResult Get()
         {
-            User user = Tool.Get<User>(Context, a => a.Single(x => x.Id == id));
+            IEnumerable<User> users = Tool.Get<User>(Context, a => a);
 
-            return Json(user);
+            return Json(users);
         }
     }
 }

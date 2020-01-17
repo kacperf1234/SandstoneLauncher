@@ -65,3 +65,8 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.R
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\bin\Debug\netcoreapp3.1\DotNetZip.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.pdb

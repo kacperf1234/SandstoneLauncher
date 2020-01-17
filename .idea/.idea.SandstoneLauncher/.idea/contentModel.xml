@@ -46,8 +46,11 @@
           <e p="IJsonSerializer.cs" t="Include" />
           <e p="IMinecraftDirectory.cs" t="Include" />
           <e p="IPathConverter.cs" t="Include" />
+          <e p="IPropertiesFinder.cs" t="Include" />
+          <e p="IPropertyTypeComparer.cs" t="Include" />
           <e p="IReferencedAssemblyNamesGetter.cs" t="Include" />
           <e p="IResponseValidator.cs" t="Include" />
+          <e p="ITypeGetter.cs" t="Include" />
           <e p="IValidator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Commons.csproj" t="IncludeRecursive" />
@@ -85,8 +88,11 @@
           <e p="NetworkClient.cs" t="Include" />
           <e p="PathConverter.cs" t="Include" />
           <e p="PathNameConverter.cs" t="Include" />
+          <e p="PropertiesFinder.cs" t="Include" />
+          <e p="PropertyTypeComparer.cs" t="Include" />
           <e p="ReferencedAssemblyNamesGetter.cs" t="Include" />
           <e p="ResponseValidator.cs" t="Include" />
+          <e p="TypeGetter.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Commons.Tests" t="IncludeRecursive">
@@ -521,7 +527,13 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="ContainerDelegate.cs" t="Include" />
         <e p="Interfaces" t="Include">
+          <e p="IDatabaseRecordAdder.cs" t="Include" />
+          <e p="IDatabaseRecordGetter.cs" t="Include" />
+          <e p="IDatabaseRecordRemover.cs" t="Include" />
+          <e p="IDatabaseRecordUpdater.cs" t="Include" />
           <e p="IDatabaseUpdater.cs" t="Include" />
+          <e p="IDbSetFinder.cs" t="Include" />
+          <e p="IDbTool.cs" t="Include" />
           <e p="IDeveloperCredentialsFinder.cs" t="Include" />
           <e p="IDeveloperCredentialsValidator.cs" t="Include" />
           <e p="IDeveloperFinder.cs" t="Include" />
@@ -569,6 +581,11 @@
           </e>
         </e>
         <e p="Types" t="Include">
+          <e p="DatabaseRecordAdder.cs" t="Include" />
+          <e p="DatabaseRecordRemover.cs" t="Include" />
+          <e p="DatabaseRecordUpdater.cs" t="Include" />
+          <e p="DbSetFinder.cs" t="Include" />
+          <e p="DbTool.cs" t="Include" />
           <e p="DeveloperCredentialsFinder.cs" t="Include" />
           <e p="DeveloperCredentialsValidator.cs" t="Include" />
           <e p="DeveloperFinder.cs" t="Include" />

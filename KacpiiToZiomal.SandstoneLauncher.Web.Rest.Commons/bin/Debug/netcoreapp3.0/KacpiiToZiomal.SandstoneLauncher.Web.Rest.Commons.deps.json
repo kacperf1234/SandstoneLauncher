@@ -436,6 +436,7 @@
       "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
         "dependencies": {
           "Autofac": "4.9.4",
+          "Microsoft.EntityFrameworkCore": "3.1.0",
           "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {

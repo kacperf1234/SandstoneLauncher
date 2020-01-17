@@ -36,7 +36,7 @@
             int launcherVersion,
             string gameExecutable,
             string versionType,
-            string uUID,
+            string uuid,
             string gameDirectory,
             string assetsDirectory,
             string username,
@@ -57,7 +57,7 @@
             LauncherVersion = launcherVersion;
             GameExecutable = gameExecutable;
             VersionType = versionType;
-            UUID = uUID;
+            UUID = uuid;
             GameDirectory = gameDirectory;
             AssetsDirectory = assetsDirectory;
             Username = username;

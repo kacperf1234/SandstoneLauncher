@@ -21,6 +21,9 @@
           "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj": {
             "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj"
           },
+          "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj": {
+            "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj"
+          },
           "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj": {
             "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj"
           },
@@ -64,6 +67,9 @@
         },
         "Microsoft.NETCore.App": {
           "privateAssets": "all"
+        },
+        "Microsoft.WindowsDesktop.App.WPF": {
+          "privateAssets": "none"
         }
       },
       "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"

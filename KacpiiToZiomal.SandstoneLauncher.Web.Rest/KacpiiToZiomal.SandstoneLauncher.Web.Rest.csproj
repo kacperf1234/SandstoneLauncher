@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj" />
+    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Minecraft\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj" />
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj" />
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csproj" />
   </ItemGroup>

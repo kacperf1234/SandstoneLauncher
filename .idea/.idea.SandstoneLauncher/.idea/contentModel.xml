@@ -119,6 +119,7 @@
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Minecraft" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ContainerDelegate.cs" t="Include" />
         <e p="Delegates" t="Include">
           <e p="DownloadFile.cs" t="Include" />
         </e>
@@ -404,6 +405,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="DeveloperTokensController.cs" t="Include" />
+          <e p="LaunchSettingsController.cs" t="Include" />
         </e>
         <e p="Interfaces" t="Include">
           <e p="IContainerDelegateInterfaceNameProvider.cs" t="Include" />
@@ -499,6 +501,7 @@
           <e p="Developer.cs" t="Include" />
           <e p="DeveloperCredentials.cs" t="Include" />
           <e p="DeveloperToken.cs" t="Include" />
+          <e p="LaunchSettings.cs" t="Include" />
           <e p="SimpleDeveloperCredentials.cs" t="Include" />
           <e p="UserCredentials.cs" t="Include" />
         </e>

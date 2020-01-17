@@ -1,11 +1,12 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("launch_settings")]
-    public class LaunchSettings
+    public class LaunchSettings : IDbModel
     {
         [Key]
         [Column("id")]
@@ -58,5 +59,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 
         [Column("user_type")]
         public string UserType { get; set; }
+        
+        public object GetValue() => this;
     }
 }

@@ -1,11 +1,12 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("users_token")]
-    public class UserToken
+    public class UserToken : IDbModel
     {
         [Key]
         [Column("id")]
@@ -40,5 +41,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 
         [Column("archived")]
         public bool Archived { get; set; }
+        
+        public object GetValue() => this;
     }
 }

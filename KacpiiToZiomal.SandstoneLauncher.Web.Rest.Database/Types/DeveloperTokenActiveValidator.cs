@@ -9,10 +9,15 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
     {
         public bool Validate(DeveloperToken token)
         {
-            bool x = token.ExpiredAt != null && !token.Archived && DateTime.Compare((DateTime) token.ExpiredAt, DateTime.Now) > 0;
-            bool y = !token.Unauthorized;
+            if (token != null)
+            {
+                bool x = token.ExpiredAt != null && !token.Archived && DateTime.Compare((DateTime) token.ExpiredAt, DateTime.Now) > 0;
+                bool y = !token.Unauthorized;
 
-            return x && y;
+                return x && y;
+            }
+
+            return false;
         }
     }
 }

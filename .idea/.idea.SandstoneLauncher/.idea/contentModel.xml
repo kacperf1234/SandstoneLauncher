@@ -49,6 +49,7 @@
           <e p="IPropertiesFinder.cs" t="Include" />
           <e p="IReferencedAssemblyNamesGetter.cs" t="Include" />
           <e p="IResponseValidator.cs" t="Include" />
+          <e p="IStringComparer.cs" t="Include" />
           <e p="ITypeComparer.cs" t="Include" />
           <e p="ITypeGetter.cs" t="Include" />
           <e p="IValidator.cs" t="Include" />
@@ -504,6 +505,10 @@
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="IDbModel.cs" t="Include" />
+          <e p="IDbModelValidator.cs" t="Include" />
+        </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="Developer.cs" t="Include" />
@@ -522,6 +527,9 @@
               <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Types" t="Include">
+          <e p="ModelValidator.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database" t="IncludeRecursive">

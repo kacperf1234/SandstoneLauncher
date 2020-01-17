@@ -1,11 +1,12 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("developers")]
-    public class Developer
+    public class Developer : IDbModel
     {
         [Key]
         [Column("id")]
@@ -13,5 +14,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 
         [Column("credentials_id")]
         public string CredentialsId { get; set; }
+
+        public object GetValue() => this;
     }
 }

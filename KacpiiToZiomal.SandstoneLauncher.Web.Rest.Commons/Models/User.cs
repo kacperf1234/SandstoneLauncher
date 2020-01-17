@@ -1,11 +1,12 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("users")]
-    public class User
+    public class User : IDbModel
     {
         [Key]
         [Column("id")]
@@ -34,5 +35,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 
         [Column("phonenumber_confirmed_at")]
         public DateTime? PhoneNumberConfirmedAt { get; set; }
+        
+        public object GetValue() => this;
     }
 }

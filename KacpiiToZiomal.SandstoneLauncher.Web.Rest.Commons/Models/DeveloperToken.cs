@@ -1,11 +1,12 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("developer_tokens")]
-    public class DeveloperToken
+    public class DeveloperToken : IDbModel
     {
         [Key]
         [Column("id")]
@@ -40,5 +41,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 
         [Column("updated_times")]
         public int UpdatedTimes { get; set; }
+        
+        public object GetValue() => this;
     }
 }

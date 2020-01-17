@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319e4218-9271-4034-a339-d789b97fd1d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/Developer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/Developer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DeveloperCredentials.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DeveloperCredentials.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DeveloperToken.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/DeveloperToken.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/LaunchSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/LaunchSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/SimpleDeveloperCredentials.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/SimpleDeveloperCredentials.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserCredentials.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserCredentials.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserRegistration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserToken.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserToken.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database/Types/DeveloperTokenActiveValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database/Types/DeveloperTokenActiveValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Controllers/UsersAuthorizationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Controllers/UsersAuthorizationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Commons.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/obj/Debug/netcoreapp3.0/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests/obj/Debug/netcoreapp3.1/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests/obj/Debug/netcoreapp3.1/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database/obj/Debug/netcoreapp3.1/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database/obj/Debug/netcoreapp3.1/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/obj/Debug/netcoreapp3.1/KacpiiToZiomal.SandstoneLauncher.Web.Rest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/obj/Debug/netcoreapp3.1/KacpiiToZiomal.SandstoneLauncher.Web.Rest.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,8 +241,11 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons.Tests/pathnameconverter_convert_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/ILibrariesConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IAssetsListFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/LoginRequestGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/ILibraryPathBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/ILoginRequestGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IAsynchronosGameFilesDownloader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/LoginRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/ILibraryNativesValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/minecraftdirectory_getlibraries_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Interfaces/IArtifactFinder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -292,6 +295,7 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/librariesconverter_convert_array_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/FileListGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/javapathfinder_getjavapath_tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Builders/LoginRequestBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IHttpClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/processbuilder_build_str_str_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/nativespathfinder_getnativesdirectory_tests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -359,9 +363,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database/Models/DatabaseContext.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IDbSetFinder.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database/Interfaces/IDbSetFinder.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IPropertyTypeComparer.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IPropertiesExtractor.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IPropertiesGetter.cs" />
@@ -410,6 +411,9 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database/Types/DeveloperTokenActiveValidator.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IStringComparer.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Controllers/UsersAuthorizationController.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Interfaces/ILoginRequestGenerator.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/LoginRequest.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/LoginRequestGenerator.cs" />
       </list>
     </option>
   </component>
@@ -587,7 +591,8 @@
       <workItem from="1579191111813" duration="199000" />
       <workItem from="1579253929906" duration="8903000" />
       <workItem from="1579269013399" duration="1423000" />
-      <workItem from="1579270467685" duration="4585000" />
+      <workItem from="1579270467685" duration="4958000" />
+      <workItem from="1579280378523" duration="103000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -667,86 +672,86 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="376" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1920.1040@0.0.1920.1040" timestamp="1579167429487" />
-    <state width="1494" height="412" key="GridCell.Tab.0.bottom" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.0.bottom" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.0.center" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.0.center" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.0.left" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.0.left" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.0.right" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.0.right" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.1.bottom" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.1.bottom" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.1.center" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.1.center" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.1.left" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.1.left" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.1.right" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.1.right" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.2.bottom" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.2.bottom" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.2.center" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.2.center" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.2.left" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.2.left" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.2.right" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.2.right" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.3.bottom" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.3.bottom" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.3.center" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.3.center" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.3.left" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.3.left" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.3.right" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.3.right" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.4.bottom" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.4.bottom" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.4.center" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.4.center" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.4.left" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.4.left" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
-    <state width="1494" height="412" key="GridCell.Tab.4.right" timestamp="1579271634129">
+    <state width="1494" height="412" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
+    <state width="1494" height="412" key="GridCell.Tab.4.right" timestamp="1579275490825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="412" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579271634129" />
+    <state width="1494" height="412" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579275490825" />
     <state x="489" y="255" key="Rider.ProjectTemplateDialog.Size" timestamp="1579166802890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

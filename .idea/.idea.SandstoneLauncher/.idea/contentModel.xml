@@ -406,6 +406,7 @@
         <e p="Controllers" t="Include">
           <e p="DeveloperTokensController.cs" t="Include" />
           <e p="LaunchSettingsController.cs" t="Include" />
+          <e p="UsersAuthorizationController.cs" t="Include" />
         </e>
         <e p="Interfaces" t="Include">
           <e p="IContainerDelegateInterfaceNameProvider.cs" t="Include" />

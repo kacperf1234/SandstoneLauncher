@@ -17,22 +17,28 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
         [Column("developer_id")]
         public string DeveloperId { get; set; }
 
-        [Column("token")]
-        public string Token { get; set; }
+        [Column("access_token")]
+        public string AccessToken { get; set; }
 
         [Column("generated_at")]
         public DateTime? GeneratedAt { get; set; }
 
-        [Column("authorized_at")]
-        public DateTime? AuthorizedAt { get; set; }
-
-        [Column("unauthorized_at")]
-        public DateTime? UnauthorizedAt { get; set; }
+        [Column("expired_at")]
+        public DateTime? ExpiratedAt { get; set; }
 
         [Column("authorized")]
         public bool Authorized { get; set; }
+        
+        [Column("unauthorized_at")]
+        public DateTime? AuthorizedAt { get; set; }
 
         [Column("unauthorized")]
         public bool Unauthorized { get; set; }
+        
+        [Column("unauthorized_at")]
+        public DateTime? UnauthorizedAt { get; set; }
+
+        [Column("archived")]
+        public bool Archived { get; set; }
     }
 }

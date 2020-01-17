@@ -4,8 +4,7 @@
     <list default="true" id="319e4218-9271-4034-a339-d789b97fd1d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/LaunchSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/LaunchSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database/Models/DatabaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database/Models/DatabaseContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserToken.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserToken.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +88,7 @@
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Types/CredentialsDataProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Models/Credentials.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Models/CredentialsData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Controllers/UsersAuthorizationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserToken.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Models/StaticConstants.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -325,7 +325,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Interfaces/IDeveloperTokensGetter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Types/DeveloperTokensGetter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Types/DeveloperTokensGetter.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Commons/Interfaces/IValidator.cs" />
@@ -372,10 +371,11 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/ContainerDelegate.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Controllers/LaunchSettingsController.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/LaunchSettings.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserToken.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database/Models/DatabaseContext.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/User.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserRegistration.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/Models/UserToken.cs" />
+        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Web.Rest/Controllers/UsersAuthorizationController.cs" />
       </list>
     </option>
   </component>
@@ -535,7 +535,7 @@
       <workItem from="1579167908334" duration="7959000" />
       <workItem from="1579176122784" duration="1348000" />
       <workItem from="1579191111813" duration="199000" />
-      <workItem from="1579253929906" duration="3976000" />
+      <workItem from="1579253929906" duration="4670000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -723,10 +723,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579086870175" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579257859876">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579258640060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579257859876" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579258640060" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

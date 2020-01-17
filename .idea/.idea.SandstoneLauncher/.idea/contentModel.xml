@@ -47,9 +47,9 @@
           <e p="IMinecraftDirectory.cs" t="Include" />
           <e p="IPathConverter.cs" t="Include" />
           <e p="IPropertiesFinder.cs" t="Include" />
-          <e p="IPropertyTypeComparer.cs" t="Include" />
           <e p="IReferencedAssemblyNamesGetter.cs" t="Include" />
           <e p="IResponseValidator.cs" t="Include" />
+          <e p="ITypeComparer.cs" t="Include" />
           <e p="ITypeGetter.cs" t="Include" />
           <e p="IValidator.cs" t="Include" />
         </e>
@@ -89,9 +89,9 @@
           <e p="PathConverter.cs" t="Include" />
           <e p="PathNameConverter.cs" t="Include" />
           <e p="PropertiesFinder.cs" t="Include" />
-          <e p="PropertyTypeComparer.cs" t="Include" />
           <e p="ReferencedAssemblyNamesGetter.cs" t="Include" />
           <e p="ResponseValidator.cs" t="Include" />
+          <e p="TypeComparer.cs" t="Include" />
           <e p="TypeGetter.cs" t="Include" />
         </e>
       </e>
@@ -121,6 +121,7 @@
           </e>
         </e>
         <e p="pathnameconverter_convert_tests.cs" t="Include" />
+        <e p="propertiesfinder_findproperty_tests.cs" t="Include" />
         <e p="responsevalidator_validate_tests.cs" t="Include" />
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Minecraft" t="IncludeRecursive">
@@ -614,6 +615,9 @@
             </e>
           </e>
         </e>
+        <e p="typegetter_getgenerictype_tests.cs" t="Include" />
+        <e p="typegetter_gettype_generic_tests.cs" t="Include" />
+        <e p="typegetter_gettype_object_tests.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="SandstoneLauncher.sln" t="IncludeFlat" />

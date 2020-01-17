@@ -7,5 +7,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces
         Type GetType(object o);
 
         Type GetType<T>();
+
+        Type GetGenericType(Type type);
     }
 }

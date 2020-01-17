@@ -4,8 +4,8 @@ using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
 {
-    public class PropertyTypeComparer : IPropertyTypeComparer
+    public class TypeComparer : ITypeComparer
     {
-        public bool Compare(PropertyInfo property, Type exceptedType) => property.PropertyType == exceptedType;
+        public bool Compare(Type t1, Type t2) => t1 == t2;
     }
 }

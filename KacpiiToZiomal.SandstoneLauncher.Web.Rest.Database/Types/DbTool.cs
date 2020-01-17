@@ -46,6 +46,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
         public TModel Get<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func) where TModel : class
         {
             DbSet<TModel> dbSet = DbSetFinder.FindDbSet<TModel>(dbContext);
+            
             return func(dbSet);
         }
 

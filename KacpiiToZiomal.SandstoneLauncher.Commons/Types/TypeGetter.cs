@@ -8,5 +8,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Commons.Types
         public Type GetType(object o) => o.GetType();
 
         public Type GetType<T>() => typeof(T);
+        
+        public Type GetGenericType(Type type) => type.GetGenericTypeDefinition();
     }
 }

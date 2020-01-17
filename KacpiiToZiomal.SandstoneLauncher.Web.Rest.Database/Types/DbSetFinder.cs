@@ -10,13 +10,13 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
     public class DbSetFinder : IDbSetFinder
     {
         public ITypeGetter TypeGetter;
-        public IPropertyTypeComparer PropertyTypeComparer;
+        public ITypeComparer TypeComparer;
         public IPropertiesFinder PropertiesFinder;
 
-        public DbSetFinder(ITypeGetter typeGetter, IPropertyTypeComparer propertyTypeComparer, IPropertiesFinder propertiesFinder)
+        public DbSetFinder(ITypeGetter typeGetter, ITypeComparer typeComparer, IPropertiesFinder propertiesFinder)
         {
             TypeGetter = typeGetter;
-            PropertyTypeComparer = propertyTypeComparer;
+            TypeComparer = typeComparer;
             PropertiesFinder = propertiesFinder;
         }
 
@@ -29,13 +29,15 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
 
             foreach (PropertyInfo contextProperty in properties)
             {
-                if (PropertyTypeComparer.Compare(contextProperty, typeof(DbSet<>)))
+                Type genericType = TypeGetter.GetGenericType(contextProperty.PropertyType);
+
+                if (TypeComparer.Compare(genericType, typeof(DbSet<>)))
                 {
                     Type firstParameter = contextProperty.PropertyType
                         .GetGenericArguments()
                         .FirstOrDefault();
 
-                    if (firstParameter == modelType)
+                    if (TypeComparer.Compare(firstParameter, modelType))
                     {
                         return (DbSet<TModel>) contextProperty.GetValue(contextInstance);
                     }

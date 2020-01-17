@@ -21,6 +21,10 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models
 
         public DbSet<UserCredentials> UserCredentials { get; set; }
 
+        public DbSet<UserToken> UserTokens { get; set; }
+
+        public DbSet<User> Users { get; set; }
+
         public DbSet<DeveloperCredentials> DeveloperCredentials { get; set; }
 
         public DbSet<Developer> Developers { get; set; }

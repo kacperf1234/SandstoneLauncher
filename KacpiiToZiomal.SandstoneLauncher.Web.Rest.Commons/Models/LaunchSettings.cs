@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
+    [Table("launch_settings")]
     public class LaunchSettings
     {
         [Key]

@@ -5,6 +5,7 @@ using System.Linq;
 using Autofac;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Commons
 {

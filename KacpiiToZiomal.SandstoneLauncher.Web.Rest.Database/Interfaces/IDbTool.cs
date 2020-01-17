@@ -16,10 +16,10 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces
         void Update<TModel>(DbContext dbContext, TModel model)
             where TModel : class;
 
-        TModel Get<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func)
+        TModel Resolve<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func)
             where TModel : class;
 
-        IEnumerable<TModel> Get<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, IEnumerable<TModel>> func)
+        IEnumerable<TModel> ResolveMany<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, IEnumerable<TModel>> func)
             where TModel : class;
     }
 }

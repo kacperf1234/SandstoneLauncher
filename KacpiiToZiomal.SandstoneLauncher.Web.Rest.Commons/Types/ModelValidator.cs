@@ -1,7 +1,8 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
-using Microsoft.EntityFrameworkCore.Infrastructure;
+﻿using System;
+using System.IO;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
+namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Types
 {
     public class ModelValidator : IDbModelValidator
     {

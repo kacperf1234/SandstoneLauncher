@@ -29,6 +29,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
 
             foreach (PropertyInfo contextProperty in properties)
             {
+                // todo
+                if (!contextProperty.PropertyType.IsGenericType)
+                {
+                    continue;
+                }
+                
                 Type genericType = TypeGetter.GetGenericType(contextProperty.PropertyType);
 
                 if (TypeComparer.Compare(genericType, typeof(DbSet<>)))

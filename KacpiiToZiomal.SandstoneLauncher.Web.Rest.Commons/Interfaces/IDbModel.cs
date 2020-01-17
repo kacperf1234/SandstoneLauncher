@@ -1,4 +1,4 @@
-﻿namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces
+﻿namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces
 {
     public interface IDbModel
     {

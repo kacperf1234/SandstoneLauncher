@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {

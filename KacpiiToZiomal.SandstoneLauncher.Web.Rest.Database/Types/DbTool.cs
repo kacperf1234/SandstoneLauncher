@@ -43,14 +43,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
             RecordUpdater.Update(dbSet, dbContext, model);
         }
 
-        public TModel Get<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func) where TModel : class
+        public TModel Resolve<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func) where TModel : class
         {
             DbSet<TModel> dbSet = DbSetFinder.FindDbSet<TModel>(dbContext);
             
             return func(dbSet);
         }
 
-        public IEnumerable<TModel> Get<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, IEnumerable<TModel>> func) where TModel : class
+        public IEnumerable<TModel> ResolveMany<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, IEnumerable<TModel>> func) where TModel : class
         {
             DbSet<TModel> dbSet = DbSetFinder.FindDbSet<TModel>(dbContext);
             return func(dbSet);

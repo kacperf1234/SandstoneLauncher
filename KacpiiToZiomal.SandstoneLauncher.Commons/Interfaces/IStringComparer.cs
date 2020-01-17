@@ -2,6 +2,6 @@
 {
     public interface IStringComparer
     {
-        bool Compare(string x1, string x2);
+        bool Compare(string x1, string x2, bool ignoreCase = false);
     }
 }

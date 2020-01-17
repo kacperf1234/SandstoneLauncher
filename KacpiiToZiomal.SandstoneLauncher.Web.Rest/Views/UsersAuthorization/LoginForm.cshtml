@@ -1,0 +1,38 @@
+﻿@model KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models.RestRequest
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Rest Request - @@View</title>
+    <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div>
+    <div class="container m-3">
+        <div class="row">
+            <div class="col-6">
+                <h1 class="h2">
+                    Amazing Database
+                </h1>
+                <p>
+                    With RestRequests!
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    Identifier @Model.Id
+                </p>
+                <p>
+                    Exposed by @Model.DeveloperId
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

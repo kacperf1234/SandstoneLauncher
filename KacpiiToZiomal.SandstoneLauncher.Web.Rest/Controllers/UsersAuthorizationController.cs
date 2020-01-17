@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using System.Linq;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models;
@@ -13,15 +14,20 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
     public class UsersAuthorizationController : Controller
     {
         public DbTool DbTool;
-        public DatabaseContext Context;
+        public DatabaseContext Database;
         public IDbModelValidator DbModelValidator;
         public IDeveloperTokenActiveValidator TokenActiveValidator;
-        public IStringComparer StringComparer; // todo
-
-        public UsersAuthorizationController(DbTool dbTool, DatabaseContext context)
+        public IStringComparer StringComparer;
+        public IRestRequestGenerator RestRequestGenerator;
+        
+        public UsersAuthorizationController(DbTool dbTool, DatabaseContext database, IDbModelValidator dbModelValidator, IDeveloperTokenActiveValidator tokenActiveValidator, IStringComparer stringComparer, IRestRequestGenerator restRequestGenerator)
         {
             DbTool = dbTool;
-            Context = context;
+            Database = database;
+            DbModelValidator = dbModelValidator;
+            TokenActiveValidator = tokenActiveValidator;
+            StringComparer = stringComparer;
+            RestRequestGenerator = restRequestGenerator;
         }
 
         [HttpPost]
@@ -32,19 +38,24 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
             [FromQuery(Name = "return_url")] string returnUrl,
             [FromQuery(Name = "cancel_url")] string cancelUrl)
         {
-            DeveloperToken token = DbTool.Get<DeveloperToken>(Context,
+            DeveloperToken token = DbTool.Resolve<DeveloperToken>(Database,
                 tokens => tokens.SingleOrDefault(t => t.Id == tokenId));
 
-            DeveloperCredentials credentials = DbTool.Get<DeveloperCredentials>(Context, c => c
+            DeveloperCredentials credentials = DbTool.ResolveMany<DeveloperCredentials>(Database, c => c
                     .Where(x => x.ClientId == developerCredentials.ClientId)
                     .Where(x => x.ClientSecret == developerCredentials.ClientSecret))
                 .SingleOrDefault();
 
-            if (TokenActiveValidator.Validate(token) && DbModelValidator.Validate(credentials))
+            if (TokenActiveValidator.Validate(token)
+                && DbModelValidator.Validate(credentials))
             {
                 if (StringComparer.Compare(credentials.DeveloperId, token.DeveloperId))
                 {
-                    return RedirectToAction("LoginForm", new {request_id = });
+                    RestRequest restRequest = RestRequestGenerator.Generate(credentials, token, returnUrl, cancelUrl);
+                    
+                    DbTool.Add(Database, restRequest);
+
+                    return RedirectToAction("LoginForm", new {request_id = restRequest.Id});
                 }
             }
 
@@ -55,7 +66,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
         [Route("login/form")]
         public IActionResult LoginForm([FromQuery(Name = "request_id")] string requestId)
         {
-            
+            RestRequest request = DbTool.Resolve<RestRequest>(Database, requests => requests.Single(x => x.Id == requestId));
+
+            return View(request);
         }
     }
 }

@@ -4,8 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
-    [Table("login_requests")]
-    public class LoginRequest
+    [Table("rest_requests")]
+    public class RestRequest
     {
         [Key]
         [Column("id")]

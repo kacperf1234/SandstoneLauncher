@@ -29,8 +29,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
 
             foreach (PropertyInfo contextProperty in properties)
             {
-                // todo
-                if (!contextProperty.PropertyType.IsGenericType)
+                if (PropertyInfoIsGenericValidator.IsGenericType(contextProperty))
                 {
                     continue;
                 }

@@ -47,6 +47,7 @@
           <e p="IMinecraftDirectory.cs" t="Include" />
           <e p="IPathConverter.cs" t="Include" />
           <e p="IPropertiesFinder.cs" t="Include" />
+          <e p="IPropertyInfoIsGenericValidator.cs" t="Include" />
           <e p="IReferencedAssemblyNamesGetter.cs" t="Include" />
           <e p="IResponseValidator.cs" t="Include" />
           <e p="IStringComparer.cs" t="Include" />
@@ -90,6 +91,7 @@
           <e p="PathConverter.cs" t="Include" />
           <e p="PathNameConverter.cs" t="Include" />
           <e p="PropertiesFinder.cs" t="Include" />
+          <e p="PropertyInfoIsGenericValidator.cs" t="Include" />
           <e p="ReferencedAssemblyNamesGetter.cs" t="Include" />
           <e p="ResponseValidator.cs" t="Include" />
           <e p="StringComparer.cs" t="Include" />
@@ -522,6 +524,10 @@
         <e p="Interfaces" t="Include">
           <e p="IDbModel.cs" t="Include" />
           <e p="IDbModelValidator.cs" t="Include" />
+          <e p="IDbSetTypeProvider.cs" t="Include" />
+          <e p="IGenericArgumentsGetter.cs" t="Include" />
+          <e p="IPropertyInfoContainsGenericArgumentsValidator.cs" t="Include" />
+          <e p="IPropertyInfoIsDbSetValidator.cs" t="Include" />
           <e p="IRestRequestGenerator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj" t="IncludeRecursive" />
@@ -545,7 +551,11 @@
           </e>
         </e>
         <e p="Types" t="Include">
+          <e p="DbSetTypeProvider.cs" t="Include" />
+          <e p="GenericArgumentsGetter.cs" t="Include" />
           <e p="ModelValidator.cs" t="Include" />
+          <e p="PropertyInfoContainsGenericArgumentsValidator.cs" t="Include" />
+          <e p="PropertyInfoIsDbSetValidator.cs" t="Include" />
           <e p="RestRequestGenerator.cs" t="Include" />
         </e>
       </e>

@@ -31,8 +31,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
         }
 
         [HttpPost]
-        [Route("login")]
-        public IActionResult Login(
+        [Route("authorize")]
+        public IActionResult Authorize(
             [FromQuery(Name = "token_id")] string tokenId,
             [FromBody] SimpleDeveloperCredentials developerCredentials,
             [FromQuery(Name = "return_url")] string returnUrl,
@@ -46,8 +46,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
                     .Where(x => x.ClientSecret == developerCredentials.ClientSecret))
                 .SingleOrDefault();
 
-            if (TokenActiveValidator.Validate(token)
-                && DbModelValidator.Validate(credentials))
+            if (TokenActiveValidator.Validate(token) && DbModelValidator.Validate(credentials) && DbModelValidator.Validate(token))
             {
                 if (StringComparer.Compare(credentials.DeveloperId, token.DeveloperId))
                 {
@@ -59,7 +58,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
                 }
             }
 
-            return BadRequest();
+            return Forbid();
         }
 
         [HttpGet]

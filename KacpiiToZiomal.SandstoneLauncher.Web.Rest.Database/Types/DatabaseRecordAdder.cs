@@ -1,4 +1,5 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
+﻿using System;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
@@ -7,8 +8,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
     {
         public void Add<TModel>(DbSet<TModel> dbSet, DbContext context, TModel model) where TModel : class
         {
-            dbSet.Add(model);
-            context.SaveChanges();
+            dbSet?.Add(model);
+            context?.SaveChanges();
         }
     }
 }

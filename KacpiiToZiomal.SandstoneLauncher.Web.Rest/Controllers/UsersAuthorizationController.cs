@@ -30,7 +30,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
             RestRequestGenerator = restRequestGenerator;
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("authorize")]
         public IActionResult Authorize(
             [FromQuery(Name = "token_id")] string tokenId,
@@ -55,13 +55,17 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
                     DbTool.Add(Database, restRequest);
 
                     return RedirectToAction("LoginForm", new {request_id = restRequest.Id});
+                    
+                    // todo
+                    // it needs to return json,
+                    // with redirection link
                 }
             }
 
             return Forbid();
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("login/form")]
         public IActionResult LoginForm([FromQuery(Name = "request_id")] string requestId)
         {

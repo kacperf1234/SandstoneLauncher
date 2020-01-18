@@ -713,7 +713,7 @@
       },
       "KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Autofac": "4.9.4",
           "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",

@@ -1,0 +1,13 @@
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.deps.json
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.runtimeconfig.json
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.runtimeconfig.dev.json
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Commons.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\bin\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Commons.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csprojAssemblyReference.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.AssemblyInfoInputs.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.AssemblyInfo.cs
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj.CopyComplete
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.pdb

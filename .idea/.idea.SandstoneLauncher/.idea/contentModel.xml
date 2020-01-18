@@ -524,10 +524,6 @@
         <e p="Interfaces" t="Include">
           <e p="IDbModel.cs" t="Include" />
           <e p="IDbModelValidator.cs" t="Include" />
-          <e p="IDbSetTypeProvider.cs" t="Include" />
-          <e p="IGenericArgumentsGetter.cs" t="Include" />
-          <e p="IPropertyInfoContainsGenericArgumentsValidator.cs" t="Include" />
-          <e p="IPropertyInfoIsDbSetValidator.cs" t="Include" />
           <e p="IRestRequestGenerator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj" t="IncludeRecursive" />
@@ -545,17 +541,13 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
         <e p="Types" t="Include">
-          <e p="DbSetTypeProvider.cs" t="Include" />
-          <e p="GenericArgumentsGetter.cs" t="Include" />
           <e p="ModelValidator.cs" t="Include" />
-          <e p="PropertyInfoContainsGenericArgumentsValidator.cs" t="Include" />
-          <e p="PropertyInfoIsDbSetValidator.cs" t="Include" />
           <e p="RestRequestGenerator.cs" t="Include" />
         </e>
       </e>
@@ -569,6 +561,7 @@
           <e p="IDatabaseRecordUpdater.cs" t="Include" />
           <e p="IDatabaseUpdater.cs" t="Include" />
           <e p="IDbSetFinder.cs" t="Include" />
+          <e p="IDbSetTypeProvider.cs" t="Include" />
           <e p="IDbTool.cs" t="Include" />
           <e p="IDeveloperCredentialsFinder.cs" t="Include" />
           <e p="IDeveloperCredentialsValidator.cs" t="Include" />
@@ -580,6 +573,9 @@
           <e p="IDeveloperTokensGetter.cs" t="Include" />
           <e p="IDeveloperTokenValidator.cs" t="Include" />
           <e p="IDeveloperValidator.cs" t="Include" />
+          <e p="IGenericArgumentsGetter.cs" t="Include" />
+          <e p="IPropertyInfoContainsGenericArgumentsValidator.cs" t="Include" />
+          <e p="IPropertyInfoIsDbSetValidator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
@@ -605,6 +601,10 @@
           <e p="20200116115138_UnauthorizedMigration6.Designer.cs" t="Include" />
           <e p="20200117120047_users.cs" t="Include" />
           <e p="20200117120047_users.Designer.cs" t="Include" />
+          <e p="20200118120715_rest_requests.cs" t="Include" />
+          <e p="20200118120715_rest_requests.Designer.cs" t="Include" />
+          <e p="20200118120900_rest_requests2.cs" t="Include" />
+          <e p="20200118120900_rest_requests2.Designer.cs" t="Include" />
           <e p="DatabaseContextModelSnapshot.cs" t="Include" />
           <e p="Update.cs" t="Include" />
         </e>
@@ -623,6 +623,7 @@
           <e p="DatabaseRecordRemover.cs" t="Include" />
           <e p="DatabaseRecordUpdater.cs" t="Include" />
           <e p="DbSetFinder.cs" t="Include" />
+          <e p="DbSetTypeProvider.cs" t="Include" />
           <e p="DbTool.cs" t="Include" />
           <e p="DeveloperCredentialsFinder.cs" t="Include" />
           <e p="DeveloperCredentialsValidator.cs" t="Include" />
@@ -635,13 +636,19 @@
           <e p="DeveloperTokensGetter.cs" t="Include" />
           <e p="DeveloperTokenValidator.cs" t="Include" />
           <e p="DeveloperValidator.cs" t="Include" />
+          <e p="GenericArgumentsGetter.cs" t="Include" />
+          <e p="PropertyInfoContainsGenericArgumentsValidator.cs" t="Include" />
+          <e p="PropertyInfoIsDbSetValidator.cs" t="Include" />
         </e>
       </e>
       <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="dbsetfinder_finddbset_tests.cs" t="Include" />
+        <e p="dbsettypeprovider_providetype_tests.cs" t="Include" />
         <e p="developertokenarchivedvalidator_validate_tests.cs" t="Include" />
         <e p="developertokenexpirationdatetimegenerator_generateexpirationdatetime_tests.cs" t="Include" />
         <e p="developertokenvalidator_validate_tests.cs" t="Include" />
+        <e p="genericargumentsgetter_getgenericargument_tests.cs" t="Include" />
         <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Tests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -650,6 +657,8 @@
             </e>
           </e>
         </e>
+        <e p="propertyinfocontainsgenericargumentsvalidator_containsgenericarguments_tests.cs" t="Include" />
+        <e p="propertyinfoisdbsetvalidator_validate_tests.cs" t="Include" />
         <e p="typegetter_getgenerictype_tests.cs" t="Include" />
         <e p="typegetter_gettype_generic_tests.cs" t="Include" />
         <e p="typegetter_gettype_object_tests.cs" t="Include" />

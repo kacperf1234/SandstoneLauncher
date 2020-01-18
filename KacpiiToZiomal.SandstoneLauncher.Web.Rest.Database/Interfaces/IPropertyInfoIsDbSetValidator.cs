@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces
+namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces
 {
     public interface IPropertyInfoIsDbSetValidator
     {

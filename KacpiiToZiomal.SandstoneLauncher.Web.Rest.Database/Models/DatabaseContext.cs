@@ -31,6 +31,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models
 
         public DbSet<DeveloperToken> DeveloperTokens { get; set; }
 
+        public DbSet<RestRequest> RestRequests { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite(ConnectionString ?? StaticConstants.TestConnectionString);

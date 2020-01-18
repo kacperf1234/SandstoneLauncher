@@ -105,6 +105,41 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Migrations
                     b.ToTable("developer_tokens");
                 });
 
+            modelBuilder.Entity("KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models.RestRequest", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnName("id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CancelUrl")
+                        .HasColumnName("cancel_url")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("DeveloperId")
+                        .HasColumnName("developer_id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("GeneratedAt")
+                        .HasColumnName("generated_at")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("Invoked")
+                        .HasColumnName("invoked")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ReturnUrl")
+                        .HasColumnName("return_url")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("TokenId")
+                        .HasColumnName("token_id")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("rest_requests");
+                });
+
             modelBuilder.Entity("KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models.User", b =>
                 {
                     b.Property<string>("Id")

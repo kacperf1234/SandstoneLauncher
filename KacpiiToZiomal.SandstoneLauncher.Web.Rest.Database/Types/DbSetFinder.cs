@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Reflection;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,12 +13,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
         public ITypeGetter TypeGetter;
         public ITypeComparer TypeComparer;
         public IPropertiesFinder PropertiesFinder;
+        public IPropertyInfoIsDbSetValidator PropertyInfoIsDbSetValidator;
 
-        public DbSetFinder(ITypeGetter typeGetter, ITypeComparer typeComparer, IPropertiesFinder propertiesFinder)
+        public DbSetFinder(ITypeGetter typeGetter, ITypeComparer typeComparer, IPropertiesFinder propertiesFinder, IPropertyInfoIsDbSetValidator propertyInfoIsDbSetValidator)
         {
             TypeGetter = typeGetter;
             TypeComparer = typeComparer;
             PropertiesFinder = propertiesFinder;
+            PropertyInfoIsDbSetValidator = propertyInfoIsDbSetValidator;
         }
 
         public DbSet<TModel> FindDbSet<TModel>(object contextInstance) where TModel : class
@@ -29,23 +32,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
 
             foreach (PropertyInfo contextProperty in properties)
             {
-                if (PropertyInfoIsGenericValidator.IsGenericType(contextProperty))
+                if (PropertyInfoIsDbSetValidator.Validate(contextProperty, modelType))
                 {
-                    continue;
-                }
-                
-                Type genericType = TypeGetter.GetGenericType(contextProperty.PropertyType);
-
-                if (TypeComparer.Compare(genericType, typeof(DbSet<>)))
-                {
-                    Type firstParameter = contextProperty.PropertyType
-                        .GetGenericArguments()
-                        .FirstOrDefault();
-
-                    if (TypeComparer.Compare(firstParameter, modelType))
-                    {
-                        return (DbSet<TModel>) contextProperty.GetValue(contextInstance);
-                    }
+                    return (DbSet<TModel>) contextProperty.GetValue(contextInstance);
                 }
             }
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces
+namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces
 {
     public interface IDbSetTypeProvider
     {

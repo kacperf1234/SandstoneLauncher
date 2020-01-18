@@ -6,7 +6,7 @@ using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces;
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("launch_settings")]
-    public class LaunchSettings : IDbModel
+    public class LaunchSettings : IDbModel, IIdentificable
     {
         [Key]
         [Column("id")]

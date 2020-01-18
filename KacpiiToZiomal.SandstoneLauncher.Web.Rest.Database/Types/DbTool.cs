@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -42,11 +44,30 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
 
             RecordUpdater.Update(dbSet, dbContext, model);
         }
+        
+        public void Update<TModel>(DbContext dbContext, TModel model, Action<TModel> action) where TModel : class
+        {
+            DbSet<TModel> dbSet = DbSetFinder.FindDbSet<TModel>(dbContext);
+
+            action(model);
+            
+            RecordUpdater.Update(dbSet, dbContext, model);
+        }
 
         public void Update<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func, Action<TModel> action) where TModel : class
         {
             DbSet<TModel> dbSet = DbSetFinder.FindDbSet<TModel>(dbContext);
             TModel modelToUpdate = func(dbSet);
+
+            action(modelToUpdate);
+            
+            RecordUpdater.Update(dbSet, dbContext, modelToUpdate);
+        }
+
+        public void Update<TModel>(DbContext dbContext, string id, Action<TModel> action) where TModel : class, IIdentificable
+        {
+            DbSet<TModel> dbSet = DbSetFinder.FindDbSet<TModel>(dbContext);
+            TModel modelToUpdate = dbSet.Single(x => x.Id == id);
 
             action(modelToUpdate);
             

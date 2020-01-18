@@ -20,7 +20,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Types
                        && type.GetInterface(NameProvider.ProvideName(), true) != null;
             }
 
-            catch (NullReferenceException exception)
+            catch (NullReferenceException)
             {
                 return false;
             }

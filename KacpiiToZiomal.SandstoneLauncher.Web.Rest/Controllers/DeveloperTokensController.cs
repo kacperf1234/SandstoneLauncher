@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Builders;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Models;
@@ -11,11 +12,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
     [Route("developer_tokens")]
     public class DeveloperTokensController : Controller
     {
-        public IDeveloperCredentialsFinder DeveloperCredentialsFinder;
-        public IDeveloperCredentialsValidator DeveloperCredentialsValidator;
         public IDeveloperFinder DeveloperFinder;
         public IDeveloperTokenActiveValidator DeveloperTokenActiveValidator;
-        public IDatabaseUpdater<DeveloperToken> DeveloperTokenDatabaseUpdater;
         public IDeveloperTokenGenerator DeveloperTokenGenerator;
         public IDeveloperTokensGetter DeveloperTokensGetter;
         public IDeveloperTokenValidator DeveloperTokenValidator;
@@ -23,16 +21,15 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
         public IDeveloperTokenRecorderToDatabase RecorderToDatabase;
         public IDeveloperValidator DeveloperValidator;
 
-        public DeveloperTokensController(IDeveloperCredentialsValidator developerCredentialsValidator,
-            IDeveloperCredentialsFinder developerCredentialsFinder, IDeveloperFinder developerFinder,
+        public IDbTool DbTool;
+        public DatabaseContext Database;
+
+        public DeveloperTokensController(IDeveloperFinder developerFinder,
             IDeveloperTokenGenerator developerTokenGenerator, IDeveloperTokenRecorderToDatabase recorderToDatabase,
             IDeveloperTokenValidator developerTokenValidator, IDeveloperTokensGetter developerTokensGetter,
             IDeveloperTokenActiveValidator developerTokenActiveValidator,
-            IDeveloperTokenExpirationDateTimeGenerator expirationDateTimeGenerator,
-            IDatabaseUpdater<DeveloperToken> developerTokenDatabaseUpdater, IDeveloperValidator developerValidator)
+            IDeveloperTokenExpirationDateTimeGenerator expirationDateTimeGenerator, IDeveloperValidator developerValidator, DatabaseContext database, IDbTool dbTool)
         {
-            DeveloperCredentialsValidator = developerCredentialsValidator;
-            DeveloperCredentialsFinder = developerCredentialsFinder;
             DeveloperFinder = developerFinder;
             DeveloperTokenGenerator = developerTokenGenerator;
             RecorderToDatabase = recorderToDatabase;
@@ -40,8 +37,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
             DeveloperTokensGetter = developerTokensGetter;
             DeveloperTokenActiveValidator = developerTokenActiveValidator;
             ExpirationDateTimeGenerator = expirationDateTimeGenerator;
-            DeveloperTokenDatabaseUpdater = developerTokenDatabaseUpdater;
             DeveloperValidator = developerValidator;
+            Database = database;
+            DbTool = dbTool;
         }
 
         [HttpGet]
@@ -59,19 +57,21 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
         [Route("update")]
         public IActionResult Update([FromQuery(Name = "id")] string id, [FromQuery(Name = "developer_id")] string developerId)
         {
-            DeveloperToken token =
-                DeveloperTokensGetter.GetDeveloperToken(t => t.SingleOrDefault(x => x.Id == id && x.DeveloperId == developerId));
+            DeveloperToken token = DbTool.Resolve<DeveloperToken>(Database,
+                t => t.SingleOrDefault(x => x.Id == id && x.DeveloperId == developerId));
 
             if (DeveloperTokenValidator.Validate(token))
             {
                 if (DeveloperTokenActiveValidator.Validate(token))
                 {
-                    DeveloperTokenDatabaseUpdater.Update(token.Id, t =>
+                    DbTool.Update<DeveloperToken>(Database, token, t =>
                     {
-                        t.LastUpdatedAt = DateTime.Now;
-                        t.ExpiredAt = ExpirationDateTimeGenerator.GenerateExpirationDateTime(DateTime.Now);
-                        t.UpdatedTimes += 1;
-                    }, out token);
+                        new DeveloperTokenBuilder(token)
+                            .AddUpdatedTimes()
+                            .SetExpiredAt(ExpirationDateTimeGenerator.GenerateExpirationDateTime(DateTime.Now))
+                            .SetLastUpdatedAt()
+                            .Build();
+                    });
 
                     return Json(token);
                 }
@@ -88,11 +88,12 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
 
             if (DeveloperValidator.Validate(developer))
             {
-                DeveloperTokenDatabaseUpdater.Update(id, token =>
+                DbTool.Update<DeveloperToken>(Database, id, token =>
                 {
-                    token.Authorized = true;
-                    token.AuthorizedAt = DateTime.Now;
-                    token.DeveloperId = developer.Id;
+                    new DeveloperTokenBuilder(token)
+                        .SetAuthorized()
+                        .SetAuthorizedAt()
+                        .Build();
                 });
 
                 return Ok();
@@ -109,11 +110,18 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
 
             if (DeveloperValidator.Validate(developer))
             {
-                DeveloperTokenDatabaseUpdater.Update(id, token =>
-                {
-                    token.Unauthorized = true;
-                    token.UnauthorizedAt = DateTime.Now;
-                });
+                DbTool.Update<DeveloperToken>(
+                    dbContext: Database,
+                    func: tokens => tokens.Single(x => x.Id == id),
+                    action: token =>
+                    {
+                        new DeveloperTokenBuilder(token)
+                            .SetArchived()
+                            .SetUnauthorized()
+                            .SetUnauthorizedAt()
+                            .Build();
+                    }
+                );
 
                 return Ok();
             }

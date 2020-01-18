@@ -2,7 +2,9 @@
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Builders
 {
-    public class Builder<TBuilder, TOut> where TBuilder : class
+    public class Builder<TBuilder, TOut>
+        where TBuilder : Builder<TBuilder, TOut>
+        where TOut : class
     {
         private protected TOut Instance;
 
@@ -30,9 +32,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Builders
         protected TBuilder Update(Action<TOut> action)
         {
             action(Instance);
-            
+
             return NewBuilder(Instance);
-        } 
+        }
 
         public TOut Build()
         {

@@ -5,7 +5,7 @@ using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces;
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("user_registrations")]
-    public class UserRegistration : IDbModel
+    public class UserRegistration : IDbModel, IIdentificable
     {
         [Key]
         [Column("id")]

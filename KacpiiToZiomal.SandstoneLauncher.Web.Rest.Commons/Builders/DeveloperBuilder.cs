@@ -9,7 +9,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Builders
         {
         }
 
-        public DeveloperBuilder(Developer instance) : base(instance)
+        public DeveloperBuilder(Developer workedInstance) : base(workedInstance)
         {
         }
 

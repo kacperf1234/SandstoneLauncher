@@ -415,9 +415,9 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="AuthenticationController.cs" t="Include" />
           <e p="DeveloperTokensController.cs" t="Include" />
           <e p="LaunchSettingsController.cs" t="Include" />
+          <e p="UsersAuthenticationController.cs" t="Include" />
         </e>
         <e p="Interfaces" t="Include">
           <e p="IContainerDelegateInterfaceNameProvider.cs" t="Include" />
@@ -445,7 +445,7 @@
           <e p="ContainerDelegateTypeValidator.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
-          <e p="Authentication" t="Include">
+          <e p="UsersAuthentication" t="Include">
             <e p="LoginForm.cshtml" t="Include" />
           </e>
         </e>
@@ -518,12 +518,14 @@
           <e p="Builder.cs" t="Include" />
           <e p="DeveloperBuilder.cs" t="Include" />
           <e p="DeveloperCredentialsBuilder.cs" t="Include" />
+          <e p="DeveloperTokenBuilder.cs" t="Include" />
           <e p="RestRequestBuilder.cs" t="Include" />
         </e>
         <e p="ContainerDelegate.cs" t="Include" />
         <e p="Interfaces" t="Include">
           <e p="IDbModel.cs" t="Include" />
           <e p="IDbModelValidator.cs" t="Include" />
+          <e p="IIdentificable.cs" t="Include" />
           <e p="IRestRequestGenerator.cs" t="Include" />
         </e>
         <e p="KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.csproj" t="IncludeRecursive" />

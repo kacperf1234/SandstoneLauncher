@@ -75,6 +75,6 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.R
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.TagHelpers.input.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.TagHelpers.output.cache
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.RazorCoreGenerate.cache
-C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\obj\Debug\netcoreapp3.1\Razor\Views\UsersAuthorization\LoginForm.cshtml.g.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.RazorTargetAssemblyInfo.cs
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\obj\Debug\netcoreapp3.1\KacpiiToZiomal.SandstoneLauncher.Web.Rest.Views.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Web.Rest\obj\Debug\netcoreapp3.1\Razor\Views\UsersAuthentication\LoginForm.cshtml.g.cs

@@ -1,11 +1,12 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("rest_requests")]
-    public class RestRequest
+    public class RestRequest : IIdentificable, IDbModel
     {
         [Key]
         [Column("id")]
@@ -28,5 +29,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 
         [Column("invoked")]
         public bool Invoked { get; set; }
+
+        public object GetValue() => this;
     }
 }

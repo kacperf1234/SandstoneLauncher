@@ -6,7 +6,7 @@ using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces;
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("users_token")]
-    public class UserToken : IDbModel
+    public class UserToken : IDbModel, IIdentificable
     {
         [Key]
         [Column("id")]

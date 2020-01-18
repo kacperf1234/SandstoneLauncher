@@ -6,7 +6,7 @@ using KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Interfaces;
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Models
 {
     [Table("developers")]
-    public class Developer : IDbModel
+    public class Developer : IDbModel, IIdentificable
     {
         [Key]
         [Column("id")]

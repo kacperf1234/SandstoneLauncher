@@ -9,7 +9,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Commons.Builders
         {
         }
 
-        public RestRequestBuilder(RestRequest instance) : base(instance)
+        public RestRequestBuilder(RestRequest workedInstance) : base(workedInstance)
         {
         }
 

@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
 {
     [Route("auth")]
-    public class UsersAuthorizationController : Controller
+    public class AuthenticationController : Controller
     {
         public DbTool DbTool;
         public DatabaseContext Database;
@@ -20,7 +20,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
         public IStringComparer StringComparer;
         public IRestRequestGenerator RestRequestGenerator;
         
-        public UsersAuthorizationController(DbTool dbTool, DatabaseContext database, IDbModelValidator dbModelValidator, IDeveloperTokenActiveValidator tokenActiveValidator, IStringComparer stringComparer, IRestRequestGenerator restRequestGenerator)
+        public AuthenticationController(DbTool dbTool, DatabaseContext database, IDbModelValidator dbModelValidator, IDeveloperTokenActiveValidator tokenActiveValidator, IStringComparer stringComparer, IRestRequestGenerator restRequestGenerator)
         {
             DbTool = dbTool;
             Database = database;
@@ -30,9 +30,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
             RestRequestGenerator = restRequestGenerator;
         }
 
-        [HttpGet]
-        [Route("authorize")]
-        public IActionResult Authorize(
+        [HttpPost]
+        [Route("authenticate")]
+        public IActionResult Authenticate(
             [FromQuery(Name = "token_id")] string tokenId,
             [FromBody] SimpleDeveloperCredentials developerCredentials,
             [FromQuery(Name = "return_url")] string returnUrl,
@@ -55,10 +55,6 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Controllers
                     DbTool.Add(Database, restRequest);
 
                     return RedirectToAction("LoginForm", new {request_id = restRequest.Id});
-                    
-                    // todo
-                    // it needs to return json,
-                    // with redirection link
                 }
             }
 

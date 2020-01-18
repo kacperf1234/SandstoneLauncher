@@ -415,9 +415,9 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AuthenticationController.cs" t="Include" />
           <e p="DeveloperTokensController.cs" t="Include" />
           <e p="LaunchSettingsController.cs" t="Include" />
-          <e p="UsersAuthorizationController.cs" t="Include" />
         </e>
         <e p="Interfaces" t="Include">
           <e p="IContainerDelegateInterfaceNameProvider.cs" t="Include" />
@@ -445,7 +445,7 @@
           <e p="ContainerDelegateTypeValidator.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
-          <e p="UsersAuthorization" t="Include">
+          <e p="Authentication" t="Include">
             <e p="LoginForm.cshtml" t="Include" />
           </e>
         </e>

@@ -43,6 +43,16 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Types
             RecordUpdater.Update(dbSet, dbContext, model);
         }
 
+        public void Update<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func, Action<TModel> action) where TModel : class
+        {
+            DbSet<TModel> dbSet = DbSetFinder.FindDbSet<TModel>(dbContext);
+            TModel modelToUpdate = func(dbSet);
+
+            action(modelToUpdate);
+            
+            RecordUpdater.Update(dbSet, dbContext, modelToUpdate);
+        }
+
         public TModel Resolve<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func) where TModel : class
         {
             DbSet<TModel> dbSet = DbSetFinder.FindDbSet<TModel>(dbContext);

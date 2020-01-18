@@ -16,6 +16,9 @@ namespace KacpiiToZiomal.SandstoneLauncher.Web.Rest.Database.Interfaces
         void Update<TModel>(DbContext dbContext, TModel model)
             where TModel : class;
 
+        void Update<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func, Action<TModel> action)
+            where TModel : class;
+
         TModel Resolve<TModel>(DbContext dbContext, Func<IEnumerable<TModel>, TModel> func)
             where TModel : class;
 

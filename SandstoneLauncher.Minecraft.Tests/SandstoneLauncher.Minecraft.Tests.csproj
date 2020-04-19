@@ -7,7 +7,7 @@
 
         <OutputType>Library</OutputType>
 
-        <RootNamespace>KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests</RootNamespace>
+        <RootNamespace>SandstoneLauncher.Minecraft.Tests</RootNamespace>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

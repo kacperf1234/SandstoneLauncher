@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft", "KacpiiToZiomal.SandstoneLauncher.Minecraft\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj", "{7BEA1C5D-C6B9-4353-A02A-137CAD66FE87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandstoneLauncher.Minecraft", "SandstoneLauncher.Minecraft\SandstoneLauncher.Minecraft.csproj", "{7BEA1C5D-C6B9-4353-A02A-137CAD66FE87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests", "KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.csproj", "{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandstoneLauncher.Minecraft.Tests", "SandstoneLauncher.Minecraft.Tests\SandstoneLauncher.Minecraft.Tests.csproj", "{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

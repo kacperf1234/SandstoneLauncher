@@ -7,16 +7,18 @@
     "outputPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
+      "C:\\Microsoft\\Xamarin\\NuGet",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "netcoreapp2.2"
+      "netcoreapp3.1"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
-      "netcoreapp2.2": {
+      "netcoreapp3.1": {
         "projectReferences": {
           "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj": {
             "projectPath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft\\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj"
@@ -31,7 +33,7 @@
     }
   },
   "frameworks": {
-    "netcoreapp2.2": {
+    "netcoreapp3.1": {
       "dependencies": {
         "DotNetZip": {
           "target": "Package",
@@ -39,13 +41,7 @@
         },
         "Microsoft.NET.Test.Sdk": {
           "target": "Package",
-          "version": "[16.0.0, )"
-        },
-        "Microsoft.NETCore.App": {
-          "suppressParent": "All",
-          "target": "Package",
-          "version": "[2.2.0, )",
-          "autoReferenced": true
+          "version": "[16.5.0, )"
         },
         "NUnit": {
           "target": "Package",
@@ -69,7 +65,13 @@
         "net48"
       ],
       "assetTargetFallback": true,
-      "warn": true
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
     }
   }
 }

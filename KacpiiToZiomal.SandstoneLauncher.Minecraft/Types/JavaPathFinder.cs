@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
+using System.IO;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
@@ -7,16 +9,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
     {
         public string GetJavaPath()
         {
-            Process proc = new Process();
-            proc.StartInfo = new ProcessStartInfo
-            {
-                RedirectStandardOutput = true,
-                Arguments = "/k for %i in (javaw.exe) do @echo.%~$PATH:i",
-                FileName = " cmd.exe"
-            };
-            proc.Start();
-
-            return proc.StandardOutput.ReadLine();
+            string javaHome = Environment.GetEnvironmentVariable("JAVA_HOME");
+            return Path.Combine(javaHome, "javaw.exe");
         }
     }
 }

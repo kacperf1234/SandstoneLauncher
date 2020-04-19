@@ -26,12 +26,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         }
 
         [Test]
+        [Ignore("Use Download()")]
         public void file_is_exists()
         {
             Assert.IsTrue(File.Exists(Filename));
         }
 
         [Test]
+        [Ignore("Use Download()")]
         public void file_not_empty()
         {
             string text = File.ReadAllText(Filename);
@@ -39,6 +41,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         }
 
         [Test]
+        [Ignore("Use Download()")]
         public void returns_string_starts_with_html_clause()
         {
             Assert.IsTrue(File.ReadAllText(Filename).StartsWith("<html>"));

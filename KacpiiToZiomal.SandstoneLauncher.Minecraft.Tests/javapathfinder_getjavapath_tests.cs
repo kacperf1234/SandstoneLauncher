@@ -22,11 +22,35 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         }
 
         [Test]
-        public void returns_excepted_string()
+        public void returns_not_empty()
         {
-            Assert.AreEqual(
-                Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86) +
-                "\\Common Files\\Oracle\\Java\\javapath\\javaw.exe", execute());
+            Assert.IsNotEmpty(execute());
+        }
+
+        [Test]
+        public void returns_not_null()
+        {
+            Assert.NotNull(execute());
+        }
+
+        [Test]
+        public void returns_string_ends_with_exe()
+        {
+            Assert.IsTrue(execute().EndsWith(".exe"));
+        }
+
+        [Test]
+        public void returns_java_exe_or_javaw_exe()
+        {
+            Assert.IsTrue(execute().EndsWith("javaw.exe") || execute().EndsWith("java.exe"));
+        }
+
+        [Test]
+        public void returns_directory_is_JAVA_HOME_environment_variable()
+        {
+            bool startsWith = execute().StartsWith(Environment.GetEnvironmentVariable("JAVA_HOME"));
+            
+            Assert.IsTrue(startsWith);
         }
     }
 }

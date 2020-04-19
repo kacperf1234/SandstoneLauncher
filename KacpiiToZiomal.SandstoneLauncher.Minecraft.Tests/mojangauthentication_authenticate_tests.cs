@@ -27,14 +27,14 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         public void dont_throws_exceptions()
         {
             bool r = false;
-            Assert.That(() => execute("kacperf1234@gmail.com", "pu2snVR@", out r), Throws.Nothing);
+            Assert.That(() => execute("kacperf1234@gmail.com", "Florka2014!", out r), Throws.Nothing);
         }
 
         [Test]
         public void returns_true_when_credentials_are_ok()
         {
             bool r = false;
-            MojangLoginResponse e = execute("kacperf1234@gmail.com", "pu2snVR@", out r);
+            MojangLoginResponse e = execute("kacperf1234@gmail.com", "Florka2014!", out r);
 
             Assert.IsTrue(r);
         }

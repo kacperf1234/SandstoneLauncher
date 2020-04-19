@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "t6vbuu1ZBABs+uWSIJhN5OQ0h7EY9in6xstdgqnrOV9sTL72sAjI8M7J6bZBKFcP5fAfrkwoCoNWVTwV7IxD1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kacpii\\Desktop\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kacpii\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Kacpii\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Kacpii\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Kacpii\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68421450-4a97-47d1-90cd-d76724398312" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,15 +48,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/jsondeserializer_deserialize_tests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SandstoneLauncher.App/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SandstoneLauncher.App/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SandstoneLauncher.App/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SandstoneLauncher.App/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SandstoneLauncher.App/Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Resources/DarkColors.xaml" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Resources/DarkStyle.xaml" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkColors.xaml" />
         <option value="$PROJECT_DIR$/ConsoleLauncher/Program.cs" />
@@ -104,9 +101,10 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpdownloader_downloadasync_tests.cs" />
         <option value="$PROJECT_DIR$/SandstoneLauncher.App/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/SandstoneLauncher.App/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/SandstoneLauncher.sln" />
+        <option value="$PROJECT_DIR$/SandstoneLauncher.App/SandstoneLauncher.App.csproj" />
         <option value="$PROJECT_DIR$/SandstoneLauncher.App/Program.cs" />
         <option value="$PROJECT_DIR$/SandstoneLauncher.App/Startup.cs" />
-        <option value="$PROJECT_DIR$/SandstoneLauncher.App/SandstoneLauncher.App.csproj" />
       </list>
     </option>
   </component>
@@ -259,6 +257,8 @@
       <workItem from="1573319719362" duration="3160000" />
       <workItem from="1587298376746" duration="246000" />
       <workItem from="1588835264871" duration="821000" />
+      <workItem from="1588836113367" duration="1225000" />
+      <workItem from="1588837416764" duration="2242000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -390,10 +390,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587290604006" />
-    <state x="552" y="251" key="Rider.ProjectTemplateDialog.Size" timestamp="1587726991880">
+    <state x="487" y="261" key="Rider.ProjectTemplateDialog.Size" timestamp="1588837442774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="251" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1587726991880" />
+    <state x="487" y="261" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1588837442774" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1587729183572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -406,10 +406,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="556" y="255" width="808" height="582" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587290228568" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1587728706897">
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1588838757519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587728706897" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588838757519" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

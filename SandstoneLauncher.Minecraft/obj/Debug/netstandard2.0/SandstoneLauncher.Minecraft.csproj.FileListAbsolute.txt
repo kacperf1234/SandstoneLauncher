@@ -1,0 +1,9 @@
+C:\Users\Kacpii\desktop\sandstoneLauncher\SandstoneLauncher.Minecraft\bin\Debug\netstandard2.0\SandstoneLauncher.Minecraft.deps.json
+C:\Users\Kacpii\desktop\sandstoneLauncher\SandstoneLauncher.Minecraft\bin\Debug\netstandard2.0\SandstoneLauncher.Minecraft.dll
+C:\Users\Kacpii\desktop\sandstoneLauncher\SandstoneLauncher.Minecraft\bin\Debug\netstandard2.0\SandstoneLauncher.Minecraft.pdb
+C:\Users\Kacpii\desktop\sandstoneLauncher\SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\SandstoneLauncher.Minecraft.csprojAssemblyReference.cache
+C:\Users\Kacpii\desktop\sandstoneLauncher\SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\SandstoneLauncher.Minecraft.csproj.CoreCompileInputs.cache
+C:\Users\Kacpii\desktop\sandstoneLauncher\SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\SandstoneLauncher.Minecraft.AssemblyInfoInputs.cache
+C:\Users\Kacpii\desktop\sandstoneLauncher\SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\SandstoneLauncher.Minecraft.AssemblyInfo.cs
+C:\Users\Kacpii\desktop\sandstoneLauncher\SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\SandstoneLauncher.Minecraft.dll
+C:\Users\Kacpii\desktop\sandstoneLauncher\SandstoneLauncher.Minecraft\obj\Debug\netstandard2.0\SandstoneLauncher.Minecraft.pdb

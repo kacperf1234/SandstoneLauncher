@@ -9,7 +9,7 @@
     "productName": "SandstoneLauncher.App",
     "copyright": "Copyright © 2019",
     "buildVersion": "1.0.0",
-    "compression": "maximum",
+    "compression": "minimum",
     "directories": {
       "output": "../../../bin/Desktop"
     },

@@ -22,7 +22,72 @@
     <list default="true" id="68421450-4a97-47d1-90cd-d76724398312" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SandstoneLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/SandstoneLauncher.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/SandstoneLauncher.App.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/electron.manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/bin/Debug/netcoreapp3.1/win-x64/electron.manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/electron.manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/electron.manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/SandstoneLauncher.App.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/SandstoneLauncher.App.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/SandstoneLauncher.App.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/SandstoneLauncher.App.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.RazorTargetAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Host/bin/SandstoneLauncher.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Host/bin/SandstoneLauncher.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Host/bin/SandstoneLauncher.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Host/bin/SandstoneLauncher.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Host/bin/electron.manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/Host/bin/electron.manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/SandstoneLauncher.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/SandstoneLauncher.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/SandstoneLauncher.App.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/SandstoneLauncher.App.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/bin/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/SandstoneLauncher.Minecraft.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/SandstoneLauncher.Minecraft.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/Debug/netcoreapp3.1/win-x64/SandstoneLauncher.Minecraft.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/SandstoneLauncher.Minecraft.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/SandstoneLauncher.Minecraft.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/SandstoneLauncher.Minecraft.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/SandstoneLauncher.Minecraft.Tests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/SandstoneLauncher.Minecraft.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/SandstoneLauncher.Minecraft.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/SandstoneLauncher.Minecraft.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/SandstoneLauncher.Minecraft.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/win-x64/SandstoneLauncher.Minecraft.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/win-x64/SandstoneLauncher.Minecraft.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/win-x64/SandstoneLauncher.Minecraft.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/bin/Debug/netstandard2.0/win-x64/SandstoneLauncher.Minecraft.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/SandstoneLauncher.Minecraft.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/SandstoneLauncher.Minecraft.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/SandstoneLauncher.Minecraft.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/win-x64/SandstoneLauncher.Minecraft.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/win-x64/SandstoneLauncher.Minecraft.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/win-x64/SandstoneLauncher.Minecraft.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/win-x64/SandstoneLauncher.Minecraft.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/win-x64/SandstoneLauncher.Minecraft.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/Debug/netstandard2.0/win-x64/SandstoneLauncher.Minecraft.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/SandstoneLauncher.Minecraft.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/SandstoneLauncher.Minecraft.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/SandstoneLauncher.Minecraft.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/SandstoneLauncher.Minecraft.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SandstoneLauncher.Minecraft/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Host/bin/ElectronNET.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Host/bin/ElectronNET.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Host/bin/SandstoneLauncher.Minecraft.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Host/bin/SandstoneLauncher.Minecraft.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Host/bin/SandstoneLauncher.Minecraft.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Host/bin/SandstoneLauncher.Minecraft.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Host/bin/SandstoneLauncher.Minecraft.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Host/bin/SandstoneLauncher.Minecraft.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Host/bin/SandstoneLauncher.Minecraft.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Host/bin/SandstoneLauncher.Minecraft.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Host/bin/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Host/bin/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Host/bin/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Host/bin/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Host/bin/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Host/bin/web.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,15 +114,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SandstoneLauncher.Minecraft.Tests/jsondeserializer_deserialize_tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SandstoneLauncher.App/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SandstoneLauncher.Minecraft/Models/LaunchArguments.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SandstoneLauncher.App/Views/Home/Start.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SandstoneLauncher.App/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SandstoneLauncher.App/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Resources/Resources/DarkStyle.xaml" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkColors.xaml" />
-        <option value="$PROJECT_DIR$/ConsoleLauncher/Program.cs" />
-        <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Windows/LauncherFrame.xaml" />
         <option value="$PROJECT_DIR$/WindowTests/Program.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher/Resources/DarkStyle.xaml" />
@@ -99,11 +163,15 @@
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft/Types/JavaPathFinder.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/javapathfinder_getjavapath_tests.cs" />
         <option value="$PROJECT_DIR$/KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests/httpdownloader_downloadasync_tests.cs" />
-        <option value="$PROJECT_DIR$/SandstoneLauncher.App/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/SandstoneLauncher.App/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/SandstoneLauncher.sln" />
-        <option value="$PROJECT_DIR$/SandstoneLauncher.App/SandstoneLauncher.App.csproj" />
         <option value="$PROJECT_DIR$/SandstoneLauncher.App/Program.cs" />
+        <option value="$PROJECT_DIR$/SandstoneLauncher.App/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/SandstoneLauncher.App/SandstoneLauncher.App.csproj" />
+        <option value="$PROJECT_DIR$/SandstoneLauncher.App/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/SandstoneLauncher.App/electron.manifest.json" />
+        <option value="$PROJECT_DIR$/SandstoneLauncher.App/Views/Home/Start.cshtml" />
+        <option value="$PROJECT_DIR$/SandstoneLauncher.App/appsettings.json" />
+        <option value="$PROJECT_DIR$/SandstoneLauncher.App/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/SandstoneLauncher.App/Startup.cs" />
       </list>
     </option>
@@ -126,7 +194,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;GitIgnore" />
     <property name="last_opened_file_path" value="$USER_HOME$/RiderProjects/LauncherSample/LauncherSample/LauncherSample.csproj" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected=".NET Project.LauncherSample">
     <configuration name="LauncherSample" type="DotNetProject" factoryName=".NET Project" temporary="true">
@@ -258,7 +326,9 @@
       <workItem from="1587298376746" duration="246000" />
       <workItem from="1588835264871" duration="821000" />
       <workItem from="1588836113367" duration="1225000" />
-      <workItem from="1588837416764" duration="2242000" />
+      <workItem from="1588837416764" duration="4005000" />
+      <workItem from="1588920249798" duration="2612000" />
+      <workItem from="1588923008062" duration="1785000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -394,22 +464,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="487" y="261" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1588837442774" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1587729183572">
+    <state x="377" y="189" key="SettingsEditor" timestamp="1588921118342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587729183572" />
+    <state x="377" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588921118342" />
     <state width="538" height="446" key="SwitcherDM" timestamp="1587728001093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="538" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587728001093" />
-    <state x="556" y="255" width="808" height="582" key="find.popup" timestamp="1587290228568">
+    <state x="556" y="255" width="808" height="582" key="find.popup" timestamp="1588921366560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="556" y="255" width="808" height="582" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587290228568" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1588838757519">
+    <state x="556" y="255" width="808" height="582" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588921366560" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1588925236662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588838757519" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588925236662" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1588925098453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588925098453" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

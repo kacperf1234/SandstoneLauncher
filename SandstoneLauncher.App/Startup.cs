@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using ElectronNET.API;
 using ElectronNET.API.Entities;
@@ -14,13 +15,16 @@ namespace SandstoneLauncher.App
 {
     public class Startup
     {
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
+            services.AddHttpsRedirection(x =>
+            {
+                x.HttpsPort = 5001;
+                x.RedirectStatusCode = StatusCodes.Status307TemporaryRedirect;
+            });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -29,19 +33,28 @@ namespace SandstoneLauncher.App
             }
 
             app.UseRouting();
-            app.UseEndpoints(x => x.MapControllers());
-
+            app.UseEndpoints(x => x.MapControllerRoute("default", "{controller}/{action}"));
+            app.UseStaticFiles();
+            app.UseHttpsRedirection();
+            
             Task.Run(async () =>
             {
                 BrowserWindowOptions options = new BrowserWindowOptions()
                 {
                     Center = true,
                     Width = 800,
-                    Height = 600
+                    Height = 600,
+                    Show = false
                 };
 
-                BrowserWindow window = await Electron.WindowManager.CreateWindowAsync(options);
-                window.OnReadyToShow += () => window.Show();
+                BrowserWindow window = await Electron.WindowManager.CreateWindowAsync(options, "http://localhost:8001/start");
+                
+                window.OnReadyToShow += () =>
+                {
+                    window.RemoveMenu();
+                    window.Show();
+                    window.ShowInactive();
+                };
             });
         }
     }

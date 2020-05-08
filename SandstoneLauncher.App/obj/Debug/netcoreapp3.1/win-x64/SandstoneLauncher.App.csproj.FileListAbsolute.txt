@@ -377,3 +377,13 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcor
 C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.pdb
 C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.genruntimeconfig.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\bin\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.Views.dll
+C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\bin\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.Views.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.RazorAssemblyInfo.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.RazorAssemblyInfo.cs
+C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.TagHelpers.input.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.TagHelpers.output.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.RazorCoreGenerate.cache
+C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.RazorTargetAssemblyInfo.cs
+C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcoreapp3.1\win-x64\SandstoneLauncher.App.Views.pdb
+C:\Users\Kacpii\Desktop\SandstoneLauncher\SandstoneLauncher.App\obj\Debug\netcoreapp3.1\win-x64\Razor\Views\Home\Start.cshtml.g.cs

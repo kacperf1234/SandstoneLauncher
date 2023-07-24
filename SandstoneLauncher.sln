@@ -16,10 +16,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLau
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Accounts.Tests", "KacpiiToZiomal.SandstoneLauncher.Accounts.Tests\KacpiiToZiomal.SandstoneLauncher.Accounts.Tests.csproj", "{A767A7FA-246F-4036-9980-54E31BE3F73E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Languages", "KacpiiToZiomal.SandstoneLauncher.Languages\KacpiiToZiomal.SandstoneLauncher.Languages.csproj", "{3E7EB679-FB9A-4CE5-B1A4-8085FFDF44F9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Languages.Tests", "KacpiiToZiomal.SandstoneLauncher.Languages.Tests\KacpiiToZiomal.SandstoneLauncher.Languages.Tests.csproj", "{0E65B10D-DF3B-4519-A059-7EF33F352ED5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacpiiToZiomal.SandstoneLauncher.Commons.Tests", "KacpiiToZiomal.SandstoneLauncher.Commons.Tests\KacpiiToZiomal.SandstoneLauncher.Commons.Tests.csproj", "{73EE017B-D39B-4035-9C43-55FCB65EB0D6}"
 EndProject
 Global
@@ -60,14 +56,6 @@ Global
 		{A767A7FA-246F-4036-9980-54E31BE3F73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A767A7FA-246F-4036-9980-54E31BE3F73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A767A7FA-246F-4036-9980-54E31BE3F73E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E7EB679-FB9A-4CE5-B1A4-8085FFDF44F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E7EB679-FB9A-4CE5-B1A4-8085FFDF44F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E7EB679-FB9A-4CE5-B1A4-8085FFDF44F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E7EB679-FB9A-4CE5-B1A4-8085FFDF44F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E65B10D-DF3B-4519-A059-7EF33F352ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E65B10D-DF3B-4519-A059-7EF33F352ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E65B10D-DF3B-4519-A059-7EF33F352ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E65B10D-DF3B-4519-A059-7EF33F352ED5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{73EE017B-D39B-4035-9C43-55FCB65EB0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73EE017B-D39B-4035-9C43-55FCB65EB0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73EE017B-D39B-4035-9C43-55FCB65EB0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -12,11 +12,13 @@ namespace SandstoneLauncher.Minecraft
     {
         private IAccountCreator AccountCreator;
         private MojangAuthentication MojangAuthentication;
+        private IManifestGetter ManifestGetter;
 
-        public Minecraft(IAccountCreator accountCreator, MojangAuthentication mojangAuthentication)
+        public Minecraft(IAccountCreator accountCreator, MojangAuthentication mojangAuthentication, IManifestGetter manifestGetter)
         {
             AccountCreator = accountCreator;
             MojangAuthentication = mojangAuthentication;
+            ManifestGetter = manifestGetter;
         }
 
         public static Minecraft GetInstance()
@@ -45,6 +47,11 @@ namespace SandstoneLauncher.Minecraft
             MojangAuthentication.Authenticate(credentials, out r);
 
             return AccountCreator.Create(r);
+        }
+
+        public VersionManifest GetVersionManifest()
+        {
+            return ManifestGetter.GetManifest();
         }
     }
 }

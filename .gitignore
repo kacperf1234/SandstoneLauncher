@@ -1,2 +1,21 @@
-/.idea
-/.vs
+# idea
+.idea/
+*/.idea
+
+# build
+*/bin/
+bin/
+obj/
+*/obj/
+*/*.dll
+*.*.pdb
+**/obj/
+**/bin/
+
+# visual studio
+*/.vs/
+
+# vim
+*.swp
+*.un~
+*.*~

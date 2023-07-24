@@ -1,6 +1,6 @@
 ﻿#region
 
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 
@@ -13,7 +13,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         private string execute(string name = "windows", string wndval = "natives-windows",
             string lnxval = "natives-linux")
         {
-            return new NativesPropertyGetter().GetValue(new Natives {Linux = lnxval, Windows = wndval}, name);
+            return new NativesPropertyGetter().GetValue(new Natives { Linux = lnxval, Windows = wndval }, name);
         }
 
         [Test]

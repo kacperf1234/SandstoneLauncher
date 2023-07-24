@@ -1,7 +1,6 @@
 ﻿#region
 
 using System.Net.Http;
-using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 
@@ -26,7 +25,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         [Test]
         public void status_code_is_ok()
         {
-            Assert.IsTrue((int) execute().StatusCode == 200);
+            Assert.IsTrue((int)execute().StatusCode == 200);
         }
     }
 }

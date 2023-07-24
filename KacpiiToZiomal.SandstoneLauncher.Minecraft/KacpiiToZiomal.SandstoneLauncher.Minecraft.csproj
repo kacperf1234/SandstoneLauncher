@@ -21,7 +21,6 @@
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Accounts\KacpiiToZiomal.SandstoneLauncher.Accounts.csproj" />
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Commons\KacpiiToZiomal.SandstoneLauncher.Commons.csproj" />
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons\KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.csproj" />
-    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Profiles\KacpiiToZiomal.SandstoneLauncher.Profiles.csproj" />
   </ItemGroup>
 
 </Project>

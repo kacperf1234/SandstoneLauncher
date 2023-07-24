@@ -4,6 +4,8 @@ using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
+    // TODO: This 'async' HttpDownload it's fucking joke.
+    
     public class HttpDownloader : IHttpDownloader
     {
         public IHttpBytesReader BytesReader;

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WiJDsvi1z6xZsUq07Pew+Rjc/SgTAnvSzrqciTuxIq0orS9HJt+MfbEId8A6k9qQobpVSyNmCzu4K8ac12uYcw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kacperfaber\\RiderProjects\\SandstoneLauncher\\KacpiiToZiomal.SandstoneLauncher.Commons\\KacpiiToZiomal.SandstoneLauncher.Commons.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kacperfaber\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kacperfaber\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\kacperfaber\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -12,7 +12,6 @@
   <ItemGroup>
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Commons\KacpiiToZiomal.SandstoneLauncher.Commons.csproj" />
     <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization\KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.csproj" />
-    <ProjectReference Include="..\KacpiiToZiomal.SandstoneLauncher.Resources\KacpiiToZiomal.SandstoneLauncher.Resources.csproj" />
   </ItemGroup>
 
 </Project>

@@ -19,17 +19,6 @@
           "KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests.dll": {}
         }
       },
-      "ControlzEx/4.1.1": {
-        "dependencies": {
-          "Microsoft.Xaml.Behaviors.Wpf": "1.0.30"
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/ControlzEx.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.1.1.11"
-          }
-        }
-      },
       "DotNetZip/1.13.3": {
         "dependencies": {
           "System.Security.Permissions": "4.5.0",
@@ -40,25 +29,6 @@
           "lib/netstandard2.0/DotNetZip.dll": {
             "assemblyVersion": "1.13.3.0",
             "fileVersion": "1.13.3.0"
-          }
-        }
-      },
-      "Expression.Blend.Sdk/1.0.0": {
-        "runtime": {
-          "lib/net40-client/System.Windows.Interactivity.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "2.0.20525.0"
-          }
-        }
-      },
-      "MahApps.Metro/2.0.0-alpha0589": {
-        "dependencies": {
-          "ControlzEx": "4.1.1"
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/MahApps.Metro.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.589"
           }
         }
       },
@@ -408,14 +378,6 @@
           "System.Runtime.InteropServices": "4.3.0"
         }
       },
-      "Microsoft.Xaml.Behaviors.Wpf/1.0.30": {
-        "runtime": {
-          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.30.56083"
-          }
-        }
-      },
       "NETStandard.Library/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0"
@@ -457,30 +419,6 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
           "Microsoft.NETCore.Targets": "1.1.0"
-        }
-      },
-      "Selen.Wpf/1.0.0": {
-        "dependencies": {
-          "Expression.Blend.Sdk": "1.0.0",
-          "MahApps.Metro": "2.0.0-alpha0589"
-        },
-        "runtime": {
-          "lib/net45/Selen.Wpf.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/net45/Selen.Wpf.GenericAppTree.Contracts.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/net45/Selen.Wpf.GenericAppTree.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/net45/Selen.Wpf.SystemStyles.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
         }
       },
       "System.AppContext/4.1.0": {
@@ -925,6 +863,12 @@
       "System.Security.Permissions/4.5.0": {
         "dependencies": {
           "System.Security.AccessControl": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
         }
       },
       "System.Security.Principal.Windows/4.5.0": {
@@ -987,14 +931,6 @@
         "dependencies": {
           "System.Runtime": "4.3.0",
           "System.Runtime.Handles": "4.3.0"
-        }
-      },
-      "System.Windows.Interactivity.WPF/2.0.20525": {
-        "runtime": {
-          "lib/net40/Microsoft.Expression.Interactions.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "2.0.20525.0"
-          }
         }
       },
       "System.Xml.ReaderWriter/4.3.0": {
@@ -1084,74 +1020,13 @@
           }
         }
       },
-      "KacpiiToZiomal.SandstoneLauncher.Accounts/1.0.0": {
-        "dependencies": {
-          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
-          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization": "1.0.0",
-          "KacpiiToZiomal.SandstoneLauncher.Resources": "1.0.0",
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "runtime": {
-          "KacpiiToZiomal.SandstoneLauncher.Accounts.dll": {}
-        }
-      },
-      "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "runtime": {
-          "KacpiiToZiomal.SandstoneLauncher.Commons.dll": {}
-        }
-      },
       "KacpiiToZiomal.SandstoneLauncher.Minecraft/1.0.0": {
         "dependencies": {
           "DotNetZip": "1.13.3",
-          "KacpiiToZiomal.SandstoneLauncher.Accounts": "1.0.0",
-          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
-          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons": "1.0.0",
-          "KacpiiToZiomal.SandstoneLauncher.Profiles": "1.0.0",
           "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "KacpiiToZiomal.SandstoneLauncher.Minecraft.dll": {}
-        }
-      },
-      "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/1.0.0": {
-        "dependencies": {
-          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
-          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons": "1.0.0",
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "runtime": {
-          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization.dll": {}
-        }
-      },
-      "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "runtime": {
-          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.dll": {}
-        }
-      },
-      "KacpiiToZiomal.SandstoneLauncher.Profiles/1.0.0": {
-        "dependencies": {
-          "KacpiiToZiomal.SandstoneLauncher.Commons": "1.0.0",
-          "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons": "1.0.0",
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "runtime": {
-          "KacpiiToZiomal.SandstoneLauncher.Profiles.dll": {}
-        }
-      },
-      "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
-        "dependencies": {
-          "MahApps.Metro": "2.0.0-alpha0589",
-          "Selen.Wpf": "1.0.0",
-          "System.Windows.Interactivity.WPF": "2.0.20525"
-        },
-        "runtime": {
-          "KacpiiToZiomal.SandstoneLauncher.Resources.dll": {}
         }
       }
     }
@@ -1162,33 +1037,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ControlzEx/4.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-xzx0ESf30hiQ/bG5ZtdzWjyHJ8SvAqTP1y8hWdrkcLj10MM2Ody53pbmz2A2W3wE1HP2I1baFf4hgo9S47J+fw==",
-      "path": "controlzex/4.1.1",
-      "hashPath": "controlzex.4.1.1.nupkg.sha512"
-    },
     "DotNetZip/1.13.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-URP6Eo8RZ9E8MapQaRDu2Sa7oWf+0M7OrZGPM4H22P64oMiGfGIh7gJqUVX2CBR0i5zjvDvOIwKwHDHLLL6w3Q==",
       "path": "dotnetzip/1.13.3",
       "hashPath": "dotnetzip.1.13.3.nupkg.sha512"
-    },
-    "Expression.Blend.Sdk/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-E5/z1ApCG9TWZy947Rc9vPOTtSvm0nQzIbqqaKpcSVfzcGS5javozMLcl1dMsyBtRXIQh54TUN4cPawXffKOBg==",
-      "path": "expression.blend.sdk/1.0.0",
-      "hashPath": "expression.blend.sdk.1.0.0.nupkg.sha512"
-    },
-    "MahApps.Metro/2.0.0-alpha0589": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DhyNJFW9SrUmYGEYQqbmN4x/o1hgtRxTMnQ9eZlsMw/CPQtb72rZ4oFCGO/wC5jZij8ta8w9TvqMT/nq0V+ckA==",
-      "path": "mahapps.metro/2.0.0-alpha0589",
-      "hashPath": "mahapps.metro.2.0.0-alpha0589.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.0.0": {
       "type": "package",
@@ -1267,13 +1121,6 @@
       "path": "microsoft.win32.registry/4.3.0",
       "hashPath": "microsoft.win32.registry.4.3.0.nupkg.sha512"
     },
-    "Microsoft.Xaml.Behaviors.Wpf/1.0.30": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-D3xG0/rKRTv5SKiABGs68HfYjASwyGFO19P41FI8fHyPKA8mq7U8rU7q0RwMCooDQ1JCgUPOCTFHGyGXyG8gvw==",
-      "path": "microsoft.xaml.behaviors.wpf/1.0.30",
-      "hashPath": "microsoft.xaml.behaviors.wpf.1.0.30.nupkg.sha512"
-    },
     "NETStandard.Library/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1308,13 +1155,6 @@
       "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
-    },
-    "Selen.Wpf/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-evZgr7WdsWijbaIjPlIvUBfM5CtNN5K7qAFJqU02MO0F57k/Kys00HVXWdrlRu0M7iccUZnQuztH9gyDsHODjA==",
-      "path": "selen.wpf/1.0.0",
-      "hashPath": "selen.wpf.1.0.0.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",
@@ -1701,13 +1541,6 @@
       "path": "system.threading.threadpool/4.3.0",
       "hashPath": "system.threading.threadpool.4.3.0.nupkg.sha512"
     },
-    "System.Windows.Interactivity.WPF/2.0.20525": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0r+Le4E7hCm4zToUvBzjSUyTcuU3rFeoPa7JyTdWIzR/F7wH6+O/pWkjHIG40hIA0z1wvRdZayvoizA4wcK1dg==",
-      "path": "system.windows.interactivity.wpf/2.0.20525",
-      "hashPath": "system.windows.interactivity.wpf.2.0.20525.nupkg.sha512"
-    },
     "System.Xml.ReaderWriter/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1743,37 +1576,7 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "KacpiiToZiomal.SandstoneLauncher.Accounts/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "KacpiiToZiomal.SandstoneLauncher.Commons/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "KacpiiToZiomal.SandstoneLauncher.Minecraft/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "KacpiiToZiomal.SandstoneLauncher.Minecraft.Authorization/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "KacpiiToZiomal.SandstoneLauncher.Profiles/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "KacpiiToZiomal.SandstoneLauncher.Resources/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

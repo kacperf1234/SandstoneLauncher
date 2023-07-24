@@ -19,3 +19,13 @@ C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minec
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.CopyComplete
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.dll
 C:\Users\Kacpii\Desktop\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb
+C:\Users\kacperfaber\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.deps.json
+C:\Users\kacperfaber\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.dll
+C:\Users\kacperfaber\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\bin\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb
+C:\Users\kacperfaber\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.AssemblyReference.cache
+C:\Users\kacperfaber\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacperfaber\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.AssemblyInfoInputs.cache
+C:\Users\kacperfaber\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.AssemblyInfo.cs
+C:\Users\kacperfaber\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.csproj.CoreCompileInputs.cache
+C:\Users\kacperfaber\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.dll
+C:\Users\kacperfaber\RiderProjects\SandstoneLauncher\KacpiiToZiomal.SandstoneLauncher.Minecraft\obj\Debug\netcoreapp3.0\KacpiiToZiomal.SandstoneLauncher.Minecraft.pdb

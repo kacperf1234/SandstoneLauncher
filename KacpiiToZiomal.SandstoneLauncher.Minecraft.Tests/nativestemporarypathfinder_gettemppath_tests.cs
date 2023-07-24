@@ -1,10 +1,8 @@
 ﻿#region
 
 using System;
-using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 
@@ -18,7 +16,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
         {
             NativesTemporaryPathFinder f =
                 new NativesTemporaryPathFinder(new FileNameExtractor(new PathConverter()), new mc());
-            return f.GetTemporaryPath(new DownloadArtifact {Path = path});
+            return f.GetTemporaryPath(new DownloadArtifact { Path = path });
         }
 
         [Test]

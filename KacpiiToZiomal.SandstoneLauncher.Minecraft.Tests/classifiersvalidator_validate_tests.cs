@@ -1,7 +1,7 @@
 ﻿#region
 
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Types;
 using NUnit.Framework;
 
@@ -15,7 +15,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
             bool cnull = false)
         {
             ClassifiersValidator v = new ClassifiersValidator();
-            return v.Validate(cnull == false ? new Classifiers {Windows = wnd, Linux = lin} : null, sys);
+            return v.Validate(cnull == false ? new Classifiers { Windows = wnd, Linux = lin } : null, sys);
         }
 
         [Test]

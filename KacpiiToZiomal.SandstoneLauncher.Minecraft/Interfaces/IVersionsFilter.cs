@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces
 {

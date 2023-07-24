@@ -1,8 +1,4 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Accounts.Models;
-using KacpiiToZiomal.SandstoneLauncher.Commons.Interfaces;
-using KacpiiToZiomal.SandstoneLauncher.Commons.Types;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
+﻿using KacpiiToZiomal.SandstoneLauncher.Minecraft.Enums;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
@@ -73,7 +69,8 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
             args.GameDirectory = Minecraft.GetMinecraft();
             args.Version = profile.Version.Id;
             args.VersionType = "Vanilla";
-            args.XX = "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M";
+            args.XX =
+                "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M";
             args.UserType = "mojang";
             args.GameExecutable = GamePathBuilder.GetAbsolutePath(profile.Version.Id);
             args.MainClass = profile.Version.MainClass;

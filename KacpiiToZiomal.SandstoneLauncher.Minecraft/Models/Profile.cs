@@ -1,5 +1,4 @@
-﻿using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Models
 {
@@ -13,10 +12,10 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Models
 
         [JsonProperty("xms")]
         public int Xms { get; set; }
-        
+
         [JsonProperty("width")]
         public int Width { get; set; }
-        
+
         [JsonProperty("height")]
         public int Height { get; set; }
 

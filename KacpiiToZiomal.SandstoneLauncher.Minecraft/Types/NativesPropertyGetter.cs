@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
-using KacpiiToZiomal.SandstoneLauncher.Minecraft.Commons.Models;
 using KacpiiToZiomal.SandstoneLauncher.Minecraft.Interfaces;
+using KacpiiToZiomal.SandstoneLauncher.Minecraft.Models;
 
 namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
 {
@@ -14,7 +14,7 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Types
             PropertyInfo[] props = t.GetProperties();
             PropertyInfo p = props.Where(x => x.Name.ToLower() == name.ToLower()).First();
 
-            return (string) p.GetValue(n);
+            return (string)p.GetValue(n);
         }
     }
 }

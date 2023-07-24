@@ -30,11 +30,13 @@ namespace KacpiiToZiomal.SandstoneLauncher.Minecraft.Tests
             Assert.That(() => execute("kacperf1234@gmail.com", "@Kacpii1234", out r), Throws.Nothing);
         }
 
+        // TODO: It's real password!!, delete it before publish
+        
         [Test]
         public void returns_true_when_credentials_are_ok()
         {
             bool r = false;
-            MojangLoginResponse e = execute("kacperf1234@gmail.com", "@Kacpii1234", out r);
+            MojangLoginResponse e = execute("kacperf1234@gmail.com", "Kacpermylove7!", out r);
 
             Assert.IsTrue(r);
         }

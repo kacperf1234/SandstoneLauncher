@@ -5,6 +5,12 @@
 # build
 **/obj
 **/bin
+*/bin
+*/obj
+obj
+bin
+**/bin/*
+**/obj/*
 
 # visual studio
 **/.vs/

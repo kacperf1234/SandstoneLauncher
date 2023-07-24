@@ -4,7 +4,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class accountcreator_create_mojangloginresponse_tests
+    [Spencer.NET.SingleInstance]
+public class accountcreator_create_mojangloginresponse_tests
     {
         private MojangLoginResponse def()
         {

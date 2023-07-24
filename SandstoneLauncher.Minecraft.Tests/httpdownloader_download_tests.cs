@@ -10,7 +10,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class httpdownloader_download_tests
+    [Spencer.NET.SingleInstance]
+public class httpdownloader_download_tests
     {
         private readonly string Ext = ".html";
         private readonly string Url = /*"https://speed.hetzner.de/100MB.bin";*/ "https://miroslawzelent.pl/";

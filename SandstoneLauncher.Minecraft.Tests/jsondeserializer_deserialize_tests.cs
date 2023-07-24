@@ -8,7 +8,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class jsondeserializer_deserialize_tests
+    [Spencer.NET.SingleInstance]
+public class jsondeserializer_deserialize_tests
     {
         private sampleclass execute()
         {

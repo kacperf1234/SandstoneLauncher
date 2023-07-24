@@ -9,7 +9,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class launcherprofilespathbuilder_build_tests
+    [Spencer.NET.SingleInstance]
+public class launcherprofilespathbuilder_build_tests
     {
         private string execute()
         {

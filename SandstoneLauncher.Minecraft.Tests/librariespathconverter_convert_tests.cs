@@ -11,7 +11,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class librariespathconverter_convert_tests
+    [Spencer.NET.SingleInstance]
+public class librariespathconverter_convert_tests
     {
         private string execute()
         {

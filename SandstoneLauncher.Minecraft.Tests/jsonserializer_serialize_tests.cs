@@ -3,7 +3,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class jsonserializer_serialize_tests
+    [Spencer.NET.SingleInstance]
+public class jsonserializer_serialize_tests
     {
         private string execute<T>(T arg)
         {

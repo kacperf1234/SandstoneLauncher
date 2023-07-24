@@ -1,9 +1,11 @@
 ﻿using SandstoneLauncher.Minecraft.Enums;
 using SandstoneLauncher.Minecraft.Interfaces;
 using SandstoneLauncher.Minecraft.Models;
+using Spencer.NET;
 
 namespace SandstoneLauncher.Minecraft.Types
 {
+    [SingleInstance]
     public class RulesValidator : IRulesValidator
     {
         public bool Validate(Rule[] rules, OS sys)

@@ -9,7 +9,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class rulesvalidator_validate_tests
+    [Spencer.NET.SingleInstance]
+public class rulesvalidator_validate_tests
     {
         private readonly Rule[] badrules = new Rule[2]
         {

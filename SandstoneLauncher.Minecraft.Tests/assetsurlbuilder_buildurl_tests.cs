@@ -7,7 +7,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class assetsurlbuilder_buildurl_tests
+    [Spencer.NET.SingleInstance]
+public class assetsurlbuilder_buildurl_tests
     {
         private string execute(string hash = "991b421dfd401f115241601b2b373140a8d78572")
         {

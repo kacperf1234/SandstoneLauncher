@@ -8,7 +8,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class credentialsjsonbuilder_build
+    [Spencer.NET.SingleInstance]
+public class credentialsjsonbuilder_build
     {
         private string execute(string username, string pwd)
         {

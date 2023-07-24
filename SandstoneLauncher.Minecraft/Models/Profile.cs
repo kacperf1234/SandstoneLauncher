@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class Profile
+    [Spencer.NET.SingleInstance]
+public class Profile
     {
         [JsonProperty("version")]
         public FullVersion Version { get; set; }

@@ -1,7 +1,9 @@
 ﻿using SandstoneLauncher.Minecraft.Interfaces;
+using Spencer.NET;
 
 namespace SandstoneLauncher.Minecraft.Types
 {
+    [SingleInstance]
     public class AssetsUrlBuilder : IAssetsUrlBuilder
     {
         private readonly string Url = "http://resources.download.minecraft.net/{f}/{l}";

@@ -1,6 +1,7 @@
 ﻿namespace SandstoneLauncher.Minecraft.Models
 {
-    public class Dimensions
+    [Spencer.NET.SingleInstance]
+public class Dimensions
     {
         public Dimensions()
         {

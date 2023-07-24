@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class MojangProfile
+    [Spencer.NET.SingleInstance]
+public class MojangProfile
     {
         [JsonProperty("agent")]
         public string Agent { get; set; }

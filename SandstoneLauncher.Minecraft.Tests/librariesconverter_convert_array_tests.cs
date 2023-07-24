@@ -10,7 +10,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class librariesconverter_convert_array_tests
+    [Spencer.NET.SingleInstance]
+public class librariesconverter_convert_array_tests
     {
         private readonly string[] stringarray = new string[5]
         {

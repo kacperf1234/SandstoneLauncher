@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class VersionManifest
+    [Spencer.NET.SingleInstance]
+public class VersionManifest
     {
         [JsonProperty("latest")]
         public LatestGameVersion Latest { get; set; }

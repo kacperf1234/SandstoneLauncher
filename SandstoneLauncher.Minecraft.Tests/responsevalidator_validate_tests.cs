@@ -10,7 +10,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class responsevalidator_validate_tests
+    [Spencer.NET.SingleInstance]
+public class responsevalidator_validate_tests
     {
         private bool execute(string url, Func<HttpResponseMessage, bool> f)
         {

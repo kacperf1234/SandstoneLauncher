@@ -9,7 +9,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class clientpathfinder_getpath_tests
+    [Spencer.NET.SingleInstance]
+public class clientpathfinder_getpath_tests
     {
         private string execute(string v = "1.14")
         {

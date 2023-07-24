@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class Classifiers
+    [Spencer.NET.SingleInstance]
+public class Classifiers
     {
         [JsonProperty("javadoc")]
         public DownloadArtifact Javadoc { get; set; }

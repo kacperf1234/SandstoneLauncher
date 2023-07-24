@@ -3,7 +3,8 @@ using System.Net.Http;
 
 namespace SandstoneLauncher.Minecraft.Exceptions
 {
-    public class HttpException : Exception
+    [Spencer.NET.SingleInstance]
+public class HttpException : Exception
     {
         public HttpResponseMessage ResponseMessage;
 

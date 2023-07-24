@@ -1,11 +1,13 @@
 ﻿using System;
 using SandstoneLauncher.Minecraft.Interfaces;
+using Spencer.NET;
 
 namespace SandstoneLauncher.Minecraft.Types
 {
     /// <summary>
     ///     paths must ended with \\.
     /// </summary>
+    [SingleInstance]
     public class MinecraftDirectory : IMinecraftDirectory
     {
         public string GetAssets()

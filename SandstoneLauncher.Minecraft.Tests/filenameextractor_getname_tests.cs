@@ -7,7 +7,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class filenameextractor_getname_tests
+    [Spencer.NET.SingleInstance]
+public class filenameextractor_getname_tests
     {
         private string execute(string path)
         {

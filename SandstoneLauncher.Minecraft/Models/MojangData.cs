@@ -3,7 +3,8 @@
     /// <summary>
     ///     full view with used credentials, server response and (if 200) user data. like email
     /// </summary>
-    public class MojangData
+    [Spencer.NET.SingleInstance]
+public class MojangData
     {
         public MojangData(MojangCredentials credentials, MojangLoginResponse loginResponse, int serverStatusCode,
             string jsonResponse)

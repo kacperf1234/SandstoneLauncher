@@ -9,7 +9,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class assetspathbuilder_getabsolutepath_tests
+    [Spencer.NET.SingleInstance]
+public class assetspathbuilder_getabsolutepath_tests
     {
         private string execute(string hash)
         {

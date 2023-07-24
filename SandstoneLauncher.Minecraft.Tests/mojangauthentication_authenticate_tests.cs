@@ -9,7 +9,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class mojangauthentication_authenticate_tests
+    [Spencer.NET.SingleInstance]
+public class mojangauthentication_authenticate_tests
     {
         private MojangLoginResponse execute(string username, string password, out bool r)
         {

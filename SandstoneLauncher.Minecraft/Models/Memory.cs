@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class Memory
+    [Spencer.NET.SingleInstance]
+public class Memory
     {
         [JsonProperty("xmx")]
         public int Xmx { get; set; }

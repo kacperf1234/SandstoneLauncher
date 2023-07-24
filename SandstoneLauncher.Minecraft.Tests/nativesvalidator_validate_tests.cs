@@ -9,7 +9,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class nativesvalidator_validate_tests
+    [Spencer.NET.SingleInstance]
+public class nativesvalidator_validate_tests
     {
         private bool execute(OS sys, bool ctor = true)
         {

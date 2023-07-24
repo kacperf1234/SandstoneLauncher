@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class GameVersion
+    [Spencer.NET.SingleInstance]
+public class GameVersion
     {
         public GameVersion()
         {

@@ -8,7 +8,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class nativespropertygetter_getvalue_tests
+    [Spencer.NET.SingleInstance]
+public class nativespropertygetter_getvalue_tests
     {
         private string execute(string name = "windows", string wndval = "natives-windows",
             string lnxval = "natives-linux")

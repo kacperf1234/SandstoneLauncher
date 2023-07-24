@@ -5,7 +5,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class httpdownloader_downloadasync_tests
+    [Spencer.NET.SingleInstance]
+public class httpdownloader_downloadasync_tests
     {
         private string Filename = "tests\\" + Guid.NewGuid() + ".html";
         private string Url = "https://file-examples.com/wp-content/uploads/2017/02/index.html";

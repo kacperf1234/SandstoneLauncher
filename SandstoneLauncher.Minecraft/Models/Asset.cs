@@ -1,6 +1,7 @@
 ﻿namespace SandstoneLauncher.Minecraft.Models
 {
-    public class Asset
+    [Spencer.NET.SingleInstance]
+public class Asset
     {
         public string Hash { get; set; }
 

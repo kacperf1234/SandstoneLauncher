@@ -3,9 +3,11 @@ using System.Linq;
 using System.Reflection;
 using SandstoneLauncher.Minecraft.Interfaces;
 using SandstoneLauncher.Minecraft.Models;
+using Spencer.NET;
 
 namespace SandstoneLauncher.Minecraft.Types
 {
+    [SingleInstance]
     public class NativesPropertyGetter : INativesPropertyGetter
     {
         public string GetValue(Natives n, string name)

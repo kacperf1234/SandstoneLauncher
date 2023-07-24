@@ -9,7 +9,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class processbuilder_build_str_str_tests
+    [Spencer.NET.SingleInstance]
+public class processbuilder_build_str_str_tests
     {
         private string execute(Action<string> act)
         {

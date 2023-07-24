@@ -8,7 +8,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class directorycreator_create_tests
+    [Spencer.NET.SingleInstance]
+public class directorycreator_create_tests
     {
         private const string Path = "testdir\\samplesubdir\\";
 

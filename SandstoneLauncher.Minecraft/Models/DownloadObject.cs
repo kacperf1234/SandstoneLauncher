@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class DownloadObject
+    [Spencer.NET.SingleInstance]
+public class DownloadObject
     {
         [JsonProperty("sha1")]
         public string Sha1 { get; set; }

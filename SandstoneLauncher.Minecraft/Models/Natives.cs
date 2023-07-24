@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class Natives
+    [Spencer.NET.SingleInstance]
+public class Natives
     {
         [JsonProperty("windows")]
         public string Windows { get; set; }

@@ -10,7 +10,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class nativespathfinder_getpath_tests
+    [Spencer.NET.SingleInstance]
+public class nativespathfinder_getpath_tests
     {
         private string execute()
         {

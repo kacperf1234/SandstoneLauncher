@@ -2,9 +2,11 @@
 using System.Net.Http;
 using System.Text;
 using SandstoneLauncher.Minecraft.Interfaces;
+using Spencer.NET;
 
 namespace SandstoneLauncher.Minecraft.Types
 {
+    [SingleInstance]
     public class NetworkClient : IHttpClient
     {
         public string GetContent(string url)

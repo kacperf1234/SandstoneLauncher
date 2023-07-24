@@ -8,7 +8,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class filereader_read_tests
+    [Spencer.NET.SingleInstance]
+public class filereader_read_tests
     {
         private readonly string content = "hello world!";
         private readonly string path = "tests\\sample.txt";

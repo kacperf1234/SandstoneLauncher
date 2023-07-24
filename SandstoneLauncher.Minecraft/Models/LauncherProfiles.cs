@@ -3,7 +3,8 @@ using Newtonsoft.Json;
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class LauncherProfiles
+    [Spencer.NET.SingleInstance]
+public class LauncherProfiles
     {
         public LauncherProfiles()
         {

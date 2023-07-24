@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class Downloads
+    [Spencer.NET.SingleInstance]
+public class Downloads
     {
         [JsonProperty("client")]
         public DownloadObject Client { get; set; }

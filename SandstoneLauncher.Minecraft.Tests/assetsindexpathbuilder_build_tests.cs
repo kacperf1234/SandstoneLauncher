@@ -9,7 +9,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class assetsindexpathbuilder_build_tests
+    [Spencer.NET.SingleInstance]
+public class assetsindexpathbuilder_build_tests
     {
         private string execute(string v = "1.14")
         {

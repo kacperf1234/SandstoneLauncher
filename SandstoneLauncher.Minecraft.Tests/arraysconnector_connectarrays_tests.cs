@@ -7,7 +7,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class arraysconnector_connectarrays_tests
+    [Spencer.NET.SingleInstance]
+public class arraysconnector_connectarrays_tests
     {
         private int[] execute(int[] x, int[] y)
         {

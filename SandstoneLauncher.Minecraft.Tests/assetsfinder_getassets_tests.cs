@@ -8,7 +8,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class assetsfinder_getassets_tests
+    [Spencer.NET.SingleInstance]
+public class assetsfinder_getassets_tests
     {
         private readonly string url =
             "https://launchermeta.mojang.com/v1/packages/695d8e3d95465bece605c92e9b0385278018eff9/1.14.json";

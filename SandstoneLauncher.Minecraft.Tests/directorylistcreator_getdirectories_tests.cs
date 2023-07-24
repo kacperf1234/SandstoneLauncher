@@ -10,7 +10,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class directorylistcreator_getdirectories_tests
+    [Spencer.NET.SingleInstance]
+public class directorylistcreator_getdirectories_tests
     {
         private readonly string basepath = "tests\\";
 

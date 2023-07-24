@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using SandstoneLauncher.Minecraft.Enums;
 using SandstoneLauncher.Minecraft.Interfaces;
+using Spencer.NET;
 
 namespace SandstoneLauncher.Minecraft.Types
 {
+    [SingleInstance]
     public class SimpleParallel : ISimpleParallel
     {
         public void ForEach<T>(IEnumerable<T> arr, Action<T> act, ParallelMode mode = ParallelMode.ASYNCHRONOUSLY)

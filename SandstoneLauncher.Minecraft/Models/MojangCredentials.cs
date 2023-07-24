@@ -1,6 +1,7 @@
 ﻿namespace SandstoneLauncher.Minecraft.Models
 {
-    public class MojangCredentials
+    [Spencer.NET.SingleInstance]
+public class MojangCredentials
     {
         public MojangCredentials()
         {

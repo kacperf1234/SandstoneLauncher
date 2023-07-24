@@ -8,7 +8,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class hashcombiner_getfirstletters_tests
+    [Spencer.NET.SingleInstance]
+public class hashcombiner_getfirstletters_tests
     {
         private string execute(string hash)
         {

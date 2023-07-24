@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class MojangUser
+    [Spencer.NET.SingleInstance]
+public class MojangUser
     {
         [JsonProperty("id")]
         public string Id { get; set; }

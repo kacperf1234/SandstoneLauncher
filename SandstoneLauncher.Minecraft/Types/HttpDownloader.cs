@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Threading;
 using SandstoneLauncher.Minecraft.Interfaces;
+using Spencer.NET;
 
 namespace SandstoneLauncher.Minecraft.Types
 {
     // TODO: This 'async' HttpDownload it's fucking joke.
-    
+
+    [SingleInstance]
     public class HttpDownloader : IHttpDownloader
     {
         public IHttpBytesReader BytesReader;

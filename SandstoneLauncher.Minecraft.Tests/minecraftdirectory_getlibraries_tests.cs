@@ -8,7 +8,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class minecraftdirectory_getlibraries_tests
+    [Spencer.NET.SingleInstance]
+public class minecraftdirectory_getlibraries_tests
     {
         private string execute()
         {

@@ -8,7 +8,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class httpdownloader_get_default_tests
+    [Spencer.NET.SingleInstance]
+public class httpdownloader_get_default_tests
     {
         private readonly string dest = "tests\\samplefile.html";
         private readonly string sampleFile = "http://corpus.canterbury.ac.nz/descriptions/cantrbry/list.html";

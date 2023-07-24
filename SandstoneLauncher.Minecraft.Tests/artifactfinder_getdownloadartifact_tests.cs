@@ -9,7 +9,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class artifactfinder_getdownloadartifact_tests
+    [Spencer.NET.SingleInstance]
+public class artifactfinder_getdownloadartifact_tests
     {
         private DownloadArtifact execute(OS os, Library lib = null)
         {

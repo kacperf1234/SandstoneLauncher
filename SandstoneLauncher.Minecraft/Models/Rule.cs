@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class Rule
+    [Spencer.NET.SingleInstance]
+public class Rule
     {
         [JsonProperty("action")]
         public string Action { get; set; }

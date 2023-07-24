@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class Assets : Dictionary<string, Asset>
+    [Spencer.NET.SingleInstance]
+public class Assets : Dictionary<string, Asset>
     {
         public string BaseJson { get; set; }
 

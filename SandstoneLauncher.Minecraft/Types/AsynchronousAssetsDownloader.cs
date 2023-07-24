@@ -1,9 +1,11 @@
 ﻿using System.Threading.Tasks;
 using SandstoneLauncher.Minecraft.Interfaces;
 using SandstoneLauncher.Minecraft.Models;
+using Spencer.NET;
 
 namespace SandstoneLauncher.Minecraft.Types
 {
+    [SingleInstance]
     public class AsynchronousAssetsDownloader : IAssetsDownloader
     {
         public IHttpDownloader Downloader;

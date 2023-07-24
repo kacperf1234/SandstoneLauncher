@@ -1,8 +1,10 @@
 ﻿using SandstoneLauncher.Minecraft.Interfaces;
 using SandstoneLauncher.Minecraft.Models;
+using Spencer.NET;
 
 namespace SandstoneLauncher.Minecraft.Types
 {
+    [SingleInstance]
     public class LauncherProfilesBuilder : IBuilder<LauncherProfiles, MojangLoginResponse> // todo wtf, where it is used
     {
         public string LauncherName = "Minecraft Launcher";

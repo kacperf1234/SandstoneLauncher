@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class LauncherVersion
+    [Spencer.NET.SingleInstance]
+public class LauncherVersion
     {
         [JsonProperty("name")]
         public string Name { get; set; }

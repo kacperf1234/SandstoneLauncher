@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class AssetsIndex
+    [Spencer.NET.SingleInstance]
+public class AssetsIndex
     {
         [JsonProperty("id")]
         public string Id { get; set; }

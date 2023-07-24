@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class Account
+    [Spencer.NET.SingleInstance]
+public class Account
     {
         [JsonProperty("username")]
         public string Username { get; set; }

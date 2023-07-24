@@ -2,7 +2,8 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    public class AuthenticationDatabase
+    [Spencer.NET.SingleInstance]
+public class AuthenticationDatabase
     {
         [JsonProperty("displayName")]
         public string DisplayName { get; set; }

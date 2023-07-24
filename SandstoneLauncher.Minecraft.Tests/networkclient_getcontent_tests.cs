@@ -8,7 +8,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class networkclient_getcontent_tests
+    [Spencer.NET.SingleInstance]
+public class networkclient_getcontent_tests
     {
         private string execute(string url = "https://reqres.in/api/users?page=2")
         {

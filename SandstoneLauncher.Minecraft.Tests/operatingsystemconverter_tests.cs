@@ -8,7 +8,8 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    public class operatingsystemconverter_tests
+    [Spencer.NET.SingleInstance]
+public class operatingsystemconverter_tests
     {
         private string execute(OS s)
         {

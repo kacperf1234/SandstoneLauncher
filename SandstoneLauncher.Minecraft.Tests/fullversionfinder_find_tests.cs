@@ -8,7 +8,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class fullversionfinder_find_tests
     {
         private FullVersion execute(string url)

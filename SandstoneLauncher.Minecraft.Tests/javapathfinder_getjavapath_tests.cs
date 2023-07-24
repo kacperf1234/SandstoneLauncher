@@ -8,7 +8,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class javapathfinder_getjavapath_tests
     {
         private string execute()

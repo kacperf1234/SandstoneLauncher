@@ -10,7 +10,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class httpdownloader_download_tests
     {
         private readonly string Ext = ".html";

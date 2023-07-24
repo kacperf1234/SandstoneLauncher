@@ -10,7 +10,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class nativestemporarypathfinder_gettemppath_tests
     {
         private string execute(string path)

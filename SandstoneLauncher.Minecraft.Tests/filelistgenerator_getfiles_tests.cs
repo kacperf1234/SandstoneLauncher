@@ -6,7 +6,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class filelistgenerator_getfiles_tests
     {
         private string Dirname = Guid.NewGuid().ToString();

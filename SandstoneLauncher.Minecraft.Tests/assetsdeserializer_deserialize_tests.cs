@@ -11,7 +11,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class assetsdeserializer_deserialize_tests
     {
         private Assets execute(

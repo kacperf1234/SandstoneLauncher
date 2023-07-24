@@ -11,7 +11,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class librariesconverter_tostringarray_tests
     {
         private readonly Library[] libraries = new Library[5]

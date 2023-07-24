@@ -4,7 +4,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class accountcreator_create_string_tests
     {
         private Account execute(string username)

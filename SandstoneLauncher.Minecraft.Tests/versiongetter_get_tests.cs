@@ -12,7 +12,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class versiongetter_get_tests
     {
         private IEnumerable<GameVersion> execute(VersionType type = VersionType.ALPHA)

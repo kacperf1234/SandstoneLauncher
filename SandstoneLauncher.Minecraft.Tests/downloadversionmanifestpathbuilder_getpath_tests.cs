@@ -9,7 +9,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class downloadversionmanifestpathbuilder_getpath_tests
     {
         private string execute(string vid = "1.14")

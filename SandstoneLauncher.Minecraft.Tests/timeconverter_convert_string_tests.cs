@@ -8,7 +8,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class timeconverter_convert_string_tests
     {
         private DateTime execute(string s = "2014-05-14T15:24:47+00:00")

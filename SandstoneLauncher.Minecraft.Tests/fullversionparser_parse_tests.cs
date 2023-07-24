@@ -11,7 +11,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class fullversionparser_parse_tests
     {
         private FullVersion execute()

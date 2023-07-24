@@ -9,7 +9,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class versiontypegetter_getversiontype_tests
     {
         private VersionType execute(string type = "release")

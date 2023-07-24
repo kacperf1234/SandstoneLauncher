@@ -7,7 +7,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class pathnameconverter_convert_tests
     {
         private string execute(string path)

@@ -9,7 +9,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class librarynativevalidator_validate_tests
     {
         private readonly Library BadLibrary = new Library

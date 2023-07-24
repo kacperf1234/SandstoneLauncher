@@ -3,7 +3,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class httpbytesreader_readbytes_tests
     {
         private byte[] execute(string url)

@@ -9,7 +9,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class classifiersvalidator_validate_tests
     {
         private bool execute(DownloadArtifact wnd = null, DownloadArtifact lin = null, OS sys = OS.WINDOWS,

@@ -7,7 +7,6 @@ using NUnit.Framework;
 
 namespace SandstoneLauncher.Minecraft.Tests
 {
-    [Spencer.NET.SingleInstance]
 public class assetsextractor_get_tests
     {
         private Asset execute(string name)

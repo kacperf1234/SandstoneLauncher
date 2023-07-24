@@ -3,17 +3,13 @@
 */.idea
 
 # build
-*/bin/
-bin/
-obj/
-*/obj/
-*/*.dll
-*.*.pdb
-**/obj/
-**/bin/
+**/obj
+**/bin
 
 # visual studio
-*/.vs/
+**/.vs/
+*/.vs
+.vs/
 
 # vim
 *.swp

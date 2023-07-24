@@ -3,7 +3,7 @@ using SandstoneLauncher.Minecraft.Enums;
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    [Spencer.NET.SingleInstance]
+    
 public class MojangLoginResponse
     {
         public MojangLoginResponse()

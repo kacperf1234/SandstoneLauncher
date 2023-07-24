@@ -15,7 +15,12 @@
     <ItemGroup>
         <PackageReference Include="DotNetZip" Version="1.13.3" />
         <PackageReference Include="newtonsoft.json" Version="12.0.2" />
-        <PackageReference Include="Spencer.NET" Version="1.1.2955" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Spencer.NET">
+        <HintPath>..\..\..\Desktop\spencer\Spencer.NET.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

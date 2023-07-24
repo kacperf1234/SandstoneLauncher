@@ -2,7 +2,7 @@
 
 namespace SandstoneLauncher.Minecraft.Models
 {
-    [Spencer.NET.SingleInstance]
+    
 public class DownloadLibrary
     {
         [JsonProperty("artifact")]

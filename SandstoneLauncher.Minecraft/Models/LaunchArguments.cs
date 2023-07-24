@@ -1,6 +1,6 @@
 ﻿namespace SandstoneLauncher.Minecraft.Models
 {
-    [Spencer.NET.SingleInstance]
+    
 public class LaunchArguments
     {
         public string AccessToken;

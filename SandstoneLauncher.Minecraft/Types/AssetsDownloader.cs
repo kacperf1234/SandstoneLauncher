@@ -10,15 +10,13 @@ namespace SandstoneLauncher.Minecraft.Types
     {
         public IAssetsListFilter AssetsFilter;
         public IHttpDownloader Downloader;
-        public IAssetsExtractor Extractor; // TODO to remove
         public IAssetsIndexCreator IndexCreator;
         public IAssetsPathBuilder PathBuilder;
         public IAssetsUrlBuilder UrlBuilder;
 
-        public AssetsDownloader(IAssetsExtractor extractor, IAssetsUrlBuilder urlBuilder, IHttpDownloader downloader,
+        public AssetsDownloader(IAssetsUrlBuilder urlBuilder, IHttpDownloader downloader,
             IAssetsPathBuilder pathBuilder, IAssetsIndexCreator creator, IAssetsListFilter assetsFilter)
         {
-            Extractor = extractor;
             UrlBuilder = urlBuilder;
             Downloader = downloader;
             PathBuilder = pathBuilder;

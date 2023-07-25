@@ -24,14 +24,14 @@ public class assetsurlbuilder_buildurl_tests
         [Test]
         public void returns_excepted_results()
         {
-            Assert.AreEqual("http://resources.download.minecraft.net/99/991b421dfd401f115241601b2b373140a8d78572",
+            Assert.AreEqual("https://resources.download.minecraft.net/99/991b421dfd401f115241601b2b373140a8d78572",
                 execute());
         }
 
         [Test]
         public void returns_excepted_results_second()
         {
-            Assert.AreEqual("http://resources.download.minecraft.net/99/991b421dfd401f115241601b2b373140a8d78572",
+            Assert.AreEqual("https://resources.download.minecraft.net/99/991b421dfd401f115241601b2b373140a8d78572",
                 execute());
         }
     }

@@ -22,7 +22,7 @@ namespace SandstoneLauncher.Minecraft.Types
             LibrariesConverter = librariesConverter;
         }
 
-        public string AccessToken { get; set; } = "";
+        public string AccessToken { get; set; } = "N/A";
 
         public int MaxMemoryMB { get; set; } = 1024;
 

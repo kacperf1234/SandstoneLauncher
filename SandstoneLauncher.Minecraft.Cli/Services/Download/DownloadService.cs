@@ -24,7 +24,7 @@ namespace SandstoneLauncher.Minecraft.Cli.Services.Download
         public AssetsFinder AssetsFinder;
 
         [Inject]
-        public AsynchronousGameFilesDownloader AsynchronousGameFilesDownloader;
+        public GameFilesDownloader GameFilesDownloader; // TODO: Replace with AsynchronousGameFilesDownloader
         
         public Task<bool> DownloadAssets(string versionId)
         {
@@ -51,7 +51,7 @@ namespace SandstoneLauncher.Minecraft.Cli.Services.Download
             try
             {
                 var gameVersion = ManifestGetter.GetManifest().Versions.FirstOrDefault(x => x.Id == versionId);
-                AsynchronousGameFilesDownloader.Download(gameVersion, sys);
+                GameFilesDownloader.Download(gameVersion, sys);
                 return Task.FromResult(true);
             }
 

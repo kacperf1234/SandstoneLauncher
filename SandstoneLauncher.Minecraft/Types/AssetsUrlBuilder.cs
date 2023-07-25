@@ -6,7 +6,7 @@ namespace SandstoneLauncher.Minecraft.Types
     [SingleInstance]
     public class AssetsUrlBuilder : IAssetsUrlBuilder
     {
-        private readonly string Url = "http://resources.download.minecraft.net/{f}/{l}";
+        private readonly string Url = "https://resources.download.minecraft.net/{f}/{l}"; // TODO: Fuck the minecraft 's'
 
         public IHashCombiner HashCombiner;
 

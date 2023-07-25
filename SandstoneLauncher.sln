@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandstoneLauncher.Minecraft
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandstoneLauncher.Minecraft.Tests", "SandstoneLauncher.Minecraft.Tests\SandstoneLauncher.Minecraft.Tests.csproj", "{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandstoneLauncher.Minecraft.Cli", "SandstoneLauncher.Minecraft.Cli\SandstoneLauncher.Minecraft.Cli.csproj", "{4F08BF3A-2FB9-4AC7-8108-80C1F3AE5231}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,10 @@ Global
 		{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FBF8B48-9E26-409D-B7C6-110C6C8BF5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F08BF3A-2FB9-4AC7-8108-80C1F3AE5231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F08BF3A-2FB9-4AC7-8108-80C1F3AE5231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F08BF3A-2FB9-4AC7-8108-80C1F3AE5231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F08BF3A-2FB9-4AC7-8108-80C1F3AE5231}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

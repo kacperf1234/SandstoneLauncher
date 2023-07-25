@@ -30,6 +30,32 @@ namespace SandstoneLauncher.Minecraft.Types
 
         public OS OperatingSystem { get; set; } = OS.WINDOWS;
 
+        public LaunchArguments Create(FullVersion fullVersion, string username, int width, int height, int xmx, int xms)
+        {
+            LaunchArguments a = LaunchArguments.Empty();
+            a.AccessToken = AccessToken;
+            a.AssetIndex = fullVersion.Assets;
+            a.AssetsDirectory = Minecraft.GetAssets();
+            a.GameDirectory = Minecraft.GetMinecraft();
+            a.GameExecutable = GamePathBuilder.GetAbsolutePath(fullVersion.Id);
+            a.Height = height;
+            a.Width = width;
+            a.LauncherBrand = "none";
+            a.LauncherVersion = 30;
+            a.MainClass = fullVersion.MainClass;
+            a.NativesPath = NativesPathFinder.GetNativesDirectory(fullVersion.Id);
+            a.Username = username;
+            a.UserType = "mojang";
+            a.UUID = "N/A";
+            a.VersionType = "Vanilla";
+            a.Version = fullVersion.Id;
+            a.Xmx = xmx;
+            a.Xms = xms;
+            a.Libraries = LibrariesConverter.ToStringArray(fullVersion.Libraries, OperatingSystem);
+
+            return a;
+        }
+
         public LaunchArguments Create(Dimensions windowDimensions, FullVersion f, string username)
         {
             LaunchArguments a = LaunchArguments.Empty();

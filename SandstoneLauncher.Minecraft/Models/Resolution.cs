@@ -9,5 +9,11 @@ namespace SandstoneLauncher.Minecraft.Models
         
         [JsonProperty("height")]
         public int Height { get; set; }
+
+        public Resolution(int width, int height)
+        {
+            Width = width;
+            Height = height;
+        }
     }
 }

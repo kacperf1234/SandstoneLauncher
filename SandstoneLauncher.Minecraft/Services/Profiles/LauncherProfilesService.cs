@@ -24,9 +24,9 @@ namespace SandstoneLauncher.Minecraft.Services.Profiles
 
         private IMinecraftDirectory MinecraftDirectory;
 
-        public LauncherProfilesService(IMinecraftDirectory minecraftDirectory = null)
+        public LauncherProfilesService()
         {
-            MinecraftDirectory = minecraftDirectory ?? new MinecraftDirectory();
+            MinecraftDirectory = new MinecraftDirectory();
         }
 
         [Inject]
@@ -103,11 +103,12 @@ namespace SandstoneLauncher.Minecraft.Services.Profiles
             SaveLauncherProfiles(launcherProfiles);
         }
 
-        public void DeleteProfile(string profileName)
+        public bool DeleteProfile(string profileName)
         {
             var launcherProfiles = ReadProfilesOrCreateEmpty();
-            launcherProfiles.Profiles.Remove(profileName);
+            var r = launcherProfiles.Profiles.Remove(profileName);
             SaveLauncherProfiles(launcherProfiles);
+            return r;
         }
 
         public void UpdateProfile(LauncherProfile profile)

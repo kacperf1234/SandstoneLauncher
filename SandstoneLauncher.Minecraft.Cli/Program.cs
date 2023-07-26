@@ -14,6 +14,7 @@ namespace SandstoneLauncher.Minecraft.Cli
             app.AddSubCommands<VersionCommands>();
             app.AddSubCommands<DownloadCommands>();
             app.AddSubCommands<PlayCommands>();
+            app.AddSubCommands<LauncherProfilesCommands>();
         }
         
         static async Task Main(string[] args)

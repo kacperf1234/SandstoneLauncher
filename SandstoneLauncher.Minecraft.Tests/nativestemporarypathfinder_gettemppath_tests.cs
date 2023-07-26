@@ -48,6 +48,11 @@ public class nativestemporarypathfinder_gettemppath_tests
                 return "versions\\";
             }
 
+            public string GetLauncherProfiles()
+            {
+                throw new NotImplementedException();
+            }
+
             public string GetVersions()
             {
                 throw new NotImplementedException();

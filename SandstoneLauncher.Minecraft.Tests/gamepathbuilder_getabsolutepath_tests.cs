@@ -47,6 +47,11 @@ public class gamepathbuilder_getabsolutepath_tests
                 throw new NotImplementedException();
             }
 
+            public string GetLauncherProfiles()
+            {
+                throw new NotImplementedException();
+            }
+
             public string GetVersions()
             {
                 return "v\\";

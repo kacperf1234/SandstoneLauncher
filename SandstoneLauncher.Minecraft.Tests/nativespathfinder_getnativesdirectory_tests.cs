@@ -46,6 +46,11 @@ public class nativespathfinder_getnativesdirectory_tests
                 throw new NotImplementedException();
             }
 
+            public string GetLauncherProfiles()
+            {
+                throw new NotImplementedException();
+            }
+
             public string GetVersions()
             {
                 return "versions\\";

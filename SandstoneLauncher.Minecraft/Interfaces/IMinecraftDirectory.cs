@@ -9,5 +9,7 @@
         string GetVersions();
 
         string GetMinecraft();
+
+        string GetLauncherProfiles();
     }
 }

@@ -46,6 +46,11 @@ public class launcherprofilespathbuilder_build_tests
                 return ".minecraft\\";
             }
 
+            public string GetLauncherProfiles()
+            {
+                throw new NotImplementedException();
+            }
+
             public string GetVersions()
             {
                 throw new NotImplementedException();

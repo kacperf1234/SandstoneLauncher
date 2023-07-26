@@ -50,6 +50,11 @@ public class nativespathfinder_getpath_tests
                 throw new NotImplementedException();
             }
 
+            public string GetLauncherProfiles()
+            {
+                throw new NotImplementedException();
+            }
+
             public string GetVersions()
             {
                 return "versions\\";

@@ -29,5 +29,10 @@ namespace SandstoneLauncher.Minecraft.Types
         {
             return Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\.minecraft\\versions\\";
         }
+
+        public string GetLauncherProfiles()
+        {
+            return Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\.minecraft\\launcher_profiles.json";
+        }
     }
 }

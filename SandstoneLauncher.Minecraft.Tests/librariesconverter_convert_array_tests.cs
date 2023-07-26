@@ -73,6 +73,11 @@ public class librariesconverter_convert_array_tests
                 throw new NotImplementedException();
             }
 
+            public string GetLauncherProfiles()
+            {
+                throw new NotImplementedException();
+            }
+
             public string GetVersions()
             {
                 throw new NotImplementedException();

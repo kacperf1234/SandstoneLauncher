@@ -71,5 +71,12 @@ namespace SandstoneLauncher.Minecraft.Cli.Commands
 
             OperationResponse.PrintNew("launcher_profiles update", true);
         }
+
+        [Command("list")]
+        public void List()
+        {
+            var profiles = ProfilesService.GetLauncherProfiles();
+            OperationResponse.PrintNew("launcher_profiles list", profiles);
+        }
     }
 }

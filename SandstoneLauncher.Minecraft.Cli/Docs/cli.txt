@@ -17,6 +17,9 @@ ADDITIONALLY:
 [SandstoneLauncher.Minecraft.Cli.Commands.PlayCommands]
 3.4 play launch -str:v [version] -str:username -int:width -int:height -int:xms -int:xmx
 
+ADDITIONALLY:
+3.4.1 play launch -str:v [version] -str:username -int:width -int:height -int:xms -int:xmx -str?:gameDir -str?:javaDir -str?:javaArgs -str:launcherBrand
+
 [SandstoneLauncher.Minecraft.Cli.Commands.VersionCommands]
 3.5 version list-dir
 3.6 version list

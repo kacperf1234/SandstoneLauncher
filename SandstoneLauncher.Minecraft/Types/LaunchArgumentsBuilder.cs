@@ -1,4 +1,5 @@
-﻿using SandstoneLauncher.Minecraft.Enums;
+﻿#nullable enable
+using SandstoneLauncher.Minecraft.Enums;
 using SandstoneLauncher.Minecraft.Interfaces;
 using SandstoneLauncher.Minecraft.Models;
 using Spencer.NET;
@@ -106,6 +107,35 @@ namespace SandstoneLauncher.Minecraft.Types
             args.Libraries = LibrariesConverter.ToStringArray(profile.Version.Libraries, OperatingSystem);
 
             return args;
+        }
+        
+        public LaunchArguments Create(FullVersion fullVersion, string username, int width, int height, int xmx, int xms, string? gameDir, string? javaDir, string? javaArgs, string launcherBrand)
+        {
+            // TODO: javaDir is not used.
+            
+            LaunchArguments a = LaunchArguments.Empty();
+            a.AccessToken = AccessToken;
+            a.AssetIndex = fullVersion.Assets;
+            a.AssetsDirectory = Minecraft.GetAssets();
+            a.GameDirectory = gameDir ?? Minecraft.GetMinecraft();
+            a.GameExecutable = GamePathBuilder.GetAbsolutePath(fullVersion.Id);
+            a.Height = height;
+            a.Width = width;
+            a.LauncherBrand = launcherBrand;
+            a.LauncherVersion = 30;
+            a.MainClass = fullVersion.MainClass;
+            a.NativesPath = NativesPathFinder.GetNativesDirectory(fullVersion.Id);
+            a.Username = username;
+            a.UserType = "mojang";
+            a.UUID = "N/A";
+            a.VersionType = "Vanilla";
+            a.Version = fullVersion.Id;
+            a.Xmx = xmx;
+            a.Xms = xms;
+            a.XX = javaArgs ?? "";
+            a.Libraries = LibrariesConverter.ToStringArray(fullVersion.Libraries, OperatingSystem);
+
+            return a;
         }
     }
 }

@@ -23,7 +23,7 @@ namespace SandstoneLauncher.Minecraft.Cli.Services.Play
 
         [Inject]
         public JavaLauncher JavaLauncher;
-        
+
         public Task Launch(string version, string username, int width, int height, int xmx, int xms)
         {
             return Task.Run(() =>
@@ -38,7 +38,21 @@ namespace SandstoneLauncher.Minecraft.Cli.Services.Play
                 var launchArguments = LaunchArgumentsBuilder.Create(windowDimensions, fullVersion, "Kacperek");
                 var command = CommandBuilder.GetCommand(launchArguments);
                 JavaLauncher.Launch(command);
-                
+
+                // TODO: Redirect the output to launcher...
+            });
+        }
+
+        public Task Launch(string version, string username, int width, int height, int xmx, int xms, string gameDir, string javaDir, string javaArgs, string launcherBrand)
+        {
+            return Task.Run(() =>
+            {
+                var versionUrl = ManifestGetter.GetManifest().Versions.FirstOrDefault(x => x.Id == version).Url;
+                var fullVersion = FullVersionFinder.Find(versionUrl);
+                var launchArguments = LaunchArgumentsBuilder.Create(fullVersion, username, width, height, xms, xmx, gameDir, javaDir, javaArgs, launcherBrand);
+                var command = CommandBuilder.GetCommand(launchArguments);
+                JavaLauncher.Launch(command);
+
                 // TODO: Redirect the output to launcher...
             });
         }

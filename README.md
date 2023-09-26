@@ -1,9 +1,9 @@
 # SandstoneLauncher
-Project for my own Minecraft Launcher I made in 2019r. ✨
+✨ Project for my own Minecraft Launcher I made in 2019r. ✨
 <br>
 Actually it only works using CLI
 
-See [Application Repository](https://www.github.com/kacperfaber/SandstoneLauncher-App)
+See [Compose Application Repository](https://www.github.com/kacperfaber/SandstoneLauncher-App)
 
 ## Usage
 
